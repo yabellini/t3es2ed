@@ -1,0 +1,68 @@
+project:
+  type: book
+
+book:
+  title: "Enseñar Tecnología en Comunidad. Segunda Edición"
+  author: "Greg Wilson y Yanina Bellini Saibene"
+  date: "28/11/2022"
+  chapters:
+    - index.qmd
+    - rules.qmd
+    - intro.qmd
+    - models.qmd
+    - memory.qmd
+    - individual.qmd
+    - process.qmd
+    - pck.qmd
+    - performance.qmd
+    - classroom.qmd
+    - motivation.qmd
+    - online.qmd
+    - exercises.qmd
+    - community.qmd
+    - outreach.qmd
+    - chunking.qmd
+    - finale.qmd
+    - references.qmd
+    - license.qmd
+    - conduct.qmd
+    - joining.qmd
+    - glossary.qmd
+    - meetings.qmd
+    - checklists.qmd
+    - conceptmaps.qmd
+    
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+editor: visual
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
