@@ -16,8 +16,8 @@ Esta serie de tres mapas conceptuales, creados por Amy Hodge y reutilizados con 
 
 Esta serie de mapas conceptuales presentan modelos mentales utilizados en lecciones de introducción a la ciencia de datos y fueron generados por diversos instructores certificados de RStudio (ahora Posit) y compartidos bajo licencia CC-BY. La colección completa se puede acceder en \<FIXME: ver de linkear al repo de Greg https://github.com/rstudio/concept-maps.\>
 
-![Tipos de Datos. Autores: Meghan Sposato, Brendan Cullen, Monica Alonso](diagrams/data-types.svg){alt="" fig-align="center"}
+![Tipos de Datos. Autores: Meghan Sposato, Brendan Cullen, Monica Alonso](diagrams/data-types.svg){fig-alt="" fig-align="center"}
 
-![Expresiones regulares. Autores: Monica Alonso, Greg Wilson.](diagrams/regular-expressions.svg){alt="" fig-align="center"}
+![Expresiones regulares. Autores: Monica Alonso, Greg Wilson.](diagrams/regular-expressions.svg){fig-alt="" fig-align="center"}
 
-## Mapas conceptuales sobre 
+## Mapas conceptuales sobre
