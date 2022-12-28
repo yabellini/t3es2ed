@@ -1,10 +1,10 @@
 ---
-title: "Las Reglas"
-format: html
-editor: visual
+editor: 
+  markdown: 
+    wrap: 72
 ---
 
-## Las reglas
+## Las reglas {#rules}
 
 1.  Sé amable: todo lo demás son detalles.
 

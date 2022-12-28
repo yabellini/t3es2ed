@@ -1,3 +1,10 @@
+---
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+# Difusión y vinculación {#outreach}
 
 Está de moda en los círculos tecnológicos menospreciar a las universidades y las instituciones gubernamentales como si fueran dinosaurios lentos, pero en mi experiencia no son peores que empresas de tamaño similar. El consejo de la escuela local, la biblioteca, la alcaldía o municipio pueden ofrecer espacio, financiación, publicidad, conexiones con otros grupos con los que aún no te has encontrado y una serie de otras cosas útiles. Conocer estas posibilidades puede ayudar a resolver o evitar problemas a corto plazo y generar beneficios en el futuro.
 

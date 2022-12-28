@@ -4,12 +4,12 @@ project:
 book:
   title: "Enseñar Tecnología en Comunidad. Segunda Edición"
   author: "Greg Wilson y Yanina Bellini Saibene"
-  date: "28/11/2022"
+  date: "11/20/2022"
   chapters:
     - index.qmd
     - rules.qmd
     - intro.qmd
-    # - models.qmd
+    - models.qmd
     # - memory.qmd
     - architecture.qmd
     # - individual.qmd
@@ -27,11 +27,11 @@ book:
     # - references.qmd
     # - license.qmd
     # - conduct.qmd
-    # - joining.qmd
+    - joining.qmd
     # - glossary.qmd
     # - meetings.qmd
     # - checklists.qmd
-    # - conceptmaps.qmd
+    - conceptmaps.qmd
     # - chunking.qmd
 
 bibliography: bibliography.bib

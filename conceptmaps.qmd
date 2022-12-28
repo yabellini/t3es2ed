@@ -1,4 +1,4 @@
-# Ejemplos de Mapas Conceptuales
+# Ejemplos de Mapas Conceptuales {#conceptmaps}
 
 En los capítulos \chapref{s:memory} y \chapref{s:models} hablamos de modelos mentales y mapas conceptuales. En este anexo compartimos varios ejemplos.
 

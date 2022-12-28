@@ -1,6 +1,12 @@
-# Como vivir de enseñar
+---
+editor: 
+  markdown: 
+    wrap: 72
+---
 
-## Introducción
+# Como vivir de enseñar {#getting-paid}
+
+## Introducción 
 
 La primera opción para trabajar como docente es pertener a alguna institución formal de educación, como las escuelas y las universidades. Pero estas instituciones no son los únicos lugares en donde la gente va a aprender programación (u otro tipo de tecnología); en los últimos años, un número creciente de personas ha acudido a talleres *free-range* y programas de entrenamiento intensivo. Estos últimos suelen tener entre uno y seis meses de duración, son llevados a cabo por grupos de personas voluntarias o por empresas con un fin de lucro y apuntan a un mercado de personas que quieren cambiar de carrera o se están re-entrenando para ingresar al mercado laborar de la tecnología.
 
