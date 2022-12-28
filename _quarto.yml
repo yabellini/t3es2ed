@@ -10,7 +10,7 @@ book:
     - rules.qmd
     - intro.qmd
     - models.qmd
-    # - memory.qmd
+    - memory.qmd
     - architecture.qmd
     # - individual.qmd
     # - process.qmd
