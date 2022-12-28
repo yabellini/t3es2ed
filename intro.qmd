@@ -84,7 +84,7 @@ virtual. Sin embargo, como este libro se enfoca en enseñar tecnología
 presentaremos evidencia y ejemplos orientados a la enseñanza de este
 tipo de contenido.
 
-## Quién eres {#intro-audience}
+## Quién eres {#sec-intro-audience}
 
 La @sec-process-personas explica cómo averiguar quiénes son
 tus estudiantes. Los cuatro tipos de personas a las que está destinado
@@ -185,7 +185,7 @@ René
 > @sec-joining para conocer los detalles sobre como contribuir
 > y el @sec-conduct para conocer nuestro código de conducta.
 
-## Agradecimientos {#intro-acknowledgments}
+## Agradecimientos {#sec-intro-acknowledgments}
 
 Esta segunda edición de este libro no existiría sin las contribuciones
 de
@@ -194,7 +194,7 @@ También estamos agradecidos a Lukas Blakk por el logotipo, y a toda
 aquella persona que ha usado este material a lo largo de los años.
 Cualquier error que permanezca es nuestro.
 
-## Ejercicios {#intro-exercises}
+## Ejercicios {#sec-intro-exercises}
 
 Cada capítulo finaliza con una variedad de ejercicios que incluyen un
 formato sugerido y cuánto tiempo toma usualmente hacerlos en persona.
