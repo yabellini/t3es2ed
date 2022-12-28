@@ -20,10 +20,10 @@ cognitiva](diagrams/cognitive-architecture.svg){#arch-model
 fig-alt="esquema que presenta dos recuadros principales, uno llamado 'memoria de largo plazo' y otro 'memoria de corto plazo'. El recuadro 'memoria de largo plazo' contiene un modelo mental de cajas y flechas que se relacionan entre sí. En el recuadro 'memoria de corto plazo', hay una caja representando al canal visual y otra caja representando al canal verbal. Desde ambas cajas salen una flecha hacia un signo más desde el cual sale una relación llamada 'codificar' hacia la memoria de largo plazo. Desde la memoria de largo plazo sale una relación llamada 'recuperar' hacia la memoria de corto plazo. Las imágenes tomadas a partir de los ojos y el habla registrada por medio de los oídos están por fuera de los dos recuadros principales y se relacionan con los canales visuales y verbales de la memoria a corto plazo, respectivamente."
 fig-align="center"}
 
-La <FIXME nombrar y numerar bien la figura arch-model"> es un modelo
-simplificado de la [arquitectura cognitiva]{i="arquitectura cognitiva"}
-humana. El núcleo de este modelo es la separación entre la memoria a
-corto y a largo plazo vistas en la
+La **\<FIXME nombrar y numerar bien la figura arch-model"\>** es un
+modelo simplificado de la [arquitectura
+cognitiva]{i="arquitectura cognitiva"} humana. El núcleo de este modelo
+es la separación entre la memoria a corto y a largo plazo vistas en la
 <a section="memory-seven-plus-or-minus"/>. La [memoria a largo
 plazo]{i="memoria a largo plazo"} es como tu sótano: almacena objetos de
 forma más o menos permanente pero tu conciencia no puede acceder a ella
@@ -60,16 +60,16 @@ Por lo tanto, el aprendizaje aumenta cuando la información se presenta
 de manera simultánea por dos canales diferentes, pero se reduce cuando
 esa información es redundante, en lugar de ser complementaria: tal
 fenómeno es conocido como [efecto de atención
-dividida]{g="split-attention-effect"} <cite>Maye2003</cite>. Por
-ejemplo, en general las personas encuentran más difícil aprender de un
-video que tiene narración y capturas de pantalla que aprender de un
-video que únicamente tiene narración ó capturas (pero no ambos
-elementos), porque en el primer caso parte de su atención ha sido
-utilizada para chequear que la narración y las capturas se correspondan
-entre sí. Dos notables excepciones son las personas que aún no hablan
-bien un idioma y las que tienen algún impedimento auditivo u otras
-necesidades especiales, quienes quizás encuentren que el valor de la
-información redundante supera el esfuerzo de procesamiento adicional.
+dividida]{g="split-attention-effect"} @Maye2003. Por ejemplo, en general
+las personas encuentran más difícil aprender de un video que tiene
+narración y capturas de pantalla que aprender de un video que únicamente
+tiene narración ó capturas (pero no ambos elementos), porque en el
+primer caso parte de su atención ha sido utilizada para chequear que la
+narración y las capturas se correspondan entre sí. Dos notables
+excepciones son las personas que aún no hablan bien un idioma y las que
+tienen algún impedimento auditivo u otras necesidades especiales,
+quienes quizás encuentren que el valor de la información redundante
+supera el esfuerzo de procesamiento adicional.
 
 > ### Fragmento a fragmento
 >
@@ -201,7 +201,7 @@ de control y en las dependencias de datos, sin distraerse con la
 denominación de las variables o tratando de recordar qué funciones
 llamar. Múltiples estudios han demostrado que los problemas de Parsons
 demandan menos tiempo de resolución y producen resultados educativos
-equivalentes <cite>Eric2017</cite>.
+equivalentes \@Eric2017
 
 ### Ejemplos desvanecidos (o con espacios en blanco)
 
@@ -216,57 +216,42 @@ estudiante debe llenar. Cada problema sucesivo da menos
 pide resolver un problema completo desde cero. Al enseñar álgebra en la
 escuela secundaria, por ejemplo, podríamos comenzar con esto:
 
-+------------+---+--------+
-| (4x + 8)/2 | = | 5      |
-+------------+---+--------+
-| 4x + 8     | = | 2 \* 5 |
-+------------+---+--------+
-| 4x + 8     | = | 10     |
-+------------+---+--------+
-| 4x         | = | 10 - 8 |
-+------------+---+--------+
-| 4x         | = | 2      |
-+------------+---+--------+
-| x          | = | 2 / 4  |
-+------------+---+--------+
-| x          | = | 1 / 2  |
-+------------+---+--------+
+|            |     |        |
+|------------|-----|--------|
+| (4x + 8)/2 | =   | 5      |
+| 4x + 8     | =   | 2 \* 5 |
+| 4x + 8     | =   | 10     |
+| 4x         | =   | 10 - 8 |
+| 4x         | =   | 2      |
+| x          | =   | 2 / 4  |
+| x          | =   | 1 / 2  |
 
 y luego pedir que los/las estudiantes resuelvan esto:
 
-+-------------+---+---------+
-| (3x - 1)\*3 | = | 12      |
-+-------------+---+---------+
-| 3x - 1      | = | \_ / \_ |
-+-------------+---+---------+
-| 3x - 1      | = | 4       |
-+-------------+---+---------+
-| 3x          | = | \_      |
-+-------------+---+---------+
-| x           | = | \_ / 3  |
-+-------------+---+---------+
-| x           | = | \_      |
-+-------------+---+---------+
+|             |     |         |
+|-------------|-----|---------|
+| (3x - 1)\*3 | =   | 12      |
+| 3x - 1      | =   | \_ / \_ |
+| 3x - 1      | =   | 4       |
+| 3x          | =   | \_      |
+| x           | =   | \_ / 3  |
+| x           | =   | \_      |
 
 y esto:
 
-+-------------+---+----+
-| (5x + 1)\*3 | = | 4  |
-+-------------+---+----+
-| 5x + 1      | = | \_ |
-+-------------+---+----+
-| 5x          | = | \_ |
-+-------------+---+----+
-| x           | = | \_ |
-+-------------+---+----+
+|             |     |     |
+|-------------|-----|-----|
+| (5x + 1)\*3 | =   | 4   |
+| 5x + 1      | =   | \_  |
+| 5x          | =   | \_  |
+| x           | =   | \_  |
 
 y, finalmente, esto:
 
-+------------+---+----+
-| (2x + 8)/4 | = | 1  |
-+------------+---+----+
-| x          | = | \_ |
-+------------+---+----+
+|            |     |     |
+|------------|-----|-----|
+| (2x + 8)/4 | =   | 1   |
+| x          | =   | \_  |
 
 Un ejercicio similar para enseñar [Python]{i="Python"} podría comenzar
 mostrando a estudiantes cómo encontrar la longitud total de una lista de
@@ -338,8 +323,8 @@ de alguna manera para crear el resultado final.
 > un/a docente transmite habilidades y conocimientos a un/a estudiante.
 > El/la docente proporciona modelos de desempeño y resultados, luego
 > entrena a las personas novatas explicando qué están haciendo y por qué
-> <cite>Coll1991,Casp2007</cite>. El/la estudiante reflexiona sobre su
-> propia resolución de problemas, por ejemplo, pensando en voz alta o
+> @Coll1991, @Casp2007. El/la estudiante reflexiona sobre su propia
+> resolución de problemas, por ejemplo, pensando en voz alta o
 > criticando su propio trabajo, y finalmente explora problemas de su
 > propia elección.
 >
@@ -360,12 +345,12 @@ de alguna manera para crear el resultado final.
 [Etiquetar sub-objetivos]{g="subgoal-labeling"
 i="etiquetar sub-objetivos"} significa dar nombre a los pasos en una
 descripción paso a paso de un proceso de resolución de problemas.
-<cite>Marg2016,Morr2016</cite> descubrieron que al etiquetar los
-sub-objetivos, los/las estudiantes resolvían mejor los problemas de
-Parsons, y se observa el mismo beneficio en otros dominios
-<cite>Marg2012</cite>. Volviendo al ejemplo de *Python* usado
-anteriormente, los objetivos secundarios para encontrar la longitud
-total de una lista de palabras o construir un acrónimo son:
+@Marg2016 , @Morr2016 descubrieron que al etiquetar los sub-objetivos,
+los/las estudiantes resolvían mejor los problemas de Parsons, y se
+observa el mismo beneficio en otros dominios @Marg2012. Volviendo al
+ejemplo de *Python* usado anteriormente, los objetivos secundarios para
+encontrar la longitud total de una lista de palabras o construir un
+acrónimo son:
 
 1.  Crea un valor vacío del tipo a obtener.
 
@@ -388,19 +373,19 @@ y les da una oportunidad natural para la auto-explicación
 La aplicación más pura de la [teoría de la carga
 cognitiva]{i="carga cognitiva!teoría"} puede ser el [manual
 mínimo]{g="minimal-manual"} de [John Carroll]{i="Carroll, John"}
-<cite>Carr1987,Carr2014</cite>. Su punto de partida es una cita de un
-usuario: "Quiero aprender a hacer algo, no aprender a hacer todo".
-Carroll y sus colegas rediseñaron la capacitación para presentar cada
-idea como una tarea autónoma de una sola página: un título que describa
-de qué trata la página, instrucciones paso a paso sobre cómo hacer una
-sola cosa (por ejemplo, cómo eliminar una línea en blanco en un editor
-de texto) y luego varias notas sobre cómo reconocer y resolver problemas
-comunes. Descubrieron que reescribir los materiales de capacitación de
-esta manera los hacía más cortos en general y que las personas que los
-usaban aprendían más rápido. Estudios posteriores confirmaron que este
-enfoque superó al enfoque tradicional independientemente de la
-experiencia previa con computadoras <cite>Lazo1993</cite>.
-<cite>Carr2014</cite> resumieron este trabajo diciendo:
+@Carr1987, @Carr2014. Su punto de partida es una cita de un usuario:
+"Quiero aprender a hacer algo, no aprender a hacer todo". Carroll y sus
+colegas rediseñaron la capacitación para presentar cada idea como una
+tarea autónoma de una sola página: un título que describa de qué trata
+la página, instrucciones paso a paso sobre cómo hacer una sola cosa (por
+ejemplo, cómo eliminar una línea en blanco en un editor de texto) y
+luego varias notas sobre cómo reconocer y resolver problemas comunes.
+Descubrieron que reescribir los materiales de capacitación de esta
+manera los hacía más cortos en general y que las personas que los usaban
+aprendían más rápido. Estudios posteriores confirmaron que este enfoque
+superó al enfoque tradicional independientemente de la experiencia
+previa con computadoras @Lazo1993. @Carr2014 resumieron este trabajo
+diciendo:
 
 > Nuestros diseños "minimalistas" buscaban aprovechar la iniciativa de
 > cada usuario/a y el conocimiento previo, en lugar de controlarlo
@@ -422,22 +407,21 @@ cualquier resultado puede justificarse *a posteriori* al etiquetar como
 carga extrínseca a aquello que perjudica el rendimiento y como carga
 intrínseca o pertinente a aquello que no lo perjudica. Sin embargo, la
 instrucción basada en la teoría de la carga cognitiva es innegablemente
-efectiva. Por ejemplo, <cite>Maso2016</cite> rediseñó un curso de base
-de datos para eliminar la atención dividida y los efectos de redundancia
-y para proporcionar ejemplos prácticos y con sub-objetivos. El nuevo
-curso redujo la tasa de reprobación del examen en un 34% y aumentó la
+efectiva. Por ejemplo, @Maso2016 rediseñó un curso de base de datos para
+eliminar la atención dividida y los efectos de redundancia y para
+proporcionar ejemplos prácticos y con sub-objetivos. El nuevo curso
+redujo la tasa de reprobación del examen en un 34% y aumentó la
 satisfacción de los/las estudiantes.
 
-Una década después de la publicación de <cite>Kirs2006</cite>, un número
-creciente de personas cree que la teoría de la carga cognitiva y los
-enfoques basados en la investigación son compatibles si se ven de la
-manera correcta. <cite>Kaly2015</cite> sostiene que la teoría de la
-carga cognitiva es básicamente una microgestión del aprendizaje dentro
-de un contexto más amplio que considera cuestiones como la motivación,
-mientras que <cite>Kirs2018</cite> extiende la teoría de la carga
-cognitiva para incluir aspectos colaborativos del aprendizaje. Al igual
-que con <cite>Mark2018</cite> (discutido en la
-<a section="individual-strategies"/>), las perspectivas de los/las
+Una década después de la publicación de @Kirs2006, un número creciente
+de personas cree que la teoría de la carga cognitiva y los enfoques
+basados en la investigación son compatibles si se ven de la manera
+correcta. @Kaly2015 sostiene que la teoría de la carga cognitiva es
+básicamente una microgestión del aprendizaje dentro de un contexto más
+amplio que considera cuestiones como la motivación, mientras que
+@Kirs2018 extiende la teoría de la carga cognitiva para incluir aspectos
+colaborativos del aprendizaje. Al igual que con @Mark2018 (discutido en
+la <a section="individual-strategies"/>), las perspectivas de los/las
 investigadores/as pueden diferir, pero la implementación práctica de sus
 teorías a menudo termina siendo la misma.
 
@@ -458,9 +442,9 @@ siempre están arraigados en quiénes somos y quiénes aspiramos a ser. Lo
 discutiremos con más detalle en el <a section="community"/>.
 
 El sitio web de \[Teorías de Aprendizaje\]\[learning-theories\]
-(*Learning Theories* en inglés) y <cite>Wibu2016</cite> tienen buenos
-resúmenes de estas y otras perspectivas. Además del cognitivismo, las
-que se encuentran con mayor frecuencia incluyen el
+(*Learning Theories* en inglés) y @Wibu2016 tienen buenos resúmenes de
+estas y otras perspectivas. Además del cognitivismo, las que se
+encuentran con mayor frecuencia incluyen el
 [conductismo]{g="behaviorism"} (que trata la educación como un
 condicionamiento de estímulo/respuesta), el
 [constructivismo]{g="constructivism"} (que considera al aprendizaje como
@@ -553,16 +537,16 @@ repite el ejercicio.
 ### Ejemplos resueltos (parejas/15') {.exercise}
 
 Ver ejemplos resueltos ayuda a las personas a aprender a programar más
-rápido que simplemente escribiendo mucho código <cite>Skud2014</cite>, y
+rápido que simplemente escribiendo mucho código @Skud2014, y
 desconstruir el código rastreándolo o depurándolo también aumenta el
-aprendizaje <cite>Grif2016</cite>. Trabajando en parejas, revisa un
-fragmento de código de 10 a 15 líneas y explica qué hace cada
-declaración y por qué es necesaria. ¿Cuánto tiempo demoras? ¿Cuántas
-cosas crees que necesitas explicar por línea de código?
+aprendizaje @Grif2016. Trabajando en parejas, revisa un fragmento de
+código de 10 a 15 líneas y explica qué hace cada declaración y por qué
+es necesaria. ¿Cuánto tiempo demoras? ¿Cuántas cosas crees que necesitas
+explicar por línea de código?
 
 ### Gráficos críticos (individual/30') {.exercise}
 
-<cite>Maye2009,Mill2016a</cite> presentan seis principios para una buena
+@Maye2009 , @Mill2016a presentan seis principios para una buena
 enseñanza de gráficos:
 
 Señalización:
@@ -607,10 +591,9 @@ criterios.
 
 ## Revisión
 
-<figure>
 
-<img src="conceptmap-cognitive-load.svg" alt="Conceptos: Carga cognitiva"/>
+<img src="diagrams/conceptmap-cognitive-load.svg" alt="el pensamiento está limitado por la carga cognitiva. Esta carga cognitiva puede ser intrísica (que es deseable), pertinente (que debería ser reducida) y extrínseca (que debería ser eliminada). El pensamiento accede a la memoria de corto plazo, el cual codificado pasa a la memoria de largo plazo desde la cual se puede recuperar a la memoría de corto plazo para ser utilizado. El discurso usa el canal lingüístico, las imágenes usan el canal visual y el texto usa ambos canales. El canal visual puede reforzar o puede conflictuar el canal lingüístico. Estos canales integrados se almacenan en la memoria de corto plazo."/>
 
 <figcaption>Conceptos: Carga cognitiva</figcaption>
 
-</figure>
+
