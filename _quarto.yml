@@ -21,8 +21,8 @@ book:
     # - online.qmd
     # - exercises.qmd
     # - community.qmd
-    # - outreach.qmd
-    # - paid.qmd
+     - outreach.qmd
+     - paid.qmd
     # - finale.qmd
     # - references.qmd
     # - license.qmd
