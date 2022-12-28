@@ -1,12 +1,13 @@
 ---
-editor: 
-  markdown: 
-    wrap: 72
+number-sections: true
+crossref:
+  chapters: true
+  fig-title: Figura     # (default is "Figure")
+  tbl-title: Tabla     # (default is "Table")
+  title-delim: —     # (default is ":")
 ---
 
-# Como vivir de enseñar {#getting-paid}
-
-## Introducción
+# Como vivir de enseñar {#sec-getting-paid}
 
 La primera opción para trabajar como docente es pertener a alguna
 institución formal de educación, como las escuelas y las universidades.
@@ -35,7 +36,7 @@ busques asesoramiento profesional en tu localidad. El libro de
 Unidos, puede ser una referencia útil si tu negocio de enseñanza es
 internacional.
 
-## Por donde empezar
+## Por donde empezar {#sec-getting-paid-start}
 
 Aqui hay un par de opciones sobre como empezar a ofrecer tus servicios y
 dar clases como docente autónomo.
@@ -220,7 +221,7 @@ Habla con tu empleador.
     interna de forma gratuita (donde *gratuita* significa "durante horas
     de trabajo, como parte de su empleo regular remunerado").
 
-## Como determinar cuanto cobrar / Negociando el pago
+## Como determinar cuanto cobrar / Negociando el pago {#sec-getting-paid-charge}
 
 Muchas veces el pago está fijado con antelación, por ejemplo, en una
 institución formal hay convenios colectivos de trabajo que determinan el
@@ -313,7 +314,7 @@ Ultimos ajustes
     capacitación te lleve a un trabajo de consultoría: ocurre, pero es
     muy infrecuente como para apostar por ello.
 
-## Dándote a conocer
+## Dándote a conocer {#sec-getting-paid-outreach}
 
 Tus clientes deben poder encontrarte y conocer lo que ofreces para poder
 contratarte. En esta sección veremos algunas opciones para tener una
@@ -352,7 +353,7 @@ Crea un sitio web de aspecto profesional.
     vas a asistir, porque aunque no estés enseñando hay personas que
     pueden aprovechar la oportunidad para contactarte.
 
-### Materiales
+### Materiales {#sec-getting-paid-material}
 
 En el punto anterior mencionamos que es una buena idea tener una muestra
 de tus materiales de enseñanza en tu sitio web. Como se detalla en
@@ -461,7 +462,7 @@ Materiales armados durante tu trabajo de empleado
     conferencia), asegúrate de confirmar por escrito o por correo
     electrónico que tu empleador está de acuerdo *antes* de hacerlo.
 
-## Ejercicios {#getting-paid-exercises}
+## Ejercicios {#sec-getting-paid-exercises}
 
 ### Sobre hombros de gigantes (individual/15') {.exercise}
 
