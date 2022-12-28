@@ -20,7 +20,7 @@ book:
     # - motivation.qmd
     # - online.qmd
     # - exercises.qmd
-    # - community.qmd
+     - community.qmd
      - outreach.qmd
      - paid.qmd
     # - finale.qmd
