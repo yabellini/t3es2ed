@@ -1,10 +1,13 @@
 ---
-editor: 
-  markdown: 
-    wrap: 72
+number-sections: true
+crossref:
+  chapters: true
+  fig-title: Figura     # (default is "Figure")
+  tbl-title: Tabla     # (default is "Table")
+  title-delim: —     # (default is ":")
 ---
 
-# Construyendo una comunidad de práctica {#community}
+# Construyendo una comunidad de práctica {#sec-community}
 
 No tienes que arreglar todos los males de la sociedad para enseñar
 programación, pero *sí debes* involucrarte en lo que sucede fuera de tu
@@ -16,7 +19,7 @@ sucede fuera del aula es tan importante para su éxito como lo es para el
 de sus estudiantes, así que la mejor manera de ayudar a ambas partes es
 fomentar una comunidad de enseñanza.
 
-> ### Finlandia y por qué no
+> ### ¿Porqué no Finlandia?
 >
 > Las escuelas de Finlandia se encuentran entre las más exitosas del
 > mundo pero, tal como \[lo señaló\]\[finnish-schools-essay\] [Anu
