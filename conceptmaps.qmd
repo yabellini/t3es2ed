@@ -1,8 +1,8 @@
-# Ejemplos de Mapas Conceptuales {#conceptmaps}
+# Ejemplos de Mapas Conceptuales {#sec-conceptmaps}
 
-En los capítulos \chapref{s:memory} y \chapref{s:models} hablamos de modelos mentales y mapas conceptuales. En este anexo compartimos varios ejemplos.
+En los capítulos @sec-memory y @sec-models hablamos de modelos mentales y mapas conceptuales. En este anexo compartimos varios ejemplos.
 
-## Diferentes mapas para el mismo concepto
+## Diferentes mapas para el mismo concepto {#sec-conceptmaps-diffmaps}
 
 Esta serie de tres mapas conceptuales, creados por Amy Hodge y reutilizados con su permiso, son un ejemplo de diferentes modelos mentales para un mismo tema.
 
@@ -12,7 +12,7 @@ Esta serie de tres mapas conceptuales, creados por Amy Hodge y reutilizados con 
 
 ![Mapa conceptual desde el punto de vista de los amigos y las amigas de la biblioteca](diagrams/library-friends-concept-map.svg){alt="Mapa conceptual desde el punto de vista de los/las amigos/as de la biblioteca: Los/las amigos/as de la biblioteca realizan las ventas de libros que generan fondos. Estos fondos se usan para pagar el mantenimiento y mejoras de las instalaciones y para pagar la realización de programas que apoyan a los socios/as y a la comunidad. Algunos/as de estos/as socios/as son parte de los/as amigos/as de la biblitoeca y también participan en las ventas de libros. El personal de la biblioteca es consultado por los socios/as sobre las instalaciones y los programas disponibles en la biblioteca." fig-align="center"}
 
-## Mapas conceptuales sobre Ciencia de Datos
+## Mapas conceptuales sobre Ciencia de Datos {#sec-conceptmaps-datascience}
 
 Esta serie de mapas conceptuales presentan modelos mentales utilizados en lecciones de introducción a la ciencia de datos y fueron generados por diversos instructores certificados de RStudio (ahora Posit) y compartidos bajo licencia CC-BY. La colección completa se puede acceder en \<FIXME: ver de linkear al repo de Greg https://github.com/rstudio/concept-maps.\>
 
@@ -20,4 +20,4 @@ Esta serie de mapas conceptuales presentan modelos mentales utilizados en leccio
 
 ![Expresiones regulares. Autores: Monica Alonso, Greg Wilson.](diagrams/regular-expressions.svg){fig-alt="" fig-align="center"}
 
-## Mapas conceptuales sobre
+## Mapas conceptuales sobre {#sec-conceptmaps-others}
