@@ -11,6 +11,7 @@ book:
     - intro.qmd
 #    - models.qmd
     # - memory.qmd
+    - architecture.qmd
     # - individual.qmd
     # - process.qmd
     # - pck.qmd
