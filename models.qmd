@@ -148,15 +148,9 @@ Una vez que hayas finalizado, intercambia las preguntas de opción múltiple con
 
 ### Pensar en las cosas (toda la clase/15') {.exercise}
 
-Una buena evaluación formativa requiere que la gente piense profundamente en un problema. Por ejemplo, imagina que has colocado un bloque de hielo en un recipiente y luego llenas de agua este recìpiente, hasta el borde. Cuando el hielo se derrite, ¿el nivel de agua aumenta (de manera que el recipiente rebasa)?, ¿el nivel de agua baja?, ¿o se mantiene igual (<a figure="f:models-bathtub"/>)?
+Una buena evaluación formativa requiere que la gente piense profundamente en un problema. Por ejemplo, imagina que has colocado un bloque de hielo en un recipiente y luego llenas de agua este recìpiente, hasta el borde. Cuando el hielo se derrite, ¿el nivel de agua aumenta (de manera que el recipiente rebasa)?, ¿el nivel de agua baja?, ¿o se mantiene igual \@fig-models-bathtub?
 
-<figure id="f:models-bathtub">
-
-<img src="bathtub.svg" alt="Hielo en un recipiente"/>
-
-<figcaption>Hielo en un recipiente</figcaption>
-
-</figure>
+![Hielo en un recipiente](diagrams/bathtub.svg){#fig-models-bathtub alt="Hielo en un recipiente"}
 
 La solución correcta es que el nivel del recipiente permanece igual: el hielo desplaza a su propio peso en el agua, por lo que completa exactamente el "agujero" que ha dejado al derretirse. Para darse cuenta del porqué la gente construye un modelo de la relación entre el peso, el volumen y la densidad @Epst2002.
 
@@ -224,18 +218,6 @@ Muchos estudios han mostrado que las evaluaciones de la enseñanza no se correla
 
 ## Revisión
 
-<figure>
+![Conceptos Modelos mentales](diagrams/conceptmap-mental-models.svg){alt="Conceptos: Modelos mentales"}
 
-<img src="conceptmap-mental-models.svg" alt="Conceptos: Modelos mentales"/>
-
-<figcaption>Conceptos: Modelos mentales</figcaption>
-
-</figure>
-
-<figure>
-
-<img src="conceptmap-assessment.svg" alt="Conceptos: Evaluación"/>
-
-<figcaption>Conceptos: Evaluación</figcaption>
-
-</figure>
+![Conceptos Evaluación](diagrams/conceptmap-assessment.svg){alt="Conceptos: Evaluación"}
