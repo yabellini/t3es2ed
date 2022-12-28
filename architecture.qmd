@@ -1,7 +1,9 @@
 ---
-editor: 
-  markdown: 
-    wrap: 72
+crossref:
+  chapters: true
+  fig-title: Figura     # (default is "Figure")
+  tbl-title: Tabla     # (default is "Table")
+  title-delim: —     # (default is ":")
 ---
 
 # Arquitectura Cognitiva {#architecture}
@@ -23,7 +25,7 @@ fig-align="center"}
 La @fig-arch-model es un modelo simplificado de la [arquitectura
 cognitiva]{i="arquitectura cognitiva"} humana. El núcleo de este modelo
 es la separación entre la memoria a corto y a largo plazo vistas en la
-<a section="memory-seven-plus-or-minus"/>. La [memoria a largo
+@sec-memory-seven-plus-or-minus. La [memoria a largo
 plazo]{i="memoria a largo plazo"} es como tu sótano: almacena objetos de
 forma más o menos permanente pero tu conciencia no puede acceder a ella
 directamente. En cambio, confías en tu [memoria a corto
@@ -298,7 +300,7 @@ Los ejemplos desvanecidos funcionan porque presentan la estrategia de
 resolución de problemas fragmento por fragmento. En cada paso, los/las
 estudiantes tienen un nuevo problema que abordar, lo cual es menos
 intimidante que una pantalla en blanco o una hoja de papel en blanco
-(<a section="classroom-practices"/>). También anima a que los/las
+(@sec-classroom-practices). También anima a que los/las
 estudiantes piensen en las similitudes y diferencias entre varios
 enfoques, lo que ayuda a crear los vínculos en sus modelos mentales y de
 ese modo facilita la recuperación de la información.
@@ -333,7 +335,7 @@ de alguna manera para crear el resultado final.
 > ejemplos.</sup>. Los problemas deben presentarse en contextos del
 > mundo real, y debemos fomentar la autoexplicación para ayudar a
 > los/las estudiantes a organizarse y dar sentido a lo que se les acaba
-> de enseñar (<a section="individual-strategies"/>).
+> de enseñar (@sec-individual-strategies).
 
 ### Sub-objetivos etiquetados
 
@@ -356,12 +358,12 @@ acrónimo son:
 
 Etiquetar sub-objetivos funciona porque agrupar los pasos relacionados
 en [fragmentos]{i="fragmentos de código"} con nombre
-(<a section="memory-seven-plus-or-minus"/>) ayuda a tus estudiantes a
+(@sec-memory-seven-plus-or-minus) ayuda a tus estudiantes a
 distinguir lo que es genérico de lo que es específico del problema en
 cuestión. También les ayuda a construir un modelo mental de ese tipo de
 problema, de modo que luego pueden resolver otros problemas de ese tipo,
 y les da una oportunidad natural para la auto-explicación
-(<a section="individual-strategies"/>).
+(@sec-individual-strategies).
 
 ### Manuales mínimos
 
@@ -416,7 +418,7 @@ básicamente una microgestión del aprendizaje dentro de un contexto más
 amplio que considera cuestiones como la motivación, mientras que
 @Kirs2018 extiende la teoría de la carga cognitiva para incluir aspectos
 colaborativos del aprendizaje. Al igual que con @Mark2018 (discutido en
-la <a section="individual-strategies"/>), las perspectivas de los/las
+la @sec-individual-strategies), las perspectivas de los/las
 investigadores/as pueden diferir, pero la implementación práctica de sus
 teorías a menudo termina siendo la misma.
 
@@ -434,9 +436,9 @@ perspectiva utilizada es el [aprendizaje
 situado]{g="situated-learning"}, que se centra en integrar a las
 personas en una comunidad y reconoce que la enseñanza y el aprendizaje
 siempre están arraigados en quiénes somos y quiénes aspiramos a ser. Lo
-discutiremos con más detalle en el <a section="community"/>.
+discutiremos con más detalle en el @sec-community.
 
-El sitio web de \[Teorías de Aprendizaje\]\[learning-theories\]
+El sitio web de [Teorías de Aprendizaje][learning-theories]
 (*Learning Theories* en inglés) y @Wibu2016 tienen buenos resúmenes de
 estas y otras perspectivas. Además del cognitivismo, las que se
 encuentran con mayor frecuencia incluyen el
@@ -496,7 +498,7 @@ problema diferente con el que desarrollar tu ejemplo desvanecido.
     qué?
 
 (El ejercicio "Notar tus puntos ciegos" en la
-<a section="memory-exercises"/> te dará una idea de cuán detallado debe
+@sec-memory-exercises te dará una idea de cuán detallado debe
 ser tu listado de ítems).
 
 ### Crear un problema de Parsons (en parejas/20') {.exercise}

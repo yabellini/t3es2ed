@@ -6,7 +6,7 @@ crossref:
   title-delim: —     # (default is ":")
 ---
 
-# Introduction {#sec-intro}
+# Introducción {#sec-intro}
 
 Enseñar y aprender ocurren en muchos ámbitos, no solo en las aulas de
 las instituciones educativas formales, como la escuela o las
@@ -86,9 +86,9 @@ tipo de contenido.
 
 ## Quién eres {#intro-audience}
 
-La <a section="process-personas"/> explica cómo averiguar quiénes son
+La @sec-process-personas explica cómo averiguar quiénes son
 tus estudiantes. Los cuatro tipos de personas a las que está destinado
-este libro son *enseñante final* \<FIXME*(llamada al glosario acá)\>*:
+este libro son *enseñante final* *<FIXME(llamada al glosario acá)>*:
 la enseñanza no es su ocupación primaria, tienen poco o ningún
 conocimiento sobre pedagogía y posiblemente no enseñan en clases de
 instituciones educativas formales.
@@ -140,8 +140,8 @@ Estas personas tienen *una variedad de conocimientos técnicos previos* y
 *alguna experiencia previa con la enseñanza*, pero *carecen de
 entrenamiento formal sobre enseñar y aprender, diseño de lecciones
 accesibles u organización comunitaria*. La mayoría trabaja con
-*estudiantes free-range \<*\<FIXME*: agregar nota al pie o al
-glosario\>* y están *enfocadas en adolescentes y personas adultas* todas
+*estudiantes free-range * <FIXME: agregar nota al pie o al
+glosario> y están *enfocadas en adolescentes y personas adultas* todas
 estas personas *tienen tiempo y recursos limitados*. Esperamos que
 nuestro cuarteto use este material de la siguiente manera:
 
@@ -168,22 +168,22 @@ René
 
 > ### Re-uso
 >
-> Algunas secciones de este libro fueron originalmente creadas para \[el
+> Algunas secciones de este libro fueron originalmente creadas para [el
 > programa de entrenamiento de instructores/as de Software
-> Carpentry\]\[carpentries-instructor\]. Cualquier parte del libro puede
+> Carpentry][carpentries-instructor]. Cualquier parte del libro puede
 > ser libremente distribuida y re-utilizada bajo la licencia Creative
-> Commons Atribución-NoComercial 4.0 (<a section="license"/>). Puedes
+> Commons Atribución-NoComercial 4.0 (@sec-license). Puedes
 > usar la versión online disponible en <http://teachtogether.tech/es/>
 > en cualquier clase (gratuita o paga), y puedes citar pequeños
-> extractos bajo el criterio de \[uso justo\]\[uso-justo\], pero no
+> extractos bajo el criterio de [uso justo][uso-justo], pero no
 > puedes re-publicar largos fragmentos en trabajos comerciales sin
 > permiso previo.
 >
 > Las contribuciones, correcciones y sugerencias son bienvenidas, y cada
 > vez que una nueva versión del libro sea publicada se les agradecerá a
 > quienes contribuyan. Por favor consulta la sección de
-> <a section="joining"/> para conocer los detalles sobre como contribuir
-> y el <a section="conduct"/> para conocer nuestro código de conducta.
+> @sec-joining para conocer los detalles sobre como contribuir
+> y el @sec-conduct para conocer nuestro código de conducta.
 
 ## Agradecimientos {#intro-acknowledgments}
 
@@ -207,13 +207,13 @@ Si estás usando este material para formar docentes, puedes darles con
 antelación los siguientes ejercicios a quienes participen, para que
 tengan una idea de quiénes son y cuál es la mejor manera en que les
 puedes ayudar. Por favor lee las advertencias en la
-<a section="classroom-prior"/> antes de pedirles hacer estos ejercicios.
+@sec-classroom-prior antes de pedirles hacer estos ejercicios.
 
 ### Altos y bajos (clase completa/5') {.exercise}
 
 Escribe respuestas breves a las siguientes preguntas y compártelas con
 tus pares. (Si están tomando notas colaborativas en línea como se
-describe en la <a section="classroom-notetaking"/>, puedes escribir tus
+describe en la @sec-classroom-notetaking, puedes escribir tus
 respuestas allí.)
 
 1.  ¿Cuál es la mejor clase o taller que alguna vez hayas tomado? ¿Qué

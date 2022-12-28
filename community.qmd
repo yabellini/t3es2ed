@@ -30,7 +30,7 @@ fomentar una comunidad de enseñanza.
 > seguridad, alimentación saludable y reciban un trato adecuado en la
 > administración de justicia @Sahl2015, @Wilk2011. Esto no es ninguna
 > sorpresa considerando lo que sabemos sobre la importancia de la
-> motivación para el aprendizaje (<a section="motivation"/>): las
+> motivación para el aprendizaje (@sec-motivation): las
 > personas no van a esforzarse por mejorar si creen que el sistema es
 > impredecible, injusto o indiferente.
 
@@ -196,7 +196,7 @@ voluntarias/os]{i="reclutamiento (de miembros)"}. Tu estrategia de
 marketing debería ayudarte con esto, al garantizar que tu [organización
 sea localizable]{i="localizable!organización"} y al lograr que la misión
 y valor sean claros para las personas que quieran involucrarse
-(<a section="outreach"/>). Comparte historias que ejemplifiquen el tipo
+(@sec-outreach). Comparte historias que ejemplifiquen el tipo
 de ayuda que buscas así como historias sobre las personas a las que
 estás ayudando, y deja en claro que hay muchas maneras de involucrarse
 (discutiremos esto con más detalle en la siguiente sección).
@@ -210,27 +210,27 @@ bienvenida. De esta manera, las personas que se acerquen a ti sabrán lo
 que haces y habrán tenido la experiencia reciente de ser receptores de
 lo que ofreces, lo que contribuye a que tu organización evite el punto
 ciego de la persona experta a nivel de la comunidad
-(<a section="memory"/>).
+(@sec-memory).
 
 > ### Empieza pequeño
 >
 > Pedirle a una persona que haga algo pequeño por ti es un buen paso
-> para lograr que haga algo más grande. Esto se basa en el \[efecto Ben
-> Franklin\]\[ben-franklin-effect\]: quien ya le ha hecho un favor a
+> para lograr que haga algo más grande. Esto se basa en el [efecto Ben
+> Franklin][ben-franklin-effect]: quien ya le ha hecho un favor a
 > alguien es más propensa/o a hacerle *otro* favor a la misma persona,
 > (en comparación con la disposisión que tiene quien ha *recibido* un
 > favor). En el marco de una comunidad de enseñanza, puedes solicitar
 > correcciones de redacción o de errores ortográficos en los materiales
 > de tus lecciones, o sugerencias de nuevos ejercicios o ejemplos.
 > Escribir tus materiales de una manera mantenible
-> (<a section="process-maintainability"/>), le da a tu comunidad la
+> (@sec-process-maintainability), le da a tu comunidad la
 > oportunidad de practicar algunas habilidades útiles y te permite a ti
 > comenzar una conversación que podría conducir a sumar una nueva
 > persona.
 
 La mitad del ciclo de vida de una persona voluntaria es la incorporación
-y la retención, que cubriremos en <a section="community-onboarding"/> y
-<a section="community-retention"/>. El último paso es cuando alguien
+y la retención, que cubriremos en @sec-community-onboarding> y
+@sec-community-retention>. El último paso es cuando alguien
 [deja de ser parte de la organización]{i="retiro (de miembros)"}:
 eventualmente, el resto de las personas siguen adelante, y las
 organizaciones saludables se preparan para ese momento. Algunas cosas
@@ -282,7 +282,7 @@ Después de decidir [formar parte de un
 grupo]{i="incorporación (de miembros)"}, la gente necesita ponerse al
 día, y @Shol2019 resume lo que sabemos al respecto. La primera regla es
 tener y hacer cumplir un [código de conducta]{i="Código de Conducta"}
-(<a section="classroom-coc"/>) y encontrar alguien independiente a tu
+(@sec-classroom-coc) y encontrar alguien independiente a tu
 comunidad que acepte recibir y revisar informes de comportamiento
 inapropiado. Alguien fuera de la organización tendrá la objetividad de
 la que las/los integrantes pueden carecer. Además, una persona externa
@@ -370,7 +370,7 @@ tengan algo que valoran de su trabajo:
 
 Pregunta a las personas qué quieren en vez de adivinar.
 
-:   Así como no eres tus estudiantes (<a section="process-personas"/>),
+:   Así como no eres tus estudiantes (@sec-process-personas),
     probablemente seas diferente a otras personas de tu organización.
     Pregunta a las personas qué quieren hacer, qué se sienten cómodas
     haciendo (que puede no ser lo mismo), y qué limitaciones de tiempo
@@ -400,7 +400,7 @@ Haz espacio.
 
 :   Crees que estás siendo útil, pero intervenir en cada decisión priva
     de autonomía a las demás personas, lo que reduce su motivación
-    (<a section="motivation"/>). En particular, si siempre eres quien
+    (@sec-motivation). En particular, si siempre eres quien
     responde primero a correos electrónicos o mensajes de chat, las
     personas tienen menos oportunidades de crecer como miembros y crear
     colaboraciones horizontales. Como resultado, la comunidad continuará
@@ -436,7 +436,7 @@ funciona bastante bien para grupos de hasta media docena de personas en
 los que todas las personas se conocen. Si el grupo es más grande,
 necesitas reglas para explicar quién tiene la autoridad para tomar qué
 decisiones y cómo lograr consensos
-(<a section="meetings-marthas-rules"/>).
+(@sec-meetings-marthas-rules).
 
 El modelo de gobernanza que prefiero es del tipo cooperativo, conocido
 como *commons* en inglés. La [gobernanza cooperativa]{g="commons"} es

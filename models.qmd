@@ -1,7 +1,9 @@
 ---
-editor: 
-  markdown: 
-    wrap: 72
+crossref:
+  chapters: true
+  fig-title: Figura     # (default is "Figure")
+  tbl-title: Tabla     # (default is "Table")
+  title-delim: —     # (default is ":")
 ---
 
 # Modelos mentales y evaluación formativa {#models}
@@ -32,7 +34,7 @@ tres etapas:
 :   tienen modelos mentales que incluyen excepciones y casos especiales,
     los cuales les permiten manejar situaciones que están por fuera de
     lo ordinario. Discutiremos sobre la experiencia o pericia en más
-    detalle en el <a section="memory"/>.
+    detalle en el @sec-memory.
 
 Entonces, ¿qué *es* un [modelo mental]{g="mental-model"}? Como el nombre
 lo sugiere, es una representación simplificada de las partes más
@@ -250,7 +252,7 @@ no son utilizadas (aunque la enseñanza es más efectiva cuando sí se
 utilizan).
 
 Las preguntas de opción múltiple no son el único tipo de evaluación
-formativa: el <a section="exercises"/> describe otros tipos de
+formativa: el @sec-exercises describe otros tipos de
 ejercicios que son rápidos y no son ambiguos. Cualquiera sea la
 evaluación que escojas, deberías hacer alguna que tome un minuto o dos
 cada 10--15 minutos de manera de asegurarte de que tus estudiantes están
@@ -262,7 +264,7 @@ si un número significativo de personas se ha quedado atrás, solo tienes
 que repetir una pequeña porción de la lección. Las evaluaciones
 formativas frecuentes también mantienen el compromiso de tus
 estudiantes, particularmente si se involucran en una discusión en un
-grupo pequeño (<a section="classroom-peer"/>).
+grupo pequeño (@sec-classroom-peer).
 
 Las evaluaciones formativas también pueden ser usadas *antes* de las
 lecciones. Si comienzas una clase con una pregunta de opción múltiple y
@@ -271,7 +273,7 @@ tus estudiantes ya saben. Este tipo de [enseñanza
 activa]{g="active-teaching"} te da más tiempo para enfocarte en las
 cosas que tus estudiantes no saben. También le muestra a tus estudiantes
 que respetas su tiempo lo suficiente como para no desperdiciarlo, lo que
-ayuda a la motivación (<a section="motivation"/>).
+ayuda a la motivación (@sec-motivation).
 
 > ### Inventario de conceptos
 >
@@ -301,7 +303,7 @@ múltiple simultáneamente (en lugar de que tengan que levantar sus manos
 en turnos), incluyendo como una de las opciones "No tengo idea" y
 alentando que hablen un par de segundos con sus pares más cercanos antes
 de responder. Todas estas prácticas te ayudarán a garantizar que el
-flujo de enseñanza no sea interrumpido. La <a section="classroom-peer"/>
+flujo de enseñanza no sea interrumpido. La @sec-classroom-peer
 describe un método de enseñanza poderoso y basado en evidencias,
 construido a partir de estas simples ideas.
 
@@ -321,7 +323,7 @@ una pregunta en un examen para la cual la enseñanza no lo/la ha
 preparado. Esto no significa que nunca debes incluir nuevos tipos de
 problemas en un examen, pero, si lo haces, deberías haber ejercitado de
 antemano a tus estudiantes para abordar problemas nuevos. El
-<a section="process"/> explora este punto en profundidad.
+@sec-process explora este punto en profundidad.
 
 ## Máquina nocional {#models-notional}
 
