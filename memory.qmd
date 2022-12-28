@@ -32,7 +32,7 @@ El último de estos puntos se llama [punto ciego de las personas expertas]{g="ex
 >
 > Las personas expertas a menudo caen en sus puntos ciegos usando la palabra "solo," como en, "Oh, es fácil, solo enciendes una nueva máquina virtual y luego solo instalas estos cuatro parches a Ubuntu y luego solo reescribes todo tu programa en un lenguaje funcional puro." Como discutimos en el @sec-motivation, hacer esto indica que quien habla piensa que el problema es trivial y por lo tanto la persona que lucha con el problema debe ser estúpida: entonces, no tengas esta actitud.
 
-## Mapas conceptuales {#memory-concept-maps}
+## Mapas conceptuales {#sec-memory-concept-maps}
 
 La herramienta que elegimos para representar el modelo mental de alguien es un [mapa conceptual]{g="concept-map"}, en el cual los hechos son burbujas y las conexiones son relaciones etiquetadas. Como ejemplos, la <a figure="f:memory-seasons"/> muestra por qué la Tierra tiene estaciones (de \[IHMC\]\[ihmc\]), y el @sec-conceptmaps presenta mapas conceptuales de una biblioteca desde tres puntos de vista distintos.
 
@@ -99,7 +99,7 @@ Los mapas conceptuales son solo una forma de representar nuestro conocimiento de
 >
 > Muchas/os diseñadoras/es de interfaces de usuaria/o creen que es mejor mostrar bocetos de sus ideas en lugar de maquetas pulidas, porque es más probable que las personas den una opinión honesta sobre algo que presumen que tiene pocos minutos de elaboración. Si parece que el trabajo requirió horas, la mayoría de las personas suavizará sus críticas. Al dibujar mapas conceptuales para motivar un intercambio de ideas, deberías entonces usar lápices y papel borrador (o marcadores y una pizarra) en lugar de sofisticadas herramientas de dibujo por computadora.
 
-## Siete más o menos dos {#memory-seven-plus-or-minus}
+## Siete más o menos dos {#sec-memory-seven-plus-or-minus}
 
 Mientras el modelo gráfico de conocimiento es incorrecto pero útil, otro modelo simple tiene bases fisiológicas profundas. Como una aproximación rápida, la memoria humana se puede dividir en dos capas distintas. La primera, llamada [memoria a largo plazo]{g="long-term-memory"} o [memoria persistente]{g="persistent-memory"}, es donde almacenamos cosas como los nombres de nuestra gente amiga, nuestra dirección, y lo que hizo un payaso en nuestra fiesta de cumpleaños de ocho que nos asustó mucho. La capacidad de esta capa de memoria es esencialmente ilimitada, pero es de acceso lento---demasiado lento para ayudarnos a lidiar con leones hambrientos y familiares descontentos.
 
@@ -127,7 +127,7 @@ Esta es una de las maneras de usar mapas conceptuales al diseñar una lección: 
 
 Ten en cuenta que el modelo simple de memoria presentado aquí ha sido reemplazado en gran medida por uno más sofisticado, en el que la memoria a corto plazo se divide en varios almacenamientos (p. ej. para memoria visual versus memoria lingüística), cada uno de los cuales realiza un pre-procesamiento involuntario @Mill2016a . Nuestra presentación es entonces un ejemplo de un modelo mental que ayuda al aprendizaje y al trabajo diario.
 
-### Reconocimiento de patrones
+### Reconocimiento de patrones {#sec-memory-pattern}
 
 Investigaciones recientes sugieren que el tamaño real de la memoria a corto plazo podría ser tan bajo como 4±1 elementos @Dida2016 . Para manejar conjuntos de información más grandes, nuestras mentes crean [fragmentos]{g="chunking" i="fragmentación"}. Por ejemplo, en general recordamos a las palabras como elementos simples más que como secuencia de letras. Del mismo modo, el patrón formado por cinco puntos en cartas o dados se recuerda como un todo en lugar de cinco piezas de información separadas.
 
@@ -135,7 +135,7 @@ Las personas expertas tienen más fragmentos y de mayor tamaño que las no-exper
 
 Dada la importancia de la fragmentación para pensar, es tentador identificar [\[patrones de diseño\]\[design-patterns-es\]]{i="patrones de diseño"} y enseñarlos directamente. Estos patrones ayudan a practicantes competentes a pensar y dialogar en varios dominios (incluida la enseñanza @Berg2012), pero los catálogos de patrones son demasiado duros y abstractos para que personas novatas les encuentren sentido por su cuenta. Dicho esto, asignar nombres a un pequeño número de patrones parece ayudar con la enseñanza, principalmente dando a tus estudiantes un vocabulario más rico para pensar y comunicarse @Kuit2004,@Byck2005,@Saja2006 . Volveremos a este tema en la @sec-pck-programming.
 
-## Convirtiéndose en una persona experta {#memory-becoming-expert}
+## Convirtiéndose en una persona experta {#sec-memory-becoming-expert}
 
 Entonces, ¿cómo se convierte alguien en una persona experta? La idea de que hacen falta diez mil horas de práctica para conseguirlo es ampliamente citada, pero \[probablemente no sea verdad\]\[ten-thousand-hour-rule\]: hacer lo mismo una y otra vez es más probable que fortalezca los malos hábitos a que mejore la práctica. Lo que realmente funciona es hacer cosas similares pero sutilmente diferentes, prestando atención a qué funciona y qué no, y luego cambiando el comportamiento en respuesta a esta retroalimentación, para así mejorar de forma acumulativa. Esto se llama [práctica deliberada]{g="deliberate-practice"} o [práctica reflectiva]{g="reflective-practice"}, y es común que las personas atraviesen tres etapas:
 
@@ -155,7 +155,7 @@ Darse devoluciones a sí misma/o.
 >
 > @Macn2014 descubrió que "...la práctica deliberada explicaba el 26% de la varianza en el rendimiento de los juegos, 21% para música, 18% para deportes, 4% para educación, y menos del 1% para profesiones." Sin embargo, @Eric2016  criticó este hallazgo diciendo: "Resumir cada hora de cualquier tipo de práctica durante la carrera de un individuo implica que el impacto de todos los tipos de actividad práctica respecto a rendimiento es igual ------una suposición que...es inconsistente con la evidencia." Para ser efectiva, la práctica deliberada requiere tanto un objetivo de rendimiento claro como una devolución informativa inmediata. Se trata de dos cosas que las/los docentes deberían esforzarse en conseguir.
 
-## Ejercicios {#memory-exercises}
+## Ejercicios {#sec-memory-exercises}
 
 ### Mapear conceptos (parejas/30') {.exercise}
 
