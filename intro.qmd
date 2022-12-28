@@ -59,11 +59,11 @@ personas y por eso el objetivo de este libro es contribuir a divulgar
 los resultados más importantes y recientes de la investigación sobre
 enseñanza y aprendizaje en tecnología. Intentamos presentar estos
 conocimientos de forma amena y pragmática, con un lenguaje adecuado para
-un público general. El éxito sostenido de iniciativas como <FIXME
-agregar link The Carpentries\>, y \<MetaDocencia, FIXME agregar link\>
-que enseñan como enseñar con materiales accesibles, son una muestra del
-interés en la comunidad educativa de conocer y utilizar prácticas de
-enseñanza eficaces.
+un público general. El éxito sostenido de iniciativas como [The
+Carpentries](https://carpentries.org/) y
+[MetaDocencia](https://www.metadocencia.org/) que enseñan como enseñar
+con materiales accesibles, son una muestra del interés en la comunidad
+educativa de conocer y utilizar prácticas de enseñanza eficaces.
 
 Creemos que conocer una serie de conceptos básicos, sobre psicología
 cognitiva, diseño instruccional, inclusión, accesibilidad y organización
@@ -86,10 +86,10 @@ tipo de contenido.
 
 La <a section="process-personas"/> explica cómo averiguar quiénes son
 tus estudiantes. Los cuatro tipos de personas a las que está destinado
-este libro son *enseñante final* <FIXME*(llamada al glosario acá)\>*: la
-enseñanza no es su ocupación primaria, tienen poco o ningún conocimiento
-sobre pedagogía y posiblemente no enseñan en clases de instituciones
-educativas formales.
+este libro son *enseñante final* \<FIXME*(llamada al glosario acá)\>*:
+la enseñanza no es su ocupación primaria, tienen poco o ningún
+conocimiento sobre pedagogía y posiblemente no enseñan en clases de
+instituciones educativas formales.
 
 Emilia
 
@@ -138,10 +138,10 @@ Estas personas tienen *una variedad de conocimientos técnicos previos* y
 *alguna experiencia previa con la enseñanza*, pero *carecen de
 entrenamiento formal sobre enseñar y aprender, diseño de lecciones
 accesibles u organización comunitaria*. La mayoría trabaja con
-*estudiantes free-range \<*<FIXME*: agregar nota al pie o al glosario\>*
-y están *enfocadas en adolescentes y personas adultas* todas estas
-personas *tienen tiempo y recursos limitados*. Esperamos que nuestro
-cuarteto use este material de la siguiente manera:
+*estudiantes free-range \<*\<FIXME*: agregar nota al pie o al
+glosario\>* y están *enfocadas en adolescentes y personas adultas* todas
+estas personas *tienen tiempo y recursos limitados*. Esperamos que
+nuestro cuarteto use este material de la siguiente manera:
 
 Emilia
 
