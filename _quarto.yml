@@ -9,7 +9,7 @@ book:
     - index.qmd
     - rules.qmd
     - intro.qmd
-#    - models.qmd
+    # - models.qmd
     # - memory.qmd
     - architecture.qmd
     # - individual.qmd
@@ -20,9 +20,9 @@ book:
     # - motivation.qmd
     # - online.qmd
     # - exercises.qmd
-     - community.qmd
-     - outreach.qmd
-     - paid.qmd
+    - community.qmd
+    - outreach.qmd
+    - paid.qmd
     # - finale.qmd
     # - references.qmd
     # - license.qmd

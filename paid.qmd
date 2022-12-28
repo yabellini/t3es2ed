@@ -1,7 +1,4 @@
----
-title: "Como vivir de enseñar"
-template: page
----
+# Como vivir de enseñar
 
 ## Introducción
 

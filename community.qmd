@@ -1,6 +1,5 @@
----
-template: page.html
----
+
+# Comunidad
 
 No tienes que arreglar todos los males de la sociedad para enseñar programación, pero *sí debes* involucrarte en lo que sucede fuera de tu clase si quieres que las personas aprendan. Esto se aplica tanto a las personas que enseñan como a las que aprenden: gran parte de las/los docentes free-range deben balancear sus clases con muchos otros compromisos porque su trabajo es voluntario o de medio tiempo. Lo que sucede fuera del aula es tan importante para su éxito como lo es para el de sus estudiantes, así que la mejor manera de ayudar a ambas partes es fomentar una comunidad de enseñanza.
 

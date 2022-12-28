@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.269">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Enseñar Tecnología en Comunidad. Segunda Edición - 3&nbsp; Arquitectura Cognitiva</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./community.html" rel="next">
+<link href="./intro.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-sidebar floating">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+    <div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Arquitectura Cognitiva</span></h1>
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Enseñar Tecnología en Comunidad. Segunda Edición</a> 
+    </div>
+      </div>
+      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+      </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">Preface</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./rules.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Las Reglas</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./intro.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Introduction</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./architecture.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Arquitectura Cognitiva</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./community.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Comunidad</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./outreach.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Marketing</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./paid.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Como vivir de enseñar</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#architecture-brain" id="toc-architecture-brain" class="nav-link active" data-scroll-target="#architecture-brain"><span class="toc-section-number">3.1</span>  ¿Qué es lo que sucede allí?</a></li>
+  <li><a href="#architecture-load" id="toc-architecture-load" class="nav-link" data-scroll-target="#architecture-load"><span class="toc-section-number">3.2</span>  Carga cognitiva</a>
+  <ul class="collapse">
+  <li><a href="#problemas-de-parsons" id="toc-problemas-de-parsons" class="nav-link" data-scroll-target="#problemas-de-parsons"><span class="toc-section-number">3.2.1</span>  Problemas de Parsons</a></li>
+  <li><a href="#ejemplos-desvanecidos-o-con-espacios-en-blanco" id="toc-ejemplos-desvanecidos-o-con-espacios-en-blanco" class="nav-link" data-scroll-target="#ejemplos-desvanecidos-o-con-espacios-en-blanco"><span class="toc-section-number">3.2.2</span>  Ejemplos desvanecidos (o con espacios en blanco)</a></li>
+  <li><a href="#sub-objetivos-etiquetados" id="toc-sub-objetivos-etiquetados" class="nav-link" data-scroll-target="#sub-objetivos-etiquetados"><span class="toc-section-number">3.2.4</span>  Sub-objetivos etiquetados</a></li>
+  <li><a href="#manuales-mínimos" id="toc-manuales-mínimos" class="nav-link" data-scroll-target="#manuales-mínimos"><span class="toc-section-number">3.2.5</span>  Manuales mínimos</a></li>
+  </ul></li>
+  <li><a href="#architecture-theory" id="toc-architecture-theory" class="nav-link" data-scroll-target="#architecture-theory"><span class="toc-section-number">3.3</span>  Otros modelos de aprendizaje</a></li>
+  <li><a href="#architecture-exercises" id="toc-architecture-exercises" class="nav-link" data-scroll-target="#architecture-exercises"><span class="toc-section-number">3.4</span>  Ejercicios</a>
+  <ul class="collapse">
+  <li><a href="#crear-un-ejemplo-desvanecido-parejas30" id="toc-crear-un-ejemplo-desvanecido-parejas30" class="nav-link" data-scroll-target="#crear-un-ejemplo-desvanecido-parejas30"><span class="toc-section-number">3.4.1</span>  Crear un ejemplo desvanecido (parejas/30’)</a></li>
+  <li><a href="#clasificación-de-carga-grupos-pequeños15" id="toc-clasificación-de-carga-grupos-pequeños15" class="nav-link" data-scroll-target="#clasificación-de-carga-grupos-pequeños15"><span class="toc-section-number">3.4.2</span>  Clasificación de carga (grupos pequeños/15’)</a></li>
+  <li><a href="#crear-un-problema-de-parsons-en-parejas20" id="toc-crear-un-problema-de-parsons-en-parejas20" class="nav-link" data-scroll-target="#crear-un-problema-de-parsons-en-parejas20"><span class="toc-section-number">3.4.3</span>  Crear un problema de Parsons (en parejas/20’)</a></li>
+  <li><a href="#manuales-mínimos-individual20" id="toc-manuales-mínimos-individual20" class="nav-link" data-scroll-target="#manuales-mínimos-individual20"><span class="toc-section-number">3.4.4</span>  Manuales mínimos (individual/20’)</a></li>
+  <li><a href="#aprendizaje-cognitivo-parejas15" id="toc-aprendizaje-cognitivo-parejas15" class="nav-link" data-scroll-target="#aprendizaje-cognitivo-parejas15"><span class="toc-section-number">3.4.5</span>  Aprendizaje cognitivo (parejas/15’)</a></li>
+  <li><a href="#ejemplos-resueltos-parejas15" id="toc-ejemplos-resueltos-parejas15" class="nav-link" data-scroll-target="#ejemplos-resueltos-parejas15"><span class="toc-section-number">3.4.6</span>  Ejemplos resueltos (parejas/15’)</a></li>
+  <li><a href="#gráficos-críticos-individual30" id="toc-gráficos-críticos-individual30" class="nav-link" data-scroll-target="#gráficos-críticos-individual30"><span class="toc-section-number">3.4.7</span>  Gráficos críticos (individual/30’)</a></li>
+  </ul></li>
+  <li><a href="#revisión" id="toc-revisión" class="nav-link" data-scroll-target="#revisión"><span class="toc-section-number">3.5</span>  Revisión</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title d-none d-lg-block"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Arquitectura Cognitiva</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<p>Hemos hablado acerca de modelos mentales como si fueran cosas reales, pero ¿qué es lo que realmente sucede en el cerebro de una persona cuando está aprendiendo? La respuesta corta es que no lo sabemos, la respuesta larga es que sabemos mucho más que antes. Este capítulo profundizará en qué hace el cerebro mientras el aprendizaje sucede y en cómo podemos aprovecharlo para diseñar y brindar lecciones de manera más efectiva.</p>
+<section id="architecture-brain" class="level2" data-number="3.1">
+<h2 data-number="3.1" class="anchored" data-anchor-id="architecture-brain"><span class="header-section-number">3.1</span> ¿Qué es lo que sucede allí?</h2>
+<div id="arch-model" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="diagrams/cognitive-architecture.svg" class="img-fluid figure-img" alt="esquema que presenta dos recuadros principales, uno llamado 'memoria de largo plazo' y otro 'memoria de corto plazo'. El recuadro 'memoria de largo plazo' contiene un modelo mental de cajas y flechas que se relacionan entre sí. En el recuadro 'memoria de corto plazo', hay una caja representando al canal visual y otra caja representando al canal verbal. Desde ambas cajas salen una flecha hacia un signo más desde el cual sale una relación llamada 'codificar' hacia la memoria de largo plazo. Desde la memoria de largo plazo sale una relación llamada 'recuperar' hacia la memoria de corto plazo. Las imágenes tomadas a partir de los ojos y el habla registrada por medio de los oídos están por fuera de los dos recuadros principales y se relacionan con los canales visuales y verbales de la memoria a corto plazo, respectivamente."></p>
+<p></p><figcaption class="figure-caption">Arquitectura cognitiva</figcaption><p></p>
+</figure>
+</div>
+<p>La <strong>&lt;FIXME nombrar y numerar bien la figura arch-model”&gt;</strong> es un modelo simplificado de la <span data-i="arquitectura cognitiva">arquitectura cognitiva</span> humana. El núcleo de este modelo es la separación entre la memoria a corto y a largo plazo vistas en la <a section="memory-seven-plus-or-minus">. La <span data-i="memoria a largo plazo">memoria a largo plazo</span> es como tu sótano: almacena objetos de forma más o menos permanente pero tu conciencia no puede acceder a ella directamente. En cambio, confías en tu <span data-i="memoria a corto plazo">memoria a corto plazo</span>, que es como el escritorio de tu mente.</a></p><a section="memory-seven-plus-or-minus">
+<p>Cuando necesitas algo, tu cerebro lo rescata de la memoria a largo plazo y lo coloca en la memoria a corto plazo. Por el contrario, la nueva información que llega a la memoria a corto plazo debe codificarse para poder ser almacenada en la memoria a largo plazo. Si esa información no está codificada y almacenada, no se recuerda y esto significa que no se ha aprendido.</p>
+<p>La información ingresa a la memoria a corto plazo principalmente a través de tu <span data-i="canal verbal">canal verbal</span> (para el habla) y del <span data-i="canal visual">canal visual</span> (para las imágenes)<sup> Un modelo más completo también incluiría el sentido del tacto, del olfato y del gusto, pero por ahora los ignoraremos.</sup>. Si bien la mayoría de las personas confía principalmente en su canal visual, cuando las imágenes y las palabras se complementan entre sí el cerebro hace un mejor trabajo al recordarlas: se codifican juntas, de modo que el recuerdo de una ayuda a activar el recuerdo de la otra.</p>
+<p>Las entradas lingüísticas y visuales son procesadas por diferentes partes del cerebro humano y a su vez los recuerdos lingüísticos y visuales son almacenados también de manera separada. Esto significa que correlacionar flujos de información lingüísticos y visuales requiere esfuerzo cognitivo: si alguien lee algo mientras lo escucha en voz alta, su cerebro no puede evitar comprobar que obtiene la misma información por ambos canales.</p>
+</a><p><a section="memory-seven-plus-or-minus">Por lo tanto, el aprendizaje aumenta cuando la información se presenta de manera simultánea por dos canales diferentes, pero se reduce cuando esa información es redundante, en lugar de ser complementaria: tal fenómeno es conocido como <span data-g="split-attention-effect">efecto de atención dividida</span> <span class="citation" data-cites="Maye2003">Mayer and Moreno (</span></a><a href="#ref-Maye2003" role="doc-biblioref">2003</a>). Por ejemplo, en general las personas encuentran más difícil aprender de un video que tiene narración y capturas de pantalla que aprender de un video que únicamente tiene narración ó capturas (pero no ambos elementos), porque en el primer caso parte de su atención ha sido utilizada para chequear que la narración y las capturas se correspondan entre sí. Dos notables excepciones son las personas que aún no hablan bien un idioma y las que tienen algún impedimento auditivo u otras necesidades especiales, quienes quizás encuentren que el valor de la información redundante supera el esfuerzo de procesamiento adicional.</p>
+<blockquote class="blockquote">
+<h3 id="fragmento-a-fragmento" data-number="3.1.1" class="anchored"><span class="header-section-number">3.1.1</span> Fragmento a fragmento</h3>
+<p>El efecto de la atención dividida explica por qué es más efectivo dibujar un diagrama fragmento a fragmento mientras enseñas, en lugar de presentar todo el gráfico de una sola vez. Si las partes de un diagrama aparecen al mismo tiempo en que los gráficos son explicados, el/la estudiante correlaciona ambos elementos en su memoria. Así que luego, al enfocarte en una parte del diagrama, es más probable que tu estudiante active la recuperación de lo que fue dicho cuando esa parte fue dibujada.</p>
+</blockquote>
+<p>El efecto de la atención dividida <em>no</em> significa que los/las estudiantes no deberían intentar conciliar múltiples flujos de información entrantes — después de todo, esto es lo que tienen que hacer en el mundo real @Atki2000 —. En cambio, significa que la instrucción no debería solicitar a las personas que lo hagan mientras están incorporando habilidades por primera vez: el uso de múltiples fuentes de información de manera simultánea debe tratarse como una tarea de aprendizaje separada.</p>
+<blockquote class="blockquote">
+<h3 id="no-todos-los-gráficos-son-equivalentes" data-number="3.1.2" class="anchored"><span class="header-section-number">3.1.2</span> No todos los gráficos son equivalentes</h3>
+<p><span class="citation" data-cites="Sung2012">Sung and Mayer (<a href="#ref-Sung2012" role="doc-biblioref">2012</a>)</span> presenta un elegante estudio que distingue los <span data-i="gráficos!seductores">gráficos <em>seductores</em></span> (los cuales son altamente interesantes pero no son directamente relevantes al objetivo de la enseñanza), los <span data-i="gráficos!decorativos">gráficos <em>decorativos</em></span> (los cuales son neutros pero no son directamente relevantes al objetivo de la enseñanza), y por último los <span data-i="gráficos!instructivos">gráficos <em>instructivos</em></span> (los cuales sí son directamente relevantes al objetivo de la enseñanza). Los/las estudiantes que recibieron cualquier tipo de gráfico calificaron al material con un mayor puntaje, pero en verdad solo quienes recibieron gráficos instructivos obtuvieron mejores resultados.</p>
+<p>Del mismo modo, <span class="citation" data-cites="Stam2013">Stampfer and Koedinger (<a href="#ref-Stam2013" role="doc-biblioref">2013</a>)</span>, @Stam2014 descubrió que tener más información en realidad puede disminuir el rendimiento. Les mostraron a niños/as: imágenes, imágenes más números, o simplemente números, para que realicen dos tareas. Para algunos/as niños/as, recibir imágenes o bien imágenes más números fue mejor que recibir únicamente números; pero para otros/as, recibir imágenes superó a recibir imágenes más números, lo que superó a solo tener números.</p>
+</blockquote>
+</section>
+<section id="architecture-load" class="level2" data-number="3.2">
+<h2 data-number="3.2" class="anchored" data-anchor-id="architecture-load"><span class="header-section-number">3.2</span> Carga cognitiva</h2>
+<p>En <span class="citation" data-cites="Kirs2006">Kirschner, Sweller, and Clark (<a href="#ref-Kirs2006" role="doc-biblioref">2006</a>)</span>, Kirschner, Sweller y Clark escribieron:</p>
+<blockquote class="blockquote">
+<p>Aunque los enfoques educativos no guiados o mínimamente guiados son muy populares e intuitivamente atractivos…estos enfoques ignoran las estructuras que constituyen la arquitectura cognitiva humana así como la evidencia de estudios empíricos de los últimos cincuenta años. Dichas evidencias indican sistemáticamente que la instrucción guiada mínimamente es menos eficaz y menos eficiente que los enfoques educacionales con un fuerte énfasis en la orientación del proceso de aprendizaje del estudiante. La ventaja de la orientación disminuye sólo cuando los/las estudiantes tienen un conocimiento previo suficientemente elevado para proporcionar una orientación “interna”.</p>
+</blockquote>
+<p>Más allá de la jerga, lo que estos autores afirmaban es que el hecho de que los/las estudiantes hagan sus propias preguntas, establezcan sus propias metas y encuentren su propio camino a través de un tema es menos efectivo que mostrarles cómo hacer las cosas paso a paso. El enfoque “elige tu propia aventura” se conoce como <span data-g="inquiry-based-learning">aprendizaje basado en la indagación</span> y es intuitivamente atractivo: después de todo, ¿quién se <em>opondría</em> a tener estudiantes que utilicen su propia iniciativa para resolver problemas del mundo real de forma realista? Sin embargo, pedir a los/las estudiantes que lo hagan en un nuevo dominio es una sobrecarga, ya que les exige que dominen al mismo tiempo el contenido fáctico de un dominio y las estrategias de resolución de problemas. Más específicamente, la teoría de la <span data-g="cognitive-load" data-i="carga cognitiva!teoría">carga cognitiva</span> propone que las personas tienen que lidiar con tres cosas cuando está aprendiendo:</p>
+<dl>
+<dt><span data-g="intrinsic-load" data-i="carga cognitiva!intrínseca">Carga intrínseca</span></dt>
+<dd>
+<p>es lo que las personas tienen que tener en cuenta para aprender el material nuevo.</p>
+</dd>
+<dt><span data-g="germane-load" data-i="carga cognitiva!pertinente">Carga pertinente</span></dt>
+<dd>
+<p>es el esfuerzo mental (deseable) requerido para vincular la nueva información con la antigua, que es una de las distinciones entre el aprendizaje y la memorización.</p>
+</dd>
+<dt><span data-g="extraneous-load" data-i="carga cognitiva!extrínseca">Carga extrínseca</span></dt>
+<dd>
+<p>es cualquier cuestión que distraiga del aprendizaje.</p>
+</dd>
+</dl>
+<p>La <span data-i="carga cognitiva!teoría">teoría de la carga cognitiva</span> sostiene que las personas tienen que dividir una cantidad fija de memoria de trabajo entre estas tres cosas. Nuestro objetivo como docentes es maximizar la memoria disponible para manejar la carga intrínseca, lo cual significa reducir la carga pertinente en cada paso y eliminar la carga extrínseca.</p>
+<section id="problemas-de-parsons" class="level3" data-number="3.2.1">
+<h3 data-number="3.2.1" class="anchored" data-anchor-id="problemas-de-parsons"><span class="header-section-number">3.2.1</span> Problemas de Parsons</h3>
+<p>Un tipo de ejercicio que puede ser explicado en términos de carga cognitiva se utiliza a menudo en la enseñanza de idiomas. Supongamos que le pides a alguien que traduzca la frase “¿Cómo está tu rodilla hoy?” de castellano a catalán. Para resolver el problema, necesitan recordar tanto el vocabulario como la gramática, que es una carga cognitiva doble. Si, en lugar de traducir desde cero, les pides que pongan “com”, “està”, “el”, “teu”, “genoll” y “avui” en el orden correcto, les permites que se centren únicamente en el aprendizaje de la gramática. Sin embargo, si escribes estas palabras en seis fuentes o colores diferentes, has aumentado la carga cognitiva extrínseca, porque involuntariamente (y posiblemente de manera inconsciente) invertirán algo de esfuerzo tratando de averiguar si las diferencias entre las palabras son significativas de acuerdo a sus colores (<a figure="f:architecture-frisian">).</a></p><a figure="f:architecture-frisian">
+<figure id="f:architecture-frisian" class="figure">
+<p><img src="frisian.png" alt="Construyendo una oración" class="figure-img"></p>
+<figcaption class="figure-caption">
+Construyendo una oración
+</figcaption>
+</figure>
+<p>El equivalente en programación de este ejemplo se llama <span data-g="parsons-problem">problema de Parsons</span><sup>Nombrado así debido a uno de sus creadores.</sup> @Pars2006.</p>
+<p>Cuando enseñes a programar, puedes darles a tus estudiantes las líneas de código que necesitan para resolver un problema y pedirles que las ordenen en el orden correcto. Esto les permite concentrarse en el flujo de control y en las dependencias de datos, sin distraerse con la denominación de las variables o tratando de recordar qué funciones llamar. Múltiples estudios han demostrado que los problemas de Parsons demandan menos tiempo de resolución y producen resultados educativos equivalentes @Eric2017</p>
+</a></section><a figure="f:architecture-frisian">
+</a><section id="ejemplos-desvanecidos-o-con-espacios-en-blanco" class="level3" data-number="3.2.2"><a figure="f:architecture-frisian">
+<h3 data-number="3.2.2" class="anchored" data-anchor-id="ejemplos-desvanecidos-o-con-espacios-en-blanco"><span class="header-section-number">3.2.2</span> Ejemplos desvanecidos (o con espacios en blanco)</h3>
+<p>Otro tipo de ejercicio que se puede explicar en términos de carga cognitiva es dar a tus estudiantes una serie de <span data-g="faded-example" data-i="ejemplo desvanecido">ejemplos desvanecidos</span> (<em>faded examples</em> en inglés). El primer ejemplo de una serie presenta un uso completo de una estrategia particular de resolución de problemas. El siguiente problema es del mismo tipo, pero tiene algunas lagunas que tu estudiante debe llenar. Cada problema sucesivo da menos <span data-g="scaffolding">andamiaje</span> (<em>scaffolding</em> en inglés), hasta que se pide resolver un problema completo desde cero. Al enseñar álgebra en la escuela secundaria, por ejemplo, podríamos comenzar con esto:</p>
+<table class="table">
+<tbody>
+<tr class="odd">
+<td>(4x + 8)/2</td>
+<td>=</td>
+<td>5</td>
+</tr>
+<tr class="even">
+<td>4x + 8</td>
+<td>=</td>
+<td>2 * 5</td>
+</tr>
+<tr class="odd">
+<td>4x + 8</td>
+<td>=</td>
+<td>10</td>
+</tr>
+<tr class="even">
+<td>4x</td>
+<td>=</td>
+<td>10 - 8</td>
+</tr>
+<tr class="odd">
+<td>4x</td>
+<td>=</td>
+<td>2</td>
+</tr>
+<tr class="even">
+<td>x</td>
+<td>=</td>
+<td>2 / 4</td>
+</tr>
+<tr class="odd">
+<td>x</td>
+<td>=</td>
+<td>1 / 2</td>
+</tr>
+</tbody>
+</table>
+<p>y luego pedir que los/las estudiantes resuelvan esto:</p>
+<table class="table">
+<tbody>
+<tr class="odd">
+<td>(3x - 1)*3</td>
+<td>=</td>
+<td>12</td>
+</tr>
+<tr class="even">
+<td>3x - 1</td>
+<td>=</td>
+<td>_ / _</td>
+</tr>
+<tr class="odd">
+<td>3x - 1</td>
+<td>=</td>
+<td>4</td>
+</tr>
+<tr class="even">
+<td>3x</td>
+<td>=</td>
+<td>_</td>
+</tr>
+<tr class="odd">
+<td>x</td>
+<td>=</td>
+<td>_ / 3</td>
+</tr>
+<tr class="even">
+<td>x</td>
+<td>=</td>
+<td>_</td>
+</tr>
+</tbody>
+</table>
+<p>y esto:</p>
+<table class="table">
+<tbody>
+<tr class="odd">
+<td>(5x + 1)*3</td>
+<td>=</td>
+<td>4</td>
+</tr>
+<tr class="even">
+<td>5x + 1</td>
+<td>=</td>
+<td>_</td>
+</tr>
+<tr class="odd">
+<td>5x</td>
+<td>=</td>
+<td>_</td>
+</tr>
+<tr class="even">
+<td>x</td>
+<td>=</td>
+<td>_</td>
+</tr>
+</tbody>
+</table>
+<p>y, finalmente, esto:</p>
+<table class="table">
+<tbody>
+<tr class="odd">
+<td>(2x + 8)/4</td>
+<td>=</td>
+<td>1</td>
+</tr>
+<tr class="even">
+<td>x</td>
+<td>=</td>
+<td>_</td>
+</tr>
+</tbody>
+</table>
+<p>Un ejercicio similar para enseñar <span data-i="Python">Python</span> podría comenzar mostrando a estudiantes cómo encontrar la longitud total de una lista de palabras:</p>
+<pre class="text"><code># largo_total(["rojo", "verde", "azul"]) =&gt; 12
+define largo_total(lista_de_palabras):
+    total = 0
+    for palabra in lista_de_palabras:
+        total = total + length(palabra)
+    return total</code></pre>
+<p>y luego pidiendo que llenen los espacios en blanco en este otro código (lo que centra su atención en las estructuras de control):</p>
+<pre class="text"><code># largo_palabra(["rojo", "verde", "azul"]) =&gt; [3, 5, 4]
+define largo_palabra(lista_de_palabras):
+    lista_de_longitudes = []
+    for ____ in ____:
+        append(lista_de_longitudes, ____)
+    return lista_de_longitudes</code></pre>
+<p>El siguiente problema podría ser este (que centra su atención en actualizar el resultado final):</p>
+<pre class="text"><code># juntar_todo(["rojo", "verde", "azul"]) =&gt; "rojoverdeazul"
+define juntar_todo(lista_de_palabras):
+    palabras_unidas = ____
+    for ____ in ____:
+        ____
+    return palabras_unidas</code></pre>
+<p>Finalmente, los/las estudiantes tendrán que escribir una función completa por su cuenta:</p>
+<pre class="text"><code># generar_acronimo(["rojo", "verde", "azul"]) =&gt; "RVA"
+define generar_acronimo(lista_de_palabras):
+    ____</code></pre>
+</a><p><a figure="f:architecture-frisian">Los ejemplos desvanecidos funcionan porque presentan la estrategia de resolución de problemas fragmento por fragmento. En cada paso, los/las estudiantes tienen un nuevo problema que abordar, lo cual es menos intimidante que una pantalla en blanco o una hoja de papel en blanco (</a><a section="classroom-practices">). También anima a que los/las estudiantes piensen en las similitudes y diferencias entre varios enfoques, lo que ayuda a crear los vínculos en sus modelos mentales y de ese modo facilita la recuperación de la información.</a></p><a section="classroom-practices">
+<p>La clave para construir un buen ejemplo desvanecido es pensar en la estrategia de resolución de problemas que se pretende enseñar. Por ejemplo, los problemas de programación sobre todo utilizan el patrón de diseño acumulativo, en el que los resultados del procesamiento de elementos de una colección se agregan repetidamente a una sola variable de alguna manera para crear el resultado final.</p>
+</a><blockquote class="blockquote"><a section="classroom-practices">
+<h3 id="aprendizaje-cognitivo" data-number="3.2.3" class="anchored"><span class="header-section-number">3.2.3</span> Aprendizaje cognitivo</h3>
+</a><p><a section="classroom-practices">Un modelo alternativo de aprendizaje e instrucción que también usa andamiaje y desvanecimiento es el <span data-g="cognitive-apprenticeship">aprendizaje cognitivo</span>, que enfatiza la forma en que un/a docente transmite habilidades y conocimientos a un/a estudiante. El/la docente proporciona modelos de desempeño y resultados, luego entrena a las personas novatas explicando qué están haciendo y por qué <span class="citation" data-cites="Coll1991">Collins, Brown, and Holum (</span></a><a href="#ref-Coll1991" role="doc-biblioref">1991</a>), <span class="citation" data-cites="Casp2007">Caspersen and Bennedsen (<a href="#ref-Casp2007" role="doc-biblioref">2007</a>)</span>. El/la estudiante reflexiona sobre su propia resolución de problemas, por ejemplo, pensando en voz alta o criticando su propio trabajo, y finalmente explora problemas de su propia elección.</p>
+<p>Este modelo nos dice que los/las docentes deben presentar varios ejemplos al explicar una nueva idea para que los/las estudiantes puedan ver qué generalizar, y que deben variar la forma del problema para dejar en claro cuáles son y cuáles no son características superficiales<sup>Por mucho tiempo creí que la variable que contenía el valor que una función iba a devolver <em>tenía</em> que llamarse <code>resultado</code>, porque mi docente siempre usaba ese nombre en los ejemplos.</sup>. Los problemas deben presentarse en contextos del mundo real, y debemos fomentar la autoexplicación para ayudar a los/las estudiantes a organizarse y dar sentido a lo que se les acaba de enseñar (<a section="individual-strategies">).</a></p><a section="individual-strategies">
+</a></blockquote><a section="individual-strategies">
+</a></section><a section="individual-strategies">
+</a><section id="sub-objetivos-etiquetados" class="level3" data-number="3.2.4"><a section="individual-strategies">
+<h3 data-number="3.2.4" class="anchored" data-anchor-id="sub-objetivos-etiquetados"><span class="header-section-number">3.2.4</span> Sub-objetivos etiquetados</h3>
+</a><p><a section="individual-strategies"><span data-g="subgoal-labeling" data-i="etiquetar sub-objetivos">Etiquetar sub-objetivos</span> significa dar nombre a los pasos en una descripción paso a paso de un proceso de resolución de problemas. <span class="citation" data-cites="Marg2016">Margulieux, Catrambone, and Guzdial (</span></a><a href="#ref-Marg2016" role="doc-biblioref">2016</a>) , <span class="citation" data-cites="Morr2016">Morrison et al. (<a href="#ref-Morr2016" role="doc-biblioref">2016</a>)</span> descubrieron que al etiquetar los sub-objetivos, los/las estudiantes resolvían mejor los problemas de Parsons, y se observa el mismo beneficio en otros dominios <span class="citation" data-cites="Marg2012">Margulieux, Guzdial, and Catrambone (<a href="#ref-Marg2012" role="doc-biblioref">2012</a>)</span>. Volviendo al ejemplo de <em>Python</em> usado anteriormente, los objetivos secundarios para encontrar la longitud total de una lista de palabras o construir un acrónimo son:</p>
+<ol type="1">
+<li><p>Crea un valor vacío del tipo a obtener.</p></li>
+<li><p>A partir de la variable del bucle, obtén el valor que se agregará al resultado.</p></li>
+<li><p>Actualiza el resultado con ese valor.</p></li>
+</ol>
+<p>Etiquetar sub-objetivos funciona porque agrupar los pasos relacionados en <span data-i="fragmentos de código">fragmentos</span> con nombre (<a section="memory-seven-plus-or-minus">) ayuda a tus estudiantes a distinguir lo que es genérico de lo que es específico del problema en cuestión. También les ayuda a construir un modelo mental de ese tipo de problema, de modo que luego pueden resolver otros problemas de ese tipo, y les da una oportunidad natural para la auto-explicación (</a><a section="individual-strategies">).</a></p><a section="individual-strategies">
+</a></section><a section="individual-strategies">
+</a><section id="manuales-mínimos" class="level3" data-number="3.2.5"><a section="individual-strategies">
+<h3 data-number="3.2.5" class="anchored" data-anchor-id="manuales-mínimos"><span class="header-section-number">3.2.5</span> Manuales mínimos</h3>
+</a><p><a section="individual-strategies">La aplicación más pura de la <span data-i="carga cognitiva!teoría">teoría de la carga cognitiva</span> puede ser el <span data-g="minimal-manual">manual mínimo</span> de <span data-i="Carroll, John">John Carroll</span> <span class="citation" data-cites="Carr1987">Carroll et al. (</span></a><a href="#ref-Carr1987" role="doc-biblioref">1987</a>), <span class="citation" data-cites="Carr2014">Carroll (<a href="#ref-Carr2014" role="doc-biblioref">2014</a>)</span>. Su punto de partida es una cita de un usuario: “Quiero aprender a hacer algo, no aprender a hacer todo”. Carroll y sus colegas rediseñaron la capacitación para presentar cada idea como una tarea autónoma de una sola página: un título que describa de qué trata la página, instrucciones paso a paso sobre cómo hacer una sola cosa (por ejemplo, cómo eliminar una línea en blanco en un editor de texto) y luego varias notas sobre cómo reconocer y resolver problemas comunes. Descubrieron que reescribir los materiales de capacitación de esta manera los hacía más cortos en general y que las personas que los usaban aprendían más rápido. Estudios posteriores confirmaron que este enfoque superó al enfoque tradicional independientemente de la experiencia previa con computadoras <span class="citation" data-cites="Lazo1993">Lazonder and van der Meij (<a href="#ref-Lazo1993" role="doc-biblioref">1993</a>)</span>. <span class="citation" data-cites="Carr2014">Carroll (<a href="#ref-Carr2014" role="doc-biblioref">2014</a>)</span> resumieron este trabajo diciendo:</p>
+<blockquote class="blockquote">
+<p>Nuestros diseños “minimalistas” buscaban aprovechar la iniciativa de cada usuario/a y el conocimiento previo, en lugar de controlarlo mediante advertencias y pasos ordenados. Se enfatizaba que los/las usuarios/as generalmente aportan mucha experiencia y conocimiento a este aprendizaje, por ejemplo, conocimiento sobre el dominio de la tarea, y que dicho conocimiento podría ser un recurso para los/as diseñadores/as de instructivos. El minimalismo aprovechó los episodios de reconocimiento, diagnóstico y corrección de errores, en lugar de intentar simplemente prevenirlos. Es decir, enmarcó la resolución de problemas y la corrección como oportunidades de aprendizaje en lugar de aberraciones.</p>
+</blockquote>
+</section>
+</section>
+<section id="architecture-theory" class="level2" data-number="3.3">
+<h2 data-number="3.3" class="anchored" data-anchor-id="architecture-theory"><span class="header-section-number">3.3</span> Otros modelos de aprendizaje</h2>
+<p>Quienes critican la <span data-i="carga cognitiva!críticas">teoría de la carga cognitiva</span> a veces han argumentado que cualquier resultado puede justificarse <em>a posteriori</em> al etiquetar como carga extrínseca a aquello que perjudica el rendimiento y como carga intrínseca o pertinente a aquello que no lo perjudica. Sin embargo, la instrucción basada en la teoría de la carga cognitiva es innegablemente efectiva. Por ejemplo, <span class="citation" data-cites="Maso2016">Mason, Seton, and Cooper (<a href="#ref-Maso2016" role="doc-biblioref">2016</a>)</span> rediseñó un curso de base de datos para eliminar la atención dividida y los efectos de redundancia y para proporcionar ejemplos prácticos y con sub-objetivos. El nuevo curso redujo la tasa de reprobación del examen en un 34% y aumentó la satisfacción de los/las estudiantes.</p>
+<p>Una década después de la publicación de <span class="citation" data-cites="Kirs2006">Kirschner, Sweller, and Clark (<a href="#ref-Kirs2006" role="doc-biblioref">2006</a>)</span>, un número creciente de personas cree que la teoría de la carga cognitiva y los enfoques basados en la investigación son compatibles si se ven de la manera correcta. <span class="citation" data-cites="Kaly2015">Kalyuga and Singh (<a href="#ref-Kaly2015" role="doc-biblioref">2015</a>)</span> sostiene que la teoría de la carga cognitiva es básicamente una microgestión del aprendizaje dentro de un contexto más amplio que considera cuestiones como la motivación, mientras que <span class="citation" data-cites="Kirs2018">Kirschner et al. (<a href="#ref-Kirs2018" role="doc-biblioref">2018</a>)</span> extiende la teoría de la carga cognitiva para incluir aspectos colaborativos del aprendizaje. Al igual que con <span class="citation" data-cites="Mark2018">Markovits and Weinstein (<a href="#ref-Mark2018" role="doc-biblioref">2018</a>)</span> (discutido en la <a section="individual-strategies">), las perspectivas de los/las investigadores/as pueden diferir, pero la implementación práctica de sus teorías a menudo termina siendo la misma.</a></p><a section="individual-strategies">
+</a><p><a section="individual-strategies">Uno de los desafíos en la investigación educativa es que lo que queremos decir con “aprendizaje” resulta complicado una vez que se mira más allá del aula occidental estandarizada. Dos perspectivas específicas de la <span data-g="educational-psychology">psicología educacional</span> han influido en este libro. La que hemos utilizado hasta ahora es el <span data-g="cognitivism">cognitivismo</span>, que se centra en conceptos como el reconocimiento de patrones, la formación de la memoria y el recuerdo. Es bueno para responder preguntas de bajo nivel, pero generalmente ignora cuestiones más importantes como, “¿Qué queremos decir con ‘aprendizaje’?” y “¿Quién tiene poder de decisión?” La segunda perspectiva utilizada es el <span data-g="situated-learning">aprendizaje situado</span>, que se centra en integrar a las personas en una comunidad y reconoce que la enseñanza y el aprendizaje siempre están arraigados en quiénes somos y quiénes aspiramos a ser. Lo discutiremos con más detalle en el </a><a section="community">.</a></p><a section="community">
+</a><p><a section="community">El sitio web de [Teorías de Aprendizaje][learning-theories] (<em>Learning Theories</em> en inglés) y <span class="citation" data-cites="Wibu2016">Wiburg et al. (</span></a><a href="#ref-Wibu2016" role="doc-biblioref">2016</a>) tienen buenos resúmenes de estas y otras perspectivas. Además del cognitivismo, las que se encuentran con mayor frecuencia incluyen el <span data-g="behaviorism">conductismo</span> (que trata la educación como un condicionamiento de estímulo/respuesta), el <span data-g="constructivism">constructivismo</span> (que considera al aprendizaje como un proceso activo durante el cual los/las estudiantes construyen conocimiento por sí mismos/as) y el <span data-g="connectivism">conectivismo</span> (que sostiene que el conocimiento se distribuye, que el aprendizaje es el proceso de navegar, crecer y podar conexiones, y que enfatiza los aspectos sociales del aprendizaje que internet hace posible). Estas perspectivas pueden ayudarnos a organizar nuestros pensamientos, pero en la práctica siempre tenemos que probar nuevos métodos en clase, con estudiantes reales, para descubrir qué tan bien equilibran las muchas fuerzas en juego.</p>
+</section>
+<section id="architecture-exercises" class="level2" data-number="3.4">
+<h2 data-number="3.4" class="anchored" data-anchor-id="architecture-exercises"><span class="header-section-number">3.4</span> Ejercicios</h2>
+<section id="crear-un-ejemplo-desvanecido-parejas30" class="level3 exercise" data-number="3.4.1">
+<h3 class="exercise anchored" data-number="3.4.1" data-anchor-id="crear-un-ejemplo-desvanecido-parejas30"><span class="header-section-number">3.4.1</span> Crear un ejemplo desvanecido (parejas/30’)</h3>
+<p>Es muy común que en los programas se cuenten cuántas cosas caen en diferentes categorías: por ejemplo, cuántas veces aparecen colores diferentes en una imagen o cuántas veces aparecen palabras diferentes en un párrafo de texto.</p>
+<ol type="1">
+<li><p>Crea un ejemplo breve (no más de 10 líneas de código) que muestre a las personas cómo hacer esta tarea. Luego, crea un segundo ejemplo que resuelva un problema similar de una manera similar, pero que tenga un par de espacios en blanco para que los/las estudiantes los completen. ¿Cómo decides qué desvanecer? ¿Cuál sería el siguiente ejemplo de la serie?</p></li>
+<li><p>Define el público de tus ejemplos. Por ejemplo, ¿son personas novatas que solo conocen algunos conceptos básicos de programación? ¿O son estudiantes con alguna experiencia en programación?</p></li>
+<li><p>Muestra tu ejemplo a tu pareja, pero <em>no</em> le digas para qué nivel crees que es. Una vez que tu pareja haya llenado los espacios en blanco, pídele que adivine el nivel de estudiante previsto.</p></li>
+</ol>
+<p>Si entre tus estudiantes hay personas que no programan en absoluto, intenta ubicarlos en diferentes grupos y pídeles que hagan el papel de estudiantes en sus grupos. Alternativamente, elige un dominio de problema diferente con el que desarrollar tu ejemplo desvanecido.</p>
+</section>
+<section id="clasificación-de-carga-grupos-pequeños15" class="level3 exercise" data-number="3.4.2">
+<h3 class="exercise anchored" data-number="3.4.2" data-anchor-id="clasificación-de-carga-grupos-pequeños15"><span class="header-section-number">3.4.2</span> Clasificación de carga (grupos pequeños/15’)</h3>
+<ol type="1">
+<li><p>Elige una lección corta que alguna persona de tu grupo haya enseñado o tomado recientemente.</p></li>
+<li><p>Haz un listado con viñetas de las ideas, instrucciones y explicaciones que contiene la lección.</p></li>
+<li><p>Clasifica cada elemento de tu listado como carga intrínseca, pertinente o extrínseca. ¿En qué ítems todas las personas del grupo estuvieron de acuerdo? ¿En cuáles estuvieron en desacuerdo y por qué?</p></li>
+</ol>
+<p>(El ejercicio “Notar tus puntos ciegos” en la <a section="memory-exercises"> te dará una idea de cuán detallado debe ser tu listado de ítems).</a></p><a section="memory-exercises">
+</a></section><a section="memory-exercises">
+<section id="crear-un-problema-de-parsons-en-parejas20" class="level3 exercise" data-number="3.4.3">
+<h3 class="exercise anchored" data-number="3.4.3" data-anchor-id="crear-un-problema-de-parsons-en-parejas20"><span class="header-section-number">3.4.3</span> Crear un problema de Parsons (en parejas/20’)</h3>
+<p>Escribe cinco o seis líneas de código que hagan algo útil, mézclalas y pídele a tu pareja que las ponga en orden. Si estás utilizando un lenguaje basado en indentación como <em>Python</em>, no utilices sangría en ninguna de las líneas; si estás utilizando un lenguaje de llaves como <em>Java</em>, no incluyas ninguna de las llaves. (Si tu grupo incluye personas que no programan, usa un dominio de problema diferente, como, por ejemplo, hacer budín de pan).</p>
+</section>
+<section id="manuales-mínimos-individual20" class="level3 exercise" data-number="3.4.4">
+<h3 class="exercise anchored" data-number="3.4.4" data-anchor-id="manuales-mínimos-individual20"><span class="header-section-number">3.4.4</span> Manuales mínimos (individual/20’)</h3>
+<p>Escribe una guía de una página para hacer algo que tus estudiantes puedan encontrar en una de tus clases, como centrar el texto horizontalmente o imprimir un número con un cierto número de dígitos después del punto decimal. Intenta enumerar al menos tres o cuatro resultados incorrectos que tu estudiante pueda obtener e incluye una explicación de una o dos líneas de por qué ocurre cada uno y cómo corregirlo.</p>
+</section>
+<section id="aprendizaje-cognitivo-parejas15" class="level3 exercise" data-number="3.4.5">
+<h3 class="exercise anchored" data-number="3.4.5" data-anchor-id="aprendizaje-cognitivo-parejas15"><span class="header-section-number">3.4.5</span> Aprendizaje cognitivo (parejas/15’)</h3>
+<p>Elige un problema de codificación que puedas resolver en dos o tres minutos y piensa en voz alta mientras lo resuelves, al mismo tiempo tu pareja te hace preguntas sobre lo que estás haciendo y por qué. No solo explica lo que estás haciendo, sino también por qué lo estás haciendo, cómo sabes que es lo correcto y qué alternativas has considerado pero descartado. Cuando hayas terminado, intercambia roles con tu pareja y repite el ejercicio.</p>
+</section>
+</a><section id="ejemplos-resueltos-parejas15" class="level3 exercise" data-number="3.4.6"><a section="memory-exercises">
+<h3 class="exercise anchored" data-number="3.4.6" data-anchor-id="ejemplos-resueltos-parejas15"><span class="header-section-number">3.4.6</span> Ejemplos resueltos (parejas/15’)</h3>
+</a><p><a section="memory-exercises">Ver ejemplos resueltos ayuda a las personas a aprender a programar más rápido que simplemente escribiendo mucho código <span class="citation" data-cites="Skud2014">Skudder and Luxton-Reilly (</span></a><a href="#ref-Skud2014" role="doc-biblioref">2014</a>), y desconstruir el código rastreándolo o depurándolo también aumenta el aprendizaje <span class="citation" data-cites="Grif2016">Griffin (<a href="#ref-Grif2016" role="doc-biblioref">2016</a>)</span>. Trabajando en parejas, revisa un fragmento de código de 10 a 15 líneas y explica qué hace cada declaración y por qué es necesaria. ¿Cuánto tiempo demoras? ¿Cuántas cosas crees que necesitas explicar por línea de código?</p>
+</section>
+<section id="gráficos-críticos-individual30" class="level3 exercise" data-number="3.4.7">
+<h3 class="exercise anchored" data-number="3.4.7" data-anchor-id="gráficos-críticos-individual30"><span class="header-section-number">3.4.7</span> Gráficos críticos (individual/30’)</h3>
+<p><span class="citation" data-cites="Maye2009">Mayer (<a href="#ref-Maye2009" role="doc-biblioref">2009</a>)</span> , <span class="citation" data-cites="Mill2016a">Miller (<a href="#ref-Mill2016a" role="doc-biblioref">2016</a>)</span> presentan seis principios para una buena enseñanza de gráficos:</p>
+<dl>
+<dt>Señalización:</dt>
+<dd>
+<p>resalta visualmente los puntos más importantes para que se destaquen del material menos crítico.</p>
+</dd>
+<dt>Contigüidad espacial:</dt>
+<dd>
+<p>coloca los subtítulos lo más cerca posible de los gráficos para compensar el costo de cambiar entre la imagen y el texto.</p>
+</dd>
+<dt>Contigüidad temporal:</dt>
+<dd>
+<p>Presenta narraciones habladas y gráficos tan seguidos en el tiempo como sea práctico. (Presentar ambos a la vez es mejor que presentarlos uno tras otro).</p>
+</dd>
+<dt>Segmentación:</dt>
+<dd>
+<p>Cuando presentes una secuencia larga de material o cuando tus estudiantes no tengan experiencia en el tema, divide la presentación en segmentos cortos y deja que los/las estudiantes controlen la rapidez con que avanzan al siguiente.</p>
+</dd>
+<dt>Pre-entrenamiento:</dt>
+<dd>
+<p>Si tus estudiantes no conocen los conceptos y la terminología principales que utilizas en la presentación, enseña solo esos conceptos y términos de antemano.</p>
+</dd>
+<dt>Modalidad:</dt>
+<dd>
+<p>las personas aprenden mejor de las imágenes con narración que de las imágenes con texto, a menos que no sean hablantes nativas del idioma de la lección o que haya palabras o símbolos técnicos.</p>
+</dd>
+</dl>
+<p>Elige un video de una lección o charla en línea que utilice diapositivas u otras presentaciones estáticas y califica sus gráficos como “deficientes”, “promedio” o “buenos” de acuerdo con estos seis criterios.</p>
+</section>
+</section>
+<section id="revisión" class="level2" data-number="3.5">
+<h2 data-number="3.5" class="anchored" data-anchor-id="revisión"><span class="header-section-number">3.5</span> Revisión</h2>
+<p><img src="diagrams/conceptmap-cognitive-load.svg" alt="el pensamiento está limitado por la carga cognitiva. Esta carga cognitiva puede ser intrísica (que es deseable), pertinente (que debería ser reducida) y extrínseca (que debería ser eliminada). El pensamiento accede a la memoria de corto plazo, el cual codificado pasa a la memoria de largo plazo desde la cual se puede recuperar a la memoría de corto plazo para ser utilizado. El discurso usa el canal lingüístico, las imágenes usan el canal visual y el texto usa ambos canales. El canal visual puede reforzar o puede conflictuar el canal lingüístico. Estos canales integrados se almacenan en la memoria de corto plazo."></p>
+<figcaption>
+Conceptos: Carga cognitiva
+</figcaption>
+
+
+<div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography">
+<div id="ref-Carr2014" class="csl-entry" role="doc-biblioentry">
+Carroll, John. 2014. <span>“Creating Minimalist Instruction.”</span> <em>International Journal of Designs for Learning</em> 5 (2). <a href="https://doi.org/10.14434/ijdl.v5i2.12887">https://doi.org/10.14434/ijdl.v5i2.12887</a>.
+</div>
+<div id="ref-Carr1987" class="csl-entry" role="doc-biblioentry">
+Carroll, John, Penny Smith-Kerker, James Ford, and Sandra Mazur-Rimetz. 1987. <span>“The Minimal Manual.”</span> <em>Human-Computer Interaction</em> 3 (2): 123–53. <a href="https://doi.org/10.1207/s15327051hci0302_2">https://doi.org/10.1207/s15327051hci0302_2</a>.
+</div>
+<div id="ref-Casp2007" class="csl-entry" role="doc-biblioentry">
+Caspersen, Michael E., and Jens Bennedsen. 2007. <span>“Instructional Design of a Programming Course.”</span> In <em>2007 International Computing Education Research Conference (<span>ICER’07</span>)</em>. Association for Computing Machinery (<span>ACM</span>). <a href="https://doi.org/10.1145/1288580.1288595">https://doi.org/10.1145/1288580.1288595</a>.
+</div>
+<div id="ref-Coll1991" class="csl-entry" role="doc-biblioentry">
+Collins, Allan, John Seely Brown, and Ann Holum. 1991. <span>“Cognitive Apprenticeship: Making Thinking Visible.”</span> <em>American Educator</em> 6: 38–46.
+</div>
+<div id="ref-Grif2016" class="csl-entry" role="doc-biblioentry">
+Griffin, Jean M. 2016. <span>“Learning by Taking Apart.”</span> In <em>2016 Conference on Information Technology Education (<span>SIGITE’16</span>)</em>. <span>ACM</span> Press. <a href="https://doi.org/10.1145/2978192.2978231">https://doi.org/10.1145/2978192.2978231</a>.
+</div>
+<div id="ref-Kaly2015" class="csl-entry" role="doc-biblioentry">
+Kalyuga, Slava, and Anne-Marie Singh. 2015. <span>“Rethinking the Boundaries of Cognitive Load Theory in Complex Learning.”</span> <em>Educational Psychology Review</em> 28 (4): 831–52. <a href="https://doi.org/10.1007/s10648-015-9352-0">https://doi.org/10.1007/s10648-015-9352-0</a>.
+</div>
+<div id="ref-Kirs2006" class="csl-entry" role="doc-biblioentry">
+Kirschner, Paul A., John Sweller, and Richard E. Clark. 2006. <span>“Why Minimal Guidance During Instruction Does Not Work: An Analysis of the Failure of Constructivist, Discovery, Problem-Based, Experiential, and Inquiry-Based Teaching.”</span> <em>Educational Psychologist</em> 41 (2): 75–86. <a href="https://doi.org/10.1207/s15326985ep4102_1">https://doi.org/10.1207/s15326985ep4102_1</a>.
+</div>
+<div id="ref-Kirs2018" class="csl-entry" role="doc-biblioentry">
+Kirschner, Paul A., John Sweller, Femke Kirschner, and Jimmy Zambrano R. 2018. <span>“From Cognitive Load Theory to Collaborative Cognitive Load Theory.”</span> <em>International Journal of Computer-Supported Collaborative Learning</em>, April. <a href="https://doi.org/10.1007/s11412-018-9277-y">https://doi.org/10.1007/s11412-018-9277-y</a>.
+</div>
+<div id="ref-Lazo1993" class="csl-entry" role="doc-biblioentry">
+Lazonder, Ard W., and Hans van der Meij. 1993. <span>“The Minimal Manual: Is Less Really More?”</span> <em>International Journal of Man-Machine Studies</em> 39 (5): 729–52. <a href="https://doi.org/10.1006/imms.1993.1081">https://doi.org/10.1006/imms.1993.1081</a>.
+</div>
+<div id="ref-Marg2016" class="csl-entry" role="doc-biblioentry">
+Margulieux, Lauren E., Richard Catrambone, and Mark Guzdial. 2016. <span>“Employing Subgoals in Computer Programming Education.”</span> <em>Computer Science Education</em> 26 (1): 44–67. <a href="https://doi.org/10.1080/08993408.2016.1144429">https://doi.org/10.1080/08993408.2016.1144429</a>.
+</div>
+<div id="ref-Marg2012" class="csl-entry" role="doc-biblioentry">
+Margulieux, Lauren E., Mark Guzdial, and Richard Catrambone. 2012. <span>“Subgoal-Labeled Instructional Material Improves Performance and Transfer in Learning to Develop Mobile Applications.”</span> In <em>2012 International Computing Education Research Conference (<span>ICER’12</span>)</em>, 71–78. <span>ACM</span> Press. <a href="https://doi.org/10.1145/2361276.2361291">https://doi.org/10.1145/2361276.2361291</a>.
+</div>
+<div id="ref-Mark2018" class="csl-entry" role="doc-biblioentry">
+Markovits, Rebecca A., and Yana Weinstein. 2018. <span>“Can Cognitive Processes Help Explain the Success of Instructional Techniques Recommended by Behavior Analysts?”</span> <em>NPJ Science of Learning</em> 3 (1). <a href="https://doi.org/10.1038/s41539-017-0018-1">https://doi.org/10.1038/s41539-017-0018-1</a>.
+</div>
+<div id="ref-Maso2016" class="csl-entry" role="doc-biblioentry">
+Mason, Raina, Carolyn Seton, and Graham Cooper. 2016. <span>“Applying Cognitive Load Theory to the Redesign of a Conventional Database Systems Course.”</span> <em>Computer Science Education</em> 26 (1): 68–87. <a href="https://doi.org/10.1080/08993408.2016.1160597">https://doi.org/10.1080/08993408.2016.1160597</a>.
+</div>
+<div id="ref-Maye2009" class="csl-entry" role="doc-biblioentry">
+Mayer, Richard E. 2009. <em>Multimedia Learning</em>. Second. Cambridge University Press.
+</div>
+<div id="ref-Maye2003" class="csl-entry" role="doc-biblioentry">
+Mayer, Richard E., and Roxana Moreno. 2003. <span>“Nine Ways to Reduce Cognitive Load in Multimedia Learning.”</span> <em>Educational Psychologist</em> 38 (1): 43–52. <a href="https://doi.org/10.1207/s15326985ep3801_6">https://doi.org/10.1207/s15326985ep3801_6</a>.
+</div>
+<div id="ref-Mill2016a" class="csl-entry" role="doc-biblioentry">
+Miller, Michelle D. 2016. <em>Minds Online: Teaching Effectively with Technology</em>. Harvard University Press.
+</div>
+<div id="ref-Morr2016" class="csl-entry" role="doc-biblioentry">
+Morrison, Briana B., Lauren E. Margulieux, Barbara J. Ericson, and Mark Guzdial. 2016. <span>“Subgoals Help Students Solve <span>Parsons Problems</span>.”</span> In <em>2016 Technical Symposium on Computer Science Education (<span>SIGCSE’16</span>)</em>. Association for Computing Machinery (<span>ACM</span>). <a href="https://doi.org/10.1145/2839509.2844617">https://doi.org/10.1145/2839509.2844617</a>.
+</div>
+<div id="ref-Skud2014" class="csl-entry" role="doc-biblioentry">
+Skudder, Ben, and Andrew Luxton-Reilly. 2014. <span>“Worked Examples in Computer Science.”</span> In <em>2014 Australasian Computing Education Conference, (<span>ACE’14</span>)</em>.
+</div>
+<div id="ref-Stam2013" class="csl-entry" role="doc-biblioentry">
+Stampfer, Eliane, and Kenneth R. Koedinger. 2013. <span>“When Seeing Isn’t Believing: Influences of Prior Conceptions and Misconceptions.”</span> In <em>2013 Annual Meeting of the Cognitive Science Society (<span>CogSci’13</span>)</em>.
+</div>
+<div id="ref-Sung2012" class="csl-entry" role="doc-biblioentry">
+Sung, Eunmo, and Richard E. Mayer. 2012. <span>“When Graphics Improve Liking but Not Learning from Online Lessons.”</span> <em>Computers in Human Behavior</em> 28 (5): 1618–25. <a href="https://doi.org/10.1016/j.chb.2012.03.026">https://doi.org/10.1016/j.chb.2012.03.026</a>.
+</div>
+<div id="ref-Wibu2016" class="csl-entry" role="doc-biblioentry">
+Wiburg, Karin, Julia Parra, Gaspard Mucundanyi, Jennifer Green, and Nate Shaver, eds. 2016. <em>The Little Book of Learning Theories</em>. Second. CreateSpace.
+</div>
+</div>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./intro.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Introduction</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./community.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Comunidad</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+</body></html>

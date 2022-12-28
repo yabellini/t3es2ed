@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.0.38">
+<meta name="generator" content="quarto-1.2.269">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -11,10 +11,15 @@
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-span.underline{text-decoration: underline;}
-div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
 </style>
 
 
@@ -25,6 +30,7 @@ ul.task-list{list-style: none;}
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<link href="./architecture.html" rel="next">
 <link href="./rules.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -102,24 +108,44 @@ ul.task-list{list-style: none;}
   <a href="./intro.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Introduction</span></a>
   </div>
 </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./architecture.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Arquitectura Cognitiva</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./community.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Comunidad</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./outreach.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Marketing</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./paid.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Como vivir de enseñar</span></a>
+  </div>
+</li>
     </ul>
     </div>
 </nav>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc">
+        <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#intro-audience" id="toc-intro-audience" class="nav-link active" data-scroll-target="#intro-audience"> <span class="header-section-number">2.1</span> Quién eres</a></li>
-  <li><a href="#intro-acknowledgments" id="toc-intro-acknowledgments" class="nav-link" data-scroll-target="#intro-acknowledgments"> <span class="header-section-number">2.2</span> Agradecimientos</a></li>
-  <li><a href="#intro-exercises" id="toc-intro-exercises" class="nav-link" data-scroll-target="#intro-exercises"> <span class="header-section-number">2.3</span> Ejercicios</a>
+  <li><a href="#intro-audience" id="toc-intro-audience" class="nav-link active" data-scroll-target="#intro-audience"><span class="toc-section-number">2.1</span>  Quién eres</a></li>
+  <li><a href="#intro-acknowledgments" id="toc-intro-acknowledgments" class="nav-link" data-scroll-target="#intro-acknowledgments"><span class="toc-section-number">2.2</span>  Agradecimientos</a></li>
+  <li><a href="#intro-exercises" id="toc-intro-exercises" class="nav-link" data-scroll-target="#intro-exercises"><span class="toc-section-number">2.3</span>  Ejercicios</a>
   <ul class="collapse">
-  <li><a href="#altos-y-bajos-clase-completa5" id="toc-altos-y-bajos-clase-completa5" class="nav-link" data-scroll-target="#altos-y-bajos-clase-completa5"> <span class="header-section-number">2.3.1</span> Altos y bajos (clase completa/5’)</a></li>
-  <li><a href="#conócete-clase-completa5" id="toc-conócete-clase-completa5" class="nav-link" data-scroll-target="#conócete-clase-completa5"> <span class="header-section-number">2.3.2</span> Conócete (clase completa/5’)</a></li>
-  <li><a href="#por-qué-aprender-a-programar-individual20" id="toc-por-qué-aprender-a-programar-individual20" class="nav-link" data-scroll-target="#por-qué-aprender-a-programar-individual20"> <span class="header-section-number">2.3.3</span> ¿Por qué aprender a programar? (individual/20’)</a></li>
+  <li><a href="#altos-y-bajos-clase-completa5" id="toc-altos-y-bajos-clase-completa5" class="nav-link" data-scroll-target="#altos-y-bajos-clase-completa5"><span class="toc-section-number">2.3.1</span>  Altos y bajos (clase completa/5’)</a></li>
+  <li><a href="#conócete-clase-completa5" id="toc-conócete-clase-completa5" class="nav-link" data-scroll-target="#conócete-clase-completa5"><span class="toc-section-number">2.3.2</span>  Conócete (clase completa/5’)</a></li>
+  <li><a href="#por-qué-aprender-a-programar-individual20" id="toc-por-qué-aprender-a-programar-individual20" class="nav-link" data-scroll-target="#por-qué-aprender-a-programar-individual20"><span class="toc-section-number">2.3.3</span>  ¿Por qué aprender a programar? (individual/20’)</a></li>
   </ul></li>
-  <li><a href="#repaso" id="toc-repaso" class="nav-link" data-scroll-target="#repaso"> <span class="header-section-number">2.4</span> Repaso</a></li>
+  <li><a href="#repaso" id="toc-repaso" class="nav-link" data-scroll-target="#repaso"><span class="toc-section-number">2.4</span>  Repaso</a></li>
   </ul>
 </nav>
     </div>
@@ -136,6 +162,7 @@ ul.task-list{list-style: none;}
 <div class="quarto-title-meta">
 
     
+  
     
   </div>
   
@@ -147,7 +174,7 @@ ul.task-list{list-style: none;}
 <p>Muchas de las personas que enseñan diferentes tipos de tecnologías, como programación, robótica y ciencia de datos no han recibido entrenamiento sobre como enseñar. Esto ocurre tanto con docentes de instituciones educativas formales <span class="citation" data-cites="Justice2017">(<a href="#ref-Justice2017" role="doc-biblioref"><strong>Justice2017?</strong></a>)</span> <span class="citation" data-cites="Kane2002">(<a href="#ref-Kane2002" role="doc-biblioref"><strong>Kane2002?</strong></a>)</span> como con docentes en grupos y comunidades de práctica, donde las personas enseñan y aprenden en un ambiente con características diferentes a las aulas tradicionales. Muchas veces estas personas aprender a enseñar por su cuenta o basan su enseñanza en experiencias personales <span class="citation" data-cites="Kane2002">(<a href="#ref-Kane2002" role="doc-biblioref"><strong>Kane2002?</strong></a>)</span> <span class="citation" data-cites="RuizMartín2021">(<a href="#ref-RuizMartín2021" role="doc-biblioref"><strong>RuizMartín2021?</strong></a>)</span>, que no siempre están alineadas con la evidencia científica.</p>
 <p><em>Hay una forma más conveniente.</em></p>
 <p>Existe mucho conocimiento sobre como aprendemos y sobre cual es la mejor manera de enseñar. La ciencia de la educación investiga diversas teorías sobre la enseñanza y el aprendizaje buscando evidencias que las respalden (o las refuten). Con este conocimiento, la comunidad educativa en general, puede tomar mejores decisiones fundamentadas en evidencia científica. El problema es que en general acceder a ese conocimiento científico es difícil, por diversas razones; desde el acceso restringido al material pasando por un lenguaje muy especializado, solo adecuado para expertos, hasta el hecho de no conocer lo suficiente para saber qué y dónde buscar. Y una vez que lo encontramos, suele ser complejo poder generar acciones concretas que podamos aplicar en el aula utilizando ese conocimiento.</p>
-<p>Creemos que la ciencia tiene sentido cuando sus desarrollos y descubrimientos son utilizados y ayudan a mejorar la vida de las personas y por eso el objetivo de este libro es contribuir a divulgar los resultados más importantes y recientes de la investigación sobre enseñanza y aprendizaje en tecnología. Intentamos presentar estos conocimientos de forma amena y pragmática, con un lenguaje adecuado para un público general. El éxito sostenido de iniciativas como &lt;FIXME agregar link The Carpentries&gt;, y &lt;MetaDocencia, FIXME agregar link&gt; que enseñan como enseñar con materiales accesibles, son una muestra del interés en la comunidad educativa de conocer y utilizar prácticas de enseñanza eficaces.</p>
+<p>Creemos que la ciencia tiene sentido cuando sus desarrollos y descubrimientos son utilizados y ayudan a mejorar la vida de las personas y por eso el objetivo de este libro es contribuir a divulgar los resultados más importantes y recientes de la investigación sobre enseñanza y aprendizaje en tecnología. Intentamos presentar estos conocimientos de forma amena y pragmática, con un lenguaje adecuado para un público general. El éxito sostenido de iniciativas como <a href="https://carpentries.org/">The Carpentries</a> y <a href="https://www.metadocencia.org/">MetaDocencia</a> que enseñan como enseñar con materiales accesibles, son una muestra del interés en la comunidad educativa de conocer y utilizar prácticas de enseñanza eficaces.</p>
 <p>Creemos que conocer una serie de conceptos básicos, sobre psicología cognitiva, diseño instruccional, inclusión, accesibilidad y organización comunitaria te puede ayudar a aumentar tu efectividad como docente.</p>
 <p>Este libro presenta ideas clave que puedes usar inmediatamente, explica por qué creemos que son ciertas y te señala otros recursos que te ayudarán a profundizar tus conocimientos.</p>
 <p>Esperamos que esto te de elementos para basar tus decisiones en evidencia científica, teniendo en cuenta tu contexto y tus estudiantes.</p>
@@ -303,7 +330,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
     button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
     setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
       button.setAttribute("title", currentTitle);
       button.classList.remove('code-copy-button-checked');
     }, 1000);
@@ -331,31 +375,50 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   for (var i=0; i<noterefs.length; i++) {
     const ref = noterefs[i];
     tippyHover(ref, function() {
-      let href = ref.getAttribute('href');
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
     });
   }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
   var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
   for (var i=0; i<bibliorefs.length; i++) {
     const ref = bibliorefs[i];
-    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
-    tippyHover(ref, function() {
-      var popup = window.document.createElement('div');
-      cites.forEach(function(cite) {
-        var citeDiv = window.document.createElement('div');
-        citeDiv.classList.add('hanging-indent');
-        citeDiv.classList.add('csl-entry');
-        var biblioDiv = window.document.getElementById('ref-' + cite);
-        if (biblioDiv) {
-          citeDiv.innerHTML = biblioDiv.innerHTML;
-        }
-        popup.appendChild(citeDiv);
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
       });
-      return popup.innerHTML;
-    });
+    }
   }
 });
 </script>
@@ -366,6 +429,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       </a>          
   </div>
   <div class="nav-page nav-page-next">
+      <a href="./architecture.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Arquitectura Cognitiva</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
   </div>
 </nav>
 </div> <!-- /content -->
