@@ -19,7 +19,7 @@ Discute, luego edita.
 
 Como se declaró en el <a section="intro"/>, todo este material puede distribuirse y reutilizarse libremente bajo la licencia Creative Commons Atribución -- No Comercial 4.0 (<a section="license"/>). Puedes usar la versión en línea en <http://teachtogether.tech/> en cualquier clase (gratuita o paga), y puedes citar extractos breves bajo las disposiciones de \[uso justo\]\[uso-justo\], pero no puedes volver a publicar fragmentos grandes en obras comerciales sin permiso previo.
 
-Este material ha sido usado de muchas maneras, desde una clase en línea de varias semanas hasta un taller intensivo en persona. Por lo general, es posible cubrir gran parte de los capítulos <a section="models"/> a <a section="process"/>, <a section="performance"/>, y <a section="motivation"/> en dos días de jornada completa.
+Este material ha sido usado de muchas maneras, desde charlas de media a una hora, a una clase en línea de una hora y media, tres horas o varios encuentros semanales, hasta un taller intensivo en persona. Por lo general, es posible cubrir gran parte de los capítulos <a section="models"/> a <a section="process"/>, <a section="performance"/>, y <a section="motivation"/> en dos días de jornada completa.
 
 ### En persona
 
@@ -27,9 +27,9 @@ Esta es la forma más efectiva de impartir esta capacitación, pero también la 
 
 Si estás enseñando en este formato, debes usar notas adhesivas como indicadores de estado para que puedas ver quién necesita ayuda, quién tiene preguntas y quién está listo/a para seguir adelante (<a section="classroom-sticky-notes"/>). También debes usarlos para distribuir la atención, para que todo el curso obtenga tu atención y tiempo de forma justa, como tarjetas de actas para alentar a tus estudiantes a reflexionar sobre lo que acaban de aprender y para darte retroalimentación procesable mientras todavía tienes tiempo para actuar en consecuencia.
 
-### En línea en grupos
+### Formato híbrido 
 
-En este formato, entre 10 a 40 estudiantes se juntan en 2 a 6 grupos de 4 a 12 personas, pero esos grupos están distribuidos geográficamente. Cada grupo usa una cámara y un micrófono para conectarse a la videollamada, en lugar de que cada persona esté en la llamada por separado. Un buen audio es más importante que un buen video en ambas direcciones: una voz sin imágenes (como la radio) es mucho más fácil de entender que las imágenes sin narrativa, y los/las docentes no necesitan ver a las personas para responder preguntas, siempre y cuando esas preguntas se puedan escuchar con claridad. Dicho esto, si una lección no es accesible, entonces no es útil (<a section="motivation-accessibility"/>): proporcionar texto descriptivo es una ayuda cuando la calidad del audio es deficiente, e incluso si el audio es bueno resulta importante para aquellas personas con dificultades auditivas.
+En este formato, entre 10 a 40 estudiantes se juntan en 2 a 6 grupos de 4 a 12 personas, pero esos grupos están distribuidos geográficamente. Cada grupo usa una cámara y un micrófono para conectarse a la videollamada, en lugar de que cada persona esté en la llamada por separado. Un buen audio es más importante que un buen video en ambas direcciones: una voz sin imágenes (como la radio) es mucho más fácil de entender que las imágenes sin narrativa, y quienes enseñan no necesitan ver a las personas para responder preguntas, siempre y cuando esas preguntas se puedan escuchar con claridad. Dicho esto, si una lección no es accesible, entonces no es útil (<a section="motivation-accessibility"/>): proporcionar texto descriptivo es una ayuda cuando la calidad del audio es deficiente, e incluso si el audio es bueno resulta importante para aquellas personas con dificultades auditivas.
 
 Toda la clase toma notas compartidas, y también usa las notas compartidas para hacer y responder preguntas. Tener varias decenas de personas tratando de hablar en una llamada no funciona bien, así que en la mayoría de las sesiones el/la docente habla y sus estudiantes responden a través del chat de la herramienta para tomar notas.
 
@@ -41,9 +41,20 @@ Tener participantes en línea individualmente hace que sea más difícil dibujar
 
 ### Multi-semana en línea
 
+#### Clases de una hora 
+
 La clase se reúne todas las semanas durante una hora a través de videoconferencia. Cada reunión puede realizarse dos veces para acomodar las zonas horarias y los horarios de los/las estudiantes. Los/las participantes toman notas compartidas como se describió anteriormente para las clases grupales en línea, para publicar tareas en línea entre clases y para comentar sobre el trabajo de los demás. En la práctica, los comentarios son relativamente raros: la gente prefiere discutir el material en las reuniones semanales.
 
-Este fue el primer formato que utilicé y ya no lo recomiendo: mientras que extender la clase les da a las personas tiempo para reflexionar y abordar ejercicios más extensos, también aumenta en gran medida las probabilidades de que tengan que abandonar debido a otras demandas de su tiempo.
+Este fue el primer formato que Greg utilizó pero ya no lo recomienda. Mientras que extender la clase les da a las personas tiempo para reflexionar y abordar ejercicios más extensos, también aumenta en gran medida las probabilidades de que tengan que abandonar debido a otras demandas de su tiempo.
+
+#### Encuentros de cuatro horas
+
+
+También es posible enseñar menos cantidad de material y modularizar los contenidos.  
+
+
+
+
 
 ## Contribuir y mantener {#joining-contributing}
 
