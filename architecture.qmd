@@ -4,7 +4,7 @@ editor:
     wrap: 72
 ---
 
-# Arquitectura Cognitiva
+# Arquitectura Cognitiva {#architecture}
 
 Hemos hablado acerca de modelos mentales como si fueran cosas reales,
 pero ¿qué es lo que realmente sucede en el cerebro de una persona cuando
@@ -16,12 +16,11 @@ aprovecharlo para diseñar y brindar lecciones de manera más efectiva.
 ## ¿Qué es lo que sucede allí? {#architecture-brain}
 
 ![Arquitectura
-cognitiva](diagrams/cognitive-architecture.svg){#arch-model
+cognitiva](diagrams/cognitive-architecture.svg){#fig-arch-model
 fig-alt="esquema que presenta dos recuadros principales, uno llamado 'memoria de largo plazo' y otro 'memoria de corto plazo'. El recuadro 'memoria de largo plazo' contiene un modelo mental de cajas y flechas que se relacionan entre sí. En el recuadro 'memoria de corto plazo', hay una caja representando al canal visual y otra caja representando al canal verbal. Desde ambas cajas salen una flecha hacia un signo más desde el cual sale una relación llamada 'codificar' hacia la memoria de largo plazo. Desde la memoria de largo plazo sale una relación llamada 'recuperar' hacia la memoria de corto plazo. Las imágenes tomadas a partir de los ojos y el habla registrada por medio de los oídos están por fuera de los dos recuadros principales y se relacionan con los canales visuales y verbales de la memoria a corto plazo, respectivamente."
 fig-align="center"}
 
-La **\<FIXME nombrar y numerar bien la figura arch-model"\>** es un
-modelo simplificado de la [arquitectura
+La @fig-arch-model es un modelo simplificado de la [arquitectura
 cognitiva]{i="arquitectura cognitiva"} humana. El núcleo de este modelo
 es la separación entre la memoria a corto y a largo plazo vistas en la
 <a section="memory-seven-plus-or-minus"/>. La [memoria a largo
@@ -85,7 +84,7 @@ supera el esfuerzo de procesamiento adicional.
 El efecto de la atención dividida *no* significa que los/las estudiantes
 no deberían intentar conciliar múltiples flujos de información entrantes
 --- después de todo, esto es lo que tienen que hacer en el mundo real
-\@Atki2000 ---. En cambio, significa que la instrucción no debería
+@Atki2000 ---. En cambio, significa que la instrucción no debería
 solicitar a las personas que lo hagan mientras están incorporando
 habilidades por primera vez: el uso de múltiples fuentes de información
 de manera simultánea debe tratarse como una tarea de aprendizaje
@@ -179,20 +178,16 @@ Sin embargo, si escribes estas palabras en seis fuentes o colores
 diferentes, has aumentado la carga cognitiva extrínseca, porque
 involuntariamente (y posiblemente de manera inconsciente) invertirán
 algo de esfuerzo tratando de averiguar si las diferencias entre las
-palabras son significativas de acuerdo a sus colores
-(<a figure="f:architecture-frisian"/>).
+palabras son significativas de acuerdo a sus colores @fig-architecture-frisian.
 
-<figure id="f:architecture-frisian">
-
-<img src="frisian.png" alt="Construyendo una oración"/>
-
-<figcaption>Construyendo una oración</figcaption>
-
-</figure>
+![Construyendo una
+oración](diagrams/frisian.png){#fig-architecture-frisian
+fig-alt="Construyendo una oración"
+fig-align="center"}
 
 El equivalente en programación de este ejemplo se llama [problema de
 Parsons]{g="parsons-problem"}<sup>Nombrado así debido a uno de sus
-creadores.</sup> \@Pars2006.
+creadores.</sup> @Pars2006.
 
 Cuando enseñes a programar, puedes darles a tus estudiantes las líneas
 de código que necesitan para resolver un problema y pedirles que las
@@ -591,9 +586,5 @@ criterios.
 
 ## Revisión
 
-
-<img src="diagrams/conceptmap-cognitive-load.svg" alt="el pensamiento está limitado por la carga cognitiva. Esta carga cognitiva puede ser intrísica (que es deseable), pertinente (que debería ser reducida) y extrínseca (que debería ser eliminada). El pensamiento accede a la memoria de corto plazo, el cual codificado pasa a la memoria de largo plazo desde la cual se puede recuperar a la memoría de corto plazo para ser utilizado. El discurso usa el canal lingüístico, las imágenes usan el canal visual y el texto usa ambos canales. El canal visual puede reforzar o puede conflictuar el canal lingüístico. Estos canales integrados se almacenan en la memoria de corto plazo."/>
-
-<figcaption>Conceptos: Carga cognitiva</figcaption>
-
-
+![Conceptos: Carga
+cognitiva](diagrams/conceptmap-cognitive-load.svg){alt="el pensamiento está limitado por la carga cognitiva. Esta carga cognitiva puede ser intrísica (que es deseable), pertinente (que debería ser reducida) y extrínseca (que debería ser eliminada). El pensamiento accede a la memoria de corto plazo, el cual codificado pasa a la memoria de largo plazo desde la cual se puede recuperar a la memoría de corto plazo para ser utilizado. El discurso usa el canal lingüístico, las imágenes usan el canal visual y el texto usa ambos canales. El canal visual puede reforzar o puede conflictuar el canal lingüístico. Estos canales integrados se almacenan en la memoria de corto plazo."}

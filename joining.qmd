@@ -207,9 +207,10 @@ presenta un *issue* en el repositorio. Necesitas tener una cuenta de
 Siempre etiqueta tus *issues* y *pull requests* como *"Español"*.
 
 Si no deseas crear una cuenta de GitHub, envía tu contribución por
-correo electrónico a `gvwilson@third-bit.com` con "T3" o *"Teaching Tech
-Together"* en algún lugar del asunto. Intentaremos responder en una
-semana.
+correo electrónico a yabellini\@gmail.com si es en español o a
+`gvwilson@third-bit.com` si es en inglés, con "T3" o *"Teaching Tech
+Together"* o *"Enseñar Tecnología en Comunidad"* en algún lugar del
+asunto. Intentaremos responder en una semana.
 
 Finalmente, siempre nos gusta escuchar cómo se ha usado este material, y
 estamos *siempre* agradecidos/as por el aporte de más mapas
