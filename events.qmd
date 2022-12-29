@@ -31,7 +31,7 @@ hosted the following types of meetups:
 
 
 
-### Club de Lectura {#sec-joining-using-bookclub}
+### Club de Lectura {#sec-events-bookclub}
 
 El objetivo de un club de lectura es leer, discutir, aprender y poner en común experiencias generadas a partir del libro.  Este libro se ha usado para club de lecturas online, con encuentros sincrónicos y con hilos de discusión en redes sociales. Algunos pasos a seguir para su organización.
 
