@@ -1,3 +1,6 @@
 # Preface {.unnumbered}
 
-Esta es la segunda edición en progreso de Enseñar Tecnología en Comunidad.
+Este es el sitio web de la segunda edición **en progreso** y **en castellano** de Enseñar Tecnología en Comunidad.
+
+Please note that T3ES uses a [Contributor Code of Conduct](https://contributor-covenant.org/version/2/0/CODE_OF_CONDUCT.html).
+By contributing to this book, you agree to abide by its terms.

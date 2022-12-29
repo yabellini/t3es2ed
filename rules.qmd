@@ -1,10 +1,5 @@
----
-editor: 
-  markdown: 
-    wrap: 72
----
 
-## Las reglas {#rules}
+# Las reglas {#rules}
 
 1.  Sé amable: todo lo demás son detalles.
 

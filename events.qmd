@@ -1,24 +1,14 @@
----
-crossref:
-  chapters: true
-  fig-title: Figura     # (default is "Figure")
-  tbl-title: Tabla     # (default is "Table")
----
-
 # Tipos de Eventos {#sec-events}
 
+Lunch & Learn session. Tell people to invite their friends. They may not realize how powerful their own networks are. When you get people together, you can share what you're all working on from different departments.
 
-Lunch & Learn session. Tell people to invite their friends. They may not realize how powerful their own networks are. When you get people together, you can share what you’re all working on from different departments.
-
-
- hosted a monthly R user group with the following agenda:
+hosted a monthly R user group with the following agenda:
 
     Intro (3-5 min): We provide an overview about the guest presenter we will host and their presentation topic (always an internal R user that is doing something neat with R that could benefit our R programming community)
     Company Data Science Updates (5 min): We discuss data warehouse and system updates that might impact our internal community
     Package Updates (5-10 min): Here we cover major updates to existing popular packages and we update the audience on new and improved internally developed packages
     Guest Presentation (30-40 min)
     Call for Ideas / Topics to discuss in future meetups (5 min)”
-
 
 hosted the following types of meetups:
 
@@ -29,16 +19,13 @@ hosted the following types of meetups:
     Meetup – Your first talk. An event where a safe and friendly space is generated for people to practice and deliver their first talk. The talk lasts between 5 to 10 minutes, after which feedback is provided.
     Book club meeting. Weekly or monthly meetings are held where different books related to R and data science are read and discussed (and if they have exercises they are solved together). The pandemic made it possible to organize these events between several chapters because of the online aspect.
 
-
-
 ### Club de Lectura {#sec-events-bookclub}
 
-El objetivo de un club de lectura es leer, discutir, aprender y poner en común experiencias generadas a partir del libro.  Este libro se ha usado para club de lecturas online, con encuentros sincrónicos y con hilos de discusión en redes sociales. Algunos pasos a seguir para su organización.
-
+El objetivo de un club de lectura es leer, discutir, aprender y poner en común experiencias generadas a partir del libro. Este libro se ha usado para club de lecturas online, con encuentros sincrónicos y con hilos de discusión en redes sociales. Algunos pasos a seguir para su organización.
 
 Paso 1. Definir los objetivos del club
 
-:     La idea es poder analizar cada capítulo, realizar los ejercicios propuestos y generar nuevos aprendizajes y construcciones en comunidad.  Reflexionar sobre nuestra práctica educativa a la luz de lo leído, como por ejemplo reconocer recursos ya utilizados e identificar recursos y estrategias que podemos sumar.
+:   La idea es poder analizar cada capítulo, realizar los ejercicios propuestos y generar nuevos aprendizajes y construcciones en comunidad. Reflexionar sobre nuestra práctica educativa a la luz de lo leído, como por ejemplo reconocer recursos ya utilizados e identificar recursos y estrategias que podemos sumar.
 
 Paso 1. Definir los encuentros (cantidad y duración).
 
@@ -46,13 +33,13 @@ Paso 1. Definir los encuentros (cantidad y duración).
 
 Paso 2. Definir el calendario de temas
 
-:   Es necesario repartir los capítulos que se verán en cada encuentro: ¿Cuántos capítulos por encuentro?, ¿Leemos también los anexos?. Se pueden agrupar los capítulos y anexos por afinidad temática o bien seguir el orden del libro.  Lo importante es tener un calendario predefinido que permita a las personas organizarse. Dos posibles organizaciones:
+:   Es necesario repartir los capítulos que se verán en cada encuentro: ¿Cuántos capítulos por encuentro?, ¿Leemos también los anexos?. Se pueden agrupar los capítulos y anexos por afinidad temática o bien seguir el orden del libro. Lo importante es tener un calendario predefinido que permita a las personas organizarse. Dos posibles organizaciones:
 
-* Un capítulo por cada encuentro semanal, con la última semana del mes libre para ponerse al día. 
+-   Un capítulo por cada encuentro semanal, con la última semana del mes libre para ponerse al día.
 
-*Ocho encuentros en total, semanales. Se agrupan los capítulos y los anexos de esta manera.
+\*Ocho encuentros en total, semanales. Se agrupan los capítulos y los anexos de esta manera.
 
-<FIXME: agregar tabla de organziación>
+\<FIXME: agregar tabla de organziación\>
 
 Paso 3. Definir responsabilidades
 
@@ -68,18 +55,16 @@ Paso 5. Difusión.
 
 Paso 6. Guía de participación durante el encuentro.
 
-:   Generar un documento compartido (Google Doc/Slides, HackMD) estructurado para cada encuentro con una serie de secciones @sec-shared-notes <FIXME>. Las posibles secciones:  Título y Datos generales, preguntas que guiarán la discusión y la charla (ejercicios para romper el hielo, trabajo en grupo, todos contestan, etc), preguntas generales fijas en todos los encuentros, material interesante y lo que viene.  En este documento se seleccionan ejercicios de cada capítulo y se resuelven en grupo.
+:   Generar un documento compartido (Google Doc/Slides, HackMD) estructurado para cada encuentro con una serie de secciones @sec-shared-notes <FIXME>. Las posibles secciones: Título y Datos generales, preguntas que guiarán la discusión y la charla (ejercicios para romper el hielo, trabajo en grupo, todos contestan, etc), preguntas generales fijas en todos los encuentros, material interesante y lo que viene. En este documento se seleccionan ejercicios de cada capítulo y se resuelven en grupo.
 
 Paso 7. Llevar adelante los encuentros.
 
-:     Los responsables inician la plataforma, dan la bienvenida,  recuerdan el código de conducta y dirigen la actividad (chat, documento compartido, diapositivas, salas para grupos, etc).  Quien presenta repasa los contenidos y gestiona la discusión. Cuando se cumple el tiempo, se comparte la encuesta anónima y los temas del encuentro siguiente. Si son encuentros sincónicos, online, se deja abierto el zoom y la posibilidad de extendernos en el horario, quienes pueden se quedan.  En general quienes participaban se quedaban media hora más.
+:   Los responsables inician la plataforma, dan la bienvenida, recuerdan el código de conducta y dirigen la actividad (chat, documento compartido, diapositivas, salas para grupos, etc). Quien presenta repasa los contenidos y gestiona la discusión. Cuando se cumple el tiempo, se comparte la encuesta anónima y los temas del encuentro siguiente. Si son encuentros sincónicos, online, se deja abierto el zoom y la posibilidad de extendernos en el horario, quienes pueden se quedan. En general quienes participaban se quedaban media hora más.
 
 Paso 8. Darle un cierre memorable.
 
-:   Invitar a autores y/o traductores al encuentro final puede ser un excelente cierre. Si no hablan el mismo idioma contratar a una traductora en vivo permite que cada persona hable en el idioma que se siente más cómoda. Los capítulos de las reglas y porqué enseño se discutieron con la presencia del autor.  Se recolectaron opiniones e ideas sobre como mejorar el libro.
-
+:   Invitar a autores y/o traductores al encuentro final puede ser un excelente cierre. Si no hablan el mismo idioma contratar a una traductora en vivo permite que cada persona hable en el idioma que se siente más cómoda. Los capítulos de las reglas y porqué enseño se discutieron con la presencia del autor. Se recolectaron opiniones e ideas sobre como mejorar el libro.
 
 Paso 9. Evaluar el club y sistematizar lo aprendido.
 
-:   La encuesta de devolución provee material para evaluar (y mejorar) lo realizado. Ir ajustando cada encuentro con las devoluciones permite  mejorar el tipo de actividad y de intercambios. Tener diversas formas de participación (hablado, escrito, en el chat, en el documento compartido, en el Slack) genera un ambiente amigable.
-
+:   La encuesta de devolución provee material para evaluar (y mejorar) lo realizado. Ir ajustando cada encuentro con las devoluciones permite mejorar el tipo de actividad y de intercambios. Tener diversas formas de participación (hablado, escrito, en el chat, en el documento compartido, en el Slack) genera un ambiente amigable.

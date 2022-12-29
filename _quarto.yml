@@ -2,9 +2,20 @@ project:
   type: book
 
 book:
-  title: "Enseñar Tecnología en Comunidad. Segunda Edición"
+  title: "Enseñar Tecnología en Comunidad (2e)"
   author: "Greg Wilson y Yanina Bellini Saibene"
   date: "11/20/2022"
+  
+  page-footer:
+    left: |
+      Enseñar Tecnología en Comunidad (2e) fue escrito por 
+      Greg Wilson y Yanina Bellini Saibene.
+    right: |
+      El libro fue construido con <a href="https://quarto.org/">Quarto</a>.
+  repo-url: https://github.com/yabellini/t3es2ed
+  repo-branch: main
+  repo-actions: [edit, issue]    
+    
   chapters:
     - index.qmd
     - rules.qmd

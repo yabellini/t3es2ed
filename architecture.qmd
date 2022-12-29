@@ -1,11 +1,3 @@
----
-crossref:
-  chapters: true
-  fig-title: Figura     # (default is "Figure")
-  tbl-title: Tabla     # (default is "Table")
-  title-delim: —     # (default is ":")
----
-
 # Arquitectura Cognitiva {#sec-architecture}
 
 Hemos hablado acerca de modelos mentales como si fueran cosas reales, pero ¿qué es lo que realmente sucede en el cerebro de una persona cuando está aprendiendo? La respuesta corta es que no lo sabemos, la respuesta larga es que sabemos mucho más que antes. Este capítulo profundizará en qué hace el cerebro mientras el aprendizaje sucede y en cómo podemos aprovecharlo para diseñar y brindar lecciones de manera más efectiva.

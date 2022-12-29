@@ -1,12 +1,3 @@
----
-number-sections: true
-crossref:
-  chapters: true
-  fig-title: Figura     # (default is "Figure")
-  tbl-title: Tabla     # (default is "Table")
-  title-delim: —     # (default is ":")
----
-
 # Unirse a nuestra comunidad {#sec-joining}
 
 Esperamos que elijas ayudarnos a mejorar este libro. Si esta forma de trabajo colaborativa es nueva, consulta en el @sec-conduct nuestro código de conducta, y luego:

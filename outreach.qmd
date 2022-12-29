@@ -1,12 +1,3 @@
----
-number-sections: true
-crossref:
-  chapters: true
-  fig-title: Figura     # (default is "Figure")
-  tbl-title: Tabla     # (default is "Table")
-  title-delim: —     # (default is ":")
----
-
 # Difusión y vinculación {#sec-outreach}
 
 Está de moda en los círculos tecnológicos menospreciar a las universidades y las instituciones gubernamentales como si fueran dinosaurios lentos, pero en mi experiencia no son peores que empresas de tamaño similar. El consejo de la escuela local, la biblioteca, la alcaldía o municipio pueden ofrecer espacio, financiación, publicidad, conexiones con otros grupos con los que aún no te has encontrado y una serie de otras cosas útiles. Conocer estas posibilidades puede ayudar a resolver o evitar problemas a corto plazo y generar beneficios en el futuro.
@@ -30,7 +21,7 @@ Imagina que tu grupo ofrece talleres de programación de fin de semana a persona
 Al igual que el diseño de lecciones (@sec-process), los primeros pasos en *marketing* son crear las [personas tipo]{i="persona tipo"} de la gente que podría estar interesada en lo que estás haciendo, y averiguar cuáles de sus necesidades puedes cumplir. Una manera de resumir lo último es escribir [discursos de presentación]{g="elevator-pitch" i="discurso breve de presentación"} dirigidos a diferentes personas tipo. Una plantilla ampliamente utilizada para este objetivo es:
 
 |                  |                                                         |
-|-------------------|-----------------------------------------------------|
+|--------------------|----------------------------------------------------|
 | Para             | *objetivo de público*                                   |
 | quien            | *insatisfacción con lo que está disponible actualmente* |
 | nuestros/as      | *categoría*                                             |
@@ -302,4 +293,4 @@ W.C. Fields probablemente nunca dijo "Si al principio no tienes éxito, inténta
 
 ### Mentoreo (todo la clase/15') {.exercise}
 
-El [Institute for African-American Mentoring in Computer Science][iaamcs] (Instituto de Mentoría Afroamericana en Ciencias de la Computación) ha publicado [guías para mentorear estudiantes de doctorado][iaamcs-guidelines]. Lee estas guías individualmente (en inglés), luego discutan en la clase y califiquen los esfuerzos para tu propio grupo como: +1 (definitivamente lo haría), 0 (no estoy seguro o no es aplicable), o -1 (definitivamente no lo haría).
+El \[Institute for African-American Mentoring in Computer Science\]\[iaamcs\] (Instituto de Mentoría Afroamericana en Ciencias de la Computación) ha publicado \[guías para mentorear estudiantes de doctorado\]\[iaamcs-guidelines\]. Lee estas guías individualmente (en inglés), luego discutan en la clase y califiquen los esfuerzos para tu propio grupo como: +1 (definitivamente lo haría), 0 (no estoy seguro o no es aplicable), o -1 (definitivamente no lo haría).
