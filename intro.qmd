@@ -25,15 +25,7 @@ Creemos que la ciencia tiene sentido cuando sus desarrollos y descubrimientos so
 
 Sabemos que conocer una serie de conceptos básicos, sobre psicología cognitiva, diseño instruccional, inclusión, accesibilidad y organización comunitaria te puede ayudar a aumentar tu efectividad como docente.
 
-<Hativa, Barak, and Simhi (2001) researched “the beliefs and pedagogical content
-knowledge of exemplary university teachers regarding effective teaching strategies,
-the extent to which they use various of these strategies and the relations between their beliefs and knowledge to their classroom practice” 
-
-Este estudio, uno de los más exhaustivos que hemos revisado en su intento de captar la complejidad de la enseñanza, propone explicaciones a las diferencias entre malos y buenos profesores: "Quizá una forma
-en la que el conocimiento pedagógico del contenido... difiere es en el número de estrategias eficaces en el aula con las que están familiarizados" (p. 722). Hativa, et al. descubrieron "que existe un buen ajuste, aunque dista mucho de ser perfecto, entre las creencias y los conocimientos de estos profesores en relación con las estrategias eficaces y su práctica en el aula">
-
-
-des by suggesting that fundamental changes to the quality of teaching and learning are unlikely to happen without change to lecturers' conception of teaching
+@Hativa2001 descubrieron que "existe un buen ajuste, aunque dista de ser perfecto, entre las creencias y los conocimientos pedagógicos de docentes de nivel superior ejemplares sobre las estrategias didácticas eficaces y su práctica en el aula". Explican la diferencias entre malos y buenos docentes al conocimiento pedagógico del contenido y el número de estrategias didácticas eficaces con las que están familiarizados y usan los docentes que obtienen mejores resultados. 
 
 Este libro presenta ideas clave que puedes usar inmediatamente, explica por qué creemos que son ciertas y te señala otros recursos que te ayudarán a profundizar tus conocimientos.
 
