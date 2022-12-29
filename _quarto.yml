@@ -21,6 +21,7 @@ book:
     # - online.qmd
     # - exercises.qmd
     - community.qmd
+    - events.qmd
     - outreach.qmd
     - paid.qmd
     # - finale.qmd

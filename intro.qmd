@@ -3,7 +3,6 @@ crossref:
   chapters: true
   fig-title: Figura     # (default is "Figure")
   tbl-title: Tabla     # (default is "Table")
-  title-delim: —     # (default is ":")
 ---
 
 # Introducción {#sec-intro}
