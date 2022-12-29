@@ -95,7 +95,7 @@ Los conceptos pedagógicos que se introducen son:
 * Mapas conceptuales.
 * Evaluación formativa diagnóstica para determinar entendimiento y corregir en el momento la explicación y el contenido.
 * Uso de un documento compartido colaborativo para tomar notas, resolver evaluaciones formativas, compartir material.
-* Herramientas pedagógicas rápidas basadas en evidencia y fáciles de implementar en entornos online, hibridos. 
+* Herramientas pedagógicas rápidas basadas en evidencia y fáciles de implementar en entornos en línea, híbridos y presenciales. 
 * Como pedir devoluciones efectivas.
 * Compartir fuentes de las cuales seguir aprendiendo y expandiendo prácticas pedagógicas
 
