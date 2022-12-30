@@ -3,8 +3,9 @@ project:
 
 book:
   title: "Enseñar Tecnología en Comunidad (2e)"
+  subtitle: "Cómo crear lecciones que funcionen y construir una comunidad docente alrededor"
   author: "Greg Wilson y Yanina Bellini Saibene"
-  date: "11/20/2022"
+  date: "2022-2023"
   
   page-footer:
     left: |
@@ -15,6 +16,9 @@ book:
   repo-url: https://github.com/yabellini/t3es2ed
   repo-branch: main
   repo-actions: [edit, issue]    
+
+  sidebar:
+    search: true
     
   chapters:
     - index.qmd
@@ -23,11 +27,11 @@ book:
     - models.qmd
     - memory.qmd
     - architecture.qmd
-    # - individual.qmd
+    - individual.qmd
     # - process.qmd
     # - pck.qmd
     # - performance.qmd
-    # - classroom.qmd
+    - classroom.qmd
     # - motivation.qmd
     # - online.qmd
     # - exercises.qmd
@@ -38,13 +42,13 @@ book:
     # - finale.qmd
     # - references.qmd
     # - license.qmd
-    # - conduct.qmd
+    - conduct.qmd
     - joining.qmd
     # - glossary.qmd
     # - meetings.qmd
-    # - checklists.qmd
+    - checklists.qmd
     - conceptmaps.qmd
-    # - chunking.qmd
+    - chunking.qmd
 
 bibliography: bibliography.bib
 
