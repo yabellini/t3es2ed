@@ -40,7 +40,7 @@ Este Código de Conducta aplica tanto a espacios dentro del proyecto como en esp
 
 ## Aplicación
 
-Los casos de comportamiento abusivo, acosador o inaceptable pueden ser denunciados enviando un correo electrónico a la persona encargada del proyecto a la dirección `gvwilson@third-bit.com`. Todas las quejas serán revisadas e investigadas y darán como resultado una respuesta que se considere necesaria y apropiada a las circunstancias. El equipo encargado del proyecto está obligado a mantener la confidencialidad de quien reporte un incidente. Se pueden publicar por separado más detalles de políticas de aplicación específicas.
+Los casos de comportamiento abusivo, acosador o inaceptable pueden ser denunciados enviando un correo electrónico a las personas encargadas del proyecto a la dirección `gvwilson@third-bit.com` (en inglés) y `yabellini@gmail.com` (en español). Todas las quejas serán revisadas e investigadas y darán como resultado una respuesta que se considere necesaria y apropiada a las circunstancias. El equipo encargado del proyecto está obligado a mantener la confidencialidad de quien reporte un incidente. Se pueden publicar por separado más detalles de políticas de aplicación específicas.
 
 Aquellas personas encargadas del proyecto que no cumplan o apliquen este código de conducta de buena fe pueden enfrentar repercusiones temporales o permanentes determinadas por el resto del equipo a cargo del proyecto.
 
