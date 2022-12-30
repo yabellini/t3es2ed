@@ -205,15 +205,10 @@ Hacer que los estudiantes dibujen mapas conceptuales y otros diagramas brinda un
 
 > ### Etiquetado de un diagrama
 >
-> La <a figure="f:exercises-labeling muestra cómo un fragmento pequeño de *HTML* se representa en memoria. Coloca las etiquetas 1--9 sobre los elementos del árbol para mostrar el orden en el que se alcanzan en un recorrido en profundidad.
+> La @fig-exercises-labeling muestra cómo un fragmento pequeño de *HTML* se representa en memoria. Coloca las etiquetas 1--9 sobre los elementos del árbol para mostrar el orden en el que se alcanzan en un recorrido en profundidad.
 
-<figure id="f:exercises-labeling">
+![Etiquetado de un diagrama](diagrams/labeling.svg){fig-exercises-labeling, fig-alt = "Inicia con una caja con una letra P mayúscula, salen cuatro flechas, dos hacia dos cajas diferentes con la misma etiqueta: "texto", otra hacia una caja con la letra I mayúscula y la última hacia una caja con la letra B mayúscula. Desde la caja de la letra B salen dos flechas, una hacia una caja etiquetada como "texto" y otra hacia una caja con la letra U mayúscula. Desde las letras I e U también salen flechas hacia diferentes cajas etiquetadas como "texto".}
 
-<img src="labeling.svg" alt="Etiquetado de un diagrama
-
-<figcaption>Etiquetado de un diagrama</figcaption>
-
-</figure>
 
 Otra forma de usar diagramas es dar a tus estudiantes las partes del diagrama y pedirles que las organicen correctamente.
 
@@ -227,15 +222,9 @@ En la *correspondencia uno-a-uno* se le da a cada estudiante dos listas de igual
 
 > ### Correspondencia
 >
-> Asocia cada operador de expresión regular en la <a figure="f:exercises-matching con lo que hace.
+> Asocia cada operador de expresión regular en la @fig-exercises-matching con lo que hace.
 
-<figure id="f:exercises-matching">
-
-<img src="matching.svg" alt="Unir los ítems
-
-<figcaption>Unir los ítems</figcaption>
-
-</figure>
+![Unir los ítems](diagrams/matching.svg) {fig-exercises-matching fig-alt="en el primer renglón llamado "Operador", se presentan cajas con símbolos en el siguiente orden: signo de pregunta, asterisco, más, peso, potencia. En el segundo renglón llamado "Acción" hay cajas etiquetadas con el siguiente orden: inicio de línea, cero o uno, fin de línea, uno o más, cero o más."}
 
 Con la *correspondencia de muchos a muchos* las listas no tienen la misma longitud, por lo que algunos elementos pueden asociarse con varios y otros pueden no ser emparejados en absoluto.
 

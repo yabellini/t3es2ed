@@ -34,7 +34,7 @@ book:
     - classroom.qmd
     # - motivation.qmd
     # - online.qmd
-    # - exercises.qmd
+    - exercises.qmd
     - community.qmd
     - events.qmd
     - outreach.qmd
