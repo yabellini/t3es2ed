@@ -40,12 +40,11 @@ book:
     - outreach.qmd
     - paid.qmd
     - finale.qmd
-    # - references.qmd
-    # - license.qmd
+    - license.qmd
     - conduct.qmd
     - joining.qmd
-    # - glossary.qmd
-    # - meetings.qmd
+    - glossary.qmd
+    - meetings.qmd
     - checklists.qmd
     - conceptmaps.qmd
     - chunking.qmd
