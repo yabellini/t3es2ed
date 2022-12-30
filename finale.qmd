@@ -1,0 +1,70 @@
+# ¿Por qué enseño? {#sec-finale}
+
+## Greg {#sec-finale-Greg}
+
+Cuando comencé a trabajar como voluntario en la Universidad de Toronto, mis estudiantes me preguntaron por qué enseñaba gratis. Esta fue mi respuesta:
+
+> Cuando tenía tu edad, pensaba que las universidades existían para enseñarle a la gente a aprender. Más tarde, en la escuela de posgrado, pensaba que las universidades se dedicaban a investigar y a crear nuevos conocimientos. Sin embargo, ahora que tengo cuarenta años pienso que lo que realmente te estamos enseñando es cómo hacerte cargo del mundo, porque vas a tener que hacerlo quieras o no.
+>
+> Mis padres tienen setenta años. Ya no manejan el mundo; son las personas de mi edad quienes aprueban leyes y toman decisiones de vida o muerte en los hospitales. Y sin importar qué tan aterrador sea, *nosotras/os* somos las personas adultas.
+>
+> En veinte años, nosotras/os estaremos camino a la jubilación y *tú* estarás a cargo. Esto puede parecer mucho tiempo cuando tienes diecinueve años, pero se pasa en un suspiro. Por eso te damos problemas cuyas respuestas no se pueden encontrar en las notas del año pasado. Por eso te ponemos en situaciones en las que tienes que decidir qué hacer ahora, qué se puede dejar para más tarde y qué puedes simplemente ignorar. Porque si no aprendes cómo hacer estas cosas ahora, no estarás lista/o para hacerlo cuando sea necesario.
+
+Todo esto era verdad, pero no es toda la historia. No quiero que la gente haga del mundo un lugar mejor para que yo me pueda retirar cómodamente. Quiero que lo hagan porque es la aventura más grande de nuestro tiempo. Hace ciento cincuenta años, la mayoría de las sociedades practicaban la esclavitud. Hace cien años, en Canadá, mi abuela \[no era considerada una persona desde el punto de vista legal\]\[famous-five\]. El año en que nací, la mayoría de las personas del mundo sufrían bajo algún régimen totalitario y la justicia todavía dictaminaba terapia de electroshock para "curar" a las/los homosexuales. Todavía hay muchas cosas que están mal en el mundo, pero mira cuántas más opciones tenemos que nuestras/os abuelas/os. Mira cuántas cosas más podemos saber, ser y disfrutar porque finalmente nos estamos tomando en serio la Regla de Oro.
+
+Hoy soy menos optimista que entonces. Cambio climático, extinción masiva, capitalismo de vigilancia, desigualdad a una escala que no habíamos visto desde hace un siglo, el resurgimiento del nacionalismo racista: mi generación vio cómo sucedió todo esto y se quedó de brazos cruzados. La factura de nuestra cobardía, letargo y avaricia no se pagará hasta que mi hija crezca, pero *llegará*, y para cuando lo haga, no habrá soluciones fáciles para estos problemas (y posiblemente no haya soluciones en absoluto).
+
+Así que por eso enseño: estoy enojado. Estoy enojado porque tu género, el color de tu piel y la riqueza y conexiones de tu madre y de tu padre no deberían contar más que cuán inteligente, honesta/o o trabajadora/or seas. Estoy enojado porque convertimos a internet en una cloaca. Estoy enojado porque los nazis están en marcha una vez más y los multimillonarios juegan con cohetes espaciales mientras el planeta se derrite. Estoy enojado, entonces enseño, porque el mundo solo mejora cuando enseñamos a las personas cómo mejorarlo.
+
+En su ensayo de 1947 \["¿Por qué escribo?"\]\[por-que-escribo\], [George Orwell]{i="Orwell, George"} escribió<sup>En el link encuentras el texto completo en castellano. El fragmento que sigue es una traducción propia del original en inglés.</sup>:
+
+> En una época pacífica, podría haber escrito libros superficiales, decorativos o simplemente descriptivos, y podría haber permanecido casi inconsciente de mis lealtades políticas. Pero tal como están las cosas, me he visto obligado a convertirme en una especie de panfletista... Cada línea de trabajo serio que he escrito desde 1936 ha sido escrita, directa o indirectamente, en contra del totalitarismo... Me parece una tontería, en un período como el nuestro, pensar que uno puede evitar escribir sobre tales temas. Todas las personas escriben al respecto de una manera u otra. La cuestión es simplemente elegir de qué lado lo hacemos.
+
+Reemplaza "escribir" por "enseñar" y sabrás porqué hago lo que hago.
+
+Gracias por leer---espero que podamos enseñar juntos algún día. Hasta entonces:
+
+::: {.centered markdown="1"}
+Comienza donde estás.<br/> Usa lo que tienes.<br/> Ayuda a quien puedas.
+:::
+
+
+## Yani {#sec-finale-Yani}
+
+
+## Qué otras cosas leer {#sec-finale-instead}
+
+Si tienes prisa o quieres tener una idea de lo que cubrirá este libro,
+@Brow2018 presenta diez sugerencias basadas en evidencias para enseñar computación<sup>En inglés</sup>.
+También puedes disfrutar<sup>Todos en inglés</sup>:
+
+- [El entrenamiento para instructoras/es de The Carpentries (Las/los carpinteras/os)][carpentries-instructor],
+  en el cual está basado este libro.
+
+- @Lang2016 y @Hust2012, que son textos cortos y accesibles, que conectan las cosas que puedes aplicar
+  inmediatamente con la investigación que hay detrás de ellas y las fundamenta.
+
+- @Berg2012,@Lemo2014,@Majo2015,@Broo2016,@Rice2018,@Wein2018b
+  están repletos de sugerencias prácticas sobre cosas que puedes hacer en tu clase,
+  pero pueden cobrar más sentido una vez que tengas un marco conceptual para entender por qué sus ideas funcionan.
+
+- @DeBr2015,
+  quien plantea qué cosas son ciertas sobre la educación al explicar qué cosas no lo son y @Dida2016,
+  que fundamenta la teoría del aprendizaje en psicología cognitiva.
+
+- @Pape1993,
+  que continúa siendo una visión inspiradora sobre cómo las computadoras pueden cambiar la educación.
+  [La excelente descripción de Amy Ko][ko-mindstorms]
+  es una síntesis de las ideas de Papert, mejor que la que podría hacer yo,
+  y @Craw2010 es una compañía provocadora y estimulante a ambos textos.
+
+- @Gree2014,@McMi2017,@Watt2014 explican por qué tantos intentos de reformas educativas
+  han fallado a lo largo de los últimos cuarenta años, cómo colegas que trabajan solo por dinero han explotado
+  y exacerbado la desigualdad en nuestra sociedad, y cómo la tecnología repetidamente ha fracasado en revolucionar la educación.
+
+- @Brow2007 y @Mann2015,
+  porque no puedes enseñar bien sin cambiar el sistema en el que enseñamos
+  y no puedes lograr este cambio trabajando de forma solitaria.
+
+Quienes deseen material más académico pueden encontrar gratificante leer a @Guzd2015a,@Hazz2014,@Sent2018,@Finc2019,@Hpl2018,
+mientras que [el blog de Mark Guzdial][guzdial-blog] ha sido consistentemente informativo, sugerente y motivador.

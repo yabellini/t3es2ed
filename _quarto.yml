@@ -39,7 +39,7 @@ book:
     - events.qmd
     - outreach.qmd
     - paid.qmd
-    # - finale.qmd
+    - finale.qmd
     # - references.qmd
     # - license.qmd
     - conduct.qmd
