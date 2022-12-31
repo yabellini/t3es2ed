@@ -32,8 +32,8 @@ book:
     # - pck.qmd
     # - performance.qmd
     - classroom.qmd
-    # - motivation.qmd
-    # - online.qmd
+    - motivation.qmd
+    - online.qmd
     - exercises.qmd
     - community.qmd
     - events.qmd
