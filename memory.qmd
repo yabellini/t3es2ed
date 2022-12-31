@@ -28,7 +28,8 @@ El último de estos puntos se llama [punto ciego de las personas expertas]{g="ex
 
 La herramienta que elegimos para representar el modelo mental de alguien es un [mapa conceptual]{g="concept-map"}, en el cual los hechos son burbujas y las conexiones son relaciones etiquetadas. Como ejemplos, la @fig-memory-seasons muestra por qué la Tierra tiene estaciones (de [IHMC][ihmc]), y el @sec-conceptmaps presenta mapas conceptuales de una biblioteca desde tres puntos de vista distintos.
 
-![Mapa conceptual para estaciones](diagrams/seasons.svg){#fig-memory-seasons}
+![Mapa conceptual para estaciones](diagrams/seasons.svg){#fig-memory-seasons fig-alt=""}
+
 Para mostrar cómo pueden ser usados los mapas conceptuales para enseñar programación, considera este bucle `for` en [Python]{i="Python"}:
 
 ``` text
