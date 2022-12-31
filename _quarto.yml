@@ -28,9 +28,9 @@ book:
     - memory.qmd
     - architecture.qmd
     - individual.qmd
-    # - process.qmd
-    # - pck.qmd
-    # - performance.qmd
+    - process.qmd
+    - pck.qmd
+    - performance.qmd
     - classroom.qmd
     - motivation.qmd
     - online.qmd
