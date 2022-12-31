@@ -1,4 +1,3 @@
-
 # Pericia y memoria {#sec-memory}
 
 > La memoria es el remanente del pensamiento.<br/> --- [Daniel Willingham]{i="Willingham, Daniel"}, *Por qué a las/los estudiantes no les gusta la escuela (Why Students Don't Like School)*
@@ -27,16 +26,9 @@ El último de estos puntos se llama [punto ciego de las personas expertas]{g="ex
 
 ## Mapas conceptuales {#sec-memory-concept-maps}
 
-La herramienta que elegimos para representar el modelo mental de alguien es un [mapa conceptual]{g="concept-map"}, en el cual los hechos son burbujas y las conexiones son relaciones etiquetadas. Como ejemplos, la <a figure="f:memory-seasons"/> muestra por qué la Tierra tiene estaciones (de \[IHMC\]\[ihmc\]), y el @sec-conceptmaps presenta mapas conceptuales de una biblioteca desde tres puntos de vista distintos.
+La herramienta que elegimos para representar el modelo mental de alguien es un [mapa conceptual]{g="concept-map"}, en el cual los hechos son burbujas y las conexiones son relaciones etiquetadas. Como ejemplos, la @fig-memory-seasons muestra por qué la Tierra tiene estaciones (de [IHMC][ihmc]), y el @sec-conceptmaps presenta mapas conceptuales de una biblioteca desde tres puntos de vista distintos.
 
-<figure id="f:memory-seasons">
-
-<img src="seasons.svg" alt="Mapa conceptual para estaciones"/>
-
-<figcaption>Mapa conceptual para estaciones</figcaption>
-
-</figure>
-
+![Mapa conceptual para estaciones](diagrams/seasons.svg){#fig-memory-seasons}
 Para mostrar cómo pueden ser usados los mapas conceptuales para enseñar programación, considera este bucle `for` en [Python]{i="Python"}:
 
 ``` text
@@ -52,15 +44,10 @@ b
 c
 ```
 
-Las tres "cosas" claves en este bucle se muestran al principio de la <a figure="f:memory-loop"/>, pero son solo la mitad de la historia. La versión ampliada en la parte derecha de la figura muestra las relaciones entre esas cosas, las cuales son tan importantes para la comprensión como los conceptos en sí mismos.
+Las tres "cosas" claves en este bucle se muestran al principio de la @fig-memory-loop, pero son solo la mitad de la historia. La versión ampliada en la parte derecha de la figura muestra las relaciones entre esas cosas, las cuales son tan importantes para la comprensión como los conceptos en sí mismos.
 
-<figure id="f:memory-loop">
+![Mapa conceptual para un bucle `for`](diagrams/for-loop.svg){#fig-memory-loop fig-alt=""}
 
-<img src="for-loop.svg" alt="Mapa conceptual para un bucle `for` "/>
-
-<figcaption>Mapa conceptual para un bucle `for`</figcaption>
-
-</figure>
 
 Los mapas conceptuales pueden ser usados de varias maneras:
 
@@ -96,7 +83,7 @@ Los mapas conceptuales son solo una forma de representar nuestro conocimiento de
 
 Mientras el modelo gráfico de conocimiento es incorrecto pero útil, otro modelo simple tiene bases fisiológicas profundas. Como una aproximación rápida, la memoria humana se puede dividir en dos capas distintas. La primera, llamada [memoria a largo plazo]{g="long-term-memory"} o [memoria persistente]{g="persistent-memory"}, es donde almacenamos cosas como los nombres de nuestra gente amiga, nuestra dirección, y lo que hizo un payaso en nuestra fiesta de cumpleaños de ocho que nos asustó mucho. La capacidad de esta capa de memoria es esencialmente ilimitada, pero es de acceso lento---demasiado lento para ayudarnos a lidiar con leones hambrientos y familiares descontentos.
 
-La evolución entonces nos ha dado un segundo sistema llamado [memoria a corto plazo]{g="short-term-memory"} o [memoria de trabajo]{g="working-memory"}. Es mucho más rápida, pero también más pequeña: @Mill1956 estimó que la memoria de trabajo del adulto promedio solo podía contener 7 ± 2 elementos a la vez. Esta es la razón por la cual \[los números de teléfono\]\[phone-number-length\] son de 7 u 8 dígitos de longitud: antes los teléfonos tenían un disco en vez de teclado y esa era la cadena de números más larga que la mayoría de los adultos podía recordar con precisión durante el tiempo que tardaba el disco en girar varias veces.
+La evolución entonces nos ha dado un segundo sistema llamado [memoria a corto plazo]{g="short-term-memory"} o [memoria de trabajo]{g="working-memory"}. Es mucho más rápida, pero también más pequeña: @Mill1956 estimó que la memoria de trabajo del adulto promedio solo podía contener 7 ± 2 elementos a la vez. Esta es la razón por la cual [los números de teléfono][phone-number-length] son de 7 u 8 dígitos de longitud: antes los teléfonos tenían un disco en vez de teclado y esa era la cadena de números más larga que la mayoría de los adultos podía recordar con precisión durante el tiempo que tardaba el disco en girar varias veces.
 
 > ### Participación
 >
@@ -104,15 +91,9 @@ La evolución entonces nos ha dado un segundo sistema llamado [memoria a corto p
 
 7±2 es simplemente el número más importante al enseñar. Quien enseña no puede colocar información directamente en la memoria a largo plazo de una/un estudiante. En cambio, cualquier cosa que presente se almacena primero en la memoria a corto plazo de cada estudiante y solo se transfiere a la memoria a largo plazo después que ha sido mantenida ahí y ensayada (@sec-individual-strategies). Si quien enseña presenta demasiados contenidos y muy rápidamente, la vieja información no llega a transferirse a tiempo antes de ser desplazada por la nueva información.
 
-Esta es una de las maneras de usar mapas conceptuales al diseñar una lección: sirve para asegurarse que la memoria a corto plazo de tus estudiantes no estará sobrecargada. Con el mapa ya diseñado, la/el docente elige un fragmento apropiado para la memoria a corto plazo, el cual llevará a una [evaluación formativa]{i="evaluación formativa"} (<a figure="f:memory-photosynthesis"/>); en la próxima lección continuará con otro fragmento del mapa conceptual, y así sucesivamente.
+Esta es una de las maneras de usar mapas conceptuales al diseñar una lección: sirve para asegurarse que la memoria a corto plazo de tus estudiantes no estará sobrecargada. Con el mapa ya diseñado, la/el docente elige un fragmento apropiado para la memoria a corto plazo, el cual llevará a una [evaluación formativa]{i="evaluación formativa"} (@fig-memory-photosynthesis); en la próxima lección continuará con otro fragmento del mapa conceptual, y así sucesivamente.
 
-<figure id="f:memory-photosynthesis">
-
-<img src="photosynthesis.svg" alt="El uso de mapas conceptuales en el diseño de la lección"/>
-
-<figcaption>El uso de mapas conceptuales en el diseño de la lección</figcaption>
-
-</figure>
+![El uso de mapas conceptuales en el diseño de la lección](diagrams/photosynthesis.svg){#fig-memory-photosynthesis fig-alt=""}
 
 > ### Construyendo juntos mapas conceptuales
 >
@@ -126,11 +107,11 @@ Investigaciones recientes sugieren que el tamaño real de la memoria a corto pla
 
 Las personas expertas tienen más fragmentos y de mayor tamaño que las no-expertas, p.ej. "ven" patrones más grandes y tienen más patrones con los que contrastar cosas. Esto les permite razonar a un nivel superior y buscar información de manera más rápida y precisa. Sin embargo, la fragmentación también puede engañarnos si identificamos mal las cosas: quienes recién llegan a veces pueden ver cosas que personas expertas han visto y pasado por alto.
 
-Dada la importancia de la fragmentación para pensar, es tentador identificar [\[patrones de diseño\]\[design-patterns-es\]]{i="patrones de diseño"} y enseñarlos directamente. Estos patrones ayudan a practicantes competentes a pensar y dialogar en varios dominios (incluida la enseñanza @Berg2012), pero los catálogos de patrones son demasiado duros y abstractos para que personas novatas les encuentren sentido por su cuenta. Dicho esto, asignar nombres a un pequeño número de patrones parece ayudar con la enseñanza, principalmente dando a tus estudiantes un vocabulario más rico para pensar y comunicarse @Kuit2004,@Byck2005,@Saja2006 . Volveremos a este tema en la @sec-pck-programming.
+Dada la importancia de la fragmentación para pensar, es tentador identificar [[patrones de diseño][design-patterns-es]]{i="patrones de diseño"} y enseñarlos directamente. Estos patrones ayudan a practicantes competentes a pensar y dialogar en varios dominios (incluida la enseñanza @Berg2012), pero los catálogos de patrones son demasiado duros y abstractos para que personas novatas les encuentren sentido por su cuenta. Dicho esto, asignar nombres a un pequeño número de patrones parece ayudar con la enseñanza, principalmente dando a tus estudiantes un vocabulario más rico para pensar y comunicarse @Kuit2004,@Byck2005,@Saja2006 . Volveremos a este tema en la @sec-pck-programming.
 
 ## Convirtiéndose en una persona experta {#sec-memory-becoming-expert}
 
-Entonces, ¿cómo se convierte alguien en una persona experta? La idea de que hacen falta diez mil horas de práctica para conseguirlo es ampliamente citada, pero \[probablemente no sea verdad\]\[ten-thousand-hour-rule\]: hacer lo mismo una y otra vez es más probable que fortalezca los malos hábitos a que mejore la práctica. Lo que realmente funciona es hacer cosas similares pero sutilmente diferentes, prestando atención a qué funciona y qué no, y luego cambiando el comportamiento en respuesta a esta retroalimentación, para así mejorar de forma acumulativa. Esto se llama [práctica deliberada]{g="deliberate-practice"} o [práctica reflectiva]{g="reflective-practice"}, y es común que las personas atraviesen tres etapas:
+Entonces, ¿cómo se convierte alguien en una persona experta? La idea de que hacen falta diez mil horas de práctica para conseguirlo es ampliamente citada, pero [probablemente no sea verdad][ten-thousand-hour-rule]: hacer lo mismo una y otra vez es más probable que fortalezca los malos hábitos a que mejore la práctica. Lo que realmente funciona es hacer cosas similares pero sutilmente diferentes, prestando atención a qué funciona y qué no, y luego cambiando el comportamiento en respuesta a esta retroalimentación, para así mejorar de forma acumulativa. Esto se llama [práctica deliberada]{g="deliberate-practice"} o [práctica reflectiva]{g="reflective-practice"}, y es común que las personas atraviesen tres etapas:
 
 Actuar según la devolución de otros.
 
@@ -168,7 +149,7 @@ Trabajando independientemente, dibuja un mapa conceptual sobre mapas conceptuale
 
 ### Notar tus puntos ciegos (grupos pequeños/10') {.exercise}
 
-Elizabeth Wickes listó \[todo lo que necesitas saber para entender\]\[wickes-python-lists\] y leer esta línea de *Python*:
+Elizabeth Wickes listó [todo lo que necesitas saber para entender][wickes-python-lists] y leer esta línea de *Python*:
 
 ``` text
 respuestas = ['tuatara', 'tuataras', 'bus', "lick"]
@@ -188,10 +169,10 @@ Cada uno de estos detalles no sería ni percibido por una persona experta. Traba
 
 ### Qué enseñar a continuación (individual/5') {.exercise}
 
-Vuelve al mapa conceptual para la fotosíntesis de la <a figure="f:memory-photosynthesis"/>. ¿Cuántos conceptos y relaciones hay en los fragmentos seleccionados? ¿Qué incluirías en el próximo fragmento de la lección y por qué?
+Vuelve al mapa conceptual para la fotosíntesis de la @fig-memory-photosynthesis. ¿Cuántos conceptos y relaciones hay en los fragmentos seleccionados? ¿Qué incluirías en el próximo fragmento de la lección y por qué?
 
 ### El poder de fragmentación (individual/5') {.exercise}
 
-Mira la <a figure="f:memory-unchunked"/> por 10 segundos, luego mira hacia otro lado e intenta escribir tu número de teléfono con estos símbolos<sup>Mi agradecimiento a [Warren Code]{i="Code, Warren"} por presentarme este ejemplo.</sup>. (Usa un espacio para '0'.) Cuando hayas terminado, mira la representación alternativa en el @section-chunking. ¿Cuánto más fáciles de recordar son los símbolos cuando el patrón se hace explícito?
+Mira la @fig-memory-unchunked por 10 segundos, luego mira hacia otro lado e intenta escribir tu número de teléfono con estos símbolos<sup>Mi agradecimiento a [Warren Code]{i="Code, Warren"} por presentarme este ejemplo.</sup>. (Usa un espacio para '0'.) Cuando hayas terminado, mira la representación alternativa en el @section-chunking. ¿Cuánto más fáciles de recordar son los símbolos cuando el patrón se hace explícito?
 
 ![Representación no fragmentada](diagrams/chunking-unchunked.svg){#fig-memory-unchunked fig-alt="Representación no fragmentada"}
