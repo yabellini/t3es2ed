@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.269">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Enseñar Tecnología en Comunidad (2e) - 7&nbsp; Un proceso para diseñar lecciones</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./pck.html" rel="next">
+<link href="./individual.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-sidebar floating">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+    <div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Un proceso para diseñar lecciones</span></h1>
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Enseñar Tecnología en Comunidad (2e)</a> 
+        <div class="sidebar-tools-main">
+    <a href="https://github.com/yabellini/t3es2ed" title="Source Code" class="sidebar-tool px-1"><i class="bi bi-github"></i></a>
+</div>
+    </div>
+      </div>
+      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+      </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">Preface</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./rules.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Las reglas</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./intro.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Introducción</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./models.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Modelos mentales y evaluación formativa</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./memory.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Pericia y memoria</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./architecture.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Arquitectura Cognitiva</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./individual.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Aprendizaje individual</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./process.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Un proceso para diseñar lecciones</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./pck.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Conocimiento de la pedagogía del contenido</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./performance.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Enseñar como un arte performativo</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./classroom.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">En el salón de clase</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./motivation.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Motivación y desmotivación</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./online.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Enseñar en línea</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./exercises.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Tipos de ejercicios</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./community.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Construyendo una comunidad de práctica</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./events.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Tipos de Eventos</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./outreach.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Difusión y vinculación</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./paid.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Como vivir de enseñar</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./finale.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">¿Por qué enseñamos?</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./license.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Licencia</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./conduct.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title">Código de conducta</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./joining.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">21</span>&nbsp; <span class="chapter-title">Unirse a nuestra comunidad</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./glossary.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">glossary.html</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./meetings.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">23</span>&nbsp; <span class="chapter-title">Reuniones, reuniones, reuniones</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./checklists.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">24</span>&nbsp; <span class="chapter-title">Listas de verificación y plantillas</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./conceptmaps.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">25</span>&nbsp; <span class="chapter-title">Ejemplos de Mapas Conceptuales</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chunking.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">26</span>&nbsp; <span class="chapter-title">“Solución del ejercicio de particionar”</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#sec-process-personas" id="toc-sec-process-personas" class="nav-link active" data-scroll-target="#sec-process-personas"><span class="toc-section-number">7.1</span>  Personas tipo</a></li>
+  <li><a href="#sec-process-objectives" id="toc-sec-process-objectives" class="nav-link" data-scroll-target="#sec-process-objectives"><span class="toc-section-number">7.2</span>  Objetivos de aprendizaje</a></li>
+  <li><a href="#sec-process-maintainability" id="toc-sec-process-maintainability" class="nav-link" data-scroll-target="#sec-process-maintainability"><span class="toc-section-number">7.3</span>  Mantenimiento</a></li>
+  <li><a href="#sec-process-exercises" id="toc-sec-process-exercises" class="nav-link" data-scroll-target="#sec-process-exercises"><span class="toc-section-number">7.4</span>  Ejercicios</a>
+  <ul class="collapse">
+  <li><a href="#crear-personas-tipo-grupos-pequeños30" id="toc-crear-personas-tipo-grupos-pequeños30" class="nav-link" data-scroll-target="#crear-personas-tipo-grupos-pequeños30"><span class="toc-section-number">7.4.1</span>  Crear personas tipo (grupos pequeños/30’)</a></li>
+  <li><a href="#clasificar-objetivos-de-aprendizaje-parejas10" id="toc-clasificar-objetivos-de-aprendizaje-parejas10" class="nav-link" data-scroll-target="#clasificar-objetivos-de-aprendizaje-parejas10"><span class="toc-section-number">7.4.2</span>  Clasificar objetivos de aprendizaje (parejas/10’)</a></li>
+  <li><a href="#escribir-objetivos-de-aprendizaje-parejas20" id="toc-escribir-objetivos-de-aprendizaje-parejas20" class="nav-link" data-scroll-target="#escribir-objetivos-de-aprendizaje-parejas20"><span class="toc-section-number">7.4.3</span>  Escribir objetivos de aprendizaje (parejas/20’)</a></li>
+  <li><a href="#escribir-más-objetivos-de-aprendizaje-parejas20" id="toc-escribir-más-objetivos-de-aprendizaje-parejas20" class="nav-link" data-scroll-target="#escribir-más-objetivos-de-aprendizaje-parejas20"><span class="toc-section-number">7.4.4</span>  Escribir más objetivos de aprendizaje (parejas/20’)</a></li>
+  <li><a href="#ayúdame-a-hacerlo-por-mi-cuenta-grupos-pequeños15" id="toc-ayúdame-a-hacerlo-por-mi-cuenta-grupos-pequeños15" class="nav-link" data-scroll-target="#ayúdame-a-hacerlo-por-mi-cuenta-grupos-pequeños15"><span class="toc-section-number">7.4.5</span>  Ayúdame a hacerlo por mi cuenta (grupos pequeños/15’)</a></li>
+  <li><a href="#restar-complejidad-al-construir-lecciones-individual20" id="toc-restar-complejidad-al-construir-lecciones-individual20" class="nav-link" data-scroll-target="#restar-complejidad-al-construir-lecciones-individual20"><span class="toc-section-number">7.4.6</span>  Restar complejidad al construir lecciones (individual/20’)</a></li>
+  <li><a href="#rareza-no-esencial-individual15" id="toc-rareza-no-esencial-individual15" class="nav-link" data-scroll-target="#rareza-no-esencial-individual15"><span class="toc-section-number">7.4.7</span>  Rareza no esencial (individual/15’)</a></li>
+  <li><a href="#un-patrón-problema-ejemplo-teoría-y-elaboración-individual15" id="toc-un-patrón-problema-ejemplo-teoría-y-elaboración-individual15" class="nav-link" data-scroll-target="#un-patrón-problema-ejemplo-teoría-y-elaboración-individual15"><span class="toc-section-number">7.4.8</span>  Un patrón: problema, ejemplo, teoría y elaboración (individual/15’)</a></li>
+  <li><a href="#otro-patrón-predecir-ejecutar-investigar-modificar-y-crear-individual15" id="toc-otro-patrón-predecir-ejecutar-investigar-modificar-y-crear-individual15" class="nav-link" data-scroll-target="#otro-patrón-predecir-ejecutar-investigar-modificar-y-crear-individual15"><span class="toc-section-number">7.4.9</span>  Otro patrón: predecir, ejecutar, investigar, modificar y crear (individual/15’)</a></li>
+  <li><a href="#concreto-representativo-abstracto-parejas15" id="toc-concreto-representativo-abstracto-parejas15" class="nav-link" data-scroll-target="#concreto-representativo-abstracto-parejas15"><span class="toc-section-number">7.4.10</span>  Concreto-representativo-abstracto (parejas/15’)</a></li>
+  <li><a href="#evaluación-de-un-repositorio-de-lecciones-grupos-pequeños10" id="toc-evaluación-de-un-repositorio-de-lecciones-grupos-pequeños10" class="nav-link" data-scroll-target="#evaluación-de-un-repositorio-de-lecciones-grupos-pequeños10"><span class="toc-section-number">7.4.11</span>  Evaluación de un repositorio de lecciones (grupos pequeños/10’)</a></li>
+  </ul></li>
+  <li><a href="#revisión" id="toc-revisión" class="nav-link" data-scroll-target="#revisión"><span class="toc-section-number">7.5</span>  Revisión</a></li>
+  </ul>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/yabellini/t3es2ed/edit/main/process.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/yabellini/t3es2ed/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><span id="sec-process" class="quarto-section-identifier d-none d-lg-block"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Un proceso para diseñar lecciones</span></span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<p>La mayoría de las personas diseñan lecciones de esta manera:</p>
+<ol type="1">
+<li><p>Alguien te pide que enseñes algo que sabes muy poco o que no has pensado en años.</p></li>
+<li><p>Empiezas escribiendo diapositivas para explicar lo que sabes sobre el tema.</p></li>
+<li><p>Después de dos o tres semanas, preparas una tarea basada en lo que has enseñado hasta ahora.</p></li>
+<li><p>Repites el tercer paso varias veces.</p></li>
+<li><p>Permaneces sin dormir hasta altas horas de la mañana para crear un examen final y te prometes que la próxima vez serás más organizado/a.</p></li>
+</ol>
+<p>Un método más efectivo es similar en esencia a una práctica de programación llamada <span data-g="test-driven-development">desarrollo impulsado por pruebas</span> (<em>Test Driver Development (TDD)</em> en inglés). Los/las programadores/as que usan desarrollo impulsado por pruebas no escriben software y luego prueban que funcione correctamente. En su lugar, escriben la prueba primero, luego escriben suficiente software nuevo para que esas pruebas pasen.</p>
+<p>Este método de programación funciona porque escribir pruebas obliga a tener más precisión acerca de lo que están intentando lograr y cómo se ve “finalizado”. El desarrollo impulsado por pruebas también evita el pulido sin fin: cuando pasan las pruebas, dejas de programar. Finalmente, esto reduce el riesgo de sesgo de confirmación: una persona que aún no ha escrito un fragmento de software será más objetiva que alguien que acaba de dedicar varias horas al trabajo duro y realmente quiere terminar.</p>
+<p>Un método similar denominado <span data-g="backward-design">reingeniería</span> funciona muy bien para el diseño de lecciones. Este método fue desarrollado en forma independiente en <span class="citation" data-cites="Wigg2005">Wiggins and McTighe (<a href="#ref-Wigg2005" role="doc-biblioref">2005</a>)</span>,<span class="citation" data-cites="Bigg2011">Biggs and Tang (<a href="#ref-Bigg2011" role="doc-biblioref">2011</a>)</span>,<span class="citation" data-cites="Fink2013">Fink (<a href="#ref-Fink2013" role="doc-biblioref">2013</a>)</span> y está resumido en <span class="citation" data-cites="McTi2013">McTighe and Wiggins (<a href="#ref-McTi2013" role="doc-biblioref">2013</a>)</span>. En forma simplificada, sus pasos son:</p>
+<ol type="1">
+<li><p>Crea o recicla personas tipo (concepto discutido en la siguiente sección) para imaginar a quiénes estás intentando ayudar y qué les atraerá.</p></li>
+<li><p>Haz una tormenta de ideas para tener una idea aproximada de lo que quieres cubrir, cómo lo vas a hacer, qué problemas o conceptos erróneos esperas encontrar, qué <em>no</em> no se va a incluir, etcétera. Dibujar <span data-i="mapa conceptual">mapas conceptuales</span> puede ayudar mucho en esta etapa (<a href="memory.html#sec-memory-concept-maps"><span>Section&nbsp;4.1</span></a>).</p></li>
+<li><p>Crea una <span data-i="evaluación sumativa">evaluación sumativa</span> (<a href="models.html#sec-models-formative-assessment"><span>Section&nbsp;3.1</span></a>) para definir tu objetivo general. Dicha evaluación puede ser el examen final para un curso o el proyecto final para un taller de un día. Independientemente de su forma o extensión, la evaluación sumativa te mostrará lo lejos que esperas llegar más claramente que una lista puntual de objetivos.</p></li>
+<li><p>Crea <span data-i="evaluación formativa">evaluaciones formativas</span>, lo cual le dará a tus estudiantes una oportunidad para practicar lo que están aprendiendo. Las evaluaciones formativas también te dirán a ti (y a tus estudiantes) si están progresando y dónde deben centrar su atención. El mejor camino para hacer esto es listar los conocimientos y las habilidades involucradas en la evaluación sumativa que desarrollaste en el paso anterior: luego, deberás crear una evaluación formativa para cada ítem.</p></li>
+<li><p>Ordena las evaluaciones formativas para crear un esquema del curso en función de su complejidad, sus dependencias, y cuán bien los temas motivarán a tus estudiantes (<a href="motivation.html#sec-motivation-authentic"><span>Section&nbsp;11.1</span></a>).</p></li>
+<li><p>Escribe material para conseguir que tus estudiantes pasen de una evaluación formativa a la siguiente. Cada hora de instrucción debe constar de tres a cinco de estos episodios.</p></li>
+<li><p>Escribe una descripción resumida del curso para ayudar a que tu público objetivo lo encuentre y averigue si es el curso adecuado.</p></li>
+</ol>
+<p>Este método ayuda a mantener la enseñanza enfocada en sus objetivos. También asegura que tus estudiantes no se enfrenten al final del curso a nada para lo que no tengan preparación.</p>
+<blockquote class="blockquote">
+<h3 id="incentivos-perversos" data-number="7.0.1" class="anchored"><span class="header-section-number">7.0.1</span> Incentivos perversos</h3>
+<p>La reingeniería <em>no</em> es lo mismo que <span data-g="teaching-to-the-test">enseñar para el examen</span>. Cuando se usa reingeniería, los/las docentes establecen objetivos para ayudar en el diseño de sus lecciones: es posible que nunca den el examen final que preparan durante este proceso. En muchos sistemas escolares, por otro lado, una autoridad externa define los criterios de evaluación para todos/as los/las estudiantes, independientemente de sus situaciones individuales. Los resultados de esas evaluaciones sumativas afectan directamente los salarios y las promociones de los/las docentes, lo que significa que el plantel docente tiene un incentivo para que sus estudiantes pasen las pruebas, y no en ayudarles a aprender.</p>
+<p><span class="citation" data-cites="Gree2014">Green (<a href="#ref-Gree2014" role="doc-biblioref">2014</a>)</span> argumenta que, si bien enfocarse en las evaluaciones y la medición es atractivo para quienes tienen el poder de establecer las pruebas, es poco probable mejorar así los resultados del curso—salvo que las evaluaciones se acompañen con apoyo para que los/las docentes realicen mejoras basadas en los resultados de las pruebas. Sin embargo, este tipo de apoyo no suele ocurrir ya que las grandes organizaciones usualmente valoran la uniformidad por sobre la productividad <span class="citation" data-cites="Scot1998">Scott (<a href="#ref-Scot1998" role="doc-biblioref">1998</a>)</span>.</p>
+</blockquote>
+<p>El diseño inverso (o diseño en retrospectiva) se describe como una secuencia, pero casi nunca se hace de esa manera. Podemos, por ejemplo, cambiar nuestra opinión acerca de lo que queremos enseñar en base a algo que se nos ocurre mientras estamos escribiendo preguntas de opción múltiple, o re-evaluar a quién estamos intentando ayudar una vez que tengamos un esqueleto de la lección. Sin embargo, las notas que elaboremos deben presentar las tareas desarrolladas en el orden descripto anteriormente, para que quien tenga que usar o mantener la lección pueda seguir nuestros razonamientos <span class="citation" data-cites="Parn1986">Parnas and Clements (<a href="#ref-Parn1986" role="doc-biblioref">1986</a>)</span>.</p>
+<section id="sec-process-personas" class="level2" data-number="7.1">
+<h2 data-number="7.1" class="anchored" data-anchor-id="sec-process-personas"><span class="header-section-number">7.1</span> Personas tipo</h2>
+<p>El primer paso en el proceso de diseño inverso es averiguar quién es tu público. Una manera para hacer esto es escribir dos o tres <span data-g="learner-persona" data-i="persona tipo">personas tipo</span> como los de la <a href="intro.html#sec-intro-audience"><span>Section&nbsp;2.1</span></a>. Esta técnica es tomada de diseñadores/as de experiencia de usuario/a, quienes crean perfiles breves de usuarios/as típicos/as para ayudarse a pensar en su público. Una persona tipo consiste en:</p>
+<ol type="1">
+<li><p>antecedentes generales de la persona;</p></li>
+<li><p>lo que ya sabe;</p></li>
+<li><p>lo que quiere hacer; y</p></li>
+<li><p>cualquier necesidad especial que tenga.</p></li>
+</ol>
+<p>Las personas en la <a href="intro.html#sec-intro-audience"><span>Section&nbsp;2.1</span></a> tienen los cuatro puntos listados anteriormente, junto con un breve resumen de cómo este libro las ayudará. Una persona tipo para un grupo de voluntarios/as que realiza talleres de <em>Python</em> los fines de semana sería:</p>
+<ol type="1">
+<li><p>Jorge se acaba de mudar de Costa Rica a Canadá para estudiar ingeniería agrícola. Se ha unido al equipo de fútbol de la universidad y espera aprender a jugar hockey sobre hielo.</p></li>
+<li><p>Aparte de usar Excel, Word e internet, la experiencia previa más significativa de Jorge con computadoras es ayudar a su hermana a construir un sitio en WordPress para su negocio familiar.</p></li>
+<li><p>Jorge quiere medir las propiedades del suelo en granjas cercanas usando un dispositivo de mano que envía datos a su computadora. Por el momento, Jorge tiene que abrir cada archivo de datos en Excel, eliminar la primera y la última columna y calcular algunas estadísticas de los datos restantes. Recopilará al menos 600 mediciones en los próximos meses y realmente no quiere tener que hacer estos pasos a mano mes a mes.</p></li>
+<li><p>Jorge puede leer en inglés, pero a veces le cuesta sostener una conversación hablada que involucre mucha jerga.</p></li>
+</ol>
+<p>En lugar de escribir nuevas personas tipo para cada lección o curso, los/las docentes usualmente crean y comparten una media docena de personas tipo, que cubren a todas las personas a las que probablemente enseñan. Luego, eligen a algunas de esas personas tipo para describir al público de un material en particular. Las personas tipo utilizadas de esta manera se convierten en un atajo conveniente para los problemas de diseño: al hablar entre docentes, se pueden pensar en términos del estilo “¿Jorge entendería por qué estamos haciendo esto?” o “¿Qué problemas de instalación enfrentaría Jorge?”</p>
+<blockquote class="blockquote">
+<h3 id="sus-metas-no-las-tuyas" data-number="7.1.1" class="anchored"><span class="header-section-number">7.1.1</span> Sus metas, no las tuyas</h3>
+<p>Las personas tipo deberían siempre describir lo que cada estudiante quiere hacer en lugar de lo que tú crees que necesitan. Pregúntate lo que tus estudiantes están buscando en línea; probablemente no incluirá jerga que no conocen aún, así que parte de lo que tienes que hacer al diseñar lecciones es descubrir cómo hacer que tu curso sea visible y pueda ser <span data-i="localizable!lección">encontrado</span> por tu público.</p>
+</blockquote>
+</section>
+<section id="sec-process-objectives" class="level2" data-number="7.2">
+<h2 data-number="7.2" class="anchored" data-anchor-id="sec-process-objectives"><span class="header-section-number">7.2</span> Objetivos de aprendizaje</h2>
+<p>Las evaluaciones formativas y sumativas ayudan a los/las docentes a descubrir qué van a enseñar, pero comunicarle eso a sus estudiantes y a otro conjunto de docentes implica tener también una descripción del curso. Los <span data-g="learning-objective" data-i="objetivo de aprendizaje">objetivos de aprendizaje</span> ayudan a asegurar que todos/as tus estudiantes tengan el mismo entendimiento de lo que se supone que una lección debe lograr. Por ejemplo, el enunciado “Entender Git” podría significar cualquiera de los siguientes ítems:</p>
+<ul>
+<li><p>Los/las estudiantes pueden describir tres cuestiones en las cuales los sistemas de versión de control como <em>Git</em> son mejores que herramientas para compartir archivos como Dropbox y dos cuestiones en que son peores.</p></li>
+<li><p>Los/las estudiantes pueden hacer <em>commit</em> a un archivo modificado en un repositorio de Git usando un software con interfaz gráfica instalado en su computadora.</p></li>
+<li><p>Los/las estudiantes pueden explicar qué es un <em>HEAD</em> por separado y recuperarlo usando operaciones de línea de comandos.</p></li>
+</ul>
+<blockquote class="blockquote">
+<h3 id="objetivos-versus-resultados" data-number="7.2.1" class="anchored"><span class="header-section-number">7.2.1</span> Objetivos versus resultados</h3>
+<p>Un objetivo de aprendizaje es lo que una lección se esmera por lograr. Un <span data-g="learning-outcome">resultado de aprendizaje</span> es lo que realmente se logra, es decir, lo que tus estudiantes realmente se llevan. El rol de la evaluación sumativa es, por lo tanto, comparar resultados de aprendizajes con objetivos de aprendizajes.</p>
+</blockquote>
+<p>Un objetivo de aprendizaje describe cómo tu estudiante demostrará lo que ha aprendido una vez que ha completado exitosamente una lección. Más específicamente, un objetivo tiene un <em>verbo medible o verificable</em> que establece lo que cada estudiante hará y especifica los <em>criterios aceptables de rendimiento</em>. Escribir estos objetivos puede inicialmente parecer restrictivo, pero a largo plazo te hará más feliz a ti, a tus colegas docentes y a tus estudiantes: terminarás con guías claras tanto para la enseñanza como para la evaluación, y tus estudiantes apreciarán tener expectativas claras.</p>
+<p>Una forma de comprender lo que constituye un buen objetivo de aprendizaje es ver cómo se puede mejorar uno pobre:</p>
+<ul>
+<li><p><em>El/la estudiante tendrá oportunidad para aprender buenas prácticas de programación.</em> Este enunciado describe el contenido de la lección, no los atributos de éxito de tus estudiantes.</p></li>
+<li><p><em>El/la estudiante tendrá una mejor apreciación de las buenas prácticas de programación.</em> Este enunciado no empieza con un verbo activo ni define el nivel de aprendizaje. El tema de aprendizaje no tiene contexto y no es específico.</p></li>
+<li><p><em>El/la estudiante comprenderá cómo programar en R.</em> Si bien aquí se comienza con un verbo activo, no se define el nivel de aprendizaje, y el tema de aprendizaje es todavía demasiado vago para una evaluación.</p></li>
+<li><p><em>El/la estudiante escribirá scripts de análisis de datos para leer, filtrar y resumir datos tabulares usando R.</em> Este objetivo comienza con un verbo activo, define el nivel de aprendizaje y provee contexto para asegurar que los resultados puedan evaluarse.</p></li>
+</ul>
+<p>Cuando se trata de elegir verbos, la mayoría de los/las docentes usan la <span data-g="blooms-taxonomy">taxonomía de Bloom</span>. Publicada por primera vez en 1956 y actualizada a principios de siglo <span class="citation" data-cites="Ande2001">Anderson and Krathwohl (<a href="#ref-Ande2001" role="doc-biblioref">2001</a>)</span>, es un marco ampliamente usado para discutir los niveles de comprensión. Su forma más reciente tiene seis categorías; la lista a continuación da algunos de los verbos típicamente usados en los objetivos de aprendizaje escritos para cada uno:</p>
+<dl>
+<dt>Recordar:</dt>
+<dd>
+<p>Exhibir memoria del material previamente aprendido recordando hechos, términos, conceptos básicos y respuestas. <em>(reconocer, listar, describir, nombrar, encontrar.)</em></p>
+</dd>
+<dt>Comprender:</dt>
+<dd>
+<p>Demostrar comprensión de los hechos e ideas organizando, comparando, traduciendo, interpretando, dando descripciones y estableciendo ideas principales. <em>(interpretar, resumir, parafrasear, clasificar, explicar)</em></p>
+</dd>
+<dt>Aplicar:</dt>
+<dd>
+<p>Resolver problemas nuevos aplicando de forma diferente los conocimientos, hechos, técnicas y reglas adquiridos. <em>(construir, identificar, usar, planificar, seleccionar)</em></p>
+</dd>
+<dt>Analizar:</dt>
+<dd>
+<p>Examinar y dividir la información en partes identificando motivos o causas, hacer inferencias y encontrar evidencia para apoyar generalizaciones. <em>(comparar, contrastar, simplificar)</em></p>
+</dd>
+<dt>Evaluar:</dt>
+<dd>
+<p>Presentar y defender opiniones emitiendo juicios sobre información, validez de las ideas o calidad del trabajo, en base a un conjunto de criterios. <em>(comprobar, elegir, criticar, probar, calificar)</em></p>
+</dd>
+<dt>Crear:</dt>
+<dd>
+<p>Recopilar información de forma diferente combinando elementos en un nuevo patrón o proponiendo soluciones alternativas. <em>(diseñar, construir, mejorar, adaptar, maximizar, resolver)</em></p>
+</dd>
+</dl>
+<p>La taxonomía de Bloom aparece en casi todos los libros de texto sobre educación, pero <span class="citation" data-cites="Masa2018">Masapanta-Carrión and Velázquez-Iturbide (<a href="#ref-Masa2018" role="doc-biblioref">2018</a>)</span> encontró que incluso los/las educadores/as con mucha experiencia tienen problemas para ponerse de acuerdo en cómo clasificar cuestiones específicas. Sin embargo, los verbos siguen siendo útiles, al igual que la noción de desarrollar la comprensión por pasos: como ha dicho <span data-i="Willingham, Daniel">Daniel Willingham</span>, la gente no puede pensar si no tiene algo en qué pensar <span class="citation" data-cites="Will2010">Willingham (<a href="#ref-Will2010" role="doc-biblioref">2010</a>)</span>, y esta taxonomía puede ayudar a los/las docentes a asegurarse que sus estudiantes tienen esas cosas en qué pensar cuando las necesiten.</p>
+<p>Otra manera de conceptualizar los objetivos de aprendizaje proviene de <span class="citation" data-cites="Fink2013">Fink (<a href="#ref-Fink2013" role="doc-biblioref">2013</a>)</span>, el cual define aprendizaje en términos del cambio que se supone que debe producirse en el/la estudiante. La <span data-g="finks-taxonomy">taxonomía de Fink</span> también tiene seis categorías, pero a diferencia de las de Bloom ellas son complementarias y no jerárquicas:</p>
+<dl>
+<dt>Conocimiento fundamental:</dt>
+<dd>
+<p>comprender y recordar información e ideas. <em>(recordar, comprender, identificar)</em></p>
+</dd>
+<dt>Aplicación:</dt>
+<dd>
+<p>habilidades, pensamiento crítico, gestión de proyectos. <em>(usar, resolver, calcular, crear)</em></p>
+</dd>
+<dt>Integración:</dt>
+<dd>
+<p>conectar ideas, experiencias de aprendizaje y vida real. <em>(conectar, relatar, comparar)</em></p>
+</dd>
+<dt>Dimensión humana:</dt>
+<dd>
+<p>aprender sobre sí mismo/a y sobre otras personas. <em>(llegar a verse a sí mismo/a, entender a las demás personas en términos de, decidir transformarse en)</em></p>
+</dd>
+<dt>Cuidado:</dt>
+<dd>
+<p>desarrollar nuevos sentimientos, intereses y valores. <em>(emocionarse, estar preparado/a para, valorar)</em></p>
+</dd>
+<dt>Aprendiendo a aprender:</dt>
+<dd>
+<p>convertirse en mejor estudiante. <em>(identificar la fuente de información para, enmarcar preguntas útiles sobre)</em></p>
+</dd>
+</dl>
+<p>Un conjunto de objetivos de aprendizaje basados en la taxonomía de Fink para un curso introductorio sobre <em>HTML</em> y <em>CSS</em> sería:</p>
+<ul>
+<li><p>Explicar qué son las propiedades de <em>CSS</em> y cómo funcionan los selectores de <em>CSS</em>.</p></li>
+<li><p>Diseñar una página web usando etiquetas comunes y propiedades de <em>CSS</em>.</p></li>
+<li><p>Comparar y contrastar escribir en <em>HTML</em> y <em>CSS</em> con escribir con herramientas de escritorio de edición y publicación.</p></li>
+<li><p>Identificar y corregir problemas en páginas web de muestra que dificultarían la interacción de las personas con discapacidad visual.</p></li>
+<li><p>Describir las características de los sitios web favoritos cuyo diseño te atraiga de forma particular y explicar el por qué.</p></li>
+<li><p>Describir tus dos fuentes de información en línea favoritas sobre <em>CSS</em> y explicar qué te gusta de ellas.</p></li>
+</ul>
+</section>
+<section id="sec-process-maintainability" class="level2" data-number="7.3">
+<h2 data-number="7.3" class="anchored" data-anchor-id="sec-process-maintainability"><span class="header-section-number">7.3</span> Mantenimiento</h2>
+<p>Una vez que una lección ha sido creada alguien debe mantenerla y hacerlo es mucho más fácil si se ha construido de manera que se pueda mantener. Pero, ¿qué significa exactamente <span data-i="mantenimiento (de lecciones)">“mantenible”</span>? La respuesta corta es que una lección es mantenible si es más barato actualizarla que reemplazarla. Esta ecuación depende de cuatro factores:</p>
+<dl>
+<dt>Qué tan bien documentado está el diseño del curso</dt>
+<dd>
+<p>Si la persona que realiza el mantenimiento no conoce (o no recuerda) lo que se supone que la lección debe lograr o por qué los temas son presentados en un orden en particular, le llevará más tiempo actualizarla. Una razón para usar el diseño inverso es captar decisiones sobre por qué cada curso es como es.</p>
+</dd>
+<dt>Qué tan fácil es para los/las colaboradores ayudar</dt>
+<dd>
+<p>Los/las docentes suelen compartir material enviándose por correo archivos de PowerPoint o dejándolos en una unidad compartida. Herramientas de escritura colaborativa como [Google Docs][google-docs] y wikis son una gran mejora, ya que permiten que muchas personas actualicen el mismo documento y comenten las actualizaciones de otras personas. Los sistemas de control de versiones usados por programadores/as, tales como [GitHub][github], son otro enfoque. Permiten que cualquier número de personas trabaje de forma independiente, para luego unir sus cambios en forma controlada y revisable. Desafortunadamente, los sistemas de control de versión tienen una curva de aprendizaje pronunciada y no manejan formatos de documentos de oficina comunes.</p>
+</dd>
+<dt>Qué tan dispuestas están las personas a colaborar.</dt>
+<dd>
+<p>Las herramientas necesarias para construir una Wikipedia para lecciones existen hacen veinte años, pero la mayoría de los/las docentes no escriben ni comparten sus lecciones de la misma manera en que escriben y comparten las entradas de enciclopedias.</p>
+</dd>
+<dt>Qué tan útil es compartir en realidad.</dt>
+<dd>
+<p>La <span data-g="reusability-paradox">paradoja de la reusabilidad</span> establece que cuanto más reutilizable es un objeto de aprendizaje, menos efectivo pedagógicamente es <span class="citation" data-cites="Wile2002">Wiley (<a href="#ref-Wile2002" role="doc-biblioref">2002</a>)</span>. La razón es que una buena lección se parece más a una novela que a un programa: sus partes están estrechamente acopladas en lugar de ser cajas negras independientes. Por lo tanto, la reutilización directa de las lecciones puede ser un objetivo equivocado; podríamos llegar más lejos tratando de hacerlas más fáciles de combinar.</p>
+</dd>
+</dl>
+<p>Si la paradoja de la reusabilidad es cierta, la colaboración será más probable si las cosas en las que se colabora son pequeñas. Esto se ajusta a la teoría de <span data-i="Caulfield, Mike">Mike Caulfield</span> de las [explicaciones corales][choral-explanations], que sostiene que sitios como [Stack Overflow][stack-overflow] tienen éxito porque proporcionan un coro de respuestas para cada pregunta, cada una de las cuales es más adecuada para una persona que pregunta y que es ligeramente diferente a las demás personas que preguntan. Si esto es correcto, las lecciones del futuro pueden ser visitas guiadas de repositorios de preguntas y respuestas seleccionados por la comunidad, diseñados para estudiantes en niveles muy diferentes.</p>
+</section>
+<section id="sec-process-exercises" class="level2" data-number="7.4">
+<h2 data-number="7.4" class="anchored" data-anchor-id="sec-process-exercises"><span class="header-section-number">7.4</span> Ejercicios</h2>
+<section id="crear-personas-tipo-grupos-pequeños30" class="level3 exercise" data-number="7.4.1">
+<h3 class="exercise anchored" data-number="7.4.1" data-anchor-id="crear-personas-tipo-grupos-pequeños30"><span class="header-section-number">7.4.1</span> Crear personas tipo (grupos pequeños/30’)</h3>
+<p>Trabajando en grupos pequeños, crea una persona tipo descripta con cuatro puntos que reseñe a un/a de tus estudiantes típicos.</p>
+</section>
+<section id="clasificar-objetivos-de-aprendizaje-parejas10" class="level3 exercise" data-number="7.4.2">
+<h3 class="exercise anchored" data-number="7.4.2" data-anchor-id="clasificar-objetivos-de-aprendizaje-parejas10"><span class="header-section-number">7.4.2</span> Clasificar objetivos de aprendizaje (parejas/10’)</h3>
+<p>Mira el ejemplo de los objetivos de aprendizaje para un curso introductorio sobre <em>HTML</em> y <em>CSS</em> en la <a href="#sec-process-objectives"><span>Section&nbsp;7.2</span></a> y clasifica cada uno de acuerdo a la taxonomía de Bloom. Compara tus respuestas con las de tu pareja. ¿En qué estuvieron de acuerdo y en qué en desacuerdo?</p>
+</section>
+<section id="escribir-objetivos-de-aprendizaje-parejas20" class="level3 exercise" data-number="7.4.3">
+<h3 class="exercise anchored" data-number="7.4.3" data-anchor-id="escribir-objetivos-de-aprendizaje-parejas20"><span class="header-section-number">7.4.3</span> Escribir objetivos de aprendizaje (parejas/20’)</h3>
+<p>Escribe uno o más objetivos de aprendizaje para un tema que actualmente enseñes o planees enseñar utilizando la taxonomía de Bloom. Con tu pareja, critica y mejora los objetivos. ¿Cada objetivo tiene un verbo verificable y establece claramente los criterios para evaluar el desempeño aceptable?</p>
+</section>
+<section id="escribir-más-objetivos-de-aprendizaje-parejas20" class="level3 exercise" data-number="7.4.4">
+<h3 class="exercise anchored" data-number="7.4.4" data-anchor-id="escribir-más-objetivos-de-aprendizaje-parejas20"><span class="header-section-number">7.4.4</span> Escribir más objetivos de aprendizaje (parejas/20’)</h3>
+<p>Escribe uno o más objetivos de aprendizaje para algo que actualmente enseñes o planees enseñar utilizando la taxonomía de Fink. Con tu pareja, critica y mejora los objetivos.</p>
+</section>
+<section id="ayúdame-a-hacerlo-por-mi-cuenta-grupos-pequeños15" class="level3 exercise" data-number="7.4.5">
+<h3 class="exercise anchored" data-number="7.4.5" data-anchor-id="ayúdame-a-hacerlo-por-mi-cuenta-grupos-pequeños15"><span class="header-section-number">7.4.5</span> Ayúdame a hacerlo por mi cuenta (grupos pequeños/15’)</h3>
+<p>El teórico de la educación Lev Vygotsky introdujo la noción de una <span data-g="zpd">zona de desarrollo próximo</span>, la cual incluye los problemas que las personas no pueden resolver aún por sí mismas pero que son capaces de resolver con la ayuda de un mentor/a. Se trata de problemas que resulta fructífero abordar a corto plazo, ya que aún están fuera del alcance de tu estudiante pero son alcanzables.</p>
+<p>Trabajando en grupos pequeños, escoge una persona tipo que hayas desarrollado y describe dos o tres problemas que se encuentran en su zona de desarrollo próximo.</p>
+</section>
+<section id="restar-complejidad-al-construir-lecciones-individual20" class="level3 exercise" data-number="7.4.6">
+<h3 class="exercise anchored" data-number="7.4.6" data-anchor-id="restar-complejidad-al-construir-lecciones-individual20"><span class="header-section-number">7.4.6</span> Restar complejidad al construir lecciones (individual/20’)</h3>
+<p>Una forma para construir una lección de programación es escribir el programa que deseas que tus estudiantes terminen, luego eliminar la parte más compleja que deseas que escriban y convertirla en el último ejercicio. A continuación puedes eliminar la siguiente parte más compleja que deseas que escriban y convertirla en el penúltimo ejercicio, etcétera. Todo lo que quede después de haber retirado los ejercicios, como cargar librerias o leer datos, se convierte en el código que les das al inicio. Elige un programa o página web que desees que tus estudiantes puedan crear y trabaja hacia atrás para dividirlo en fragmentos que se asimilen. ¿Cuántos fragmentos hay? ¿Qué idea clave introduce cada uno?</p>
+</section>
+<section id="rareza-no-esencial-individual15" class="level3 exercise" data-number="7.4.7">
+<h3 class="exercise anchored" data-number="7.4.7" data-anchor-id="rareza-no-esencial-individual15"><span class="header-section-number">7.4.7</span> Rareza no esencial (individual/15’)</h3>
+<p>Betsy Leondar-Wright acuñó la frase “[rareza no esencial][inessential-weirdness]” para describir cosas que hacen los grupos que no son realmente necesarias y que alienan a personas que aún no son integrantes de ese grupo. Sumana Harihareswara luego usó esta noción como base para una charla sobre [rarezas no esenciales en el software de código abierto][inessential-weirdness-open-source], lo que incluye, por ejemplo, el uso de herramientas de línea de comandos con nombres crípticos. Toma unos minutos para leer estos artículos, luego haz una lista de las rarezas no esenciales que crees que tus estudiantes podrían encontrar cuando les enseñes por primera vez ¿Cuántas de estas rarezas no esenciales puedes evitar?</p>
+</section>
+<section id="un-patrón-problema-ejemplo-teoría-y-elaboración-individual15" class="level3 exercise" data-number="7.4.8">
+<h3 class="exercise anchored" data-number="7.4.8" data-anchor-id="un-patrón-problema-ejemplo-teoría-y-elaboración-individual15"><span class="header-section-number">7.4.8</span> Un patrón: problema, ejemplo, teoría y elaboración (individual/15’)</h3>
+<p>Un patrón que trabaja bien para lecciones de programación es: presentar un <em>problema</em>, trabajar a través de un <em>ejemplo</em>, explicar la <em>teoría</em>, y luego <em>elaborar</em> un segundo ejemplo para que los/las estudiantes puedan ver qué es específico en cada caso y qué se aplica a todos los casos. (En inglés se lo conoce por su sigla <span data-i="PETE (patrón de lección);patrón de lección!PETE">PETE</span>: <strong>P</strong>roblem, <strong>E</strong>xample, <strong>T</strong>heory, <strong>E</strong>laborate.) Elige algo que ya hayas enseñado o les hayan enseñado y delinea una pequeña lección que siga estos cuatro pasos.</p>
+</section>
+<section id="otro-patrón-predecir-ejecutar-investigar-modificar-y-crear-individual15" class="level3 exercise" data-number="7.4.9">
+<h3 class="exercise anchored" data-number="7.4.9" data-anchor-id="otro-patrón-predecir-ejecutar-investigar-modificar-y-crear-individual15"><span class="header-section-number">7.4.9</span> Otro patrón: predecir, ejecutar, investigar, modificar y crear (individual/15’)</h3>
+<p>Otro patrón de lección es <span class="citation" data-cites="Sent2019">Sentance, Waite, and Kallia (<a href="#ref-Sent2019" role="doc-biblioref">2019</a>)</span>: <em>predecir</em> el comportamiento o salida de un programa, <em>ejecutar</em> el programa para ver lo que realmente hace, <em>investigar</em> por qué lo hace, pasando a través del mismo en un depurador o dibujando el flujo de control, <em>modificar</em> el programa (o sus entradas), y luego <em>crear</em> algo similar desde cero. (En inglés se lo conoce por su sigla <span data-i="PRIMM (patrón de lección);patrón de lección!PRIMM">PRIMM</span>: <strong>P</strong>redict, <strong>R</strong>un, <strong>I</strong>nvestigate, <strong>M</strong>odify, <strong>M</strong>ake.) Elige algo que hayas enseñado o te hayan enseñado recientemente y bosqueja una breve lección que siga estos cinco pasos.</p>
+</section>
+<section id="concreto-representativo-abstracto-parejas15" class="level3 exercise" data-number="7.4.10">
+<h3 class="exercise anchored" data-number="7.4.10" data-anchor-id="concreto-representativo-abstracto-parejas15"><span class="header-section-number">7.4.10</span> Concreto-representativo-abstracto (parejas/15’)</h3>
+<p><em>[Concreto-representativo-abstracto][c-r-a]</em> (abreviado <span data-i="CRA (patrón de lección);patrón de lección!CRA"><em>CRA</em></span>) es un enfoque para introducir nuevas ideas usado principalmente con estudiantes más jóvenes: manipular físicamente un objeto <em>concreto</em>, <em>representar</em> el objeto con una imagen, luego realizar las mismas operaciones usando números, símbolos o algo <em>abstracto</em>.</p>
+<ol type="1">
+<li><p>Escribe cada uno de los números 2, 7, 5, 10, 6 en una nota adhesiva diferente.</p></li>
+<li><p>Simula un bucle que encuentre el valor más grande buscando cada uno por turno (concreto).</p></li>
+<li><p>Dibuja un diagrama del proceso que usaste etiquetando cada paso (representativo).</p></li>
+<li><p>Escribe instrucciones que alguien más podría seguir por medio de los pasos (abstracto).</p></li>
+</ol>
+<p>Compara tus materiales representativos y abstractos con los de tu colega.</p>
+</section>
+<section id="evaluación-de-un-repositorio-de-lecciones-grupos-pequeños10" class="level3 exercise" data-number="7.4.11">
+<h3 class="exercise anchored" data-number="7.4.11" data-anchor-id="evaluación-de-un-repositorio-de-lecciones-grupos-pequeños10"><span class="header-section-number">7.4.11</span> Evaluación de un repositorio de lecciones (grupos pequeños/10’)</h3>
+<p><span class="citation" data-cites="Leak2017">Leake and Lewis (<a href="#ref-Leak2017" role="doc-biblioref">2017</a>)</span> explora por qué los/las docentes de ciencias de la computación no utilizan sitios para compartir lecciones y recomienda formas para hacerlas más atractivas:</p>
+<ol type="1">
+<li><p>La página de destino debe permitir a quienes visitan el sitio identificar sus antecedentes y sus intereses. Los sitios deben hacer dos preguntas: “¿Cuál es tu rol actual?” y “¿En qué curso y nivel tienes interés?”</p></li>
+<li><p>Los sitios deben mostrar los recursos de aprendizaje en el marco de un curso completo para que los/las usuarios/as potenciales puedan comprender el contexto en que se prevé usar el material.</p></li>
+<li><p>A muchos/as docentes les preocupa que sus pares juzguen su (falta de) conocimiento si publican en foros de discusión en línea. Por tanto, estos foros deberían permitir publicaciones anónimas.</p></li>
+</ol>
+<p>En grupos pequeños, discute si estas tres características serían suficientes para convencerte de usar un sitio para compartir lecciones. Si no fueran suficientes, ¿qué te convencería?</p>
+</section>
+</section>
+<section id="revisión" class="level2" data-number="7.5">
+<h2 data-number="7.5" class="anchored" data-anchor-id="revisión"><span class="header-section-number">7.5</span> Revisión</h2>
+<p><img src="diagrams/conceptmap-personas.svg" class="img-fluid" alt="Concepto: Personas tipo">{fig-alt = ““}</p>
+
+
+<div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography">
+<div id="ref-Ande2001" class="csl-entry" role="doc-biblioentry">
+Anderson, Lorin W., and David R. Krathwohl, eds. 2001. <em>A Taxonomy for Learning, Teaching, and Assessing: A Revision of Bloom’s Taxonomy of Educational Objectives</em>. Longman.
+</div>
+<div id="ref-Bigg2011" class="csl-entry" role="doc-biblioentry">
+Biggs, John, and Catherine Tang. 2011. <em>Teaching for Quality Learning at University</em>. Open University Press.
+</div>
+<div id="ref-Fink2013" class="csl-entry" role="doc-biblioentry">
+Fink, L. Dee. 2013. <em>Creating Significant Learning Experiences: An Integrated Approach to Designing College Courses</em>. Jossey-Bass.
+</div>
+<div id="ref-Gree2014" class="csl-entry" role="doc-biblioentry">
+Green, Elizabeth. 2014. <em>Building a Better Teacher: How Teaching Works (and How to Teach It to Everyone)</em>. W. W. Norton &amp; Company.
+</div>
+<div id="ref-Leak2017" class="csl-entry" role="doc-biblioentry">
+Leake, Mackenzie, and Colleen M. Lewis. 2017. <span>“Recommendations for Designing <span>CS</span> Resource Sharing Sites for All Teachers.”</span> In <em>2017 Technical Symposium on Computer Science Education (<span>SIGCSE’17</span>)</em>. Association for Computing Machinery (<span>ACM</span>). <a href="https://doi.org/10.1145/3017680.3017780">https://doi.org/10.1145/3017680.3017780</a>.
+</div>
+<div id="ref-Masa2018" class="csl-entry" role="doc-biblioentry">
+Masapanta-Carrión, Susana, and J. Ángel Velázquez-Iturbide. 2018. <span>“A Systematic Review of the Use of <span class="nocase">Bloom’s Taxonomy</span> in Computer Science Education.”</span> In <em>2018 Technical Symposium on Computer Science Education (<span>SIGCSE’18</span>)</em>. Association for Computing Machinery (<span>ACM</span>). <a href="https://doi.org/10.1145/3159450.3159491">https://doi.org/10.1145/3159450.3159491</a>.
+</div>
+<div id="ref-McTi2013" class="csl-entry" role="doc-biblioentry">
+McTighe, Jay, and Grant Wiggins. 2013. <span>“Understanding by Design Framework.”</span> <a href="http://www.ascd.org/ASCD/pdf/siteASCD/publications/UbD_WhitePaper0312.pdf" class="uri">http://www.ascd.org/ASCD/pdf/siteASCD/publications/UbD_WhitePaper0312.pdf</a>; Association for Supervision &amp; Curriculum Development (<span>ASCD</span>).
+</div>
+<div id="ref-Parn1986" class="csl-entry" role="doc-biblioentry">
+Parnas, David Lorge, and Paul C. Clements. 1986. <span>“A Rational Design Process: How and Why to Fake It.”</span> <em><span>IEEE</span> Transactions on Software Engineering</em> <span>SE</span>-12 (2): 251–57. <a href="https://doi.org/10.1109/tse.1986.6312940">https://doi.org/10.1109/tse.1986.6312940</a>.
+</div>
+<div id="ref-Scot1998" class="csl-entry" role="doc-biblioentry">
+Scott, James C. 1998. <em>Seeing Like a State: How Certain Schemes to Improve the Human Condition Have Failed</em>. Yale University Press.
+</div>
+<div id="ref-Sent2019" class="csl-entry" role="doc-biblioentry">
+Sentance, Sue, Jane Waite, and Maria Kallia. 2019. <span>“Teachers’ Experiences of Using <span>PRIMM</span> to Teach Programming in School.”</span> In <em>2019 Technical Symposium on Computer Science Education (<span>SIGCSE’19</span>)</em>. <span>ACM</span> Press. <a href="https://doi.org/10.1145/3287324.3287477">https://doi.org/10.1145/3287324.3287477</a>.
+</div>
+<div id="ref-Wigg2005" class="csl-entry" role="doc-biblioentry">
+Wiggins, Grant, and Jay McTighe. 2005. <em>Understanding by Design</em>. Association for Supervision &amp; Curriculum Development (<span>ASCD</span>).
+</div>
+<div id="ref-Wile2002" class="csl-entry" role="doc-biblioentry">
+Wiley, David. 2002. <span>“The Reusability Paradox.”</span> <a href="http://opencontent.org/docs/paradox.html" class="uri">http://opencontent.org/docs/paradox.html</a>.
+</div>
+<div id="ref-Will2010" class="csl-entry" role="doc-biblioentry">
+Willingham, Daniel T. 2010. <em>Why Don’t Students Like School?: A Cognitive Scientist Answers Questions about How the Mind Works and What It Means for the Classroom</em>. Jossey-Bass.
+</div>
+</div>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./individual.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Aprendizaje individual</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./pck.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Conocimiento de la pedagogía del contenido</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">Enseñar Tecnología en Comunidad (2e) fue escrito por Greg Wilson y Yanina Bellini Saibene.</div>   
+    <div class="nav-footer-right">El libro fue construido con <a href="https://quarto.org/">Quarto</a>.</div>
+  </div>
+</footer>
+
+
+
+</body></html>
