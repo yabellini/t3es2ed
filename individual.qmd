@@ -10,7 +10,7 @@ La estrategia más efectiva es hacer un cambio de [aprendizaje pasivo]{g="passiv
 | Mirar un video      | Discutir un tema           |
 | Asistir a una clase | Tratar de explicar un tema |
 
-Si hacemos referencia a nuestro modelo simplificado de [arquitectura cognitiva]{i="arquitectura cognitiva"} (<a figure="f:arch-model"/>), el aprendizaje activo es más efectivo porque retiene la información nueva en la [memoria a corto plazo]{i="memoria a corto plazo"} por más tiempo, lo cual aumenta la probabilidad que sea codificada con éxito y almacenada en la [memoria a largo plazo]{i="memoria a largo plazo"}. Al usar la nueva información a medida que llega, tus estudiantes pueden construir y fortalecer los lazos entre la información nueva y la información que ya poseen, lo cual a su vez incrementa las chances de que puedan recuperarla más tarde.
+Si hacemos referencia a nuestro modelo simplificado de [arquitectura cognitiva]{i="arquitectura cognitiva"} (@fig-arch-model), el aprendizaje activo es más efectivo porque retiene la información nueva en la [memoria a corto plazo]{i="memoria a corto plazo"} por más tiempo, lo cual aumenta la probabilidad que sea codificada con éxito y almacenada en la [memoria a largo plazo]{i="memoria a largo plazo"}. Al usar la nueva información a medida que llega, tus estudiantes pueden construir y fortalecer los lazos entre la información nueva y la información que ya poseen, lo cual a su vez incrementa las chances de que puedan recuperarla más tarde.
 
 La otra clave para poder sacarle más provecho al aprendizaje es la [metacognición]{g="metacognition"} o, en otras palabras, pensar sobre lo que una/uno está pensando. Así como las/los músicas/os escuchan lo que están tocando, y las/los buenas/os docentes reflexionan sobre su enseñanza (@sec-performance), tus estudiantes aprenderán mejor y más rápido si hacen planes, fijan metas y monitorean su progreso. Para tus estudiantes es difícil dominar estas habilidades en abstracto---no tiene ningún efecto decirles simplemente que planifiquen---pero las lecciones pueden diseñarse para motivar buenas prácticas de estudio. Al hacer referencia a dichas prácticas en la clase, ayudas a tus estudiantes a darse cuenta de que aprender es una habilidad que pueden mejorar, como cualquier otra @McGu2015,@Miya2018.
 
@@ -24,7 +24,7 @@ Los casos en que la transferencia lejana sí sucede parecen ocurrir solamente cu
 
 ## Seis estrategias {#sec-individual-strategies}
 
-Las/los psicólogas/os estudian el aprendizaje en una amplia variedad de formas, pero han llegado a conclusiones similares sobre qué funciona realmente @Mark2018. Las/Los [Learning Scientists][learning-scientists] (Científicos/as del aprendizaje) han catalogado seis de estas estrategias y las resumieron en [una serie de afiches para descargar][learning-scientists-posters]<sup>Los afiches se encuentran en español, busca el botón *posters in other languages* en la web</sup>. Si enseñas estas estrategias a tus estudiantes, y las mencionas por su nombre cuando las utilices en la clase, estarás ayudando a que aprendan cómo aprender más rápido y mejor @Wein2018a,@Wein2018b.
+Las/los psicólogas/os estudian el aprendizaje en una amplia variedad de formas, pero han llegado a conclusiones similares sobre qué funciona realmente @Mark2018. Las/Los \[Learning Scientists\]\[learning-scientists\] (Científicos/as del aprendizaje) han catalogado seis de estas estrategias y las resumieron en \[una serie de afiches para descargar\]\[learning-scientists-posters\]<sup>Los afiches se encuentran en español, busca el botón *posters in other languages* en la web</sup>. Si enseñas estas estrategias a tus estudiantes, y las mencionas por su nombre cuando las utilices en la clase, estarás ayudando a que aprendan cómo aprender más rápido y mejor @Wein2018a,@Wein2018b.
 
 ### [Práctica distribuida]{i="práctica distribuida (estrategia de aprendizaje); estrategia de aprendizaje!práctica distribuida"}
 
@@ -70,7 +70,7 @@ Si bien hablarte a tí misma/o puede parecer una forma extraña de estudiar, @Bi
 
 Una forma particularmente útil de la estrategia de aprendizaje de elaboración es el uso de ejemplos concretos. Cuando se tiene una definición de un principio general, intenta proveer uno o más ejemplos de su uso o, por el contrario, toma un problema en particular y enuncia los principios generales que representa. @Raws2014 encontró que intercalar ejemplos y definiciones de esta forma permite que las/los estudiantes puedan recordar las definiciones correctamente.
 
-Una forma estructurada de hacer esto es con el [[método ADEPT][adept]]{i="ADEPT (patrón de lección); patrón de lección!ADEPT"}: da una <strong>A</strong>nalogía, dibuja un <strong>D</strong>iagrama, presenta un <strong>E</strong>jemplo, describe la idea en un lenguaje <strong>Sencillo</strong> (del inglés "<strong>P</strong>lain Language"), y luego da los detalles <strong>T</strong>écnicos. De nuevo, si estás estudiando con otra persona o en grupo, puedes intercambiar y revisar el trabajo: ve si estás de acuerdo con el ejemplo que tus pares eligieron para representar el principio que se está discutiendo, o analiza qué principios se usan en un ejemplo que no hayan anotado.
+Una forma estructurada de hacer esto es con el [\[método ADEPT\]\[adept\]]{i="ADEPT (patrón de lección); patrón de lección!ADEPT"}: da una <strong>A</strong>nalogía, dibuja un <strong>D</strong>iagrama, presenta un <strong>E</strong>jemplo, describe la idea en un lenguaje <strong>Sencillo</strong> (del inglés "<strong>P</strong>lain Language"), y luego da los detalles <strong>T</strong>écnicos. De nuevo, si estás estudiando con otra persona o en grupo, puedes intercambiar y revisar el trabajo: ve si estás de acuerdo con el ejemplo que tus pares eligieron para representar el principio que se está discutiendo, o analiza qué principios se usan en un ejemplo que no hayan anotado.
 
 Otra técnica útil es \<span i="enseñar por contraste (patrón de lección);"patrón de lección!enseñar por contraste""\>enseñar por contraste,</span>
 
@@ -78,7 +78,7 @@ p.ej. mostrar a tus estudiantes cuál *no* es la solución o cuál es la técnic
 
 ### \<span i="codificación dual (estrategia de aprendizaje);"extrategia de aprendizaje!codificación dual""\>Codificación Dual</span>
 
-La última de las seis estrategias principales descriptas en [Learning Scientists][learning-scientists] es presentar palabras e imágenes juntas. Como discutimos en la @sec-architecture-brain, diferentes subsistemas en nuestro cerebro manejan y almacenan la información lingüística y visual, de tal manera que, si se presenta información complementaria por ambos canales, se refuerzan mutuamente. Sin embargo, aprender es menos efectivo cuando la misma información se presenta de forma simultánea por dos canales diferentes, porque el cerebro tiene que hacer un esfuerzo para comparar los canales entre sí @Maye2003.
+La última de las seis estrategias principales descriptas en \[Learning Scientists\]\[learning-scientists\] es presentar palabras e imágenes juntas. Como discutimos en la @sec-architecture-brain, diferentes subsistemas en nuestro cerebro manejan y almacenan la información lingüística y visual, de tal manera que, si se presenta información complementaria por ambos canales, se refuerzan mutuamente. Sin embargo, aprender es menos efectivo cuando la misma información se presenta de forma simultánea por dos canales diferentes, porque el cerebro tiene que hacer un esfuerzo para comparar los canales entre sí @Maye2003.
 
 Una forma de aprovechar la codificación dual es dibujar o etiquetar líneas de tiempo, mapas o árboles familiares, o cualquier otro material que sea relevante. (Personalmente, me gustan las imágenes que muestran qué funciones llaman a qué otras en un programa.) Dibujar un diagrama *sin* etiquetas, y después volver atrás para etiquetarlo, es una práctica excelente para recordar.
 
@@ -110,7 +110,7 @@ El objetivo de organizarse y prepararse es entrar en el estado mental más produ
 
 > ### ¿Cómo lo supo?
 >
-> En su breve historia en 1961 "[Harrison Bergeron][bergeron-harrison]", Kurt Vonnegut describió un futuro en el que las personas están obligadas a ser iguales. Las personas atractivas tienen que usar máscaras, las personas atléticas tienen que cargar pesas---y las personas inteligentes están obligadas a llevar radios que interrumpen sus pensamientos en intervalos aleatorios. A veces me pregunto si---oh, un momento, mi teléfono acaba de---perdón, ¿de qué estábamos hablando?
+> En su breve historia en 1961 "\[Harrison Bergeron\]\[bergeron-harrison\]", Kurt Vonnegut describió un futuro en el que las personas están obligadas a ser iguales. Las personas atractivas tienen que usar máscaras, las personas atléticas tienen que cargar pesas---y las personas inteligentes están obligadas a llevar radios que interrumpen sus pensamientos en intervalos aleatorios. A veces me pregunto si---oh, un momento, mi teléfono acaba de---perdón, ¿de qué estábamos hablando?
 
 ## [Evaluación de pares]{i="evaluación de pares"} {#individual-peer}
 
@@ -166,7 +166,7 @@ Elige un tema que recién hayas enseñado o aprendido, y delinea una pequeña le
 
 ### El costo de la multitarea (parejas/10') {.exercise}
 
-[El blog de The Learning Scientists][learning-scientists-blog] describe un experimento simple que puedes hacer con solo un cronómetro para demostrar el costo de hacer múltiples tareas a la vez. En parejas, mide cuánto tarda cada persona en hacer cada una de estas tres tareas:
+\[El blog de The Learning Scientists\]\[learning-scientists-blog\] describe un experimento simple que puedes hacer con solo un cronómetro para demostrar el costo de hacer múltiples tareas a la vez. En parejas, mide cuánto tarda cada persona en hacer cada una de estas tres tareas:
 
 -   Contar del 1 al 26 dos veces.
 
@@ -192,7 +192,7 @@ Luego, cada pareja informa sus tiempos a la clase. Sin práctica específica, in
 
 6.  Algunas personas son naturalmente mejores programadoras que otras.
 
-Cada persona de la clase es invitada a votar +1 (de acuerdo), -1 (en desacuerdo) o 0 (neutro) para cada punto. Luego, la/el docente lee la explicación completa en [el artículo original][guzdial-myths] y se vuelve a hacer la votación. ¿En cuáles preguntas las personas cambiaron de parecer? ¿Cuáles todavía creen que son verdad, y por qué?
+Cada persona de la clase es invitada a votar +1 (de acuerdo), -1 (en desacuerdo) o 0 (neutro) para cada punto. Luego, la/el docente lee la explicación completa en \[el artículo original\]\[guzdial-myths\] y se vuelve a hacer la votación. ¿En cuáles preguntas las personas cambiaron de parecer? ¿Cuáles todavía creen que son verdad, y por qué?
 
 ### Revisión por pares calibrada (parejas/20') {.exercise}
 
@@ -206,7 +206,4 @@ Cada persona de la clase es invitada a votar +1 (de acuerdo), -1 (en desacuerdo)
 
 ## Revisión {#sec-individual-revision}
 
-
 ![Conceptos: Aprendizaje activo](diagrams/conceptmap-active-learning.svg){fig-alt="el aprendizaje activo es mejor que el aprendizaje pasivo. La práctica distribuida, de recuperación, intercalada, la elaboración, ejemplos concretos y la codificación dual ayudan a que el aprendizaje activo ocurra. Una persona novata no tiene conexiones, una persona competente tiene pocas conexiones y una persona experta tiene muchas. El aprendizaje activo forma estas conexiones."}
-
-
