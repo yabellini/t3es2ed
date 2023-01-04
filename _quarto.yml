@@ -16,7 +16,8 @@ book:
   repo-url: https://github.com/yabellini/t3es2ed
   repo-branch: main
   repo-actions: [edit, issue]    
-
+  cover-image: cover.jpeg
+  
   sidebar:
     search: true
     
