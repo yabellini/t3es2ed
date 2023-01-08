@@ -14,19 +14,22 @@ Discute, luego edita.
 
 :   Si quieres proponer un gran cambio, como reorganizar o dividir un capítulo completo, por favor, completa un *issue* que describa tu propuesta y tu razonamiento y etiquétalo como *"Addition"* (agregar en inglés), *"Correction"* (corrección en inglés) ó *"Discussion"* (discusión en inglés). Te alentamos a que agregues comentarios a estos *issues* para que toda la discusión sobre *qué* y *por qué* esté abierta y se pueda archivar. Si se acepta la propuesta, el trabajo real puede dividirse en varios problemas o cambios más pequeños que se pueden abordar de forma independiente.
 
+Traduce.
+
+:   Si quieres traducir este material a otro idioma, por favor genera un *issue* que indique a que idioma quieres realizar la traducción. Te recomendamos que sea un trabajo que realices entre varias personas, con diferentes roles como traducir y revisar y editar. Como guía general, ten en cuenta estos puntos: a) utiliza una voz conversacional en lugar de una voz formal o académica, b) si corresponde, especifique qué dialecto o variante regional de la lengua se está utilizando, c) intenta ser neutral en cuanto al género, d) intente ser idiomático.
+
 ## Usando este material {#sec-joining-using}
 
 Como se declaró en el Capítulo @sec-intro, todo este material puede distribuirse y reutilizarse libremente bajo la licencia Creative Commons Atribución -- No Comercial 4.0 (@sec-license). Puedes usar la versión en línea en <https://educarencomunidad.tech/> en cualquier clase (gratuita o paga), y puedes citar extractos breves bajo las disposiciones de \[uso justo\]\[uso-justo\], pero no puedes volver a publicar fragmentos grandes en obras comerciales sin permiso previo.
 
-Este material ha sido usado de muchas maneras, desde charlas de media a una hora, un seminario en línea de una hora y media, a un taller de tres horas; desde varios encuentros semanales presenciales y virtuales, hasta un taller intensivo en persona.
+Este material ha sido usado de muchas maneras, desde charlas de media a una hora, seminarios en línea de una hora y media, talleres de tres horas; a varios encuentros semanales presenciales y virtuales y hasta un taller intensivo en persona.
 
 En la siguiente sección te damos detalles de cada una de estos formatos, que contenido se puede cubrir en cada uno y donde puedes encontrar material de apoyo ya desarrollado.
 
-\<FIXME\> *Ver si esto lo dejamos o lo ponemos en alguno de los formatos* Por lo general, es posible cubrir gran parte de los capítulos @sec-models a @sec-process, @sec-performance, y @sec-motivation en dos días de jornada completa. \</FIXME\>
 
 ### En persona {#sec-joining-using-inperson}
 
-\<FIXME Preguntar a Greg porqué dice esto\>Esta es la forma más efectiva de impartir esta capacitación , pero también la más exigente. \</FIXME\> Las personas que participan están físicamente en el mismo lugar. Cuando necesitan practicar cómo enseñar en pequeños grupos, parte de la clase o toda la clase va a habitaciones cercanas. Cada participante usa su propia tableta o computadora portátil para ver material en línea durante la clase y para tomar notas compartidas (@sec-classroom-notetaking), y usa lápiz y papel o pizarras para otros ejercicios. Las preguntas y la discusión se hacen en voz alta.
+Las personas que participan están físicamente en el mismo lugar. Cuando necesitan practicar cómo enseñar en pequeños grupos, parte de la clase o toda la clase va a habitaciones cercanas. Cada participante usa su propia tableta o computadora portátil para ver material en línea durante la clase y para tomar notas compartidas (@sec-classroom-notetaking), y usa lápiz y papel o pizarras para otros ejercicios. Las preguntas y la discusión se hacen en voz alta.
 
 Si estás enseñando en este formato, debes usar notas adhesivas como indicadores de estado para que puedas ver quién necesita ayuda, quién tiene preguntas y quién está listo/a para seguir adelante (@sec-classroom-sticky-notes). También debes usarlos para distribuir la atención, para que todo el curso obtenga tu atención y tiempo de forma justa, como tarjetas de actas para alentar a tus estudiantes a reflexionar sobre lo que acaban de aprender y para darte retroalimentación procesable mientras todavía tienes tiempo para actuar en consecuencia.
 
@@ -52,9 +55,9 @@ Este fue el primer formato que Greg utilizó pero ya no lo recomienda. Mientras 
 
 #### Encuentros de cuatro horas {#sec-joining-using-multiweek-hours}
 
-El grupo de entre 12 a 26 personas realiza uno o dos encuentros semanales, durante cuatro o dos semanas de forma sincrónica on-line durante cuatro horas. Todo el material del curso se pone disponible en un sitio web con anterioridad. Si Hay dos clases semanales se deja al menos un día entre cada encuentro.
+El grupo de entre 12 a 26 personas realiza uno o dos encuentros semanales, durante cuatro o dos semanas de forma sincrónica on-line durante cuatro horas. Todo el material del curso está disponible en un sitio web con anterioridad. Si Hay dos clases semanales se deja al menos un día entre cada encuentro.
 
-La clase está estructurada con presentación de contenido con participación activa de los estudiantes por medio de notas compartidas y el chat de la plataforma de videoconferencia. También hay resolución de ejercicios grupales al finalizar un grupo de temas o conceptos, usando documentos compartidos y una reflexión grupal general luego de cada ejercitación. Todos los grupos comparten al menos una vez, el resultado de sus ejercicios grupales durante los encuentros sincrónicos.
+La clase está estructurada con presentación de contenido con participación activa de los estudiantes por medio de notas compartidas y el chat de la plataforma de videoconferencia. También hay resolución de ejercicios grupales al finalizar de explicar un grupo de temas o conceptos. Se usan documentos compartidos y una reflexión grupal general luego de cada ejercitación. Todos los grupos comparten, al menos una vez, el resultado de sus ejercicios grupales durante los encuentros sincrónicos.
 
 Se les permite a los estudiantes seleccionar si quieren mantener los grupos de un encuentro a otro o prefieren cambiarlos para conocer a mas personas que están tomando el curso.
 
@@ -134,6 +137,55 @@ Paso 4. Definir responsabilidades
 Para los encuentros Los responsables inician la plataforma, dan la bienvenida, recuerdan el código de conducta y dirigen la actividad (chat, documento compartido, diapositivas, salas para grupos para resolver los ejercicios, etc). Quien presenta repasa los contenidos y gestiona la discusión. Cuando se cumple el tiempo, se comparte la encuesta anónima y los temas del encuentro siguiente. Si son encuentros sincónicos, online, se deja abierto el zoom y la posibilidad de extendernos en el horario, quienes pueden se quedan. En general quienes participaban se quedaban media hora más.
 
 Se utiliza un documento compartido (Google Doc/Slides, HackMD) estructurado para cada encuentro con una serie de secciones @sec-shared-notes <FIXME>. Datos generales (link a los capítulos, link a materiales), preguntas que guiarán las actividades (ejercicios para romper el hielo, trabajo en grupo, todos contestan, etc), material interesante relacionado con los capítulos. En este documento se ponen los ejercicios de cada capítulo que se seleccionaron para resolver durante el encuentro.
+
+### ¿Qué enseñamos en cada formato?
+
+En dos jornadas completas (16 horas de curso) se puede cubrir gran parte de los capítulos @sec-models a @sec-process, @sec-performance, y @sec-motivation.  
+
+También se puede hacer en una jornada completa o dos medias jornadas (8 horas de curso), en ese caso, estos son los objetivos de aprendizaje
+
+<FIXME agregar los objetivos de aprendizaje de Greg>
+
+En el caso de los talleres de tres horas, tenemos dos talleres diferentes. 
+
+#### Introducción a enseñar
+
+**Objetivo**: Introducir buenas prácticas básicas basadas en evidencia para el manejo de espacios de intercambio de conocimiento presencial (por ejemplo, clase, seminario, taller o charla) o remoto, (por ejemplo, clases sincrónicas usando plataformas de videoconferencia remotas). Cada detalle del taller, empezando por el formulario de registro hasta el pedido de devolución cuando termina el taller, pasando por la ejecución del mismo, son una demostración de estrategias que pueden ser adoptadas o adaptadas a cualquier tarea docente que sucede interactuando en simultáneo con una audiencia.
+
+Durante este taller:
+* Mostraremos como contactar y preparar a tu audiencia para sumarse a una clase o
+evento sincrónico (“la previa”)
+* Manejaremos un evento remoto a través de Zoom que mantendrá a una audiencia
+participando activamente durante tres horas.
+* Veremos ejemplos de cómo crear un ambiente positivo para nuestra audiencia
+* Tendremos una introducción a conceptos pedagógicos de:
+
+  * Diseño de la clase o evento pensando en la audiencia que va a estar recibiendo el material (estudiantes/personas tipo)
+  * Uso de mapas conceptuales
+  * Evaluación formativa diagnóstica cada para saber si tu audiencia sigue lo que explicas y corregir sobre la marcha cuando detectes que algo no es claro para la mayoría
+  * Participación en un documento conjunto colaborativo para tomar notas o resolver evaluaciones formativas
+  * Otras herramientas pedagógicas rápidas basadas en evidencia y fáciles de implementar
+  * Pedido de devolución a tu audiencia luego de cada clase y cómo dar devoluciones efectivas
+
+* Compartiremos fuentes de las cuales seguir aprendiendo prácticas pedagógicas
+
+#### Cómo enseñar a programar
+
+Introducir técnicas y buenas prácticas para diseñar tus cursos de programación y evaluar a tus estudiantes.
+
+Durante este taller:
+
+  * Mostraremos cómo diseñar tus cursos de programación de una manera eficiente y productiva.
+
+  * Hablaremos de la utilidad de la revisión entre pares y la importancia de recibir feedback. Discutiremos cómo implementar estas prácticas.
+
+  * Presentaremos diferentes tipos de evaluación y ejercicios posibles. Por ejemplo: problemas de Parsons, Completar los espacios en blancos, etc.
+
+  * Haremos un recorrido por las buenas prácticas de programación y las formas de promover su uso entre tus estudiantes.
+
+  * Presentaremos la práctica de Códificación en vivo (_Live Coding_). Veremos ejemplos prácticos que ayudarán a reconocer detalles a tener en cuenta a la hora de llevarla a cabo.
+
+* Durante todo el taller ilustraremos los conceptos presentados usando ejemplos de uso en diferentes lenguajes de programación.
 
 ### ¿Quién puede enseñar este material?
 
