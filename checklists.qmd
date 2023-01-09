@@ -6,123 +6,70 @@
 
 Esta rúbrica fue diseñada para evaluar lo que se enseñó durante 5 a 10 minutos con diapositivas, programación en vivo o una combinación de ambas estrategias. Valora cada ítem como "Sí," "Más o menos," "No," o "No corresponde (NC)."
 
-+----------------------+----------------------------------------------------------------------------------------------------------------------------------+
+|                      |                                                                                                                                  |
+|---------------|---------------------------------------------------------|
 | Inicio               | Presente (usa NC para otras las respuestas si no hay un inicio)                                                                  |
-+----------------------+----------------------------------------------------------------------------------------------------------------------------------+
 |                      | Adecuada duración (10 a 30 segundos)                                                                                             |
-+----------------------+----------------------------------------------------------------------------------------------------------------------------------+
 |                      | Se presenta                                                                                                                      |
-+----------------------+----------------------------------------------------------------------------------------------------------------------------------+
 |                      | Presenta el tema que se trabajará                                                                                                |
-+----------------------+----------------------------------------------------------------------------------------------------------------------------------+
 |                      | Describe los requisitos                                                                                                          |
-+----------------------+----------------------------------------------------------------------------------------------------------------------------------+
 | Contenido            | Objetivos claros/narrativa fluida                                                                                                |
-+----------------------+----------------------------------------------------------------------------------------------------------------------------------+
 |                      | Lenguaje inclusivo                                                                                                               |
-+----------------------+----------------------------------------------------------------------------------------------------------------------------------+
 |                      | Ejemplos y tareas reales                                                                                                         |
-+----------------------+----------------------------------------------------------------------------------------------------------------------------------+
 |                      | Enseña buenas prácticas/utiliza código idiomático                                                                                |
-+----------------------+----------------------------------------------------------------------------------------------------------------------------------+
 |                      | Señala un camino intermedio entre la Escila de la jerga y la Caribdis de la sobresimplificación                                  |
-+----------------------+----------------------------------------------------------------------------------------------------------------------------------+
 | Dando la lección     | Voz clara y entendible (usa "Más o menos" o "No" para acentos muy marcados)                                                      |
-+----------------------+----------------------------------------------------------------------------------------------------------------------------------+
 |                      | Ritmo: ni muy rápido ni muy lento, no realiza pausas largas o se interrumpe, no aparenta estar leyendo sus notas                 |
-+----------------------+----------------------------------------------------------------------------------------------------------------------------------+
 |                      | Seguridad: no se pierde en el pozo de alquitrán de la incertidumbre ni tampoco en las colinas de estiércol de la condescendencia |
-+----------------------+----------------------------------------------------------------------------------------------------------------------------------+
 | Diapositivas         | Usa diapositivas (completa con NC el resto de las respuestas si no usa diapositivas)                                             |
-+----------------------+----------------------------------------------------------------------------------------------------------------------------------+
 |                      | Diapositivas y discurso se complementan uno al otro (programación dual)                                                          |
-+----------------------+----------------------------------------------------------------------------------------------------------------------------------+
 |                      | Fuentes y colores legibles; sin bloques de texto abrumadores por su tamaño                                                       |
-+----------------------+----------------------------------------------------------------------------------------------------------------------------------+
 |                      | Pantalla: cambia frecuentemente (algo cambia cada 30 segundos)                                                                   |
-+----------------------+----------------------------------------------------------------------------------------------------------------------------------+
 |                      | Adecuado uso de figuras                                                                                                          |
-+----------------------+----------------------------------------------------------------------------------------------------------------------------------+
 | Programación en vivo | Usa programación en vivo (completa con NC el resto de las respuestas si no usa programación en vivo)                             |
-+----------------------+----------------------------------------------------------------------------------------------------------------------------------+
 |                      | Código y discurso se complementan uno al otro                                                                                    |
-+----------------------+----------------------------------------------------------------------------------------------------------------------------------+
 |                      | Fuentes y colores legibles; adecuada cantidad de código en pantalla                                                              |
-+----------------------+----------------------------------------------------------------------------------------------------------------------------------+
 |                      | Uso de herramientas de forma adecuada                                                                                            |
-+----------------------+----------------------------------------------------------------------------------------------------------------------------------+
 |                      | Resalta elementos clave del código                                                                                               |
-+----------------------+----------------------------------------------------------------------------------------------------------------------------------+
 |                      | Analiza los errores                                                                                                              |
-+----------------------+----------------------------------------------------------------------------------------------------------------------------------+
 | Cierre               | Presente (valora NC para otras respuestas si el cierre no está presente)                                                         |
-+----------------------+----------------------------------------------------------------------------------------------------------------------------------+
 |                      | Adecuada duración (10 a 30 segundos)                                                                                             |
-+----------------------+----------------------------------------------------------------------------------------------------------------------------------+
 |                      | Resume puntos clave                                                                                                              |
-+----------------------+----------------------------------------------------------------------------------------------------------------------------------+
 |                      | Presenta un esquema general de los próximos pasos                                                                                |
-+----------------------+----------------------------------------------------------------------------------------------------------------------------------+
 | En general           | Puntos claramente conectados y flujo lógico                                                                                      |
-+----------------------+----------------------------------------------------------------------------------------------------------------------------------+
 |                      | Hace que el tema sea interesante (es decir, no aburrido)                                                                         |
-+----------------------+----------------------------------------------------------------------------------------------------------------------------------+
 |                      | Comprende el tema                                                                                                                |
-+----------------------+----------------------------------------------------------------------------------------------------------------------------------+
 
 ## Evaluación del grupo docente {#sec-checklists-teameval}
 
 Esta rúbrica fue diseñada para evaluar el desempeño de individuos dentro de un grupo. Los ejemplos a continuación pueden servirte como material inicial a partir del cual desarrollar tus propias rúbricas. Valora cada ítem como "Sí," "Más o menos," "No," o "No corresponde (NC)."
 
-+--------------------+-----------------------------------------------------------------------------------------------------------------+
+|                    |                                                                                                                 |
+|---------------|--------------------------------------------------------|
 | Comunicación       | Escucha atentamente y sin interrumpir                                                                           |
-+--------------------+-----------------------------------------------------------------------------------------------------------------+
 |                    | Aclara lo que se ha dicho para garantizar la comprensión                                                        |
-+--------------------+-----------------------------------------------------------------------------------------------------------------+
 |                    | Articula ideas en forma clara y concisa                                                                         |
-+--------------------+-----------------------------------------------------------------------------------------------------------------+
 |                    | Argumenta adecuadamente sus ideas                                                                               |
-+--------------------+-----------------------------------------------------------------------------------------------------------------+
 |                    | Obtiene el apoyo de otras/os integrantes del equipo                                                             |
-+--------------------+-----------------------------------------------------------------------------------------------------------------+
 | Toma de decisiones | Analiza los problemas desde diferentes puntos de vista                                                          |
-+--------------------+-----------------------------------------------------------------------------------------------------------------+
 |                    | Aplica lógica para resolver problemas                                                                           |
-+--------------------+-----------------------------------------------------------------------------------------------------------------+
 |                    | Propone soluciones basadas en hechos y no en "corazonadas" o intuición                                          |
-+--------------------+-----------------------------------------------------------------------------------------------------------------+
 |                    | Invita al resto del equipo a proponer nuevas ideas                                                              |
-+--------------------+-----------------------------------------------------------------------------------------------------------------+
 |                    | Genera nuevas ideas                                                                                             |
-+--------------------+-----------------------------------------------------------------------------------------------------------------+
 |                    | Acepta cambios                                                                                                  |
-+--------------------+-----------------------------------------------------------------------------------------------------------------+
 | Colaboración       | Reconoce los problemas que el equipo necesita enfrentar y resolver                                              |
-+--------------------+-----------------------------------------------------------------------------------------------------------------+
 |                    | Trabaja para hallar soluciones que sean aceptables para todas las partes involucradas                           |
-+--------------------+-----------------------------------------------------------------------------------------------------------------+
 |                    | Comparte el crédito del éxito con otras/os integrantes del equipo                                               |
-+--------------------+-----------------------------------------------------------------------------------------------------------------+
 |                    | Promueve la participación entre todos las/los integrantes del equipo                                            |
-+--------------------+-----------------------------------------------------------------------------------------------------------------+
 |                    | Acepta la crítica abiertamente y sin "ponerse a la defensiva"                                                   |
-+--------------------+-----------------------------------------------------------------------------------------------------------------+
 |                    | Coopera con el equipo                                                                                           |
-+--------------------+-----------------------------------------------------------------------------------------------------------------+
 | Autogestión        | Monitorea sus avances para garantizar que se alcancen los objetivos                                             |
-+--------------------+-----------------------------------------------------------------------------------------------------------------+
 |                    | Le da máxima prioridad a obtener resultados                                                                     |
-+--------------------+-----------------------------------------------------------------------------------------------------------------+
 |                    | Define tareas prioritarias para los encuentros de trabajo                                                       |
-+--------------------+-----------------------------------------------------------------------------------------------------------------+
 |                    | Promueve que otras/os integrantes del equipo manifiesten sus opiniones, incluso si no coinciden con las propias |
-+--------------------+-----------------------------------------------------------------------------------------------------------------+
 |                    | Mantiene la atención durante la reunión                                                                         |
-+--------------------+-----------------------------------------------------------------------------------------------------------------+
 |                    | Usa eficientemente el tiempo de reunión                                                                         |
-+--------------------+-----------------------------------------------------------------------------------------------------------------+
 |                    | Sugiere formas de trabajar en las reuniones                                                                     |
-+--------------------+-----------------------------------------------------------------------------------------------------------------+
 
 ## Organización de eventos {#sec-checklists-events}
 
@@ -186,27 +133,18 @@ Las listas de verificación que se presentan a continuación pueden usarse antes
 
 Aquí algunas cosas que las/los docentes llevan consigo a los talleres:
 
-+---------------------------------------------------------+------------------------------------------------------------------------+
+|                                                         |                                                                        |
+|--------------------------------|----------------------------------------|
 | notas adhesivas                                         | caramelos para suavizar la garganta                                    |
-+---------------------------------------------------------+------------------------------------------------------------------------+
 | zapatos cómodos                                         | una pequeña libreta de notas                                           |
-+---------------------------------------------------------+------------------------------------------------------------------------+
 | adaptador de corriente eléctrica de repuesto            | camisa de repuesto                                                     |
-+---------------------------------------------------------+------------------------------------------------------------------------+
 | desodorante                                             | adaptadores para video                                                 |
-+---------------------------------------------------------+------------------------------------------------------------------------+
 | pegatinas (stickers) para computadoras                  | tus notas (impresas o en una tableta)                                  |
-+---------------------------------------------------------+------------------------------------------------------------------------+
 | barrita de cereal o similar                             | antiácido (problema de comer al paso)                                  |
-+---------------------------------------------------------+------------------------------------------------------------------------+
 | tarjeta de presentación                                 | anteojos o lentes de contacto de repuesto                              |
-+---------------------------------------------------------+------------------------------------------------------------------------+
 | libreta y bolígrafo                                     | puntero láser                                                          |
-+---------------------------------------------------------+------------------------------------------------------------------------+
 | vaso térmico para té o café (o equipo de mate o tereré) | marcadores de pizarra adicionales                                      |
-+---------------------------------------------------------+------------------------------------------------------------------------+
 | cepillo de dientes o enjuague bucal                     | toallitas húmedas descartables (puede volcarse algo encima de tu ropa) |
-+---------------------------------------------------------+------------------------------------------------------------------------+
 
 Al viajar muchas/os docentes llevan además zapatos deportivos, traje de baño, mat de yoga o el material que necesiten para hacer actividad física. También una conexión WiFi portátil por si la de la habitación no funciona, y alguna memoria USB con los instaladores del software que las/los estudiantes necesitarán para el curso.
 
@@ -321,3 +259,201 @@ Este cuestionario ayuda a las/los docentes a estimar el conocimiento previo sobr
     -   Lo resolvería rápido con poco o nada de ayuda externa.
 
 5.  ¿Qué te gustaría saber o poder hacer al finalizar esta clase que no sabes o puedes hacer ahora?
+
+## Organizando un curso o taller
+
+Esta lista de plantillas y checklist pueden ser útiles para diferentes etapas del proceso de organizar un curso.
+
+### Formuario de registro
+
+El formulario de registro o demostración de interés te permite recabar información sobre tus estudiantes, siempre es conveniente conocer a tu audiencia.  Las necesidades de información pueden variar de acuerdo el contexto o el tipo de curso que vayas a dictar.  En este ejemplo recabamos información sobre
+
+* Pronombres
+* Geografía y lenguaje
+* Datos profesionales 
+* Herramientas
+* Accesibilidad
+* Mantener contacto
+
+#### Requisitos legales de protección y uso de datos personales
+
+Debes tener en cuenta que vas a tener que cumplir con requisitos de almacenamiento y procesamiento de información personal de las personas que se inscriban a tus cursos y completen estos formularios.  Para este punto es importante aclarar al inicio del formulario o en el texto donde se solicita que las personas se inscriban una serie de detalles:
+
+* para qué se usará la información (Ej: para acomodar la infraestructura del taller de acuerdo a tus necesidades de accesibilidad)
+* quién tiene acceso a esa información sin procesar (Ej: el personal contratado de la organización) y procesada (Ej: el equipo docente de una edición del curso).
+* dónde y cómo se almacena (Ej: en la base de datos de la universidad que hace de anfitrión del curso)
+* explicar un proceso para que quien quiera borrar o modificar los datos pueda hacerlo.
+* explicar que completando el formulario dan consentimiento a este uso de los datos.
+
+#### Preguntas del formulario
+
+* Sección _Datos generales_:
+  - mail (utilizado para contacto y como identificador único), 
+  - Nombre completo (es mejor que solicitar nombre y apellido por separado),
+  - pronombres (para dirigirnos a cada persona correctamente),
+  - país desde el cual participa (es un dato útil para conocer tu alcance).
+
+* Sección _Datos profesionales_:
+  - Nivel educativo completo
+  - ¿cuántos años hace que diste tu primera clase?, 
+  - Ámbito educativo en el que enseña la mayor parte del tiempo, 
+  - Tipo de institución en donde enseña la mayor parte del tiempo, 
+  - Cantidad de estudiantes esperas en tu próxima clase y 
+  - Qué disciplina/s enseñas.
+
+* Sección de _Herramientas: uso y accesibilidad_:
+
+* conocimientos de Español (porque es el idioma en el cual dictamos nuestros cursos),
+
+* la experiencia en el uso de Formularios de Google, Documentos de Google, Slack y Zoom (porque son las herramientas que usamos para enseñar y para interactuar, tanto en los cursos como en la comunidad),
+
+* dificultades para participar de talleres en forma remota:
+  - Tengo dificultad para ver, aun con anteojos o lentes de contacto
+  - Tengo dificultad para oír, aun con audífono
+  - Tengo dificultades de movilidad que afectan mi interacción con dispositivos electrónicos como el celular o computadora
+  - Tengo dificultad para permanecer delante de una pantalla más de 50 minutos
+  - Tengo dificultad para comprender o recordar
+  - Tengo dificultad para concentrarme
+  - Tengo dificultad para comunicarme
+  - No tengo ninguna de estas dificultades
+  - No tengo ninguna de estas dificultades
+
+* Si la persona marcó que tiene alguna dificultad, se le pregunta ¿cómo podemos facilitar tu participación?   
+  - No tengo ninguna dificultad
+  - Con un lector de pantalla
+  - Con materiales con alto contraste y letra grande
+  - Usando comunicación por voz
+  - Hablando claro, pausado, con buena calidad de audio
+  - Con subtitulado
+  - Usando lengua de señas
+  - Usando comunicación por escrito
+  - Con pausas frecuentes lejos de la pantalla
+  - Prefiero no decirlo
+  
+* ¿Tienes alguna de las siguientes dificultades tecnológicas para participar de talleres en  forma remota?
+  - Tengo una conexión a internet inestable o limitada
+  - No tengo internet
+  - No tengo computadora, tablet, teléfono móvil, ni ningún otro dispoisitivo con el cual conectarme a internet
+  - Tengo dispositivos para conectarme a internet, pero no andan bien
+  - No tengo micrófono
+  - No tengo ninguna de estas dificultades
+  - Prefiero no decirlo
+  
+* Si la persona marcó que tiene alguna dificultad tecnológica se le pregunta, ¿cómo podemos facilitar tu participación?
+  - No tengo ninguna dificultad
+  - Facilitando un número de teléfono como opción a conectar por internet
+  - Permitiendo participar por escrito
+  - Permitiendo participar usando la voz
+  - Prefiero no decirlo
+
+Se pide permiso para enviarle información por mail sobre otros cursos y otras noticias de MetaDocencia.
+
+
+Finalmente se agrega una pregunta abierta, dando la posibilidad que la persona comparta otra información que considere pertienente.
+
+
+
+
+
+> En nuestro centro de recursos puedes [acceder a una versión editable](https://docs.google.com/forms/d/15M8mqLG_qj6FSvqqzc4l0bnwJ1Q0JNqLSSLnMtYbxOs/edit) que te recomendamos duplicar para poder trabajarla sin problemas para tus propios objetivos.
+
+
+### Formulario de Feedback
+
+Este formulario se comparte al finalizar el taller y tiene como objetivo identificar areas de mejora en el contenido y la dinámica del curso.
+
+> Aquí puedes [acceder a una versión editable](https://docs.google.com/forms/d/1Z7F-gEwIT3Wokj8g65TcU5rzrFHzQsjtmKBQmqUaEnE/edit) que te recomendamos duplicar para poder trabajarla sin problemas para tus propios objetivos.
+
+
+## Documentos compartido
+
+Durante nuestros cursos utilizamos un [documento compartido](https://teachtogether.tech/es/index.html#s:classroom-notetaking) para tomar notas y resolver ejercicios juntos.  Es una forma de elaboración en tiempo real que obliga a reflexionar sobre el material a medida que se lo presenta.  Los ejercicios en conjunto son una muy buena opción de evaluación formativa.
+
+Aquí puedes [acceder a una plantilla](https://docs.google.com/document/d/1sPvRezzh3y1kJh171mjhbe5krmIi_QNoOs1LPOBp2bE/edit) de un documento compartido que te recomendamos duplicar para poder trabajarla sin problemas para tus propios objetivos.
+
+
+## Comunicación con estudiantes
+
+### Email pre curso
+
+Este es un texto de ejemplo del mail que se envia a los estudiantes antes de iniciar el curso
+
+Asunto: [Tutorial de learnr] - Información para conectarte
+
+
+Hola!
+
+Muchas gracias por registrarte en el curso {nombre del curso} el {fecha del curso} a las {horario del curso} (Zona horaria UTC-3) organizado por {nombre de las instituciones y comunidades que organizan el curso}. Este mensaje tiene información importante para ayudar a prepararte para el curso. Leelo detenidamente y avisanos si tenés alguna pregunta.
+
+Al participar de nuestros cursos aceptás este [Código de Conducta]().
+
+Para esta capacitación en línea necesitás una computadora con conexión a internet, parlantes y micrófono (o auriculares con micrófono o combinación similar). No hace falta que tengas cámara, aunque si la tenés, podés usarla.
+
+Necesitamos que tengas instalado {lista de software necesaria}
+
+Para el curso, vamos a usar la plataforma de videoconferencia Zoom. No es necesario tener un usuario, pero es posible que tengas que instalar algo la primera vez que lo uses. Si nunca usaste Zoom o no sabés si te va a andar esta vez, por favor, hacé clic en https://zoom.us/test para hacer una llamada de prueba y seguir las instrucciones para descargar lo necesario.
+
+Comenzaremos puntualmente. Diez minutos antes de la hora de comienzo, usá el siguiente enlace de zoom (no requiere palabra clave).
+
+Ubicación:
+
+<Datos de conexión a la reunión>
+
+
+Este enlace sólo será válido para este curso. Por favor, para hacer de nuestra reunión un espacio seguro, no compartas este enlace con nadie.
+
+También por la seguridad de la reunión, es muy importante que ingreses con un nombre similar al que usaste cuando te pre-inscribiste. Tu ingreso será más rápido si lo hacés así y no tenemos que hacerte esperar hasta chequear tu identidad.
+
+Si llegás luego de la hora de comienzo, tendrás que esperar a que autoricemos tu ingreso. Lo haremos lo antes que podamos sin interrumpir el curso en marcha.
+
+Por último, nos gusta enseñar en ambientes amigables y distendidos. Por ejemplo, si tu familia humana o animal se asoma a saludar, será bienvenida. Tené el mate a mano o lo que quieras tomar o comer durante el curso. También habrá pausas si te olvidás algo o necesitás hacer alguna escala técnica.
+
+Si tenés alguna pregunta sobre el taller, la modalidad, o cualquier otra cosa, no dudes en ponerte en contacto.
+
+¡Nos vemos en el curso!
+
+_{nombre del equipo docente} en nombre del equipo de {nombre de las instituciones/comunidades que organizan el curso}._
+
+### Email pos curso
+
+Este es un texto de ejemplo del mail que se envia a los estudiantes despues que termina el curso
+
+
+Asunto: {nombre del curso}
+
+Texto:
+
+¡Hola y gracias por participar del curso hoy!
+
+En este mail encontrarás algunos links que pueden ser de tu interés:
+
+* Link al documento compartido que utilizamos hoy: 
+
+* Link a un video de este curso (por si te perdiste alguna parte o querés volver a verlo):
+
+* Link a las slides utilizadas en el curso: 
+
+
+Recorda que podés encontrarnos en los siguientes medios:
+
+* Web: 
+* Mail: 
+* Nuestro Slack: ¡Sumate!
+* YouTube: 
+* Facebook: 
+* Mastodon:
+
+Por último, si aún no lo hiciste, te agradecemos que puedas completar [nuestra encuesta de fin de curso](). Nos ayuda mucho a seguir mejorando, 
+
+¡Gracias!
+
+Saludos, y hasta el próximo curso.
+
+
+### Formulario de feedback despues de un tiempo de tomar la capacitación
+
+
+<FIXME
+    Exit ticket
+    Feedback rubric
+>
