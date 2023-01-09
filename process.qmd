@@ -174,7 +174,7 @@ Qué tan bien documentado está el diseño del curso
 
 Qué tan fácil es para los/las colaboradores ayudar
 
-:   Los/las docentes suelen compartir material enviándose por correo archivos de PowerPoint o dejándolos en una unidad compartida. Herramientas de escritura colaborativa como [Google Docs][google-docs] y wikis son una gran mejora, ya que permiten que muchas personas actualicen el mismo documento y comenten las actualizaciones de otras personas. Los sistemas de control de versiones usados por programadores/as, tales como [GitHub][github], son otro enfoque. Permiten que cualquier número de personas trabaje de forma independiente, para luego unir sus cambios en forma controlada y revisable. Desafortunadamente, los sistemas de control de versión tienen una curva de aprendizaje pronunciada y no manejan formatos de documentos de oficina comunes.
+:   Los/las docentes suelen compartir material enviándose por correo archivos de PowerPoint o dejándolos en una unidad compartida. Herramientas de escritura colaborativa como \[Google Docs\]\[google-docs\] y wikis son una gran mejora, ya que permiten que muchas personas actualicen el mismo documento y comenten las actualizaciones de otras personas. Los sistemas de control de versiones usados por programadores/as, tales como \[GitHub\]\[github\], son otro enfoque. Permiten que cualquier número de personas trabaje de forma independiente, para luego unir sus cambios en forma controlada y revisable. Desafortunadamente, los sistemas de control de versión tienen una curva de aprendizaje pronunciada, el progreso es lento y se tarda tiempo en alcanzar un nivel en el que podamos utilizarlos cómodamente. Además no manejan formatos de documentos de oficina comunes.
 
 Qué tan dispuestas están las personas a colaborar.
 
@@ -184,7 +184,7 @@ Qué tan útil es compartir en realidad.
 
 :   La [paradoja de la reusabilidad]{g="reusability-paradox"} establece que cuanto más reutilizable es un objeto de aprendizaje, menos efectivo pedagógicamente es @Wile2002. La razón es que una buena lección se parece más a una novela que a un programa: sus partes están estrechamente acopladas en lugar de ser cajas negras independientes. Por lo tanto, la reutilización directa de las lecciones puede ser un objetivo equivocado; podríamos llegar más lejos tratando de hacerlas más fáciles de combinar.
 
-Si la paradoja de la reusabilidad es cierta, la colaboración será más probable si las cosas en las que se colabora son pequeñas. Esto se ajusta a la teoría de [Mike Caulfield]{i="Caulfield, Mike"} de las [explicaciones corales][choral-explanations], que sostiene que sitios como [Stack Overflow][stack-overflow] tienen éxito porque proporcionan un coro de respuestas para cada pregunta, cada una de las cuales es más adecuada para una persona que pregunta y que es ligeramente diferente a las demás personas que preguntan. Si esto es correcto, las lecciones del futuro pueden ser visitas guiadas de repositorios de preguntas y respuestas seleccionados por la comunidad, diseñados para estudiantes en niveles muy diferentes.
+Si la paradoja de la reusabilidad es cierta, la colaboración será más probable si las cosas en las que se colabora son pequeñas. Esto se ajusta a la teoría de [Mike Caulfield]{i="Caulfield, Mike"} de las \[explicaciones corales\]\[choral-explanations\], que sostiene que sitios como \[Stack Overflow\]\[stack-overflow\] tienen éxito porque proporcionan un coro de respuestas para cada pregunta, cada una de las cuales es más adecuada para una persona que pregunta y que es ligeramente diferente a las demás personas que preguntan. Si esto es correcto, las lecciones del futuro pueden ser visitas guiadas de repositorios de preguntas y respuestas seleccionados por la comunidad, diseñados para estudiantes en niveles muy diferentes.
 
 ## Ejercicios {#sec-process-exercises}
 
@@ -216,7 +216,7 @@ Una forma para construir una lección de programación es escribir el programa q
 
 ### Rareza no esencial (individual/15') {.exercise}
 
-Betsy Leondar-Wright acuñó la frase "[rareza no esencial][inessential-weirdness]" para describir cosas que hacen los grupos que no son realmente necesarias y que alienan a personas que aún no son integrantes de ese grupo. Sumana Harihareswara luego usó esta noción como base para una charla sobre [rarezas no esenciales en el software de código abierto][inessential-weirdness-open-source], lo que incluye, por ejemplo, el uso de herramientas de línea de comandos con nombres crípticos. Toma unos minutos para leer estos artículos, luego haz una lista de las rarezas no esenciales que crees que tus estudiantes podrían encontrar cuando les enseñes por primera vez ¿Cuántas de estas rarezas no esenciales puedes evitar?
+Betsy Leondar-Wright acuñó la frase "\[rareza no esencial\]\[inessential-weirdness\]" para describir cosas que hacen los grupos que no son realmente necesarias y que alienan a personas que aún no son integrantes de ese grupo. Sumana Harihareswara luego usó esta noción como base para una charla sobre \[rarezas no esenciales en el software de código abierto\]\[inessential-weirdness-open-source\], lo que incluye, por ejemplo, el uso de herramientas de línea de comandos con nombres crípticos. Toma unos minutos para leer estos artículos, luego haz una lista de las rarezas no esenciales que crees que tus estudiantes podrían encontrar cuando les enseñes por primera vez ¿Cuántas de estas rarezas no esenciales puedes evitar?
 
 ### Un patrón: problema, ejemplo, teoría y elaboración</span> (individual/15') {.exercise}
 
@@ -228,7 +228,7 @@ Otro patrón de lección es @Sent2019: *predecir* el comportamiento o salida de 
 
 ### Concreto-representativo-abstracto (parejas/15') {.exercise}
 
-*[Concreto-representativo-abstracto][c-r-a]* (abreviado [*CRA*]{i="CRA (patrón de lección);patrón de lección!CRA"}) es un enfoque para introducir nuevas ideas usado principalmente con estudiantes más jóvenes: manipular físicamente un objeto *concreto*, *representar* el objeto con una imagen, luego realizar las mismas operaciones usando números, símbolos o algo *abstracto*.
+*\[Concreto-representativo-abstracto\]\[c-r-a\]* (abreviado [*CRA*]{i="CRA (patrón de lección);patrón de lección!CRA"}) es un enfoque para introducir nuevas ideas usado principalmente con estudiantes más jóvenes: manipular físicamente un objeto *concreto*, *representar* el objeto con una imagen, luego realizar las mismas operaciones usando números, símbolos o algo *abstracto*.
 
 1.  Escribe cada uno de los números 2, 7, 5, 10, 6 en una nota adhesiva diferente.
 
