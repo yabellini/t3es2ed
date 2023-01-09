@@ -7,7 +7,7 @@
 Esta rúbrica fue diseñada para evaluar lo que se enseñó durante 5 a 10 minutos con diapositivas, programación en vivo o una combinación de ambas estrategias. Valora cada ítem como "Sí," "Más o menos," "No," o "No corresponde (NC)."
 
 |                      |                                                                                                                                  |
-|---------------|---------------------------------------------------------|
+|-----------------|-------------------------------------------------------|
 | Inicio               | Presente (usa NC para otras las respuestas si no hay un inicio)                                                                  |
 |                      | Adecuada duración (10 a 30 segundos)                                                                                             |
 |                      | Se presenta                                                                                                                      |
@@ -45,7 +45,7 @@ Esta rúbrica fue diseñada para evaluar lo que se enseñó durante 5 a 10 minut
 Esta rúbrica fue diseñada para evaluar el desempeño de individuos dentro de un grupo. Los ejemplos a continuación pueden servirte como material inicial a partir del cual desarrollar tus propias rúbricas. Valora cada ítem como "Sí," "Más o menos," "No," o "No corresponde (NC)."
 
 |                    |                                                                                                                 |
-|---------------|--------------------------------------------------------|
+|-----------------|-------------------------------------------------------|
 | Comunicación       | Escucha atentamente y sin interrumpir                                                                           |
 |                    | Aclara lo que se ha dicho para garantizar la comprensión                                                        |
 |                    | Articula ideas en forma clara y concisa                                                                         |
@@ -150,7 +150,7 @@ Al viajar muchas/os docentes llevan además zapatos deportivos, traje de baño, 
 
 ## Diseño de lecciones {#sec-checklists-design}
 
-Esta sección resume el diseño de lecciones por el método de reingeniería, que fue desarrollado independientemente por <cite>Wigg2005,Bigg2011,Fink2013. Propone una progresión paso a paso para ayudarte a pensar qué hacer en cada uno de los pasos y en el orden adecuado. También proporciona ejercicios breves espaciados para que puedas reorientar o redirigir tu esfuerzo sin demasiadas sorpresas desagradables.
+Esta sección resume el diseño de lecciones por el método de reingeniería, que fue desarrollado independientemente por @Wigg2005, @Bigg2011, @Fink2013. Propone una progresión paso a paso para ayudarte a pensar qué hacer en cada uno de los pasos y en el orden adecuado. También proporciona ejercicios breves espaciados para que puedas reorientar o redirigir tu esfuerzo sin demasiadas sorpresas desagradables.
 
 Todo lo que hagas del paso 2 en adelante será parte de tu lección final por lo que no estarás perdiendo en tiempo: como se describió en el @sec-process, construir ejercicios de práctica desde el comienzo te ayuda a asegurarte de que todo lo que preguntes a las/los estudiantes contribuirá a los objetivos de la lección y que todo lo que necesitan saber está cubierto.
 
@@ -266,97 +266,97 @@ Esta lista de plantillas y checklist pueden ser útiles para diferentes etapas d
 
 ### Formuario de registro
 
-El formulario de registro o demostración de interés te permite recabar información sobre tus estudiantes, siempre es conveniente conocer a tu audiencia.  Las necesidades de información pueden variar de acuerdo el contexto o el tipo de curso que vayas a dictar.  En este ejemplo recabamos información sobre
+El formulario de registro o demostración de interés te permite recabar información sobre tus estudiantes, siempre es conveniente conocer a tu audiencia. Las necesidades de información pueden variar de acuerdo el contexto o el tipo de curso que vayas a dictar. En este ejemplo recabamos información sobre
 
-* Pronombres
-* Geografía y lenguaje
-* Datos profesionales 
-* Herramientas
-* Accesibilidad
-* Mantener contacto
+-   Pronombres
+-   Geografía y lenguaje
+-   Datos profesionales
+-   Herramientas
+-   Accesibilidad
+-   Mantener contacto
 
 #### Requisitos legales de protección y uso de datos personales
 
-Debes tener en cuenta que vas a tener que cumplir con requisitos de almacenamiento y procesamiento de información personal de las personas que se inscriban a tus cursos y completen estos formularios.  Para este punto es importante aclarar al inicio del formulario o en el texto donde se solicita que las personas se inscriban una serie de detalles:
+Debes tener en cuenta que vas a tener que cumplir con requisitos de almacenamiento y procesamiento de información personal de las personas que se inscriban a tus cursos y completen estos formularios. Para este punto es importante aclarar al inicio del formulario o en el texto donde se solicita que las personas se inscriban una serie de detalles:
 
-* para qué se usará la información (Ej: para acomodar la infraestructura del taller de acuerdo a tus necesidades de accesibilidad)
-* quién tiene acceso a esa información sin procesar (Ej: el personal contratado de la organización) y procesada (Ej: el equipo docente de una edición del curso).
-* dónde y cómo se almacena (Ej: en la base de datos de la universidad que hace de anfitrión del curso)
-* explicar un proceso para que quien quiera borrar o modificar los datos pueda hacerlo.
-* explicar que completando el formulario dan consentimiento a este uso de los datos.
+-   para qué se usará la información (Ej: para acomodar la infraestructura del taller de acuerdo a tus necesidades de accesibilidad)
+-   quién tiene acceso a esa información sin procesar (Ej: el personal contratado de la organización) y procesada (Ej: el equipo docente de una edición del curso).
+-   dónde y cómo se almacena (Ej: en la base de datos de la universidad que hace de anfitrión del curso)
+-   explicar un proceso para que quien quiera borrar o modificar los datos pueda hacerlo.
+-   explicar que completando el formulario dan consentimiento a este uso de los datos.
 
 #### Preguntas del formulario
 
-* Sección _Datos generales_:
-  - mail (utilizado para contacto y como identificador único), 
-  - Nombre completo (es mejor que solicitar nombre y apellido por separado),
-  - pronombres (para dirigirnos a cada persona correctamente),
-  - país desde el cual participa (es un dato útil para conocer tu alcance).
+-   Sección *Datos generales*:
 
-* Sección _Datos profesionales_:
-  - Nivel educativo completo
-  - ¿cuántos años hace que diste tu primera clase?, 
-  - Ámbito educativo en el que enseña la mayor parte del tiempo, 
-  - Tipo de institución en donde enseña la mayor parte del tiempo, 
-  - Cantidad de estudiantes esperas en tu próxima clase y 
-  - Qué disciplina/s enseñas.
+    -   mail (utilizado para contacto y como identificador único),
+    -   Nombre completo (es mejor que solicitar nombre y apellido por separado),
+    -   pronombres (para dirigirnos a cada persona correctamente),
+    -   país desde el cual participa (es un dato útil para conocer tu alcance).
 
-* Sección de _Herramientas: uso y accesibilidad_:
+-   Sección *Datos profesionales*:
 
-* conocimientos de Español (porque es el idioma en el cual dictamos nuestros cursos),
+    -   Nivel educativo completo
+    -   ¿cuántos años hace que diste tu primera clase?,
+    -   Ámbito educativo en el que enseña la mayor parte del tiempo,
+    -   Tipo de institución en donde enseña la mayor parte del tiempo,
+    -   Cantidad de estudiantes esperas en tu próxima clase y
+    -   Qué disciplina/s enseñas.
 
-* la experiencia en el uso de Formularios de Google, Documentos de Google, Slack y Zoom (porque son las herramientas que usamos para enseñar y para interactuar, tanto en los cursos como en la comunidad),
+-   Sección de *Herramientas: uso y accesibilidad*:
 
-* dificultades para participar de talleres en forma remota:
-  - Tengo dificultad para ver, aun con anteojos o lentes de contacto
-  - Tengo dificultad para oír, aun con audífono
-  - Tengo dificultades de movilidad que afectan mi interacción con dispositivos electrónicos como el celular o computadora
-  - Tengo dificultad para permanecer delante de una pantalla más de 50 minutos
-  - Tengo dificultad para comprender o recordar
-  - Tengo dificultad para concentrarme
-  - Tengo dificultad para comunicarme
-  - No tengo ninguna de estas dificultades
-  - No tengo ninguna de estas dificultades
+-   conocimientos de Español (porque es el idioma en el cual dictamos nuestros cursos),
 
-* Si la persona marcó que tiene alguna dificultad, se le pregunta ¿cómo podemos facilitar tu participación?   
-  - No tengo ninguna dificultad
-  - Con un lector de pantalla
-  - Con materiales con alto contraste y letra grande
-  - Usando comunicación por voz
-  - Hablando claro, pausado, con buena calidad de audio
-  - Con subtitulado
-  - Usando lengua de señas
-  - Usando comunicación por escrito
-  - Con pausas frecuentes lejos de la pantalla
-  - Prefiero no decirlo
-  
-* ¿Tienes alguna de las siguientes dificultades tecnológicas para participar de talleres en  forma remota?
-  - Tengo una conexión a internet inestable o limitada
-  - No tengo internet
-  - No tengo computadora, tablet, teléfono móvil, ni ningún otro dispoisitivo con el cual conectarme a internet
-  - Tengo dispositivos para conectarme a internet, pero no andan bien
-  - No tengo micrófono
-  - No tengo ninguna de estas dificultades
-  - Prefiero no decirlo
-  
-* Si la persona marcó que tiene alguna dificultad tecnológica se le pregunta, ¿cómo podemos facilitar tu participación?
-  - No tengo ninguna dificultad
-  - Facilitando un número de teléfono como opción a conectar por internet
-  - Permitiendo participar por escrito
-  - Permitiendo participar usando la voz
-  - Prefiero no decirlo
+-   la experiencia en el uso de Formularios de Google, Documentos de Google, Slack y Zoom (porque son las herramientas que usamos para enseñar y para interactuar, tanto en los cursos como en la comunidad),
+
+-   dificultades para participar de talleres en forma remota:
+
+    -   Tengo dificultad para ver, aun con anteojos o lentes de contacto
+    -   Tengo dificultad para oír, aun con audífono
+    -   Tengo dificultades de movilidad que afectan mi interacción con dispositivos electrónicos como el celular o computadora
+    -   Tengo dificultad para permanecer delante de una pantalla más de 50 minutos
+    -   Tengo dificultad para comprender o recordar
+    -   Tengo dificultad para concentrarme
+    -   Tengo dificultad para comunicarme
+    -   No tengo ninguna de estas dificultades
+    -   No tengo ninguna de estas dificultades
+
+-   Si la persona marcó que tiene alguna dificultad, se le pregunta ¿cómo podemos facilitar tu participación?
+
+    -   No tengo ninguna dificultad
+    -   Con un lector de pantalla
+    -   Con materiales con alto contraste y letra grande
+    -   Usando comunicación por voz
+    -   Hablando claro, pausado, con buena calidad de audio
+    -   Con subtitulado
+    -   Usando lengua de señas
+    -   Usando comunicación por escrito
+    -   Con pausas frecuentes lejos de la pantalla
+    -   Prefiero no decirlo
+
+-   ¿Tienes alguna de las siguientes dificultades tecnológicas para participar de talleres en forma remota?
+
+    -   Tengo una conexión a internet inestable o limitada
+    -   No tengo internet
+    -   No tengo computadora, tablet, teléfono móvil, ni ningún otro dispoisitivo con el cual conectarme a internet
+    -   Tengo dispositivos para conectarme a internet, pero no andan bien
+    -   No tengo micrófono
+    -   No tengo ninguna de estas dificultades
+    -   Prefiero no decirlo
+
+-   Si la persona marcó que tiene alguna dificultad tecnológica se le pregunta, ¿cómo podemos facilitar tu participación?
+
+    -   No tengo ninguna dificultad
+    -   Facilitando un número de teléfono como opción a conectar por internet
+    -   Permitiendo participar por escrito
+    -   Permitiendo participar usando la voz
+    -   Prefiero no decirlo
 
 Se pide permiso para enviarle información por mail sobre otros cursos y otras noticias de MetaDocencia.
 
-
 Finalmente se agrega una pregunta abierta, dando la posibilidad que la persona comparta otra información que considere pertienente.
 
-
-
-
-
 > En nuestro centro de recursos puedes [acceder a una versión editable](https://docs.google.com/forms/d/15M8mqLG_qj6FSvqqzc4l0bnwJ1Q0JNqLSSLnMtYbxOs/edit) que te recomendamos duplicar para poder trabajarla sin problemas para tus propios objetivos.
-
 
 ### Formulario de Feedback
 
@@ -364,13 +364,11 @@ Este formulario se comparte al finalizar el taller y tiene como objetivo identif
 
 > Aquí puedes [acceder a una versión editable](https://docs.google.com/forms/d/1Z7F-gEwIT3Wokj8g65TcU5rzrFHzQsjtmKBQmqUaEnE/edit) que te recomendamos duplicar para poder trabajarla sin problemas para tus propios objetivos.
 
-
 ## Documentos compartido
 
-Durante nuestros cursos utilizamos un [documento compartido](https://teachtogether.tech/es/index.html#s:classroom-notetaking) para tomar notas y resolver ejercicios juntos.  Es una forma de elaboración en tiempo real que obliga a reflexionar sobre el material a medida que se lo presenta.  Los ejercicios en conjunto son una muy buena opción de evaluación formativa.
+Durante nuestros cursos utilizamos un [documento compartido](https://teachtogether.tech/es/index.html#s:classroom-notetaking) para tomar notas y resolver ejercicios juntos. Es una forma de elaboración en tiempo real que obliga a reflexionar sobre el material a medida que se lo presenta. Los ejercicios en conjunto son una muy buena opción de evaluación formativa.
 
 Aquí puedes [acceder a una plantilla](https://docs.google.com/document/d/1sPvRezzh3y1kJh171mjhbe5krmIi_QNoOs1LPOBp2bE/edit) de un documento compartido que te recomendamos duplicar para poder trabajarla sin problemas para tus propios objetivos.
-
 
 ## Comunicación con estudiantes
 
@@ -378,8 +376,7 @@ Aquí puedes [acceder a una plantilla](https://docs.google.com/document/d/1sPvRe
 
 Este es un texto de ejemplo del mail que se envia a los estudiantes antes de iniciar el curso
 
-Asunto: [Tutorial de learnr] - Información para conectarte
-
+Asunto: \[Tutorial de learnr\] - Información para conectarte
 
 Hola!
 
@@ -399,7 +396,6 @@ Ubicación:
 
 <Datos de conexión a la reunión>
 
-
 Este enlace sólo será válido para este curso. Por favor, para hacer de nuestra reunión un espacio seguro, no compartas este enlace con nadie.
 
 También por la seguridad de la reunión, es muy importante que ingreses con un nombre similar al que usaste cuando te pre-inscribiste. Tu ingreso será más rápido si lo hacés así y no tenemos que hacerte esperar hasta chequear tu identidad.
@@ -412,12 +408,11 @@ Si tenés alguna pregunta sobre el taller, la modalidad, o cualquier otra cosa, 
 
 ¡Nos vemos en el curso!
 
-_{nombre del equipo docente} en nombre del equipo de {nombre de las instituciones/comunidades que organizan el curso}._
+*{nombre del equipo docente} en nombre del equipo de {nombre de las instituciones/comunidades que organizan el curso}.*
 
 ### Email pos curso
 
 Este es un texto de ejemplo del mail que se envia a los estudiantes despues que termina el curso
-
 
 Asunto: {nombre del curso}
 
@@ -427,33 +422,32 @@ Texto:
 
 En este mail encontrarás algunos links que pueden ser de tu interés:
 
-* Link al documento compartido que utilizamos hoy: 
+-   Link al documento compartido que utilizamos hoy:
 
-* Link a un video de este curso (por si te perdiste alguna parte o querés volver a verlo):
+-   Link a un video de este curso (por si te perdiste alguna parte o querés volver a verlo):
 
-* Link a las slides utilizadas en el curso: 
-
+-   Link a las slides utilizadas en el curso:
 
 Recorda que podés encontrarnos en los siguientes medios:
 
-* Web: 
-* Mail: 
-* Nuestro Slack: ¡Sumate!
-* YouTube: 
-* Facebook: 
-* Mastodon:
+-   Web:
+-   Mail:
+-   Nuestro Slack: ¡Sumate!
+-   YouTube:
+-   Facebook:
+-   Mastodon:
 
-Por último, si aún no lo hiciste, te agradecemos que puedas completar [nuestra encuesta de fin de curso](). Nos ayuda mucho a seguir mejorando, 
+Por último, si aún no lo hiciste, te agradecemos que puedas completar [nuestra encuesta de fin de curso](). Nos ayuda mucho a seguir mejorando,
 
 ¡Gracias!
 
 Saludos, y hasta el próximo curso.
 
-
 ### Formulario de feedback despues de un tiempo de tomar la capacitación
 
-
+```{=html}
 <FIXME
     Exit ticket
     Feedback rubric
 >
+```
