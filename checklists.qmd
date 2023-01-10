@@ -71,15 +71,17 @@ Esta rúbrica fue diseñada para evaluar el desempeño de individuos dentro de u
 |                    | Usa eficientemente el tiempo de reunión                                                                         |
 |                    | Sugiere formas de trabajar en las reuniones                                                                     |
 
-## Rúbrica de feedback
+## Evaluación del docente individual
 
-Esta rúbrica es la forma más sencilla de evaluar la enseñanza de alguien. Separa lo positivo de lo negativo y el contenido (lo que se dice) de la interacción (cómo el instructor interactúa con los alumnos y gestiona el aula) y la presentación (cómo habla). No siempre está claro en qué categoría va cada cosa, pero ayuda a organizar y comparar los comentarios.
+Esta rúbrica es la forma más sencilla de evaluar como enseña una persona. Separa lo positivo (para mantener) de lo negativo (para mejorar) y el contenido (lo que se dice) de la interacción (cómo quien enseña interactúa con las y los estudiantes y gestiona el aula) y la presentación (cómo habla). No siempre está claro en qué categoría va cada cosa, pero la rúbrica ayuda a organizar y comparar los comentarios. Se puede usar en evaluaciones cortas de entre 5 a 15 minutos de clase a evaluaciones en clases más largas.
 
 | Para mejorar | Para mantener | Concepto|
 |--------------|---------------|---------|
 |              |               | Contenido |
 |              |               | Interacción |
 |              |               | Presentación   |
+
+
 
 ## Organización de eventos {#sec-checklists-events}
 
