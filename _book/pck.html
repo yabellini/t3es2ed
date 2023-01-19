@@ -313,6 +313,19 @@ div.csl-indent {
 
 </header>
 
+<div class="callout-note callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Segunda edición
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Estás leyendo la segunda edición en progreso y en castellano de Enseñar Tecnología en Comunidad (Teaching Tech Together). Este capítulo está siendo objeto de una profunda reestructuración y puede resultar confuso o incompleto</p>
+</div>
+</div>
 <p>Cada docente necesita tres cosas:</p>
 <dl>
 <dt><span data-g="content-knowledge">conocimiento del contenido</span>,</dt>
@@ -350,10 +363,10 @@ div.csl-indent {
 <p>Se sabe muy poco sobre qué se enseña en entrenamientos de programación intensivo e iniciativas free-range, en parte porque muchas personas son reticentes a compartir los programas. Sabemos más sobre lo que se enseña en instituciones <span class="citation" data-cites="Luxt2017">Luxton-Reilly et al. (<a href="#ref-Luxt2017" role="doc-biblioref">2017</a>)</span>:</p>
 <table class="table">
 <colgroup>
-<col style="width: 40%">
-<col style="width: 9%">
-<col style="width: 37%">
-<col style="width: 9%">
+<col style="width: 33%">
+<col style="width: 18%">
+<col style="width: 30%">
+<col style="width: 18%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -403,7 +416,7 @@ div.csl-indent {
 </tbody>
 </table>
 <p>Títulos de temas de alto nivel como estos pueden esconder una gran cantidad de fallas. Un resultado más tangible surge de <span class="citation" data-cites="Rich2017">Rich et al. (<a href="#ref-Rich2017" role="doc-biblioref">2017</a>)</span>, quienes revisaron cien artículos y encontraron trayectorias de aprendizaje para clases de computación en escuelas primarias y secundarias. Sus resultados para la secuenciación, la repetición y los condicionales son esencialmente mapas conceptuales colectivos que combinan y racionalizan el pensamiento implícito y explícito de gran cantidad de docentes (<span class="quarto-unresolved-ref">?fig-pck-trajectory</span>).</p>
-<p><img src="diagrams/conditionals.svg" class="img-fluid" alt="Trayectoria de aprendizaje para condiciones (extraído de Rich et al. (2017))">{#fig-pck-trajectory fig-alt = ““}</p>
+<p><img src="diagrams/conditionals.svg" class="img-fluid" alt="Trayectoria de aprendizaje para condiciones (extraído de )">{#fig-pck-trajectory fig-alt = ““}</p>
 </section>
 <section id="sec-pck-learning" class="level2" data-number="8.2">
 <h2 data-number="8.2" class="anchored" data-anchor-id="sec-pck-learning"><span class="header-section-number">8.2</span> ¿Cuánto están aprendiendo?</h2>
@@ -446,9 +459,9 @@ print(total)</code></pre>
 <p><span class="citation" data-cites="Solo1984">Soloway and Ehrlich (<a href="#ref-Solo1984" role="doc-biblioref">1984</a>)</span>,<span class="citation" data-cites="Solo1986">Soloway (<a href="#ref-Solo1986" role="doc-biblioref">1986</a>)</span> son trabajos pioneros en la exploración de las estrategias de programación de personas novatas y expertas. El hallazgo clave es que las personas expertas saben al mismo tiempo el “qué” y el “cómo,” es decir, entienden qué poner en los programas <em>y</em> tienen un conjunto de <span data-i="patrones de programa">patrones</span> o plan para guiar su construcción. Las personas principiantes no tienen ninguna de las dos cosas, pero la mayoría de las/los docentes se enfocan únicamente en lo primero, a pesar de que los errores son usualmente causados por no tener una estrategia para resolver el problema, en lugar de falta de conocimiento sobre el lenguaje. Un trabajo reciente mostró la efectividad de enseñar cuatro habilidades distintas en un orden específico <span class="citation" data-cites="Xie2019">Xie et al. (<a href="#ref-Xie2019" role="doc-biblioref">2019</a>)</span>:</p>
 <table class="table">
 <colgroup>
-<col style="width: 15%">
-<col style="width: 42%">
-<col style="width: 42%">
+<col style="width: 22%">
+<col style="width: 38%">
+<col style="width: 38%">
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -477,7 +490,7 @@ print(total)</code></pre>
 <p>Nuestra quinta recomendación es entonces <strong>enséñales explícitamente a las personas principiantes cómo depurar errores</strong>. <span class="citation" data-cites="Fitz2008">Fitzgerald et al. (<a href="#ref-Fitz2008" role="doc-biblioref">2008</a>)</span>,<span class="citation" data-cites="Murp2008">Murphy et al. (<a href="#ref-Murp2008" role="doc-biblioref">2008</a>)</span> encontraron que las personas que pueden resolver errores son buenas programando, pero no todas las personas que son buenas programando son buenas resolviendo errores. Aquellas personas que eran buenas programando usaron un depurador de errores simbólico para recorrer sus programas, rastrearon su ejecución manualmente, escribieron pruebas y releyeron las especificaciones frecuentemente; todos hábitos que se pueden enseñar. Sin embargo, rastrear la ejecución paso a paso a veces se usa de manera ineficaz: por ejemplo, una persona novata podría poner la misma declaración <code>print</code> en ambas partes de una estructura <code>if</code>-<code>else</code>. Las personas novatas también comentarían líneas de código que en realidad eran correctas al tratar de aislar un problema. Las/los docentes pueden cometer estos dos errores deliberadamente, señalarlos y corregirlos para ayudar a las personas novatas a aprender cómo resolverlos.</p>
 <p>Enseñar a principiantes cómo depurar errores también puede ayudar a que las clases sean más simples de manejar. <span class="citation" data-cites="Alqa2017">Alqadi and Maletic (<a href="#ref-Alqa2017" role="doc-biblioref">2017</a>)</span> encontró que estudiantes con mayor experiencia resolvieron problemas de depuración de errores significativamente más rápido, pero que los tiempos variaron ampliamente: entre 4 a 10 minutos fue el rango típico para ejercicios individuales, lo cual significa que algunas/os estudiantes necesitan entre 2 y 3 veces más tiempo que otras/os para resolver el mismo ejercicio. Para ayudar a que el progreso de todo el grupo sea más uniforme, es conveniente enseñarles a quienes resuelven los ejercicios más lentamente qué están haciendo las personas más rápidas.</p>
 <p>La depuración de errores depende de ser capaz de leer el código, algo que múltiples estudios han demostrado que es la forma más efectiva de encontrar errores <span class="citation" data-cites="Basi1987">Basili and Selby (<a href="#ref-Basi1987" role="doc-biblioref">1987</a>)</span>,<span class="citation" data-cites="Keme2009">Kemerer and Paulk (<a href="#ref-Keme2009" role="doc-biblioref">2009</a>)</span>,<span class="citation" data-cites="Bacc2013">Bacchelli and Bird (<a href="#ref-Bacc2013" role="doc-biblioref">2013</a>)</span>. La rúbrica de calidad de código desarrollada por <span class="citation" data-cites="Steg2014">Stegeman, Barendsen, and Smetsers (<a href="#ref-Steg2014" role="doc-biblioref">2014</a>)</span>,<span class="citation" data-cites="Steg2016a">Stegeman, Barendsen, and Smetsers (<a href="#ref-Steg2016a" role="doc-biblioref">2016</a>)</span> es una buena lista de verificación de elementos a revisar, aunque se presenta mejor de a partes en lugar de toda junta.</p>
-<p>Hacer que las/los estudiantes lean código y resuman su comportamiento es un buen ejercicio (<a href="individual.html#sec-individual-strategies"><span>Section&nbsp;6.1</span></a>), pero frecuentemente lleva mucho tiempo practicarlo en clase. Hacer que las/los estudiantes predigan la salida de un programa justo antes de que sea ejecutado, por otro lado, ayuda a reforzar el aprendizaje (<a href="classroom.html#sec-classroom-practices"><span>Section&nbsp;7.11</span></a>) y además les da la oportunidad ideal para hacer el tipo de preguntas “qué pasaría si”. Las/los docentes o estudiantes pueden además rastrear los cambios en las variables a medida que avanzan, algo que <span class="citation" data-cites="Cunn2017">Cunningham et al. (<a href="#ref-Cunn2017" role="doc-biblioref">2017</a>)</span> encontró efectivo (<span class="quarto-unresolved-ref">?sec-exercises-tracing</span>).</p>
+<p>Hacer que las/los estudiantes lean código y resuman su comportamiento es un buen ejercicio (<a href="individual.html#sec-individual-strategies"><span>Section&nbsp;6.1</span></a>), pero frecuentemente lleva mucho tiempo practicarlo en clase. Hacer que las/los estudiantes predigan la salida de un programa justo antes de que sea ejecutado, por otro lado, ayuda a reforzar el aprendizaje (<a href="classroom.html#sec-classroom-practices"><span>Section&nbsp;10.11</span></a>) y además les da la oportunidad ideal para hacer el tipo de preguntas “qué pasaría si”. Las/los docentes o estudiantes pueden además rastrear los cambios en las variables a medida que avanzan, algo que <span class="citation" data-cites="Cunn2017">Cunningham et al. (<a href="#ref-Cunn2017" role="doc-biblioref">2017</a>)</span> encontró efectivo (<span class="quarto-unresolved-ref">?sec-exercises-tracing</span>).</p>
 </section>
 <section id="sec-pck-testing" class="level2" data-number="8.7">
 <h2 data-number="8.7" class="anchored" data-anchor-id="sec-pck-testing"><span class="header-section-number">8.7</span> ¿Qué pasa con las <span data-i="testing (software);pruebas (software)">pruebas (<em>tests</em>)</span>?</h2>
