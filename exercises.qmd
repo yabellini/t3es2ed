@@ -1,12 +1,18 @@
 # Tipos de ejercicios {#sec-exercises}
 
+::: callout-note
+## Segunda edición
+
+Estás leyendo la segunda edición en progreso y en castellano de Enseñar Tecnología en Comunidad (Teaching Tech Together). Este capítulo está siendo objeto de una profunda reestructuración y puede resultar confuso o incompleto
+:::
+
 Todo/a buen/a carpintero/a tiene un juego de destornilladores y todo/a buen/a docente tiene diferentes tipos de ejercicios para comprobar qué están aprendiendo realmente los/las estudiantes, para ayudarlos a practicar sus nuevas habilidades y para mantener su compromiso.
 
 Este capítulo comienza describiendo varios tipos de ejercicios que se pueden usar para corroborar si tu forma de enseñar ha resultado efectiva.
 
 Luego examina el estado del arte en cuanto a calificación automatizada y culmina explorando discusiones, proyectos y otros tipos importantes de trabajo que requieren una atención más humana para evaluar.
 
-Nuestra discusión se basa parcialmente en el Banco de Preguntas de Canterbury [Canterbury Question Bank][canterbury-question-bank] @Sand2013, que trae entradas para varios lenguajes de programación y temas introductorios a las ciencias de la computación.
+Nuestra discusión se basa parcialmente en el Banco de Preguntas de Canterbury \[Canterbury Question Bank\]\[canterbury-question-bank\] @Sand2013, que trae entradas para varios lenguajes de programación y temas introductorios a las ciencias de la computación.
 
 ## Los clásicos {#exercises-classics}
 
@@ -56,7 +62,7 @@ En lugar de escribir código que satisface algunas especificaciones, se les pued
 
 > ### Completar los espacios en blanco
 >
-> Completa los espacios en blanco, para que el código de abajo imprima el texto `'cana'`.<sup>Inspirado en un verso de María Elena Walsh, del libro [Zoo Loco][zoo-loco]</sup>.
+> Completa los espacios en blanco, para que el código de abajo imprima el texto `'cana'`.<sup>Inspirado en un verso de María Elena Walsh, del libro \[Zoo Loco\]\[zoo-loco\]</sup>.
 >
 > ``` text
 > text = 'Un canario que ladra si está triste'
@@ -207,8 +213,7 @@ Hacer que los estudiantes dibujen mapas conceptuales y otros diagramas brinda un
 >
 > La @fig-exercises-labeling muestra cómo un fragmento pequeño de *HTML* se representa en memoria. Coloca las etiquetas 1--9 sobre los elementos del árbol para mostrar el orden en el que se alcanzan en un recorrido en profundidad.
 
-![Etiquetado de un diagrama](diagrams/labeling.svg){fig-exercises-labeling, fig-alt = "Inicia con una caja con una letra P mayúscula, salen cuatro flechas, dos hacia dos cajas diferentes con la misma etiqueta: "texto", otra hacia una caja con la letra I mayúscula y la última hacia una caja con la letra B mayúscula. Desde la caja de la letra B salen dos flechas, una hacia una caja etiquetada como "texto" y otra hacia una caja con la letra U mayúscula. Desde las letras I e U también salen flechas hacia diferentes cajas etiquetadas como "texto".}
-
+![Etiquetado de un diagrama](diagrams/labeling.svg){fig-exercises-labeling, fig-alt = "Inicia con una caja con una letra P mayúscula, salen cuatro flechas, dos hacia dos cajas diferentes con la misma etiqueta:"texto", otra hacia una caja con la letra I mayúscula y la última hacia una caja con la letra B mayúscula. Desde la caja de la letra B salen dos flechas, una hacia una caja etiquetada como "texto" y otra hacia una caja con la letra U mayúscula. Desde las letras I e U también salen flechas hacia diferentes cajas etiquetadas como "texto".}
 
 Otra forma de usar diagramas es dar a tus estudiantes las partes del diagrama y pedirles que las organicen correctamente.
 
@@ -224,7 +229,7 @@ En la *correspondencia uno-a-uno* se le da a cada estudiante dos listas de igual
 >
 > Asocia cada operador de expresión regular en la @fig-exercises-matching con lo que hace.
 
-![Unir los ítems](diagrams/matching.svg) {fig-exercises-matching fig-alt="en el primer renglón llamado "Operador", se presentan cajas con símbolos en el siguiente orden: signo de pregunta, asterisco, más, peso, potencia. En el segundo renglón llamado "Acción" hay cajas etiquetadas con el siguiente orden: inicio de línea, cero o uno, fin de línea, uno o más, cero o más."}
+![Unir los ítems](diagrams/matching.svg) {fig-exercises-matching fig-alt="en el primer renglón llamado"Operador", se presentan cajas con símbolos en el siguiente orden: signo de pregunta, asterisco, más, peso, potencia. En el segundo renglón llamado "Acción" hay cajas etiquetadas con el siguiente orden: inicio de línea, cero o uno, fin de línea, uno o más, cero o más."}
 
 Con la *correspondencia de muchos a muchos* las listas no tienen la misma longitud, por lo que algunos elementos pueden asociarse con varios y otros pueden no ser emparejados en absoluto.
 
@@ -274,7 +279,7 @@ Por ejemplo, supongamos que los/las estudiantes tenían que escribir una funció
 >
 > Incluso las herramientas construidas específicamente para enseñar pueden quedar por debajo de las necesidades de los/las docentes. @Keun2016a,@Keun2016b observaron los mensajes producidos por 69 herramientas de calificación automática. Encontraron que estas herramientas a menudo no dan retroalimentación sobre cómo solucionar problemas y dar el siguiente paso. También encontraron que la mayoría de los/las docentes no pueden adaptar fácilmente la mayoría de las herramientas a sus necesidades: como muchas herramientas de flujo de trabajo, tienden a hacer cumplir los supuestos no reconocidos de sus creadores sobre cómo funcionan las instituciones. Tu esquema de clasificación es una buena lista de requisitos para chequear cuando se examinan herramientas de este tipo.
 
-@Buff2015 presenta una reflexión bien documentada sobre la idea de proporcionar una retroalimentación automatizada. Su punto de partida es que, "Los sistemas de calificación automatizados ayudan a los/las estudiantes a identificar errores en su código, [pero] pueden inadvertidamente disuadir a los/las estudiantes de pensar críticamente y probar a fondo y, en cambio, fomentan dependencia con las pruebas del docente". Una de las cuestiones clave que identificaron es que un/una estudiante puede probar a fondo su código, pero es posible que la característica aún no se implemente de acuerdo con las especificaciones del docente. En este caso, el "fallo" no es causado por la falta de pruebas sino por un malentendido de los requisitos, y es poco probable que más pruebas expongan el problema.
+@Buff2015 presenta una reflexión bien documentada sobre la idea de proporcionar una retroalimentación automatizada. Su punto de partida es que, "Los sistemas de calificación automatizados ayudan a los/las estudiantes a identificar errores en su código, \[pero\] pueden inadvertidamente disuadir a los/las estudiantes de pensar críticamente y probar a fondo y, en cambio, fomentan dependencia con las pruebas del docente". Una de las cuestiones clave que identificaron es que un/una estudiante puede probar a fondo su código, pero es posible que la característica aún no se implemente de acuerdo con las especificaciones del docente. En este caso, el "fallo" no es causado por la falta de pruebas sino por un malentendido de los requisitos, y es poco probable que más pruebas expongan el problema.
 
 Si el sistema de calificación automática no proporciona una retroalimentación que brinde una mejor comprensión y aplicación de los conocimientos, esta experiencia sólo frustrará al estudiante. Con el fin de proporcionar esa retroalimentación, el sistema de @Buff2015 identifica qué métodos en el código del estudiante se ejecutan mediante pruebas fallidas para que el sistema pueda asociar pruebas fallidas con características particulares de lo que envió el/la estudiante. El sistema decide si se han "ganado" ayudas específicas viendo si el/la estudiante ha probado la característica asociada lo suficiente, para evitar que los/las estudiantes se apoyen en las ayudas en vez de realizar las pruebas. En @Srid2016 se describen otros enfoques para compartir la retroalimentación con los/las estudiantes cuando se prueba automáticamente su código. Lo primero es proporcionar la salida esperada para las pruebas---pero luego los/las estudiantes generan la salida conocida incrustando el dato directamente en el código fuente del programa <sup>Esta práctica se conoce como *hardcodear*</sup> y dejandola fija para esas entradas (porque todo lo que pueda manipularse se hará).
 

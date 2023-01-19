@@ -1,5 +1,11 @@
 # Ejemplos de Mapas Conceptuales {#sec-conceptmaps}
 
+::: callout-note
+## Segunda edición
+
+Estás leyendo la segunda edición en progreso y en castellano de Enseñar Tecnología en Comunidad (Teaching Tech Together). Este capítulo está siendo objeto de una profunda reestructuración y puede resultar confuso o incompleto
+:::
+
 En los capítulos @sec-memory y @sec-models hablamos de modelos mentales y mapas conceptuales. En este anexo compartimos varios ejemplos.
 
 ## Diferentes mapas para el mismo concepto {#sec-conceptmaps-diffmaps}

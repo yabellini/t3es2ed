@@ -1,5 +1,11 @@
-
 # Modelos mentales y evaluación formativa {#sec-models}
+
+::: callout-note
+## Segunda edición
+
+Estás leyendo la segunda edición en progreso y en castellano de Enseñar Tecnología en Comunidad (Teaching Tech Together). Este capítulo está siendo objeto de una profunda reestructuración y puede resultar confuso o incompleto
+:::
+
 
 La primera tarea en la enseñanza es descifrar quiénes son tus estudiantes. Nuestra aproximación está basada en el trabajo de investigadores/as como [Patricia Benner]{i="Benner, Patricia"}, quien estudió cómo las personas progresan de novatas a expertas en la carrera de enfermería @Benn2000. Benner identificó cinco etapas de desarrollo cognitivo que la mayor parte de la gente atraviesa de forma bastante consistente. Para nuestros propósitos, simplificamos esta evolución en tres etapas:
 

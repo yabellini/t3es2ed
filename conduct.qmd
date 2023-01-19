@@ -46,4 +46,4 @@ Aquellas personas encargadas del proyecto que no cumplan o apliquen este código
 
 ## Atribución
 
-Este código de conducta es una adaptación del [Contributor Covenant][contributor-covenant] version 1.4.
+Este código de conducta es una adaptación del \[Contributor Covenant\]\[contributor-covenant\] version 1.4.

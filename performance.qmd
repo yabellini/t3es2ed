@@ -1,5 +1,11 @@
 # Enseñar como un arte performativo {#sec-performance}
 
+::: callout-note
+## Segunda edición
+
+Estás leyendo la segunda edición en progreso y en castellano de Enseñar Tecnología en Comunidad (Teaching Tech Together). Este capítulo está siendo objeto de una profunda reestructuración y puede resultar confuso o incompleto
+:::
+
 En *Darwin entre las máquinas*, [George Dyson]{i="Dyson, George"} escribió, "En el juego de la vida y la evolución hay tres jugadores en la mesa: las personas, la naturaleza y las máquinas. Estoy firmemente del lado de la naturaleza. Pero la naturaleza, sospecho, está del lado de las máquinas..." De manera similar, ahora hay tres jugadores en el juego de la educación: los libros de texto y otros materiales de lectura, las clases en vivo, y las clases en línea automatizadas. Podrías darle a tus estudiantes clases escritas y alguna combinación de videos grabados y ejercicios para que realicen a su propio ritmo, pero si vas a enseñar en persona tienes que ofrecer algo diferente (y con suerte mejor que) cualquiera de los anteriores. Por lo tanto, este capítulo se enfoca en cómo enseñar a programar programando.
 
 ## Programar en vivo {#sec-performance-live}
@@ -134,8 +140,7 @@ Desarrollar nuevas técnicas y dar [lecciones de demostración]{g="demonstration
 
 Observar a alguien te ayuda, y darle una devolución ayuda a esa persona, pero puede ser difícil recibirlas, especialmente cuando son negativas (@fig-performance-feedback-feelings).
 
-![Sentimientos sobre la retroalimentación (copyright © Deathbulge 2013)](diagrams/deathbulge-jerk.jpg){#fig-performance-feedback-feelings fig-alt = ""}
-La retroalimentación es más fácil de dar y recibir cuando ambas partes comparten expectativas sobre lo que está y no está al alcance y sobre cómo se deben expresar los comentarios. Si solicitas una [retroalimentación]{i="retroalimentación!obtener"}:
+![Sentimientos sobre la retroalimentación (copyright © Deathbulge 2013)](diagrams/deathbulge-jerk.jpg){#fig-performance-feedback-feelings fig-alt = ""} La retroalimentación es más fácil de dar y recibir cuando ambas partes comparten expectativas sobre lo que está y no está al alcance y sobre cómo se deben expresar los comentarios. Si solicitas una [retroalimentación]{i="retroalimentación!obtener"}:
 
 Iníciala.
 
@@ -259,4 +264,4 @@ El sitio \[CS Teaching Tips\]\[cs-teaching-tips\] (en inglés) tiene una gran ca
 
 ## Resumen
 
-![Conceptos: Retroalimentación](diagrams/conceptmap-feedback.svg){}
+![Conceptos: Retroalimentación](diagrams/conceptmap-feedback.svg)

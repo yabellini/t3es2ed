@@ -1,5 +1,12 @@
 # Enseñar en línea {#sec-online}
 
+::: callout-note
+## Segunda edición
+
+Estás leyendo la segunda edición en progreso y en castellano de Enseñar Tecnología en Comunidad (Teaching Tech Together). Este capítulo está siendo objeto de una profunda reestructuración y puede resultar confuso o incompleto
+:::
+
+
 > Si usas robots para enseñar, les enseñas a las personas a ser robots.<br/> --- atribuido a varias personas
 
 La tecnología ha cambiado la enseñanza y el aprendizaje muchas veces. Antes de que se introdujeran los pizarrones en las escuelas a principios del siglo XIX, no había forma de que las/los docentes compartieran un ejemplo improvisado, un diagrama o que trabajaran en un ejercicio con toda la clase a la vez. Barato, de confianza, fácil de usar y flexible, los pizarrones permitieron a las/los docentes hacer cosas rápidamente y a gran escala, que antes solo habían podido hacer lentamente y poco a poco. De forma similar, las cámaras de video portátiles revolucionaron el entrenamiento atlético; al igual que las grabadoras revolucionaron la enseñanza musical una década antes.

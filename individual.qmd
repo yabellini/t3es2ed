@@ -1,5 +1,12 @@
 # Aprendizaje individual {#sec-individual}
 
+::: callout-note
+## Segunda edición
+
+Estás leyendo la segunda edición en progreso y en castellano de Enseñar Tecnología en Comunidad (Teaching Tech Together). Este capítulo está siendo objeto de una profunda reestructuración y puede resultar confuso o incompleto
+:::
+
+
 Los capítulos previos han explorado cómo las/los docentes pueden ayudar a sus estudiantes. Este capítulo se enfoca en cómo las/los estudiantes pueden ayudarse a sí mismas/os al cambiar sus estrategias de estudio y descansar lo necesario.
 
 La estrategia más efectiva es hacer un cambio de [aprendizaje pasivo]{g="passive-learning"} a [aprendizaje activo]{g="active-learning"} @Hpl2018, ya que mejora la tasa de rendimiento y reduce la tasa de fracaso @Free2014:

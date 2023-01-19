@@ -1,5 +1,11 @@
 # Un proceso para diseñar lecciones {#sec-process}
 
+::: callout-note
+## Segunda edición
+
+Estás leyendo la segunda edición en progreso y en castellano de Enseñar Tecnología en Comunidad (Teaching Tech Together). Este capítulo está siendo objeto de una profunda reestructuración y puede resultar confuso o incompleto
+:::
+
 La mayoría de las personas diseñan lecciones de esta manera:
 
 1.  Alguien te pide que enseñes algo que sabes muy poco o que no has pensado en años.

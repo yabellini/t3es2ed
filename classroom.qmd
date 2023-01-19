@@ -1,5 +1,11 @@
 # En el salón de clase {#sec-classroom}
 
+::: callout-note
+## Segunda edición
+
+Estás leyendo la segunda edición en progreso y en castellano de Enseñar Tecnología en Comunidad (Teaching Tech Together). Este capítulo está siendo objeto de una profunda reestructuración y puede resultar confuso o incompleto
+:::
+
 El capítulo anterior describió cómo practicar la enseñanza de una lección y describió un método---programación en vivo---que permite a las/los docentes adaptarse al ritmo y los intereses de sus estudiantes. Este capítulo describe otras prácticas que también son útiles en clases de programación.
 
 Antes de describirlas, vale la pena detenerse un momento para establecer expectativas. El mejor método de enseñanza que conocemos es la [tutoría individual]{i="tutoría individual (efectividad de)"}: @Bloo1984 descubrió que el desempeño de las/los estudiantes a quienes se les enseñó uno a uno fue dos desviaciones estándar mejor que el de quienes aprendieron mediante una clase convencional. Es decir, que las/los estudiantes con tutoría individual superaron al 98% de estudiantes a quienes se les dio clases magistrales convencionales. Sin embargo, si bien la tutoría y la enseñanza a aprendices han sido históricamente las formas más comunes de transmitir conocimientos, hoy son excepciones debido a la industrialización de la educación formal. A pesar de la explosión en torno a la [inteligencia artificial]{i="inteligencia artificial (explosión de)"}, la solución no estará allí a corto plazo: por eso, cada método que se describe a continuación es esencialmente un intento de abordar la efectividad de la tutoría individual a escala.
@@ -42,7 +48,7 @@ La instrucción por pares intenta proporcionar instrucción individualizada de m
 
     -   Si tienen una combinación de respuestas correctas e incorrectas, dales varios minutos para discutir entre ellas/os en grupos de 2 a 4, luego que vuelvan a votar.
 
-Como muestra [este video][video-concept-test], la discusión en grupo mejora significativamente la comprensión de las/los estudiantes porque descubre lagunas en sus razonamientos y obliga a que aclaren sus pensamientos. Entonces, volver a sondear a la clase permite que la/el docente averigüe si puede continuar o si se necesitan más explicaciones. Después de presentar la respuesta correcta, una ronda de explicación adicional le da a las/los estudiantes una oportunidad más para solidificar su comprensión.
+Como muestra \[este video\]\[video-concept-test\], la discusión en grupo mejora significativamente la comprensión de las/los estudiantes porque descubre lagunas en sus razonamientos y obliga a que aclaren sus pensamientos. Entonces, volver a sondear a la clase permite que la/el docente averigüe si puede continuar o si se necesitan más explicaciones. Después de presentar la respuesta correcta, una ronda de explicación adicional le da a las/los estudiantes una oportunidad más para solidificar su comprensión.
 
 Pero, ¿podría ser esto un falso positivo? ¿Los resultados están mejorando debido a una mayor comprensión durante la discusión o simplemente por un efecto de seguimiento de quien lidera el grupo ("vota como Andrea, ella siempre tiene la razón")? @Smit2009 evaluaron esta cuestión: luego de la primera pregunta, hicieron una segunda pregunta que las/los estudiantes respondieron individualmente. Descubrieron que la discusión entre pares mejora la comprensión, incluso cuando ninguna de las personas en un grupo de discusión sabía originalmente la respuesta correcta. Siempre que exista diversidad de opiniones dentro del grupo, sus conceptos erróneos se anulan.
 
@@ -106,11 +112,9 @@ Lo más importante es que, cuando termine la clase, quienes co-enseñan tomen un
 
 Cuanto más sepas sobre tus estudiantes antes de comenzar a enseñar, más podrás ayudarles. Dentro de un sistema escolar formal, los pre-requisitos de tu curso te darán información sobre lo que probablemente ya sepan. Sin embargo, en un entorno free-range, tus estudiantes pueden ser mucho más diversas/os, por lo que es posible que quieras hacerles una breve encuesta o cuestionario antes de la clase para averiguar qué conocimientos y habilidades tienen.
 
-Pedir a las personas que se [califiquen a sí mismas]{i="auto-evaluación (peligros de)"} en una escala del 1 al 5 no tiene sentido porque cuanto menos saben las personas sobre un tema, con menor precisión pueden estimar sus conocimientos (@fig-classroom-dunning-kruger, de [Neurologica][dunning-kruger-critique]), un fenómeno llamado [efecto Dunning-Kruger]{g="dunning-kruger-effect"} @Krug1999. Por el contrario, las personas que integran grupos sub-representados a menudo subestiman sus habilidades.
+Pedir a las personas que se [califiquen a sí mismas]{i="auto-evaluación (peligros de)"} en una escala del 1 al 5 no tiene sentido porque cuanto menos saben las personas sobre un tema, con menor precisión pueden estimar sus conocimientos (@fig-classroom-dunning-kruger, de \[Neurologica\]\[dunning-kruger-critique\]), un fenómeno llamado [efecto Dunning-Kruger]{g="dunning-kruger-effect"} @Krug1999. Por el contrario, las personas que integran grupos sub-representados a menudo subestiman sus habilidades.
 
-![El efecto Dunning-Kruger](diagrams/dunning-kruger.png){fig-classroom-dunning-kruger
-fig-alt = "el gráfico muestra una escala de 0 a 100 en el eje vertical y en el eje horizontal las etiquetas: "Primer cuartil", "Segundo cuartil", "Tercer cuartil" y "Cuarto cuartil", en ese orden. Hay tres series graficadas, la correspondiente a la "habilidad percibida" en el primer cuartil toma valores entre 50 y 60 que son muy similares a los presentes en el segundo cuartil. El tercer cuartil presenta valores por encima de 60 y el cuarto cuartil valores cercanos a 80. La serie "puntaje recibido en la prueba", copia de forma casi idéntica la serie "habilidad percibida". La serie "puntuación real de la prueba" toma valores cercanos a 10 en el primer cuartil, valores cercanos a 30 en el segundo cuartil, cercanos a 60 en el tercer cuartil y entre 80 y 90 para el cuarto cuartil."
-}  
+![El efecto Dunning-Kruger](diagrams/dunning-kruger.png){fig-classroom-dunning-kruger fig-alt = "el gráfico muestra una escala de 0 a 100 en el eje vertical y en el eje horizontal las etiquetas:"Primer cuartil", "Segundo cuartil", "Tercer cuartil" y "Cuarto cuartil", en ese orden. Hay tres series graficadas, la correspondiente a la "habilidad percibida" en el primer cuartil toma valores entre 50 y 60 que son muy similares a los presentes en el segundo cuartil. El tercer cuartil presenta valores por encima de 60 y el cuarto cuartil valores cercanos a 80. La serie "puntaje recibido en la prueba", copia de forma casi idéntica la serie "habilidad percibida". La serie "puntuación real de la prueba" toma valores cercanos a 10 en el primer cuartil, valores cercanos a 30 en el segundo cuartil, cercanos a 60 en el tercer cuartil y entre 80 y 90 para el cuarto cuartil." }
 
 En lugar de pedirles a las personas que se autoevalúen, puedes preguntarles con qué facilidad podrían completar algunas tareas específicas. Sin embargo, hacer esto es arriesgado: la escuela entrena a las personas para que traten cualquier cosa que parezca un examen como algo que tienen que aprobar, en lugar de tomarlo como una oportunidad para dar forma a la instrucción. Si alguien responde "No sé" incluso a un par de preguntas en su pre-evaluación, podría concluir que tu clase es demasiado avanzada para su nivel. Por lo tanto, es posible que asustes a muchas de las personas que más deseas ayudar.
 
@@ -140,7 +144,7 @@ Lo más importante es aceptar que no puedes ayudar a todo el curso todo el tiemp
 
 ## Programación en parejas {#sec-classroom-pair}
 
-La [programación en parejas]{g="pair-programming"} es una práctica de desarrollo de software en la que [dos personas programan juntas en una computadora][video-pair-programming]. Una persona (quien conduce) escribe, mientras que la otra (quien navega) ofrece comentarios y sugerencias, y ambas cambian de función varias veces por hora.
+La [programación en parejas]{g="pair-programming"} es una práctica de desarrollo de software en la que \[dos personas programan juntas en una computadora\]\[video-pair-programming\]. Una persona (quien conduce) escribe, mientras que la otra (quien navega) ofrece comentarios y sugerencias, y ambas cambian de función varias veces por hora.
 
 La programación en parejas es una práctica eficaz en el trabajo profesional @Hann2009 y también es una buena forma de enseñar: los beneficios incluyen una mayor tasa de éxito en los cursos introductorios, un mejor software y una mayor confianza de las/los estudiantes en sus soluciones. También hay evidencia de que estudiantes de grupos sub-representados se benefician incluso más que otros @McDo2006,@Hank2011,@Port2013,@Cele2018. Los pares pueden ayudarse mutuamente durante los ejercicios prácticos, aclarar los conceptos erróneos de la otra persona cuando se presenta la solución y discutir intereses comunes durante los descansos. Lo he encontrado particularmente útil en los cursos con habilidades mixtas, ya que las parejas son más homogéneas que los individuos.
 
@@ -220,9 +224,9 @@ No importa cuántas plataformas tengas que manejar, coloca instrucciones de conf
 
 > ### Máquinas virtuales
 >
-> Algunas personas usan herramientas como [Docker][docker] para poner máquinas virtuales en las computadoras de sus estudiantes para que todos trabajen exactamente con las mismas herramientas, pero esto presenta un nuevo conjunto de problemas. Las máquinas más antiguas o más pequeñas simplemente no son lo suficientemente rápidas para ejecutarlas, las/los estudiantes luchan por alternar entre dos conjuntos diferentes de atajos de teclado para cosas como copiar y pegar, e incluso practicantes competentes se confundirán sobre qué está sucediendo exactamente y dónde.
+> Algunas personas usan herramientas como \[Docker\]\[docker\] para poner máquinas virtuales en las computadoras de sus estudiantes para que todos trabajen exactamente con las mismas herramientas, pero esto presenta un nuevo conjunto de problemas. Las máquinas más antiguas o más pequeñas simplemente no son lo suficientemente rápidas para ejecutarlas, las/los estudiantes luchan por alternar entre dos conjuntos diferentes de atajos de teclado para cosas como copiar y pegar, e incluso practicantes competentes se confundirán sobre qué está sucediendo exactamente y dónde.
 
-La configuración es tan complicada que muchas/os docentes prefieren que se usen herramientas basadas en el navegador. Sin embargo, esto hace que la clase dependa del [*WiFi*]{i="WiFi institucional (peligros del)"} (que puede ser de calidad muy variable) y no satisface el deseo de las/los estudiantes de irse con sus propias máquinas listas para su uso en el mundo real. A la par que herramientas basadas en la nube como [Glitch][glitch] y [RStudio Cloud][rstudio-cloud] se vuelven más robustas, esta última consideración se torna menos importante.
+La configuración es tan complicada que muchas/os docentes prefieren que se usen herramientas basadas en el navegador. Sin embargo, esto hace que la clase dependa del [*WiFi*]{i="WiFi institucional (peligros del)"} (que puede ser de calidad muy variable) y no satisface el deseo de las/los estudiantes de irse con sus propias máquinas listas para su uso en el mundo real. A la par que herramientas basadas en la nube como \[Glitch\]\[glitch\] y \[RStudio Cloud\]\[rstudio-cloud\] se vuelven más robustas, esta última consideración se torna menos importante.
 
 Una última forma de abordar los problemas de configuración es dividir la clase en varios días y hacer que las personas instalen lo que se requiere para cada día antes de dejar la clase el día anterior. Dividir el trabajo en partes hace que cada una sea menos intimidante, es más probable que las/los estudiantes realmente lo hagan y garantiza que puedas comenzar a tiempo cada lección, excepto la primera.
 
@@ -310,7 +314,7 @@ Intercambia computadoras con una/un compañera/o (preferiblemente con alguien qu
 
 ### Emparejar (parejas/15') {.exercise}
 
-Mira [este video][video-pair-programming] de programación en parejas y luego practica hacerlo con una/un compañera/o. Recuerda cambiar los roles entre conductor/a y navegante cada pocos minutos. ¿Cuánto tiempo tardas en adoptar un ritmo de trabajo?
+Mira \[este video\]\[video-pair-programming\] de programación en parejas y luego practica hacerlo con una/un compañera/o. Recuerda cambiar los roles entre conductor/a y navegante cada pocos minutos. ¿Cuánto tiempo tardas en adoptar un ritmo de trabajo?
 
 ### Compara notas (grupos pequeños/15') {.exercise}
 

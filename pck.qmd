@@ -1,5 +1,11 @@
 # Conocimiento de la pedagogía del contenido {#sec-pck}
 
+::: callout-note
+## Segunda edición
+
+Estás leyendo la segunda edición en progreso y en castellano de Enseñar Tecnología en Comunidad (Teaching Tech Together). Este capítulo está siendo objeto de una profunda reestructuración y puede resultar confuso o incompleto
+:::
+
 Cada docente necesita tres cosas:
 
 [conocimiento del contenido]{g="content-knowledge"},
@@ -20,7 +26,7 @@ Como con toda investigación, se requiere cierta precaución al interpretar los 
 
 Las teorías cambian a medida que se obtienen más datos.
 
-:   La [investigación sobre educación en informática]{i="investigación sobre educación en computación"} es una disciplina nueva: la Sociedad Americana de Educación en Ingeniería fue fundada en 1893 y el Consejo Nacional de Docentes de Matemática en 1920, pero la Asociación de Docentes de Informática no se creó hasta 2005. Mientras que existe un flujo constante de nuevo conocimiento en conferencias como [SIGCSE][sigcse], [ITiCSE][iticse] e [ICER][icer], simplemente no sabemos tanto sobre cómo aprender a programar como sí sabemos sobre aprender a leer, jugar un deporte o resolver cálculos simples.
+:   La [investigación sobre educación en informática]{i="investigación sobre educación en computación"} es una disciplina nueva: la Sociedad Americana de Educación en Ingeniería fue fundada en 1893 y el Consejo Nacional de Docentes de Matemática en 1920, pero la Asociación de Docentes de Informática no se creó hasta 2005. Mientras que existe un flujo constante de nuevo conocimiento en conferencias como \[SIGCSE\]\[sigcse\], \[ITiCSE\]\[iticse\] e \[ICER\]\[icer\], simplemente no sabemos tanto sobre cómo aprender a programar como sí sabemos sobre aprender a leer, jugar un deporte o resolver cálculos simples.
 
 La mayoría de las personas en estos estudio
 
@@ -30,32 +36,24 @@ Si esto fuera un ensayo académico, empezaría la mayoría de oraciones con fras
 
 > ### Jerga
 >
-> Como cualquier especialidad, la investigación sobre educación en informática tiene jerga. [CS1]{g="cs1"} refiere a un curso introductorio de un semestre de duración, donde las/los estudiantes aprenden variables, bucles y funciones por primera vez, mientras que [CS2]{g="cs2"} refiere a un segundo curso que cubre las estructuras de datos básicas como pilas y colas, y [CS0]{g="cs0"} se refiere a un curso introductorio para personas sin experiencia previa y que no tienen intención de continuar con computación de inmediato. Las definiciones completas de estos términos se encuentran en los [lineamientos del programa ACM][acm-curriculum] (Association for Computing Machinery, por sus siglas en inglés).
+> Como cualquier especialidad, la investigación sobre educación en informática tiene jerga. [CS1]{g="cs1"} refiere a un curso introductorio de un semestre de duración, donde las/los estudiantes aprenden variables, bucles y funciones por primera vez, mientras que [CS2]{g="cs2"} refiere a un segundo curso que cubre las estructuras de datos básicas como pilas y colas, y [CS0]{g="cs0"} se refiere a un curso introductorio para personas sin experiencia previa y que no tienen intención de continuar con computación de inmediato. Las definiciones completas de estos términos se encuentran en los \[lineamientos del programa ACM\]\[acm-curriculum\] (Association for Computing Machinery, por sus siglas en inglés).
 
 ## ¿Qué les estamos enseñando ahora? {#sec-pck-now}
 
 Se sabe muy poco sobre qué se enseña en entrenamientos de programación intensivo e iniciativas free-range, en parte porque muchas personas son reticentes a compartir los programas. Sabemos más sobre lo que se enseña en instituciones @Luxt2017:
 
-+-----------------------------------------+---------+--------------------------------------+---------+
-| Temas                                   | \%      | Temas                                | \%      |
-+=========================================+=========+======================================+=========+
-| Proceso de programación                 | 87%     | Tipos de datos                       | 23%     |
-+-----------------------------------------+---------+--------------------------------------+---------+
-| Pensamiento abstracto para programación | 63%     | Entrada/Salida                       | 17%     |
-+-----------------------------------------+---------+--------------------------------------+---------+
-| Estructuras de datos                    | 40%     | Librerías                            | 15%     |
-+-----------------------------------------+---------+--------------------------------------+---------+
-| Conceptos orientados a objetos          | 36%     | Variables y asignación               | 14%     |
-+-----------------------------------------+---------+--------------------------------------+---------+
-| Estructuras de control                  | 33%     | Recursión                            | 10%     |
-+-----------------------------------------+---------+--------------------------------------+---------+
-| Operaciones y funciones                 | 26%     | Punteros y administración de memoria | 5%      |
-+-----------------------------------------+---------+--------------------------------------+---------+
+| Temas                                   | \%  | Temas                                | \%  |
+|------------------------|-------------|----------------------|-------------|
+| Proceso de programación                 | 87% | Tipos de datos                       | 23% |
+| Pensamiento abstracto para programación | 63% | Entrada/Salida                       | 17% |
+| Estructuras de datos                    | 40% | Librerías                            | 15% |
+| Conceptos orientados a objetos          | 36% | Variables y asignación               | 14% |
+| Estructuras de control                  | 33% | Recursión                            | 10% |
+| Operaciones y funciones                 | 26% | Punteros y administración de memoria | 5%  |
 
 Títulos de temas de alto nivel como estos pueden esconder una gran cantidad de fallas. Un resultado más tangible surge de @Rich2017, quienes revisaron cien artículos y encontraron trayectorias de aprendizaje para clases de computación en escuelas primarias y secundarias. Sus resultados para la secuenciación, la repetición y los condicionales son esencialmente mapas conceptuales colectivos que combinan y racionalizan el pensamiento implícito y explícito de gran cantidad de docentes (@fig-pck-trajectory).
 
-![Trayectoria de aprendizaje para condiciones (extraído de @Rich2017)](diagrams/conditionals.svg){#fig-pck-trajectory fig-alt = ""}
-
+![Trayectoria de aprendizaje para condiciones (extraído de )](diagrams/conditionals.svg){#fig-pck-trajectory fig-alt = ""}
 
 ## ¿Cuánto están aprendiendo? {#sec-pck-learning}
 
@@ -108,13 +106,11 @@ Los errores que cometen las personas novatas nos indican qué priorizar cuando e
 
 @Solo1984,@Solo1986 son trabajos pioneros en la exploración de las estrategias de programación de personas novatas y expertas. El hallazgo clave es que las personas expertas saben al mismo tiempo el "qué" y el "cómo," es decir, entienden qué poner en los programas *y* tienen un conjunto de [patrones]{i="patrones de programa"} o plan para guiar su construcción. Las personas principiantes no tienen ninguna de las dos cosas, pero la mayoría de las/los docentes se enfocan únicamente en lo primero, a pesar de que los errores son usualmente causados por no tener una estrategia para resolver el problema, en lugar de falta de conocimiento sobre el lenguaje. Un trabajo reciente mostró la efectividad de enseñar cuatro habilidades distintas en un orden específico @Xie2019:
 
-+-----------------+-------------------------------------------------+-------------------------------------------------+
+|                 |                                                 |                                                 |
+|----------------|----------------------------|----------------------------|
 |                 | **semántica del código**                        | **plantillas asociadas a objetivos**            |
-+-----------------+-------------------------------------------------+-------------------------------------------------+
 | **leyendo**     | 1\. leer el código y predecir su comportamiento | 3\. reconocer plantillas y sus usos             |
-+-----------------+-------------------------------------------------+-------------------------------------------------+
 | **escribiendo** | 2\. escribir la sintaxis correcta               | 4\. usar las plantillas para alcanzar objetivos |
-+-----------------+-------------------------------------------------+-------------------------------------------------+
 
 Por lo tanto, nuestras siguientes recomendaciones son: **haz que tus estudiantes lean código, luego lo modifiquen, luego lo escriban** y además **preséntales explícitamente patrones comunes y haz que practiquen usándolos**. @Mull2007b es uno de los tantos estudios que muestran los beneficios de enseñar patrones comunes de manera explícita. Descomponer los problemas en patrones comunes crea oportunidades naturales para crear y [etiquetar sub-objetivos]{i="sub-objetivos etiquetados"} @Marg2012,@Marg2016.
 
@@ -144,13 +140,13 @@ Un enfoque para enseñar mejores prácticas para generar pruebas es definir un p
 
 ## ¿Importa el lenguaje? {#sec-pck-language}
 
-La respuesta corta es "sí": las personas novatas aprenden a programar más rápido y aprenden más usando herramientas basadas en bloques como [*Scratch*]{i="Scratch"} (<a figure="f:pck-scratch) @Wein2017. Una razón es que esos [sistemas basados en bloques]{i="programación basada en bloques"} reducen la carga cognitiva al eliminar la posibilidad de cometer errores de sintaxis. Otra razón es que esas interfaces de bloques promueven la exploración de una manera que el texto no hace: como todas las buenas herramientas, *Scratch* se puede aprender accidentalmente @Malo2010.
+La respuesta corta es "sí": las personas novatas aprenden a programar más rápido y aprenden más usando herramientas basadas en bloques como [*Scratch*]{i="Scratch"} (\<a figure="f:pck-scratch) @Wein2017. Una razón es que esos [sistemas basados en bloques]{i="programación basada en bloques"} reducen la carga cognitiva al eliminar la posibilidad de cometer errores de sintaxis. Otra razón es que esas interfaces de bloques promueven la exploración de una manera que el texto no hace: como todas las buenas herramientas, *Scratch* se puede aprender accidentalmente @Malo2010.
 
 Pero, ¿qué sucede *luego* de los bloques? @Chen2018 encontró que las personas cuyo primer lenguaje de programación fue gráfico, tenían calificaciones más altas en cursos introductorios de programación en comparación con las personas cuyo primer lenguaje era textual cuando los lenguajes se aprendieron durante o antes de los primeros años de adolescencia. Nuestra sexta recomendación es **preséntales interfaces basadas en bloques a niñas/os y adolescentes** antes de avanzar a sistemas basados en texto. La calificación de edad corresponde a que *Scratch* deliberadamente parece destinado a usuarias/os jóvenes, y puede ser difícil convencer a personas adultas de que lo tomen en serio.
 
 <figure id="f:pck-scratch">
 
-<img src="scratch-program.png" alt="Scratch
+\<img src="scratch-program.png" alt="Scratch
 
 <figcaption>Scratch</figcaption>
 
@@ -176,7 +172,7 @@ Las personas que programan han discutido durante décadas acerca de si los tipos
 
 @Kern1999 escribieron: "A menudo se alienta a quienes programan a usar nombres de variables largos independientemente del contexto. Esto es un error: la claridad a menudo se logra siendo breves." Muchas/os programadoras/es creen esto, pero @Hofm2017 encontraron que usar palabras completas en nombres de variables condujo, en promedio, a una comprensión un 19% más rápida en comparación con letras y abreviaturas. En contraste, @Beni2017 encontraron que el uso de nombres de variables de una sola letra no afectaba la capacidad de las personas principiantes de modificar el código. Esto puede deberse a que sus programas son más cortos que los de profesionales o porque algunos nombres de variables de una sola letra tienen tipos y significados implícitos. Por ejemplo, la mayoría de las personas que programan asumen que `i`, `j` y `n` son enteros y que `s` es una cadena de caracteres, mientras que `x`, `y` y `z` son números de punto flotante o enteros más o menos equivalentemente.
 
-¿Qué tan importante es esto? @Bink2012 reportaron que leer y comprender el código es fundamentalmente distinto de leer prosa: "...la estructura más formal y la sintaxis del código fuente permite a quienes programan asimilar y comprender partes del código rápidamente independientemente del estilo. En particular...las guías y los planes de programación juegan un papel importante en la comprensión." También encontró que a las/los desarrolladoras/es con experiencia no les afecta el estilo del identificador, entonces nuestra recomendación es utilizar un estilo coherente en todos los ejemplos. Dado que la mayoría de los lenguajes tienen guías de estilo (por ejemplo, [PEP 8][pep-8] para [Python]{i="Python"}) y herramientas para verificar que el código siga esas pautas, nuestra recomendación completa es **utiliza herramientas para garantizar que todos los ejemplos de código se adhieran a un estilo consistente**.
+¿Qué tan importante es esto? @Bink2012 reportaron que leer y comprender el código es fundamentalmente distinto de leer prosa: "...la estructura más formal y la sintaxis del código fuente permite a quienes programan asimilar y comprender partes del código rápidamente independientemente del estilo. En particular...las guías y los planes de programación juegan un papel importante en la comprensión." También encontró que a las/los desarrolladoras/es con experiencia no les afecta el estilo del identificador, entonces nuestra recomendación es utilizar un estilo coherente en todos los ejemplos. Dado que la mayoría de los lenguajes tienen guías de estilo (por ejemplo, \[PEP 8\]\[pep-8\] para [Python]{i="Python"}) y herramientas para verificar que el código siga esas pautas, nuestra recomendación completa es **utiliza herramientas para garantizar que todos los ejemplos de código se adhieran a un estilo consistente**.
 
 ## ¿Ayudan mejores mensajes de error? {#sec-pck-error}
 
@@ -203,7 +199,7 @@ Efectivamente, las personas novatas que recibieron estos mensajes repitieron men
 
 ### ¿Ayuda la visualización?
 
-[Visualizar la ejecución de un programa]{i="visualizar un programa"} es una idea siempre popular, y herramientas como el tutor de [Python]{i="Python"} en línea @Guo2013 y [Loupe][loupe] (que muestra cómo funciona un bucle de eventos de JavaScript) son útiles para enseñar. Sin embargo, las personas aprenden más al construir visualizaciones que al ver visualizaciones construidas por otras personas @Stas1998,@Ceti2016, entonces, ¿las visualizaciones realmente ayudan al aprendizaje?
+[Visualizar la ejecución de un programa]{i="visualizar un programa"} es una idea siempre popular, y herramientas como el tutor de [Python]{i="Python"} en línea @Guo2013 y \[Loupe\]\[loupe\] (que muestra cómo funciona un bucle de eventos de JavaScript) son útiles para enseñar. Sin embargo, las personas aprenden más al construir visualizaciones que al ver visualizaciones construidas por otras personas @Stas1998,@Ceti2016, entonces, ¿las visualizaciones realmente ayudan al aprendizaje?
 
 Para responder esto, @Cunn2017 replicaron un estudio previo sobre los tipos de esquemas que realizan las/los estudiantes cuando rastrean la ejecución del código. Encontraron que no hacer esquemas se correlaciona con un menor éxito, mientras que el seguimiento de los cambios de valor de una variable escribiendo los nuevos valores cerca de su nombre a medida que cambian fue la estrategia más efectiva.
 
@@ -217,7 +213,7 @@ Un posible elemento de confusión que revisaron es el tiempo: dado que quienes h
 
 @Viha2014 examinó la mejora promedio en las tasas de aprobación de varios tipos de intervenciones en clases de programación. Señalan que hay muchas razones para tomar sus conclusiones con cautela: las prácticas de enseñanza previas al cambio rara vez se establecen claramente, la calidad del cambio no es juzgada, y solo el 8.3% de los estudios reportaron resultados negativos. Entonces, o hay un sesgo al reportar resultados, o la forma en la que enseñamos en este momento es la peor posible y cualquier cosa sería una mejora. Como muchos otros estudios discutidos en este capítulo, en este trabajo sólo estaban observando clases universitarias, por lo que sus hallazgos pueden no ser generalizables a otros grupos.
 
-Con esas advertencias en mente, los autores encontraron diez cosas que las/dos docentes puede hacer para mejorar los resultados (<a figure="f:pck-interventions):
+Con esas advertencias en mente, los autores encontraron diez cosas que las/dos docentes puede hacer para mejorar los resultados (\<a figure="f:pck-interventions):
 
 Colaboración:
 
@@ -261,7 +257,7 @@ Otro apoyo:
 
 <figure id="f:pck-interventions">
 
-<img src="interventions-scaled.png" alt="Efectividad de las intervenciones
+\<img src="interventions-scaled.png" alt="Efectividad de las intervenciones
 
 <figcaption>Efectividad de las intervenciones</figcaption>
 
@@ -271,13 +267,13 @@ Esta lista destaca la importancia del aprendizaje cooperativo. @Beck2013 analiza
 
 > ### Computación sin código
 >
-> Escribir código no es la única forma de enseñar a las personas a programar: hacer que las personas novatas trabajen en ejercicios de creatividad computacional mejora sus calificaciones en varios niveles @Shel2017. Un ejercicio típico es describir un objeto cotidiano (como un clip o un cepillo de dientes) en términos de sus entradas, salidas y funciones. Este tipo de enseñanza a veces es llamada [ciencias de la computación desenchufada]{g="cs-unplugged" i="ciencias de la computación desenchufada"}; La página web [CS Unplugged][cs-unplugged-es] tiene lecciones y ejercicios para este tipo de enseñanza.
+> Escribir código no es la única forma de enseñar a las personas a programar: hacer que las personas novatas trabajen en ejercicios de creatividad computacional mejora sus calificaciones en varios niveles @Shel2017. Un ejercicio típico es describir un objeto cotidiano (como un clip o un cepillo de dientes) en términos de sus entradas, salidas y funciones. Este tipo de enseñanza a veces es llamada [ciencias de la computación desenchufada]{g="cs-unplugged" i="ciencias de la computación desenchufada"}; La página web \[CS Unplugged\]\[cs-unplugged-es\] tiene lecciones y ejercicios para este tipo de enseñanza.
 
 ## ¿Qué sigue? {#sec-pck-final}
 
 Para aquellas personas que quieran profundizar, @Finc2019 es un completo resumen de investigación sobre educación en informática y @Ihan2016 resume los métodos que estos estudios usan más frecuentemente. Espero que algún día tengamos catálogos como @Ojos2015 y más materiales para capacitar docentes como @Hazz2014,@Guzd2015a,@Sent2018 para ayudarnos a enseñar mejor.
 
-La mayor parte de la investigación mencionada en este capítulo fue financiada con fondos públicos pero tenemos que pagar para leerla: [rompí la ley]{i="descargas ilegales (minería)"} aproximadamente 250 veces para descargar trabajos científicos de páginas web como [Sci-Hub][sci-hub] mientras escribía este libro. Espero que llegue el día en que nadie tenga que acceder al conocimiento científico de esta manera; si investigas, por favor ayuda a que ese día se acerque publicando tu trabajo en lugares de acceso abierto.
+La mayor parte de la investigación mencionada en este capítulo fue financiada con fondos públicos pero tenemos que pagar para leerla: [rompí la ley]{i="descargas ilegales (minería)"} aproximadamente 250 veces para descargar trabajos científicos de páginas web como \[Sci-Hub\]\[sci-hub\] mientras escribía este libro. Espero que llegue el día en que nadie tenga que acceder al conocimiento científico de esta manera; si investigas, por favor ayuda a que ese día se acerque publicando tu trabajo en lugares de acceso abierto.
 
 ## Ejercicios {#sec-pck-exercises}
 
@@ -375,7 +371,7 @@ Mira la lista de intervenciones desarrolladas por @Viha2014 (@sec-pck-help). ¿C
 
 ### Conceptos erróneos y desafíos (grupos pequeños/15') {.exercise}
 
-El sitio [Desarrollo Profesional para la Enseñanza de Principios de CS][pd4cs] incluye [una lista detallada de conceptos erróneos de estudiantes y ejercicios][pd4cs-misconceptions]. Trabajando en grupos pequeños, elige una sección (por ejemplo, estructura de datos o funciones) y revisa la lista. ¿Cuáles de estos conceptos erróneos recuerdas haber tenido cuando eras estudiante? ¿Cuáles tienes todavía? ¿Cuáles has visto en tus estudiantes?
+El sitio \[Desarrollo Profesional para la Enseñanza de Principios de CS\]\[pd4cs\] incluye \[una lista detallada de conceptos erróneos de estudiantes y ejercicios\]\[pd4cs-misconceptions\]. Trabajando en grupos pequeños, elige una sección (por ejemplo, estructura de datos o funciones) y revisa la lista. ¿Cuáles de estos conceptos erróneos recuerdas haber tenido cuando eras estudiante? ¿Cuáles tienes todavía? ¿Cuáles has visto en tus estudiantes?
 
 ### ¿Qué es lo que más te importa? (toda la clase/15') {.exercise}
 

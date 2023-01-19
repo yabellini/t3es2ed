@@ -1,7 +1,15 @@
 # Motivación y desmotivación {#sec-motivation}
+
+::: callout-note
+## Segunda edición
+
+Estás leyendo la segunda edición en progreso y en castellano de Enseñar Tecnología en Comunidad (Teaching Tech Together). Este capítulo está siendo objeto de una profunda reestructuración y puede resultar confuso o incompleto
+:::
+
+
 Los/las estudiantes necesitan ánimo para enfrentar terreno desconocido, así que este capítulo analiza maneras en las que el cuerpo docente puede motivarlos/las. Y más importante, el capítulo habla de cómo los/las docentes pueden desmotivarlos/as y cómo evitarlo.
 
-Nuestro punto de partida es la diferencia entre [motivación extrínseca]{g="extrinsic-motivation"}, lo que sentimos cuando hacemos algo para evitar un castigo o ganarnos una recompensa, y [motivación intrínseca]{g="intrinsic-motivation"}, lo que sentimos cuando conseguimos algo que nos satisface personalmente. Ambos tipos de motivación nos afectan en la mayoría de las situaciones---por ejemplo, las personas enseñan porque les gusta y porque les pagan---; pero aprendemos mejor cuando estamos motivados/as intrínsecamente @Wlod2017. De acuerdo a la [teoría de la autodeterminación][self-determination-es], los tres impulsores de motivación intrínseca son:
+Nuestro punto de partida es la diferencia entre [motivación extrínseca]{g="extrinsic-motivation"}, lo que sentimos cuando hacemos algo para evitar un castigo o ganarnos una recompensa, y [motivación intrínseca]{g="intrinsic-motivation"}, lo que sentimos cuando conseguimos algo que nos satisface personalmente. Ambos tipos de motivación nos afectan en la mayoría de las situaciones---por ejemplo, las personas enseñan porque les gusta y porque les pagan---; pero aprendemos mejor cuando estamos motivados/as intrínsecamente @Wlod2017. De acuerdo a la \[teoría de la autodeterminación\]\[self-determination-es\], los tres impulsores de motivación intrínseca son:
 
 [Competencia]{i="motivación!competencia"}:
 
@@ -19,9 +27,9 @@ Una lección bien diseñada fomenta estos tres impulsores. Por ejemplo, un ejerc
 
 > ### El problema de las notas
 >
-> Yo nunca he tenido un público en mi vida. Mi público es una rúbrica.<br/> -- citado por [Matt Tierney][tierney-matt]
+> Yo nunca he tenido un público en mi vida. Mi público es una rúbrica.<br/> -- citado por \[Matt Tierney\]\[tierney-matt\]
 >
-> Las calificaciones y la forma en que distorsionan el aprendizaje se utilizan con frecuencia como ejemplo de motivación extrínseca, pero como observa @Mill2016a, no van a desaparecer en el corto plazo, así que no tiene sentido intentar construir un sistema que las ignore. En lugar de eso, @Lang2013 explora cómo los cursos que enfatizan las calificaciones pueden incentivar a que los/las estudiantes hagan trampa y ofrece algunos consejos de cómo disminuir este efecto, mientras @Covi2017 observa el problema más grande de balancear la motivación intrínseca y extrínseca en la educación institucional, y el enfoque de [alineación constructiva][constructive-alignment] defendido en @Bigg2011 busca armonizar las actividades de aprendizaje con los resultados del aprendizaje.
+> Las calificaciones y la forma en que distorsionan el aprendizaje se utilizan con frecuencia como ejemplo de motivación extrínseca, pero como observa @Mill2016a, no van a desaparecer en el corto plazo, así que no tiene sentido intentar construir un sistema que las ignore. En lugar de eso, @Lang2013 explora cómo los cursos que enfatizan las calificaciones pueden incentivar a que los/las estudiantes hagan trampa y ofrece algunos consejos de cómo disminuir este efecto, mientras @Covi2017 observa el problema más grande de balancear la motivación intrínseca y extrínseca en la educación institucional, y el enfoque de \[alineación constructiva\]\[constructive-alignment\] defendido en @Bigg2011 busca armonizar las actividades de aprendizaje con los resultados del aprendizaje.
 
 @Ambr2010 contiene una lista de métodos basados en evidencia para motivar a los/las estudiantes. Ninguno es sorprendente, es difícil imaginar a alguien diciendo que *no debemos* identificar y recompensar lo que valoramos, pero es útil revisar lecciones para asegurarnos de que estén haciendo al menos algunas de estas cosas. Una estrategia en particular que me gusta es que los/las estudiantes que hayan luchado y tenido éxito se acerquen y cuenten sus historias al resto de la clase. Es más probable que tus estudiantes crean historias de personas parecidas a ellos/as @Mill2016a y, además, quienes ya han pasado por tu curso siempre tendrán consejos en los que nunca hubieras pensado.
 
@@ -69,7 +77,7 @@ Hay tres desmotivadores principales para estudiantes adultos/as:
 
 En situaciones extremas, los/las estudiantes pueden desarrollar [indefensión aprendida]{g="learned-helplessness"}: si están repetidamente sometidos/as a comentarios negativos en una situación que no pueden cambiar, pueden aprender a ni siquiera intentar cambiar aquello que sí podrían.
 
-Una de las maneras más rápidas y seguras de desmotivar estudiantes es usar un lenguaje que sugiera que algunas personas son programadoras naturales y otras no. Guzdial lo ha llamado [el mito más grande de enseñar ciencias de la computación][guzdial-myths], y @Pati2016 respaldó esto mostrando que la gente ve evidencia de un "[gen *geek*]{i="gen geek (inexistencia de)"}" donde no existe uno. Analizaron distribuciones de calificaciones de 778 cursos universitarios y encontraron que solo 5,8% mostraba signos de ser multimodal, es decir, solo una clase de veinte mostró signos de tener dos poblaciones distintas de estudiantes. Luego le mostraron a 53 profesores/as de ciencias de la computación histogramas de distribuciones ambiguas de calificaciones; aquellos/as que creían que algunas personas tienen una predisposición innata a ser mejores en las ciencias de la computación eran más propensos/as de verlas como bimodal que aquellos/as que no.
+Una de las maneras más rápidas y seguras de desmotivar estudiantes es usar un lenguaje que sugiera que algunas personas son programadoras naturales y otras no. Guzdial lo ha llamado \[el mito más grande de enseñar ciencias de la computación\]\[guzdial-myths\], y @Pati2016 respaldó esto mostrando que la gente ve evidencia de un "[gen *geek*]{i="gen geek (inexistencia de)"}" donde no existe uno. Analizaron distribuciones de calificaciones de 778 cursos universitarios y encontraron que solo 5,8% mostraba signos de ser multimodal, es decir, solo una clase de veinte mostró signos de tener dos poblaciones distintas de estudiantes. Luego le mostraron a 53 profesores/as de ciencias de la computación histogramas de distribuciones ambiguas de calificaciones; aquellos/as que creían que algunas personas tienen una predisposición innata a ser mejores en las ciencias de la computación eran más propensos/as de verlas como bimodal que aquellos/as que no.
 
 Estas creencias son importantes porque los/las docentes actúan sobre ellas @Brop1983. Si un/a docente cree que es probable que a un/a estudiante le vaya bien naturalmente (a menudo inconscientemente) se enfoca en ese/a estudiante, que luego cumple con las expectativas debido a la mayor atención, lo que a su vez parece confirmar la creencia del docente. Lamentablemente, hay pocas señales de que la mera evidencia del tipo presentado en @Pati2016 es suficiente para romper este círculo vicioso...
 
@@ -99,7 +107,7 @@ Dolores de cabeza de instalación de software.
 
 :   El primer contacto de las personas con programación o con herramientas nuevas de programación suele a ser desmoralizador y creer que algo es difícil de aprender es una profecía autocumplida. No es solamente el tiempo que toma en configurar o el sentimiento de que es injusto tener que depurar algo que depende del conocimiento que aún no tienen. El problema real es que con cada falla refuerzan su creencia de que tendrán una mejor chance de cumplir con la fecha límite del próximo jueves si siguen haciendo las cosas como siempre las han hecho.
 
-Es incluso más fácil desmotivar a las personas en línea que en persona, pero ahora hay estrategias basadas en evidencia para lidiar con esto. @Ford2016 encontraron que las siguientes cinco barreras para contribuir en [Stack Overflow][stack-overflow] sos consideradas significativamente más problemáticas por las mujeres que por los hombres: falta de conocimiento de las características del sitio, sentirse incapaz de contestar preguntas, una comunidad de tamaño intimidante, malestar interactuando con personas extrañas o dependiendo de ellas, y la sensación de que buscar cosas en línea no es "trabajo real." El miedo de comentarios negativos no llegó a esta lista, pero de seguro sería la próxima razón agregada, si los autores de la investigación no fueran tan estrictos con sus límites estadísticos. Todos estos factores pueden y deben abordarse tanto en persona como en línea usando métodos como los de la @sec-motivation-inclusivity, y hacerlo mejora los resultados para todas las personas @Sved2016.
+Es incluso más fácil desmotivar a las personas en línea que en persona, pero ahora hay estrategias basadas en evidencia para lidiar con esto. @Ford2016 encontraron que las siguientes cinco barreras para contribuir en \[Stack Overflow\]\[stack-overflow\] sos consideradas significativamente más problemáticas por las mujeres que por los hombres: falta de conocimiento de las características del sitio, sentirse incapaz de contestar preguntas, una comunidad de tamaño intimidante, malestar interactuando con personas extrañas o dependiendo de ellas, y la sensación de que buscar cosas en línea no es "trabajo real." El miedo de comentarios negativos no llegó a esta lista, pero de seguro sería la próxima razón agregada, si los autores de la investigación no fueran tan estrictos con sus límites estadísticos. Todos estos factores pueden y deben abordarse tanto en persona como en línea usando métodos como los de la @sec-motivation-inclusivity, y hacerlo mejora los resultados para todas las personas @Sved2016.
 
 > ### Falla productiva y privilegio
 >
@@ -111,7 +119,7 @@ El [síndrome del impostor/a]{g="impostor-syndrome"} es la creencia de que tus l
 
 Las aulas tradicionales pueden alimentar al síndrome del impostor/a. Las tareas escolares se realizan con frecuencia de manera individual o en grupos pequeños, pero los resultados se comparten y critican públicamente. Como resultado, raramente vemos cómo el resto lucha por resolver y terminar su trabajo, lo que puede alimentar la creencia de que la tarea es fácil para todas las otras personas. Las personas que pertenencen a grupos subrepresentados que ya sienten una presión adicional para demostrar su valía pueden ser particularmente afectadas.
 
-La iniciativa Ada (*Ada Initiative*) ha creado unas [guías][impostor-syndrome] para [luchar con tu propio síndrome del impostor/a]{i="síndrome del impostor/a!combatir"}, que incluyen:
+La iniciativa Ada (*Ada Initiative*) ha creado unas \[guías\]\[impostor-syndrome\] para [luchar con tu propio síndrome del impostor/a]{i="síndrome del impostor/a!combatir"}, que incluyen:
 
 Habla del problema con personas de tu confianza.
 
@@ -147,23 +155,23 @@ Como docente, puedes ayudar a las personas con su síndrome del impostor/a compa
 
 [Carol Dweck]{i="Dweck, Carol"} y otros han estudiado las diferencias de la [mentalidad fija]{g="fixed-mindset"} y la [mentalidad de crecimiento]{g="growth-mindset"} en resultados de aprendizaje. Si la gente cree que la competencia en alguna área es intrínseca (es decir, que tienes "el gen" para ella o no), *a todos/as* les va peor, incluyendo a quienes supuestamente están en ventaja. La razón es que si a alguien no le va bien al principio, asume que les falta esa aptitud, lo que predispone su rendimiento en el futuro. Por otro lado, si la gente cree que una habilidad se aprende y se puede mejorar, en promedio, les irá mejor.
 
-[Se cuestiona][growth-mindset-critique] que la mentalidad del crecimiento ha sido sobredimensionada, o que traducir las investigaciones al respecto a la práctica es mucho más difícil de lo que sus defensores más entusiastas han insinuado @Sisk2018. Sin embargo, sí parece que los/las estudiantes de un nivel socioeconómico bajo o que están en riesgo académico podrían beneficiarse de las intervenciones de mentalidad de crecimiento.
+\[Se cuestiona\]\[growth-mindset-critique\] que la mentalidad del crecimiento ha sido sobredimensionada, o que traducir las investigaciones al respecto a la práctica es mucho más difícil de lo que sus defensores más entusiastas han insinuado @Sisk2018. Sin embargo, sí parece que los/las estudiantes de un nivel socioeconómico bajo o que están en riesgo académico podrían beneficiarse de las intervenciones de mentalidad de crecimiento.
 
-Otro efecto discutido ampliamente es la [amenaza de estereotipo]{g="stereotype-threat"} @Stee2011. Recordar a las personas de estereotipos negativos, incluso en formas sutiles, puede hacerlas sentirse ansiosas por el riesgo de confirmar esos estereotipos, lo que a su vez puede reducir su rendimiento. Otra vez, hay preocupación sobre [la replicabilidad de los estudios claves][stereotype-threat-critique], y el problema se complica aún más por el hecho de que el término se ha utilizado de muchas formas @Shap2007, pero nadie argumentaría que mencionar estereotipos en clase ayudaría a los/las estudiantes.
+Otro efecto discutido ampliamente es la [amenaza de estereotipo]{g="stereotype-threat"} @Stee2011. Recordar a las personas de estereotipos negativos, incluso en formas sutiles, puede hacerlas sentirse ansiosas por el riesgo de confirmar esos estereotipos, lo que a su vez puede reducir su rendimiento. Otra vez, hay preocupación sobre \[la replicabilidad de los estudios claves\]\[stereotype-threat-critique\], y el problema se complica aún más por el hecho de que el término se ha utilizado de muchas formas @Shap2007, pero nadie argumentaría que mencionar estereotipos en clase ayudaría a los/las estudiantes.
 
 ## [Accesibilidad]{i="accesibilidad"} {#sec-motivation-accessibility}
 
-Colocar las lecciones y los ejercicios fuera del alcance de alguien es tan desmotivador como parece, y es muy fácil hacerlo sin darse cuenta. Por ejemplo, las primeras lecciones de programación en línea que escribí tenían una transcripción de la narración al lado de las diapositivas, pero no incluían el código fuente: eso estaba en capturas de pantalla de diapositivas de PowerPoint. Alguien utilizando un [lector de pantalla][screen-reader-es] podía entonces oír lo que se decía sobre el programa, pero no sabía qué era realmente el programa. No siempre es factible adaptarse a las necesidades de cada estudiante, pero agregar títulos de descripción a las imágenes y hacer que los controles de navegación sean accesible a personas que no pueden usar el mouse puede hacer una gran diferencia.
+Colocar las lecciones y los ejercicios fuera del alcance de alguien es tan desmotivador como parece, y es muy fácil hacerlo sin darse cuenta. Por ejemplo, las primeras lecciones de programación en línea que escribí tenían una transcripción de la narración al lado de las diapositivas, pero no incluían el código fuente: eso estaba en capturas de pantalla de diapositivas de PowerPoint. Alguien utilizando un \[lector de pantalla\]\[screen-reader-es\] podía entonces oír lo que se decía sobre el programa, pero no sabía qué era realmente el programa. No siempre es factible adaptarse a las necesidades de cada estudiante, pero agregar títulos de descripción a las imágenes y hacer que los controles de navegación sean accesible a personas que no pueden usar el mouse puede hacer una gran diferencia.
 
 > ### Rampas en las veredas
 >
-> Hacer que el material sea accesible ayuda a todas las personas, no solamente a las personas con dificultades. [Las rampas][rampa]---los pequeños planos inclinados que unen una acera a la calle--- fueron creados originalmente para facilitar el movimiento de personas con discapacidad física, pero resultaron ser igual de útiles para personas con cochecitos y carritos de supermercado. De forma similar, subtitular imágenes no solamente ayuda a las personas con discapacidad visual: también hace que las imágenes sean más fáciles de encontrar e indexar para los motores de búsqueda.
+> Hacer que el material sea accesible ayuda a todas las personas, no solamente a las personas con dificultades. \[Las rampas\]\[rampa\]---los pequeños planos inclinados que unen una acera a la calle--- fueron creados originalmente para facilitar el movimiento de personas con discapacidad física, pero resultaron ser igual de útiles para personas con cochecitos y carritos de supermercado. De forma similar, subtitular imágenes no solamente ayuda a las personas con discapacidad visual: también hace que las imágenes sean más fáciles de encontrar e indexar para los motores de búsqueda.
 
-El primer paso y el más importante para hacer lecciones accesibles es involucrar a las personas con discapacidades en el proceso de toma de decisiones: el eslogan [nihil de nobis, sine nobis][nihil-de-nobis-sine-nobis] (literalmente, "nada sobre nosotros sin nosotros") precede a los derechos de accesibilidad, pero siempre es un punto adecuado de partida. Algunas recomendaciones específicas son:
+El primer paso y el más importante para hacer lecciones accesibles es involucrar a las personas con discapacidades en el proceso de toma de decisiones: el eslogan \[nihil de nobis, sine nobis\]\[nihil-de-nobis-sine-nobis\] (literalmente, "nada sobre nosotros sin nosotros") precede a los derechos de accesibilidad, pero siempre es un punto adecuado de partida. Algunas recomendaciones específicas son:
 
 Descubre lo que debes hacer.
 
-:   Cada uno de [estos afiches][uk-gov-accessibility-es] ofrece lo que debe y no debe hacerse para personas con autismo, usuarios/as de lectores de pantalla, y personas con baja visión, discapacidades físicas o motoras, ejercicios de escucha y dislexia.
+:   Cada uno de \[estos afiches\]\[uk-gov-accessibility-es\] ofrece lo que debe y no debe hacerse para personas con autismo, usuarios/as de lectores de pantalla, y personas con baja visión, discapacidades físicas o motoras, ejercicios de escucha y dislexia.
 
 No hagas todo a la vez.
 
@@ -175,7 +183,7 @@ Primero haz las cosas fáciles.
 
 Revisa qué tan bien lo estás haciendo.
 
-:   Sitios como [WebAIM][webaim] permiten que revises qué tan accesibles son tus materiales en línea para usuarios/as con discapacidad visual.
+:   Sitios como \[WebAIM\]\[webaim\] permiten que revises qué tan accesibles son tus materiales en línea para usuarios/as con discapacidad visual.
 
 @Coom2012,@Burg2015 son buenas guías de diseño visual para la accesibilidad. Sus recomendaciones incluyen:
 
@@ -201,15 +209,15 @@ Incluye narración de la acción de pantalla en los videos
 
 ### [Cucharas]{i="cucharas (metáfora)"}
 
-En el 2003, Christine Miserandino comenzó a usar las [cucharas][spoons] como una forma de explicar cómo es vivir con una enfermedad crónica. Las personas sanas comienzan cada día con una cantidad ilimitada de cucharas, pero aquellas con lupus u otras condiciones debilitantes solo tienen unas pocas, y cada cosa que hacen les cuesta una. ¿Levantarse de la cama? Esa es una cuchara. ¿Preparar una comida? Esa es otra cuchara, y pronto se te acaban.
+En el 2003, Christine Miserandino comenzó a usar las \[cucharas\]\[spoons\] como una forma de explicar cómo es vivir con una enfermedad crónica. Las personas sanas comienzan cada día con una cantidad ilimitada de cucharas, pero aquellas con lupus u otras condiciones debilitantes solo tienen unas pocas, y cada cosa que hacen les cuesta una. ¿Levantarse de la cama? Esa es una cuchara. ¿Preparar una comida? Esa es otra cuchara, y pronto se te acaban.
 
 > No puedes ni siquiera ponerte la ropa cuando estás enfermo/a... si ese día mis manos duelen, los botones están fuera de discusión. Si tengo moretones, necesito usar mangas largas, y si tengo fiebre necesito un abrigo para mantenerme abrigado/a, y así sucesivamente. Si se me cae el cabello necesito pasar más tiempo para lucir presentable, y luego tienes que tomar en cuenta otros 5 minutos por sentirme mal de que te tomó 2 horas hacer todo esto.
 
-Como [Elizabeth Patitsas ha argumentado][patitsas-essay-spoons], las personas que tienen muchas cucharas pueden acumular más, pero las personas cuya cantidad es limitada pueden tener dificultades para salir adelante. Al diseñar clases y ejercicios, recuerda que algunos/as de tus estudiantes pueden tener obstáculos físicos o mentales que no son obvios. En caso de duda, pregunta: es casi seguro que tengan más experiencia con lo que funciona y lo que no que cualquier otra persona.
+Como \[Elizabeth Patitsas ha argumentado\]\[patitsas-essay-spoons\], las personas que tienen muchas cucharas pueden acumular más, pero las personas cuya cantidad es limitada pueden tener dificultades para salir adelante. Al diseñar clases y ejercicios, recuerda que algunos/as de tus estudiantes pueden tener obstáculos físicos o mentales que no son obvios. En caso de duda, pregunta: es casi seguro que tengan más experiencia con lo que funciona y lo que no que cualquier otra persona.
 
 ## Inclusión {#sec-motivation-inclusivity}
 
-La [inclusión]{g="inclusivity"} es una política para incluir a las personas que de otro modo pueden quedar excluidas o marginadas. En la computación, requiere hacer un esfuerzo positivo para tratar mejor y generar un ambiente amigable y seguro para las mujeres, grupos raciales o étnicos subrepresentados, personas con diversas orientaciones sexuales, ancianos/as, personas con dificultades físicas, personas que estuvieron encarceladas, los/las desfavorecidos/as económicamente, y todas las demás personas que no encajen en el grupo demográfico de hombres blancos/asiáticos prósperos de Silicon Valley. @fig-motivation-women-in-cs (de [NPR][npr]) ilustra gráficamente los efectos de la cultura excluyente hacia las mujeres en la computación.
+La [inclusión]{g="inclusivity"} es una política para incluir a las personas que de otro modo pueden quedar excluidas o marginadas. En la computación, requiere hacer un esfuerzo positivo para tratar mejor y generar un ambiente amigable y seguro para las mujeres, grupos raciales o étnicos subrepresentados, personas con diversas orientaciones sexuales, ancianos/as, personas con dificultades físicas, personas que estuvieron encarceladas, los/las desfavorecidos/as económicamente, y todas las demás personas que no encajen en el grupo demográfico de hombres blancos/asiáticos prósperos de Silicon Valley. @fig-motivation-women-in-cs (de \[NPR\]\[npr\]) ilustra gráficamente los efectos de la cultura excluyente hacia las mujeres en la computación.
 
 ![Estudiantes universitarias de ciencias de la computación en los EE.UU.](diagrams/women-coding.png){#fig-motivation-women-in-cs fig-alt = ""}
 
@@ -267,7 +275,7 @@ El primer paso y el más importante para solucionar esto es dejar de pensar en t
 >
 > @Abba2012 describe las carreras y logros de las mujeres que le dieron forma a la historia temprana de la computación, pero que con demasiada frecuencia han sido eliminadas de ella; @Ensm2003,@Ensm2012 describe cómo la programación pasó de ser una profesión femenina a una masculina en la década de 1960, mientras @Hick2018 examina cómo Gran Bretaña perdió su dominio inicial en la computación discriminando sistemáticamente en contra de sus trabajadores más cualificados: las mujeres. (Mira @Milt2018 para obtener una reseña de los tres libros.) Hablar de esta historia hace que algunos hombres en computación se sientan incómodos; en mi opinión, esa es una buena razón para hacerlo.
 
-La misoginia en los videojuegos, el uso de "encaje cultural" en la contratación para excusar prejuicios conscientes o inconscientes, una cultura de silencio en torno al acoso y la creciente desigualdad en la sociedad que produce privilegios preparatorios (@sec-classroom-mixed) no son culpa de una persona en particular, pero solucionarlos es responsabilidad de todos/as. Como docente, tienes más poder que la mayoría; [este taller][frameshift-workshop] tiene excelentes consejos prácticos sobre cómo ser un/a buen/a aliado/a, y su consejo probablemente es más importante que cualquier cosa que te enseñe este libro sobre la enseñanza.
+La misoginia en los videojuegos, el uso de "encaje cultural" en la contratación para excusar prejuicios conscientes o inconscientes, una cultura de silencio en torno al acoso y la creciente desigualdad en la sociedad que produce privilegios preparatorios (@sec-classroom-mixed) no son culpa de una persona en particular, pero solucionarlos es responsabilidad de todos/as. Como docente, tienes más poder que la mayoría; \[este taller\]\[frameshift-workshop\] tiene excelentes consejos prácticos sobre cómo ser un/a buen/a aliado/a, y su consejo probablemente es más importante que cualquier cosa que te enseñe este libro sobre la enseñanza.
 
 ## Ejercicios {#sec-motivation-exercises}
 
@@ -279,7 +287,7 @@ La misoginia en los videojuegos, el uso de "encaje cultural" en la contratación
 
 ### Necesidades básicas (toda la clase/10') {.exercise}
 
-Paloma Medina identifica [seis necesidades básicas][biceps] para las personas en el trabajo: pertenencia, progreso, elección, igualdad, previsibilidad y significado. Luego de leer las descripciones de cada una, ordénalas de mayor a menor importancia para ti personalmente, luego compara la clasificación con tus pares. ¿Cómo crees que tu clasificación se compara con la de tus estudiantes?
+Paloma Medina identifica \[seis necesidades básicas\]\[biceps\] para las personas en el trabajo: pertenencia, progreso, elección, igualdad, previsibilidad y significado. Luego de leer las descripciones de cada una, ordénalas de mayor a menor importancia para ti personalmente, luego compara la clasificación con tus pares. ¿Cómo crees que tu clasificación se compara con la de tus estudiantes?
 
 ### Implementa una estrategia para la inclusión (individual/5') {.exercise}
 
@@ -301,7 +309,7 @@ Encuentra el punto de partida de transporte público más cercano a tu edificio 
 
 ### ¿Quién decide? (toda la clase/15') {.exercise}
 
-En @Litt2004, Kenneth Wesson escribió, "Si los/las niños/as de los barrios marginales pobres superaran sistemáticamente a los/as niños/as de hogares suburbanos ricos en las pruebas estandarizadas, ¿alguien es lo suficientemente ingenuo como para creer que todavía insistiríamos en usar estas pruebas como indicadores de éxito?" Lee [este artículo][nytimes-undiscovered] de Cameron Cottrill y luego describe un ejemplo de tu propia experiencia de evaluaciones "objetivas" que reforzaron el status quo.
+En @Litt2004, Kenneth Wesson escribió, "Si los/las niños/as de los barrios marginales pobres superaran sistemáticamente a los/as niños/as de hogares suburbanos ricos en las pruebas estandarizadas, ¿alguien es lo suficientemente ingenuo como para creer que todavía insistiríamos en usar estas pruebas como indicadores de éxito?" Lee \[este artículo\]\[nytimes-undiscovered\] de Cameron Cottrill y luego describe un ejemplo de tu propia experiencia de evaluaciones "objetivas" que reforzaron el status quo.
 
 ### Estereotipos comunes (parejas/10') {.exercise}
 
@@ -309,7 +317,7 @@ Algunas personas todavía dicen "Es tan simple que incluso tu abuela podría usa
 
 ### No ser un idiota (individual/15') {.exercise}
 
-[Este artículo corto][open-source-not-jerk] de Gary Bernhardt reescribe un mensaje innecesariamente hostil para ser menos grosero. Utilizándolo como un modelo, encuentra algo desagradable en [Stack Overflow][stack-overflow] o en algún otro foro público de discusión. y reescríbelo para que sea más inclusivo.
+\[Este artículo corto\]\[open-source-not-jerk\] de Gary Bernhardt reescribe un mensaje innecesariamente hostil para ser menos grosero. Utilizándolo como un modelo, encuentra algo desagradable en \[Stack Overflow\]\[stack-overflow\] o en algún otro foro público de discusión. y reescríbelo para que sea más inclusivo.
 
 ### Salvar las apariencias (individual/10') {.exercise}
 
@@ -321,7 +329,7 @@ Algunas personas todavía dicen "Es tan simple que incluso tu abuela podría usa
 
 ### Accesibilidad de la lección (parejas/30') {.exercise}
 
-En parejas, escojan una lección cuyos materiales están disponibles en línea e independientemente asignen un puntaje a esos materiales de acuerdo a lo que se debe y no se debe hacer según [estos afiches][uk-gov-accessibility-es]. ¿En qué estuvieron de acuerdo tu pareja y tú? ¿En qué estuvieron en desacuerdo? ¿Qué tan bien fue la lección para cada una de las seis categorías de usuarios/as?
+En parejas, escojan una lección cuyos materiales están disponibles en línea e independientemente asignen un puntaje a esos materiales de acuerdo a lo que se debe y no se debe hacer según \[estos afiches\]\[uk-gov-accessibility-es\]. ¿En qué estuvieron de acuerdo tu pareja y tú? ¿En qué estuvieron en desacuerdo? ¿Qué tan bien fue la lección para cada una de las seis categorías de usuarios/as?
 
 ### Siguiendo el ciclo (grupos pequeños/15') {.exercise}
 

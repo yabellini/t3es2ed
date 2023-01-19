@@ -1,5 +1,10 @@
-
 # Las reglas {#rules}
+
+::: callout-note
+## Segunda edición
+
+Estás leyendo la segunda edición en progreso y en castellano de Enseñar Tecnología en Comunidad (Teaching Tech Together). Este capítulo está prácticamente terminado y sólo necesita una última revisión
+:::
 
 1.  Sé amable: todo lo demás son detalles.
 
@@ -7,8 +12,7 @@
 
 3.  ...que la mayoría de la gente prefiere fracasar antes que cambiar...
 
-4.  ...y que el 90% de la magia consiste en saber una cosa más (que tu
-    público).
+4.  ...y que el 90% de la magia consiste en saber una cosa más (que tu público).
 
 5.  Nunca enseñes solo/a.
 
@@ -16,10 +20,8 @@
 
 7.  Haz de cada error una lección.
 
-8.  Recuerda que ninguna clase sobrevive al primer contacto con
-    estudiantes...
+8.  Recuerda que ninguna clase sobrevive al primer contacto con estudiantes...
 
-9.  ...que cada clase es demasiado corta para quien enseña y demasiado
-    larga para quien la recibe...
+9.  ...que cada clase es demasiado corta para quien enseña y demasiado larga para quien la recibe...
 
 10. ...y que nadie tendrá más entusiasmo que tú por tu clase.

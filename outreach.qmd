@@ -1,5 +1,11 @@
 # Difusión y vinculación {#sec-outreach}
 
+::: callout-note
+## Segunda edición
+
+Estás leyendo la segunda edición en progreso y en castellano de Enseñar Tecnología en Comunidad (Teaching Tech Together). Este capítulo está siendo objeto de una profunda reestructuración y puede resultar confuso o incompleto
+:::
+
 Está de moda en los círculos tecnológicos menospreciar a las universidades y las instituciones gubernamentales como si fueran dinosaurios lentos, pero en mi experiencia no son peores que empresas de tamaño similar. El consejo de la escuela local, la biblioteca, la alcaldía o municipio pueden ofrecer espacio, financiación, publicidad, conexiones con otros grupos con los que aún no te has encontrado y una serie de otras cosas útiles. Conocer estas posibilidades puede ayudar a resolver o evitar problemas a corto plazo y generar beneficios en el futuro.
 
 ## Marketing {#sec-outreach-marketing}
@@ -21,7 +27,7 @@ Imagina que tu grupo ofrece talleres de programación de fin de semana a persona
 Al igual que el diseño de lecciones (@sec-process), los primeros pasos en *marketing* son crear las [personas tipo]{i="persona tipo"} de la gente que podría estar interesada en lo que estás haciendo, y averiguar cuáles de sus necesidades puedes cumplir. Una manera de resumir lo último es escribir [discursos de presentación]{g="elevator-pitch" i="discurso breve de presentación"} dirigidos a diferentes personas tipo. Una plantilla ampliamente utilizada para este objetivo es:
 
 |                  |                                                         |
-|--------------------|----------------------------------------------------|
+|---------------------|---------------------------------------------------|
 | Para             | *objetivo de público*                                   |
 | quien            | *insatisfacción con lo que está disponible actualmente* |
 | nuestros/as      | *categoría*                                             |

@@ -2,4 +2,6 @@
 
 Este es el sitio web de la segunda edición **en progreso** y **en castellano** de Enseñar Tecnología en Comunidad.
 
-Por favor nota que T3ES usa un [Código de conducta para contribuir](https://contributor-covenant.org/version/2/0/CODE_OF_CONDUCT.html). Si contribuyes a este libro estás aceptado By contributing to this book, you agree acatar sus condiciones.
+En cada capítulo vas a encontrar una nota al inicio que te indica en que estado está: completo, en perfeccionamiento, en re-estructuración o en borrador. Esto te ayudará a decidir leer el contenido y hacer tus aportes (siempre estamos muy agradecidas y agradecidos por el feedback que nos puedan dar).
+
+En este libro usamos un [Código de conducta para contribuir](https://contributor-covenant.org/version/2/0/CODE_OF_CONDUCT.html). Si contribuyes a este libro estás aceptado acatar sus condiciones.

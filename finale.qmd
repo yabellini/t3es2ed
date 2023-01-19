@@ -1,5 +1,11 @@
 # ¿Por qué enseñamos? {#sec-finale}
 
+::: callout-note
+## Segunda edición
+
+Estás leyendo la segunda edición en progreso y en castellano de Enseñar Tecnología en Comunidad (Teaching Tech Together). Este capítulo está siendo objeto de una profunda reestructuración y puede resultar confuso o incompleto
+:::
+
 ## Greg {#sec-finale-Greg}
 
 Cuando comencé a trabajar como voluntario en la Universidad de Toronto, mis estudiantes me preguntaron por qué enseñaba gratis. Esta fue mi respuesta:
@@ -28,43 +34,24 @@ Gracias por leer---espero que podamos enseñar juntos algún día. Hasta entonce
 Comienza donde estás.<br/> Usa lo que tienes.<br/> Ayuda a quien puedas.
 :::
 
-
 ## Yani {#sec-finale-Yani}
-
 
 ## Qué otras cosas leer {#sec-finale-instead}
 
-Si tienes prisa o quieres tener una idea de lo que cubrirá este libro,
-@Brow2018 presenta diez sugerencias basadas en evidencias para enseñar computación<sup>En inglés</sup>.
-También puedes disfrutar<sup>Todos en inglés</sup>:
+Si tienes prisa o quieres tener una idea de lo que cubrirá este libro, @Brow2018 presenta diez sugerencias basadas en evidencias para enseñar computación<sup>En inglés</sup>. También puedes disfrutar<sup>Todos en inglés</sup>:
 
-- [El entrenamiento para instructoras/es de The Carpentries (Las/los carpinteras/os)][carpentries-instructor],
-  en el cual está basado este libro.
+-   \[El entrenamiento para instructoras/es de The Carpentries (Las/los carpinteras/os)\]\[carpentries-instructor\], en el cual está basado este libro.
 
-- @Lang2016 y @Hust2012, que son textos cortos y accesibles, que conectan las cosas que puedes aplicar
-  inmediatamente con la investigación que hay detrás de ellas y las fundamenta.
+-   @Lang2016 y @Hust2012, que son textos cortos y accesibles, que conectan las cosas que puedes aplicar inmediatamente con la investigación que hay detrás de ellas y las fundamenta.
 
-- @Berg2012,@Lemo2014,@Majo2015,@Broo2016,@Rice2018,@Wein2018b
-  están repletos de sugerencias prácticas sobre cosas que puedes hacer en tu clase,
-  pero pueden cobrar más sentido una vez que tengas un marco conceptual para entender por qué sus ideas funcionan.
+-   @Berg2012,@Lemo2014,@Majo2015,@Broo2016,@Rice2018,@Wein2018b están repletos de sugerencias prácticas sobre cosas que puedes hacer en tu clase, pero pueden cobrar más sentido una vez que tengas un marco conceptual para entender por qué sus ideas funcionan.
 
-- @DeBr2015,
-  quien plantea qué cosas son ciertas sobre la educación al explicar qué cosas no lo son y @Dida2016,
-  que fundamenta la teoría del aprendizaje en psicología cognitiva.
+-   @DeBr2015, quien plantea qué cosas son ciertas sobre la educación al explicar qué cosas no lo son y @Dida2016, que fundamenta la teoría del aprendizaje en psicología cognitiva.
 
-- @Pape1993,
-  que continúa siendo una visión inspiradora sobre cómo las computadoras pueden cambiar la educación.
-  [La excelente descripción de Amy Ko][ko-mindstorms]
-  es una síntesis de las ideas de Papert, mejor que la que podría hacer yo,
-  y @Craw2010 es una compañía provocadora y estimulante a ambos textos.
+-   @Pape1993, que continúa siendo una visión inspiradora sobre cómo las computadoras pueden cambiar la educación. \[La excelente descripción de Amy Ko\]\[ko-mindstorms\] es una síntesis de las ideas de Papert, mejor que la que podría hacer yo, y @Craw2010 es una compañía provocadora y estimulante a ambos textos.
 
-- @Gree2014,@McMi2017,@Watt2014 explican por qué tantos intentos de reformas educativas
-  han fallado a lo largo de los últimos cuarenta años, cómo colegas que trabajan solo por dinero han explotado
-  y exacerbado la desigualdad en nuestra sociedad, y cómo la tecnología repetidamente ha fracasado en revolucionar la educación.
+-   @Gree2014,@McMi2017,@Watt2014 explican por qué tantos intentos de reformas educativas han fallado a lo largo de los últimos cuarenta años, cómo colegas que trabajan solo por dinero han explotado y exacerbado la desigualdad en nuestra sociedad, y cómo la tecnología repetidamente ha fracasado en revolucionar la educación.
 
-- @Brow2007 y @Mann2015,
-  porque no puedes enseñar bien sin cambiar el sistema en el que enseñamos
-  y no puedes lograr este cambio trabajando de forma solitaria.
+-   @Brow2007 y @Mann2015, porque no puedes enseñar bien sin cambiar el sistema en el que enseñamos y no puedes lograr este cambio trabajando de forma solitaria.
 
-Quienes deseen material más académico pueden encontrar gratificante leer a @Guzd2015a,@Hazz2014,@Sent2018,@Finc2019,@Hpl2018,
-mientras que [el blog de Mark Guzdial][guzdial-blog] ha sido consistentemente informativo, sugerente y motivador.
+Quienes deseen material más académico pueden encontrar gratificante leer a @Guzd2015a,@Hazz2014,@Sent2018,@Finc2019,@Hpl2018, mientras que \[el blog de Mark Guzdial\]\[guzdial-blog\] ha sido consistentemente informativo, sugerente y motivador.

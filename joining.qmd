@@ -1,5 +1,12 @@
 # Unirse a nuestra comunidad {#sec-joining}
 
+::: callout-note
+## Segunda edición
+
+Estás leyendo la segunda edición en progreso y en castellano de Enseñar Tecnología en Comunidad (Teaching Tech Together). Este capítulo está siendo objeto de una profunda reestructuración y puede resultar confuso o incompleto
+:::
+
+
 Esperamos que elijas ayudarnos a mejorar este libro. Si esta forma de trabajo colaborativa es nueva, consulta en el @sec-conduct nuestro código de conducta, y luego:
 
 Empieza pequeño.
