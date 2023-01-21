@@ -132,6 +132,87 @@ La \[discusión de Chelsea Troy\]\[troy-remote-meetings\] sobre por qué las reu
 La solución es chatear (charla en texto) a la par de la videoconferencia donde las personas pueden indicar que quieren hablar. Quien modere entonces selecciona personas de la lista de espera. Si la reunión es grande o argumentativa, mantener a todos silenciados y solo permitir a quien modere liberar el micrófono de quienes participan.
 
 
+## Reunión de sprint por chat
+
+La reunión es sincrónica en una herramienta de chat de texto, como Slack. La persona responsable de la reunión (normalmente la persona líder del equipo) comparte la fecha y la hora y la genera con una aplicación de calendario que permite a la gente “aceptar”, “rechazar” o indicar “tal vez”.
+
+Cada reunión tiene una agenda que se comparte el día anterior. En esta agenda, cada punto tiene un tiempo acotado para discutirse y el nombre del moderador de la reunión (_meeting master_ en inglés) y que puede cambiar de una reunión a otra. También compartimos las reglas de la reunión y los objetivos como mensaje en la plataforma. Por ejemplo:
+
+> **Reglas** - los temas tienen limite de tiempo para su discusión - evitar discusiones largas - retomar los temas complejos bilateralmente o en grupos.
+>
+> **Objetivos** - Revisar lo hecho hasta ahora, decidir cómo seguir adelante - crear paquetes de trabajo/temas para las próximas dos semanas y asignar quién puede hacer qué hasta la próxima reunión (en la medida de lo posible).
+
+### Durante la reunión
+
+**Inicio** 
+:
+
+La persona responsable de la reunión saluda escribiendo un mensaje como _“Hola, vamos a iniciar la reunión"_ y pide que reaccionen con su emoji favorito al texto del mensaje de saludo para saber quién está en la reunión.
+
+**Desarrollo de la reunión**
+:
+
+El primer punto del orden del día es siempre _puntos complicados_. Por ejemplo:
+
+> Puntos complicados (5 minutos) ¿Hay algo que te gustaría compartir/discutir? Arreglemos las cosas fáciles enseguida y las más complicadas después del sprint.
+
+La persona responsable de la reunión escribe el nombre del tema, cuánto tiempo tenemos para discutirlo y especifica cuando termina. La discusión ocurre en el hilo de ese primer mensaje. Si la discusión termina antes del tiempo, la persona responsable de moderar la reunión indica (en el hilo) que pasemos al siguiente tema. Fuera del hilo se escribe un nuevo mensaje con el nombre del siguiente tema, la duración de la discusión, y algún texto como _“vamos a discutir xxx durante xx minutos hasta las xx:xx”_. Por ejemplo:
+
+> Tema 2 (10 minutos) Estado actual, lo que ha sucedido desde la semana pasada (o la última reunión, o el último mes o el último sprint)
+> 
+> _punto 1_
+> _punto .._
+> _punto n_
+
+> Próximas tareas:
+>
+> _tarea 1_
+> _tarea n_
+
+A veces, un tema es dirigido por una persona que no es la responsable de moderar la reunión. En ese caso, la persona responsable de la reunión menciona quién va a dirigir este tema. Esto suele ocurrir cuando una persona es responsable de una actividad o tiene más información que quien modera sobre ese punto.
+
+Todos estos datos compartidos durante la reunión en la plataforma están también en la agenda.
+
+Durante la reunión la gente puede ir y venir a los diferentes hilos de cada tema y puede comentar. Esta posibilidad es muy útil para las personas que se incorporan tarde a la reunión.
+
+### Al final de la reunión
+
+Quien modera hace un resumen de las decisiones. Los puntos/decisiones centrales suelen ir a los temas correspondientes en el software que usen para el seguimiento del proyecto (GitLab/Github, Asana, AirTable, etc), para hacer un seguimiento fuera de la reunión por chat. El resumen tiene el siguiente aspecto:
+
+> Resumen de la reunión:
+> 
+> _Puntos centrales: decisión, tarea, responsables._
+> Tema 1: decisión, tarea, responsables.
+> Tema 2: decisión, tarea, responsables.
+
+##Consideraciones
+
+Yanina ha participado en este tipo de reuniones con grupos de entre 6 y 20 personas. Algunos equipos son estables y las personas se conocen entre sí. Otros equipos es la primera vez que trabajan juntos. En algunos equipos las herramientas como Slack eran nuevas, en otros equipos utilizan este tipo de plataforma regularmente.
+
+El conocimiento de la herramienta de chat es la barrera más grande. El rol de quien modera es muy importante para el éxito de la reunión.
+
+Pros
+:
+
+La discusión está ahí para la gente que no puede unirse y para el resto de los grupos que trabajan en el proyecto.
+
+Es más fácil participar que en una reunión sincrónica de Zoom (especialmente si tienes tareas de cuidado, mala conexión a Internet o aún no dominas el idioma que se utiliza en la discusión o estás en una zona horaria muy alejada del horario de la reunión).
+
+Los tiempos se respetan más que en una videoconferencia.
+
+La discusión es ordenada.
+
+Contras
+:
+
+Hay que prestar atención a las opiniones o consultas posteriores a la reunión de las personas que no pudieron unirse de forma sincrónica.
+
+Hay que ser escribir y leer rápido.
+
+Las decisiones más difíciles se acaban tomando en las reuniones sincrónicas por videoconferencia (hay una necesidad de estar cara a cara para ese tipo de decisiones)
+
+
+
 ## La autopsia {#sec-meetings-post-mortem}
 
 Cada proyecto debe terminar con una autopsia en la que los/las participantes reflexionan sobre lo que acaban de lograr y qué podrían mejorar la próxima vez. Su objetivo es *no* señalar con el dedo a las personas, aunque si eso tiene que suceder, la autopsia es el mejor lugar para ello.
