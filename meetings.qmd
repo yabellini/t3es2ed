@@ -144,15 +144,13 @@ Cada reunión tiene una agenda que se comparte el día anterior. En esta agenda,
 
 ### Durante la reunión
 
-**Inicio** 
-:
+Inicio
 
-La persona responsable de la reunión saluda escribiendo un mensaje como _“Hola, vamos a iniciar la reunión"_ y pide que reaccionen con su emoji favorito al texto del mensaje de saludo para saber quién está en la reunión.
+: La persona responsable de la reunión saluda escribiendo un mensaje como _“Hola, vamos a iniciar la reunión"_ y pide que reaccionen con su emoji favorito al texto del mensaje de saludo para saber quién está en la reunión.
 
-**Desarrollo de la reunión**
-:
+Desarrollo de la reunión
 
-El primer punto del orden del día es siempre _puntos complicados_. Por ejemplo:
+: El primer punto del orden del día es siempre _puntos complicados_. Por ejemplo:
 
 > Puntos complicados (5 minutos) ¿Hay algo que te gustaría compartir/discutir? Arreglemos las cosas fáciles enseguida y las más complicadas después del sprint.
 
@@ -175,9 +173,9 @@ Todos estos datos compartidos durante la reunión en la plataforma están tambi�
 
 Durante la reunión la gente puede ir y venir a los diferentes hilos de cada tema y puede comentar. Esta posibilidad es muy útil para las personas que se incorporan tarde a la reunión.
 
-### Al final de la reunión
+Al final de la reunión
 
-Quien modera hace un resumen de las decisiones. Los puntos/decisiones centrales suelen ir a los temas correspondientes en el software que usen para el seguimiento del proyecto (GitLab/Github, Asana, AirTable, etc), para hacer un seguimiento fuera de la reunión por chat. El resumen tiene el siguiente aspecto:
+: Quien modera hace un resumen de las decisiones. Los puntos/decisiones centrales suelen ir a los temas correspondientes en el software que usen para el seguimiento del proyecto (GitLab/Github, Asana, AirTable, etc), para hacer un seguimiento fuera de la reunión por chat. El resumen tiene el siguiente aspecto:
 
 > Resumen de la reunión:
 > 
@@ -185,16 +183,15 @@ Quien modera hace un resumen de las decisiones. Los puntos/decisiones centrales 
 > Tema 1: decisión, tarea, responsables.
 > Tema 2: decisión, tarea, responsables.
 
-##Consideraciones
+## Consideraciones
 
 Yanina ha participado en este tipo de reuniones con grupos de entre 6 y 20 personas. Algunos equipos son estables y las personas se conocen entre sí. Otros equipos es la primera vez que trabajan juntos. En algunos equipos las herramientas como Slack eran nuevas, en otros equipos utilizan este tipo de plataforma regularmente.
 
 El conocimiento de la herramienta de chat es la barrera más grande. El rol de quien modera es muy importante para el éxito de la reunión.
 
 Pros
-:
 
-La discusión está ahí para la gente que no puede unirse y para el resto de los grupos que trabajan en el proyecto.
+: La discusión está ahí para la gente que no puede unirse y para el resto de los grupos que trabajan en el proyecto.
 
 Es más fácil participar que en una reunión sincrónica de Zoom (especialmente si tienes tareas de cuidado, mala conexión a Internet o aún no dominas el idioma que se utiliza en la discusión o estás en una zona horaria muy alejada del horario de la reunión).
 
@@ -203,15 +200,12 @@ Los tiempos se respetan más que en una videoconferencia.
 La discusión es ordenada.
 
 Contras
-:
 
-Hay que prestar atención a las opiniones o consultas posteriores a la reunión de las personas que no pudieron unirse de forma sincrónica.
+: Hay que prestar atención a las opiniones o consultas posteriores a la reunión de las personas que no pudieron unirse de forma sincrónica.
 
 Hay que ser escribir y leer rápido.
 
 Las decisiones más difíciles se acaban tomando en las reuniones sincrónicas por videoconferencia (hay una necesidad de estar cara a cara para ese tipo de decisiones)
-
-
 
 ## La autopsia {#sec-meetings-post-mortem}
 
