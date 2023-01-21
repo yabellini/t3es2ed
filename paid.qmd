@@ -1,6 +1,6 @@
 # Como vivir de enseñar {#sec-getting-paid}
 
-::: callout-note
+::: callout-warninig
 ## Segunda edición
 
 Estás leyendo la segunda edición en progreso y en castellano de Enseñar Tecnología en Comunidad (Teaching Tech Together). Este capítulo es actualmente un mero borrador de ideas, y no recomendamos su lectura.
