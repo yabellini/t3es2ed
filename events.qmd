@@ -3,7 +3,7 @@
 ::: callout-warning
 ## Segunda edición
 
-Estás leyendo la segunda edición en progreso y en castellano de Enseñar Tecnología en Comunidad (Teaching Tech Together). Este capítulo es actualmente un mero borrador de ideas, y no recomendamos su lectura
+Estás leyendo la segunda edición en progreso y en castellano de Enseñar Tecnología en Comunidad (Teaching Tech Together). Este capítulo es actualmente un mero borrador de ideas, y no recomendamos su lectura.
 :::
 
 Lunch & Learn session. Tell people to invite their friends. They may not realize how powerful their own networks are. When you get people together, you can share what you're all working on from different departments.

@@ -3,7 +3,7 @@
 ::: callout-note
 ## Segunda edición
 
-Estás leyendo la segunda edición en progreso y en castellano de Enseñar Tecnología en Comunidad (Teaching Tech Together). Este capítulo está siendo objeto de una profunda reestructuración y puede resultar confuso o incompleto
+Estás leyendo la segunda edición en progreso y en castellano de Enseñar Tecnología en Comunidad (Teaching Tech Together). Este capítulo está siendo objeto de una profunda reestructuración y puede resultar confuso o incompleto.
 :::
 
 El capítulo anterior describió cómo practicar la enseñanza de una lección y describió un método---programación en vivo---que permite a las/los docentes adaptarse al ritmo y los intereses de sus estudiantes. Este capítulo describe otras prácticas que también son útiles en clases de programación.

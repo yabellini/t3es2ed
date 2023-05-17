@@ -3,7 +3,7 @@
 ::: callout-note
 ## Segunda edición
 
-Estás leyendo la segunda edición en progreso y en castellano de Enseñar Tecnología en Comunidad (Teaching Tech Together). Este capítulo está siendo objeto de una profunda reestructuración y puede resultar confuso o incompleto
+Estás leyendo la segunda edición en progreso y en castellano de Enseñar Tecnología en Comunidad (Teaching Tech Together). Este capítulo está siendo objeto de una profunda reestructuración y puede resultar confuso o incompleto.
 :::
 
 En *Darwin entre las máquinas*, [George Dyson]{i="Dyson, George"} escribió, "En el juego de la vida y la evolución hay tres jugadores en la mesa: las personas, la naturaleza y las máquinas. Estoy firmemente del lado de la naturaleza. Pero la naturaleza, sospecho, está del lado de las máquinas..." De manera similar, ahora hay tres jugadores en el juego de la educación: los libros de texto y otros materiales de lectura, las clases en vivo, y las clases en línea automatizadas. Podrías darle a tus estudiantes clases escritas y alguna combinación de videos grabados y ejercicios para que realicen a su propio ritmo, pero si vas a enseñar en persona tienes que ofrecer algo diferente (y con suerte mejor que) cualquiera de los anteriores. Por lo tanto, este capítulo se enfoca en cómo enseñar a programar programando.

@@ -3,7 +3,7 @@
 ::: callout-note
 ## Segunda edición
 
-Estás leyendo la segunda edición **en progreso y en castellano** de Enseñar Tecnología en Comunidad (Teaching Tech Together). Este capítulo debería ser legible, pero está siendo objeto de un pulido final
+Estás leyendo la segunda edición **en progreso y en castellano** de Enseñar Tecnología en Comunidad (Teaching Tech Together). Este capítulo debería ser legible, pero está siendo objeto de un pulido final.
 :::
 
 
