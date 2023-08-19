@@ -6,9 +6,9 @@
 Estás leyendo la segunda edición en progreso y en castellano de Enseñar Tecnología en Comunidad (Teaching Tech Together). Este capítulo está siendo objeto de una profunda reestructuración y puede resultar confuso o incompleto
 :::
 
-el propósito de este capítulo es proponerte una serie de opciones para contribuir a nuestra comunidad junto con recursos que te pueden ser útiles en el camino. Agrupamos las opciones en dos grandes categorías:
+El propósito de este capítulo es proponerte una serie de opciones para contribuir a nuestra comunidad junto con recursos que te pueden ser útiles en el camino. Agrupamos las opciones en dos grandes categorías:
 
--   *usando el libro* donde te contamos como se ha usado el contenido del libro. Esperamos que estos ejemplos se ajusten a alguna de tus situaciones o bien te sirvan de inspiración y te den ideas de como aprender y enseñar el contenido.
+-   *usando el libro* donde te contamos como se ha usado el contenido del libro. Esperamos que puedas usar estos ejemplos o bien te sirvan de inspiración y te den ideas de como aprender y enseñar el contenido.
 
 -   *contribuyendo al libro* donde detallamos caminos posibles para ayudarnos a mejorar el libro.
 
@@ -28,17 +28,17 @@ Presentamos una guía para organizarlos por medio de diez puntos relevantes.
 
 Paso 1. Definir los objetivos del club
 
-:   La idea es poder analizar cada capítulo, realizar los ejercicios propuestos y generar nuevos aprendizajes y construcciones en comunidad. Reflexionar sobre nuestra práctica educativa a la luz de lo leído, como por ejemplo reconocer recursos ya utilizados e identificar recursos y estrategias que podemos sumar.
-
-Paso 2. Definir los encuentros (cantidad y duración).
-
-:   Decidir frecuencia y duración de los encuentros. ¿Cuántos encuentros?, ¿Con qué frecuencia?, ¿Cuál es la duración adecuada para cada encuentro?. Es probable que la respuesta a estas preguntas sea diferente para cada grupo de personas y el formato del club. En nuestra experiencia un encuentro semanal de una hora permite tener tiempo para prepararse, da continuidad y es más sencillo de acomodar en un agenda apretada. Puede ser buena idea que cada encuentro sea autocontenido, así no es necesario participar de todos los encuentros.
+:   La idea es poder analizar cada capítulo, realizar los ejercicios propuestos y generar nuevos aprendizajes y construcciones en comunidad. Reflexionar sobre nuestra práctica educativa a la luz de lo leído, como por ejemplo reconocer recursos ya utilizados e identificar recursos y estrategias que podemos sumar.  Es un buen momento para definir también el formato.
 
 ::: callout-note
 ## Formato del club
 
 Este contenido se ha usado para club de lecturas en persona, con encuentros sincrónicos online y con hilos de discusión en redes sociales.
 :::
+
+Paso 2. Decidir frecuencia y duración de los encuentros.
+
+:    ¿Cuántos encuentros?, ¿Con qué frecuencia?, ¿Cuál es la duración adecuada para cada encuentro?. Es probable que la respuesta a estas preguntas sea diferente para cada grupo de personas y el formato del club. En nuestra experiencia un encuentro semanal de una hora permite tener tiempo para prepararse, da continuidad y es más sencillo de acomodar en un agenda apretada. Puede ser buena idea que cada encuentro sea autocontenido, así no es necesario participar de todos los encuentros.
 
 
 Paso 3. Definir el calendario de temas
@@ -72,15 +72,15 @@ Paso 5. Configurar la infraestrutura
 
 Paso 6. Difusión
 
-:   Hay que anunciar el club de lectura en redes sociales (con un hashtag propio), listas de emails, meetups, Slack/Telegram propio y de comunidades amigas. Si se puede, tener comunicaciones periódicas, contar qué pasó en cada encuentro y compartirlo con la comunidad en general, puede alentar a nuevas personas a sumarse al club. 
+:   Hay que anunciar el club de lectura en redes sociales (con un hashtag propio), listas de emails, newsletter propio y de comunidades amigas. Si se puede, tener comunicaciones periódicas, contar qué pasó en cada encuentro y compartirlo con la comunidad en general, puede alentar a nuevas personas a sumarse al club. 
 
 Paso 7. Guía de participación durante el encuentro
 
-:   Generar un documento compartido (Google Doc/Slides, HackMD) estructurado para cada encuentro con una serie de secciones (ver @sec-shared-notes). Las posibles secciones:  Título y Datos generales, preguntas que guiarán la discusión y la charla (ejercicios para romper el hielo, trabajo en grupo, todos contestan, etc.), preguntas generales fijas en todos los encuentros, material interesante y lo que viene.
+:   Generar un documento compartido (Google Doc/Slides, HackMD) estructurado para cada encuentro con una serie de secciones (ver @sec-classroom-notetaking). Las posibles secciones:  Título y Datos generales, preguntas que guiarán la discusión y la charla (ejercicios para romper el hielo, trabajo en grupo, todos contestan, etc.), preguntas generales fijas en todos los encuentros, material interesante y lo que viene.
 
 Paso 8. Llevar adelante los encuentros
 
-:   Los responsables inician la plataforma, dan la bienvenida,  recuerdan el código de conducta y dirigen la actividad (chat, documento compartido, diapositivas, salas para grupos, etc).  Quien presenta repasa los contenidos y gestiona la discusión. Cuando se cumple el tiempo, se comparte la encuesta anónima y los temas del encuentro siguiente. Si son encuentros sincrónicos y online, se puede dejar abierta la videollamada para extender el horario y quienes pueden siguen compartiendo.
+:   Los responsables inician la plataforma, dan la bienvenida,  recuerdan el código de conducta y dirigen la actividad (chat, documento compartido, diapositivas, salas para grupos, orden para hablar, etc).  Quien presenta repasa los contenidos y gestiona la discusión. Cuando se cumple el tiempo, se comparte la encuesta anónima (si es presencial se puede usar las @sec-classroom-sticky-notes) y los temas del encuentro siguiente. Si son encuentros sincrónicos y online, se puede dejar abierta la videollamada para extender el horario y quienes pueden siguen compartiendo.
 
 Paso 9. Darle un cierre memorable
 
@@ -94,6 +94,80 @@ Paso 10. Evaluar el club y sistematizar lo aprendido
 ## TODO Yani!
 Tengo que gregar link a las secciones de notas compartidas, feedback y notas adhesivas.
 :::
+
+
+### Cursos largos
+
+Llamamos cursos largos a los talleres de ocho a 16 horas de clase. Esta versión del curso se divide en diez lecciones donde se puede cubrir gran parte de los capítulos @sec-models a @sec-process, @sec-performance, y @sec-motivation. Esta lista resume los objetivos de aprendizaje de cada lección.
+
+
+::: callout-warning
+## TODO Yani!
+Chequear bien que estos sean los capítulos correctos y si hay alguno más que agregar.
+:::
+
+
+#### 1. Introducción y Personas
+
+1. Resumir cuatro objetivos clave de esta formación.
+2. Explicar cómo y por qué esta formación prepara a las personas para ser “paramédicos educativos”.
+3. Explicar qué son las personas o estudiantes tipo y para qué sirven.
+4. Describir los cuatro elementos que debe tener toda persona tipo.
+5. Crear estudiantes tipo.
+6. Resumir las lecciones de manera que resulten entendibles y atractivas para determinadas personas tipo.
+
+#### 2. Modelos mentales
+
+
+#### Formato del curso
+
+Este curso puede dictarse con diferentes configuraciones.  Este cronograma de ejemplo corresponde a un curso de doce horas con tres encuentros de cuatro horas cada uno.  Es recomendable espaciar los encuentros, con al menos un día entre cada uno.  Se puede enseñar en persona u online. Se recomienda que la cantidad de asistentes no sea mayor a 25 personas.
+
+|Día 1|  Ejemplo horario a la mañana|        
+|:---:|:-----------------------------------|
+|  09:00  |Bienvenida ¿Qué debe esperar de este taller?            |
+|  09:15  |Introducción. Personas tipo. Modelos Metales. ¿Cómo aprenden las personas? ¿Cómo podemos ayudar a los novatos a convertirse en practicantes competentes? | 
+|  10:30  |Pausa de la mañana           | 
+|  10:45  |Experiencia e instrucción ¿La experiencia en la materia convierte a alguien en un gran docente? ¿En qué nos diferenciamos instructores de estudiantes y cómo afecta esto a nuestra enseñanza?           |
+|  11:30  | Memoria y carga cognitiva ¿Qué es la carga cognitiva y cómo afecta al aprendizaje?, ¿Cómo podemos diseñar la enseñanza para trabajar con, en lugar de contra, las limitaciones de la memoria?          | 
+|  12:15  | Desarrollar la habilidad con la retroalimentación ¿Cómo puedo obtener la retroalimentación de los alumnos? ¿Cómo puedo utilizar esta retroalimentación para mejorar mi enseñanza? |
+|  13:00: | Fin del primer día |
+
+|Día 2| Ejemplo horario a la tarde |
+|:---:|:-----------------------------------|
+|13.00| Bienvenida, consultas día anterior.|
+|13:30| Motivación y desmotivación ¿Por qué es importante la motivación? ¿Cómo podemos crear un entorno motivador para los alumnos?|
+|14:35| Equidad, inclusión y accesibilidad ¿Por qué son importantes la equidad, la inclusión y la accesibilidad? ¿Qué puedo hacer para mejorar la equidad, la inclusión y la accesibilidad en mi taller? |
+|15:15 | Pausa de la tarde|
+|15:30 | La enseñanza es una habilidad ¿Cómo puedo mejorar mi enseñanza?|
+|16:30 | Recapitulación y deberes ¿Qué hemos aprendido hasta ahora? ¿Qué hay que hacer para preparar la siguiente parte del taller?|
+|16:50 | Cierre del día|
+
+
+|Día 3|  Ejemplo horario a la mañana|        
+|:---:|:-----------------------------------|
+|09:00 |Bienvenida ¿Qué hemos aprendido hasta ahora?¿En qué nos centraremos hoy?|
+|09:15 |Interacción. La codificación en vivo es una habilidad ¿Por qué enseñamos a programar utilizando la codificación participativa en vivo?|
+|09:50 |Preparación para enseñar ¿Cómo debo prepararme para enseñar?|
+|10:25 |Pausa de la mañana |
+|10:35 |Codificación en vivo y feedback. Más práctica de codificación en vivo ¿Cómo cambió tu enseñanza en respuesta a la retroalimentación?|
+|11:15 |Trabajar con su equipo ¿Cuáles son los retos de gestionar un aula heterogénea? Enseñando en equipo.|
+|11:25 |Pausa|
+|11:35 |Mitos en la educación. Las reglas para enseñar.|
+|12:10 |¿Cómo se utilizan las prácticas de enseñanza que hemos aprendido?|
+|12:40 |Conclusión. ¿Qué podemos mejorar en esta formación?|
+|12:50 |Encuesta posterior a la formación|
+|13:00 |Cierre día 3.|
+
+
+::: callout-note
+## Material complementario
+
+Si quieres enseñar el libro utilizando alguno de los formatos que mencionamos, el curso [Enseñando Tecnología en Comunidad. Consejos prácticos para enseñar aplicando la ciencia del aprendizaje y la enseñanza.](https://yabellini.github.io/t3es/) tiene todo el material en español para un taller de doce horas y [Teaching Tech Together](https://third-bit.com/t3/) tiene todo el material en inglés para un taller de 8 horas.
+
+:::
+
+
 
 ### En persona {#sec-joining-using-inperson}
 
