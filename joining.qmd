@@ -26,13 +26,6 @@ El objetivo de un club de lectura es leer, discutir, aprender y poner en común 
 
 Presentamos una guía para organizarlos por medio de diez puntos relevantes. 
 
-::: callout-note
-## Formato del club
-
-Este contenido se ha usado para club de lecturas en persona, con encuentros sincrónicos online y con hilos de discusión en redes sociales.
-:::
-
-
 Paso 1. Definir los objetivos del club
 
 :   La idea es poder analizar cada capítulo, realizar los ejercicios propuestos y generar nuevos aprendizajes y construcciones en comunidad. Reflexionar sobre nuestra práctica educativa a la luz de lo leído, como por ejemplo reconocer recursos ya utilizados e identificar recursos y estrategias que podemos sumar.
@@ -41,13 +34,20 @@ Paso 2. Definir los encuentros (cantidad y duración).
 
 :   Decidir frecuencia y duración de los encuentros. ¿Cuántos encuentros?, ¿Con qué frecuencia?, ¿Cuál es la duración adecuada para cada encuentro?. Es probable que la respuesta a estas preguntas sea diferente para cada grupo de personas y el formato del club. En nuestra experiencia un encuentro semanal de una hora permite tener tiempo para prepararse, da continuidad y es más sencillo de acomodar en un agenda apretada. Puede ser buena idea que cada encuentro sea autocontenido, así no es necesario participar de todos los encuentros.
 
+::: callout-note
+## Formato del club
+
+Este contenido se ha usado para club de lecturas en persona, con encuentros sincrónicos online y con hilos de discusión en redes sociales.
+:::
+
+
 Paso 3. Definir el calendario de temas
 
 :   Es necesario repartir los capítulos que se verán en cada encuentro. ¿Cuántos capítulos por encuentro?, ¿Leemos también los anexos?. Se pueden agrupar los capítulos y anexos por afinidad temática o bien seguir el orden del libro. Lo importante es tener un calendario predefinido que permita a las personas organizarse. Dos ideas: 
 
   - Un capítulo por cada encuentro semanal, con la última semana del mes libre para ponerse al día.
 
-  - Ocho encuentros en total, semanales. Se agrupan los capítulos y los anexos, por ejemplo, de esta manera:
+  - Ocho encuentros semanales en total. Se agrupan los capítulos y los anexos, por ejemplo, de esta manera:
 
 | Encuentro |  Capítulos  | 
 | ---:  | :----------- |
@@ -63,13 +63,37 @@ Paso 3. Definir el calendario de temas
 
 Paso 4. Definir responsabilidades
 
-:   La rotación de los roles de liderazgo generan una experiencia más rica. Algunos roles se deben definir antes de iniciar, por ejemplo, organización del club, presentación de un encuentro, moderación de un encuentro. Las personas que participan pueden ir tomando diferentes roles en cada encuentro y quienes tienen más experiencia pueden invitar y apoyar a otras personas a tomar estos roles.
+:   Una de las cosas más lindas de estos clubes es encontrarte con otras personas que disfrutan de los mismos temas que vos. Los clubes donde las personas van rotando en los diferentes roles son de los más ricos. Quienes tienen más experiencia pueden invitar y apoyar a las personas en roles nuevos. Antes de iniciar definir quien organiza, presenta y modera en cada encuentro. 
 
-Para los encuentros Los responsables inician la plataforma, dan la bienvenida, recuerdan el código de conducta y dirigen la actividad (chat, documento compartido, diapositivas, salas para grupos para resolver los ejercicios, etc). Quien presenta repasa los contenidos y gestiona la discusión. Cuando se cumple el tiempo, se comparte la encuesta anónima y los temas del encuentro siguiente. Si son encuentros sincónicos, online, se deja abierto el zoom y la posibilidad de extendernos en el horario, quienes pueden se quedan. En general quienes participaban se quedaban media hora más.
+Paso 5. Configurar la infraestrutura
 
-Se utiliza un documento compartido (Google Doc/Slides, HackMD) estructurado para cada encuentro con una serie de secciones @sec-shared-notes <FIXME>. Datos generales (link a los capítulos, link a materiales), preguntas que guiarán las actividades (ejercicios para romper el hielo, trabajo en grupo, todos contestan, etc), material interesante relacionado con los capítulos. En este documento se ponen los ejercicios de cada capítulo que se seleccionaron para resolver durante el encuentro.
+:   Generar un sitio web o foro con los detalles sobre cómo se hará, por qué, para quién, la dinámica (sincrónico/asincrónico), dónde (lugar físico o plataforma online), cómo registrarse, fechas, horarios y temas de los encuentros. Es recomendable una encuesta de feedback anónima para el final de cada encuentro. Seleccionar un código de conducta y el proceso para reforzarlo.
 
 
+Paso 6. Difusión
+
+:   Hay que anunciar el club de lectura en redes sociales (con un hashtag propio), listas de emails, meetups, Slack/Telegram propio y de comunidades amigas. Si se puede, tener comunicaciones periódicas, contar qué pasó en cada encuentro y compartirlo con la comunidad en general, puede alentar a nuevas personas a sumarse al club. 
+
+Paso 7. Guía de participación durante el encuentro
+
+:   Generar un documento compartido (Google Doc/Slides, HackMD) estructurado para cada encuentro con una serie de secciones (ver @sec-shared-notes). Las posibles secciones:  Título y Datos generales, preguntas que guiarán la discusión y la charla (ejercicios para romper el hielo, trabajo en grupo, todos contestan, etc.), preguntas generales fijas en todos los encuentros, material interesante y lo que viene.
+
+Paso 8. Llevar adelante los encuentros
+
+:   Los responsables inician la plataforma, dan la bienvenida,  recuerdan el código de conducta y dirigen la actividad (chat, documento compartido, diapositivas, salas para grupos, etc).  Quien presenta repasa los contenidos y gestiona la discusión. Cuando se cumple el tiempo, se comparte la encuesta anónima y los temas del encuentro siguiente. Si son encuentros sincrónicos y online, se puede dejar abierta la videollamada para extender el horario y quienes pueden siguen compartiendo.
+
+Paso 9. Darle un cierre memorable
+
+:   Invitar a autores y/o traductores al encuentro final puede ser un excelente cierre. Si no hablan el mismo idioma contratar a una traductora en vivo permite que cada persona hable en el idioma que se siente más cómoda.  También es un buen momento para seleccionar el próximo libro.
+
+Paso 10. Evaluar el club y sistematizar lo aprendido
+
+:   La encuesta de devolución provee material para evaluar (y mejorar) lo realizado. Ir ajustando cada encuentro con las devoluciones permite  mejorar el tipo de actividad y de intercambios. Tener diversas formas de participación (hablado, escrito, en el chat, en el documento compartido, en el Slack, con notas adhesivas) genera un ambiente amigable.
+
+::: callout-warning
+## TODO Yani!
+Tengo que gregar link a las secciones de notas compartidas, feedback y notas adhesivas.
+:::
 
 ### En persona {#sec-joining-using-inperson}
 
