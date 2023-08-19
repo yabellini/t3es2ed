@@ -14,9 +14,9 @@ el propósito de este capítulo es proponerte una serie de opciones para contrib
 
 ## Usando el libro {#sec-joining-using}
 
-Como se declaró en el Capítulo @sec-intro, todo este material puede distribuirse y reutilizarse libremente bajo la licencia Creative Commons Atribución -- No Comercial 4.0 (@sec-license). Puedes usar la versión en línea en <https://educarencomunidad.tech/> en cualquier clase (gratuita o paga), y puedes citar extractos breves bajo las disposiciones de \[uso justo\]\[uso-justo\], pero no puedes volver a publicar fragmentos grandes en obras comerciales sin permiso previo.
+Como se declaró en el Capítulo @sec-intro, todo este material puede distribuirse y reutilizarse libremente bajo la licencia Creative Commons Atribución -- No Comercial 4.0 (@sec-license). Puedes usar la versión en línea en <https://educarencomunidad.tech/> en cualquier clase (gratuita o paga), y puedes citar extractos breves bajo las disposiciones de [uso justo][uso-justo], pero no puedes volver a publicar fragmentos grandes en obras comerciales sin permiso previo.
 
-Este material ha sido usado de muchas maneras, desde charlas de media a una hora, seminarios en línea de una hora y media, talleres de tres horas; a varios encuentros semanales presenciales y virtuales y hasta un taller intensivo en persona.
+Este material ha sido usado de muchas maneras, desde charlas de media a una hora a talleres de varios encuentros semanales presenciales y virtuales.
 
 En la siguiente sección te damos detalles de cada una de estos formatos, que contenido se puede cubrir en cada uno y donde puedes encontrar material de apoyo ya desarrollado.
 
