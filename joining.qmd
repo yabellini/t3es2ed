@@ -16,9 +16,56 @@ el propósito de este capítulo es proponerte una serie de opciones para contrib
 
 Como se declaró en el Capítulo @sec-intro, todo este material puede distribuirse y reutilizarse libremente bajo la licencia Creative Commons Atribución -- No Comercial 4.0 (@sec-license). Puedes usar la versión en línea en <https://educarencomunidad.tech/> en cualquier clase (gratuita o paga), y puedes citar extractos breves bajo las disposiciones de [uso justo][uso-justo], pero no puedes volver a publicar fragmentos grandes en obras comerciales sin permiso previo.
 
-Este material ha sido usado de muchas maneras, desde charlas de media a una hora a talleres de varios encuentros semanales presenciales y virtuales.
+Este material ha sido usado de muchas maneras, desde charlas de media hora a talleres de varios encuentros semanales presenciales y virtuales.
 
-En la siguiente sección te damos detalles de cada una de estos formatos, que contenido se puede cubrir en cada uno y donde puedes encontrar material de apoyo ya desarrollado.
+En la siguiente sección te damos detalles de cada uno de los formatos en los que los autores hemos enseñado este contenido, que cubrimos en cada uno y donde puedes encontrar material de apoyo, como slides y documentos compartidos, ya desarrollado.
+
+### Club de Lectura {#sec-joining-using-bookclub}
+
+El objetivo de un club de lectura es leer, discutir, aprender y poner en común experiencias generadas a partir del libro. Presentamos una guía para organizarlos por medio de diez puntos relevantes. 
+
+
+Formato del club
+
+:   este contenido se ha usado para club de lecturas en persona, con encuentros sincrónicos online y con hilos de discusión en redes sociales. 
+
+Paso 1. Definir los objetivos del club
+
+:   La idea es poder analizar cada capítulo, realizar los ejercicios propuestos y generar nuevos aprendizajes y construcciones en comunidad. Reflexionar sobre nuestra práctica educativa a la luz de lo leído, como por ejemplo reconocer recursos ya utilizados e identificar recursos y estrategias que podemos sumar.
+
+Paso 2. Definir los encuentros (cantidad y duración).
+
+:   Decidir frecuencia y duración de los encuentros. ¿Cuántos encuentros?, ¿Con qué frecuencia?, ¿Cuál es la duración adecuada para cada encuentro?. Es probable que la respuesta a estas preguntas sea diferente para cada grupo de personas y el formato del club. En nuestra experiencia un encuentro semanal de una hora permite tener tiempo para prepararse, da continuidad y es más sencillo de acomodar en un agenda apretada. Puede ser buena idea que cada encuentro sea autocontenido, así no es necesario participar de todos los encuentros.
+
+Paso 3. Definir el calendario de temas
+
+:   Es necesario repartir los capítulos que se verán en cada encuentro. ¿Cuántos capítulos por encuentro?, ¿Leemos también los anexos?. Se pueden agrupar los capítulos y anexos por afinidad temática o bien seguir el orden del libro. Lo importante es tener un calendario predefinido que permita a las personas organizarse. Dos ideas: 
+
+  - Un capítulo por cada encuentro semanal, con la última semana del mes libre para ponerse al día.
+
+  - Ocho encuentros en total, semanales. Se agrupan los capítulos y los anexos, por ejemplo, de esta manera:
+
+| Encuentro |  Capítulos  | 
+| ---:  | :----------- |
+| 1 | Modelos mentales y evaluación formativa. Tipos de Ejercicios |
+| 2 | Pericia y memoria. Ejemplos de mapas conceptuales|
+| 3 |Arquitectura cognitiva. Aprendizaje Individual|
+| 4 |Conocimiento de la pedagogía del contenido y Enseñar como un arte performativo |
+| 5 | Un proceso para diseñar lecciones. Motivación y desmotivación|
+| 6 | En el salón de clase. Enseñar en línea|
+| 7 | Construyendo una comunidad de práctica. Difusión y vinculación. Reuniones, reuniones, reuniones|
+| 8 | Las Reglas. Introducción. ¿Por qué enseño?|
+
+
+Paso 4. Definir responsabilidades
+
+:   La rotación de los roles de liderazgo generan una experiencia más rica. Algunos roles se deben definir antes de iniciar, por ejemplo, organización del club, presentación de un encuentro, moderación de un encuentro. Las personas que participan pueden ir tomando diferentes roles en cada encuentro y quienes tienen más experiencia pueden invitar y apoyar a otras personas a tomar estos roles.
+
+Para los encuentros Los responsables inician la plataforma, dan la bienvenida, recuerdan el código de conducta y dirigen la actividad (chat, documento compartido, diapositivas, salas para grupos para resolver los ejercicios, etc). Quien presenta repasa los contenidos y gestiona la discusión. Cuando se cumple el tiempo, se comparte la encuesta anónima y los temas del encuentro siguiente. Si son encuentros sincónicos, online, se deja abierto el zoom y la posibilidad de extendernos en el horario, quienes pueden se quedan. En general quienes participaban se quedaban media hora más.
+
+Se utiliza un documento compartido (Google Doc/Slides, HackMD) estructurado para cada encuentro con una serie de secciones @sec-shared-notes <FIXME>. Datos generales (link a los capítulos, link a materiales), preguntas que guiarán las actividades (ejercicios para romper el hielo, trabajo en grupo, todos contestan, etc), material interesante relacionado con los capítulos. En este documento se ponen los ejercicios de cada capítulo que se seleccionaron para resolver durante el encuentro.
+
+
 
 ### En persona {#sec-joining-using-inperson}
 
@@ -110,44 +157,6 @@ Los conceptos pedagógicos que se introducen son:
 
 Yanina impartió este taller con este formato 10 veces durante 2020. [Aqui se pueden encontrar un ejemplo de los materiales utilizados en español](https://yabellini.netlify.app/courses/introalabc_corto/).
 
-### Club de Lectura {#sec-joining-using-bookclub}
-
-El objetivo de un club de lectura es leer, discutir, aprender y poner en común experiencias generadas a partir del libro. Este libro se ha usado para club de lecturas online, con encuentros sincrónicos y con hilos de discusión en redes sociales. Algunos pasos a seguir para su organización.
-
-Paso 1. Definir los objetivos del club
-
-:   La idea es poder analizar cada capítulo, realizar los ejercicios propuestos y generar nuevos aprendizajes y construcciones en comunidad. Reflexionar sobre nuestra práctica educativa a la luz de lo leído, como por ejemplo reconocer recursos ya utilizados e identificar recursos y estrategias que podemos sumar.
-
-Paso 2. Definir los encuentros (cantidad y duración).
-
-:   Decidir frecuencia y duración de los encuentros: ¿Cuántos encuentros?, ¿Con qué frecuencia?, ¿Cuál es la duración adecuada para cada encuentro?. Es probable que la respuesta a estas preguntas sea diferente para cada grupo de personas y si los encuentros son en persona u online. En nuestra experiencia un encuentro semanal de una hora permite tener tiempo para prepararse, da continuidad y es más sencillo de acomodar en un agenda apretada. También se definió que cada encuentro sea autocontenido, así que no es obligatorio participar de todos los encuentros.
-
-Paso 3. Definir el calendario de temas
-
-:   Es necesario repartir los capítulos que se verán en cada encuentro: ¿Cuántos capítulos por encuentro?, ¿Leemos también los anexos?. Se pueden agrupar los capítulos y anexos por afinidad temática o bien seguir el orden del libro. Lo importante es tener un calendario predefinido que permita a las personas organizarse. Dos posibles organizaciones:
-
--   Un capítulo por cada encuentro semanal, con la última semana del mes libre para ponerse al día.
-
-\*Ocho encuentros en total, semanales. Se agrupan los capítulos y los anexos de esta manera:
-
--   Encuentro 1: Modelos mentales y evaluación formativa. Tipos de Ejercicios
--   Encuentro 2: Pericia y memoria. Ejemplos de mapas conceptuales
--   Encuentro 3: Arquitectura cognitiva. Aprendizaje Individual
--   Encuentro 4: Conocimiento de la pedagogía del contenido. Enseñar como un arte performativo
--   Encuentro 5: Un proceso para diseñar lecciones. Motivación y desmotivación
--   Encuentro 6: En el salón de clase. Enseñar en línea
--   Encuentro 7: Construyendo una comunidad de práctica. Difusión y vinculación. Reuniones, reuniones, reuniones
--   Encuentro 8: Las Reglas. Introducción. ¿Por qué enseño?
-
-\<FIXME: agregar tabla de organziación\>
-
-Paso 4. Definir responsabilidades
-
-:   La rotación de los roles de liderazgo generan una experiencia más rica. Algunos roles se deben definir antes de iniciar, por ejemplo, organización del club, presentación de un encuentro, moderación de un encuentro. Las personas que participan pueden ir tomando diferentes roles en cada encuentro y quienes tienen más experiencia pueden invitar y apoyar a otras personas a tomar estos roles.
-
-Para los encuentros Los responsables inician la plataforma, dan la bienvenida, recuerdan el código de conducta y dirigen la actividad (chat, documento compartido, diapositivas, salas para grupos para resolver los ejercicios, etc). Quien presenta repasa los contenidos y gestiona la discusión. Cuando se cumple el tiempo, se comparte la encuesta anónima y los temas del encuentro siguiente. Si son encuentros sincónicos, online, se deja abierto el zoom y la posibilidad de extendernos en el horario, quienes pueden se quedan. En general quienes participaban se quedaban media hora más.
-
-Se utiliza un documento compartido (Google Doc/Slides, HackMD) estructurado para cada encuentro con una serie de secciones @sec-shared-notes <FIXME>. Datos generales (link a los capítulos, link a materiales), preguntas que guiarán las actividades (ejercicios para romper el hielo, trabajo en grupo, todos contestan, etc), material interesante relacionado con los capítulos. En este documento se ponen los ejercicios de cada capítulo que se seleccionaron para resolver durante el encuentro.
 
 ### ¿Qué enseñamos en cada formato?
 
