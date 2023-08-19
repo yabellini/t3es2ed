@@ -155,9 +155,52 @@ Para la versión de ocho horas, los objetivos 4 y 8 se pueden quitar de la lecci
 Para la versión de ocho horas, los objetivos 2 y 4 se pueden quitar de la lección.
 :::
 
-#### 
+#### Crítica - Devolución - Feedback
 
+1. Describir las principales diferencias entre el material didáctico estático y la presentación dinámica de las clases, así como el papel de la improvisación en esta última.
+2. Explicar tres estrategias para obtener feedback que son útiles para mejorar nuestra enseñanza.
+3. Explicar las características de una crítica constructiva.
+4. Describir los elementos de una rubrica básica para dar feedback sobre la enseñanza.
+5. Explicar qué es la demostración (y programación) en vivo.
+6. Explicar los cuatro pasos que debe dar un instructor cada vez que comete un error durante una demostración en vivo delante de una clase.
+7. Criticar de forma constructiva presentaciones de clases grabadas y en directo.
+8. Identificar y utilizar tres herramientas (notas adhesivas, ticket de salida, uno arriba-uno abajo) para solicitar feedback a los estudiantes. 
 
+::: callout-tip
+## Recortando contenido
+Para la versión de ocho horas, los objetivos 2,3,5 y 8 se pueden quitar de la lección.
+:::
+
+#### Evaluación
+
+1. Definir los términos "evaluación formativa" y "evaluación sumativa" y explicar las diferentes funciones de cada una.
+2. Explicar por qué y cómo las evaluaciones formativas deben identificar conceptos erróneos.
+3. Describir tres maneras en que los docentes pueden determinar qué conceptos erróneos buscar.
+4. Explicar los objetivos complementarios de las evaluaciones formativas para docentes y estudiantes.
+5. Explicar qué es la instrucción entre pares, por qué es eficaz y los requisitos para que tenga éxito.
+6. Describir el papel de la evaluación sumativa y las características de las evaluaciones sumativas eficaces.
+7. Describir el proceso de diseño inverso de una lección. 
+8. Crear peguntas de opciones múltiples efectivas.
+
+::: callout-tip
+## Recortando contenido
+Para la versión de ocho horas, el objetivo 8 se pueden quitar de la lección.
+:::
+
+#### Motivación
+
+1. Describir la diferencia entre motivación intrínseca y extrínseca.
+2. Resumir tres factores principales de motivación y desmotivación de estudiantes adultos neurotípicos.
+3. Definir el término "falso principiante", explicarlo en términos de modelos mentales y explicar los desafíos especiales que los falsos principiantes presentan en la enseñanza.
+4. Explicar los peligros de la pre-evaluación y como se relaciona con la motivación.
+5. Describir que acciones se pueden tomar como docente para contribuir a la inclusión en clase.
+6. Explicar el papel de los escenarios y los juegos de rol en la adquisición de habilidades de persona aliada.
+7. Describir y justificar los pasos que debe dar un/a docente si tiene que expulsar a un/a estudiante de su clase.
+
+::: callout-tip
+## Recortando contenido
+Para la versión de ocho horas, los objetivos 3, 4 y 5 se pueden quitar de la lección.
+:::
 
 #### Formato del curso
 
