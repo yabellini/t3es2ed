@@ -22,12 +22,16 @@ En la siguiente sección te damos detalles de cada uno de los formatos en los qu
 
 ### Club de Lectura {#sec-joining-using-bookclub}
 
-El objetivo de un club de lectura es leer, discutir, aprender y poner en común experiencias generadas a partir del libro. Presentamos una guía para organizarlos por medio de diez puntos relevantes. 
+El objetivo de un club de lectura es leer, discutir, aprender y poner en común experiencias generadas a partir del libro. Es una buena opción si no hay nadie que pueda enseñar el contenido y hay un grupo de personas interesadas en leer el material. 
 
+Presentamos una guía para organizarlos por medio de diez puntos relevantes. 
 
-Formato del club
+::: callout-note
+## Formato del club
 
-:   este contenido se ha usado para club de lecturas en persona, con encuentros sincrónicos online y con hilos de discusión en redes sociales. 
+Este contenido se ha usado para club de lecturas en persona, con encuentros sincrónicos online y con hilos de discusión en redes sociales.
+:::
+
 
 Paso 1. Definir los objetivos del club
 
