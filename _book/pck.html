@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.269">
+<meta name="generator" content="quarto-1.3.290">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -17,14 +17,15 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for citations */
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
 }
-.hanging div.csl-entry {
+.hanging-indent div.csl-entry {
   margin-left:2em;
   text-indent:-2em;
 }
@@ -38,8 +39,7 @@ div.csl-right-inline {
 }
 div.csl-indent {
   margin-left: 2em;
-}
-</style>
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -87,11 +87,16 @@ div.csl-indent {
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-    <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Conocimiento de la pedagogía del contenido</span></h1>
-      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
-        <i class="bi bi-chevron-right"></i>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./pck.html"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Conocimiento de la pedagogía del contenido</span></a></li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
       </button>
     </div>
   </nav>
@@ -99,196 +104,224 @@ div.csl-indent {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Enseñar Tecnología en Comunidad (2e)</a> 
         <div class="sidebar-tools-main">
-    <a href="https://github.com/yabellini/t3es2ed" title="Source Code" class="sidebar-tool px-1"><i class="bi bi-github"></i></a>
+    <a href="https://github.com/yabellini/t3es2ed" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
 </div>
     </div>
       </div>
-      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="mt-2 flex-shrink-0 align-items-center">
         <div class="sidebar-search">
         <div id="quarto-search" class="" title="Search"></div>
         </div>
-      </div>
+        </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link">Preface</a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Preface</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./rules.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Las reglas</span></a>
+  <a href="./rules.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Las reglas</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./intro.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Introducción</span></a>
+  <a href="./intro.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Introducción</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./models.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Modelos mentales y evaluación formativa</span></a>
+  <a href="./models.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Modelos mentales y evaluación formativa</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./memory.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Pericia y memoria</span></a>
+  <a href="./memory.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Pericia y memoria</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./architecture.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Arquitectura Cognitiva</span></a>
+  <a href="./architecture.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Arquitectura Cognitiva</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./individual.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Aprendizaje individual</span></a>
+  <a href="./individual.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Aprendizaje individual</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./process.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Un proceso para diseñar lecciones</span></a>
+  <a href="./process.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Un proceso para diseñar lecciones</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./pck.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Conocimiento de la pedagogía del contenido</span></a>
+  <a href="./pck.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Conocimiento de la pedagogía del contenido</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./performance.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Enseñar como un arte performativo</span></a>
+  <a href="./performance.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Enseñar como un arte performativo</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./classroom.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">En el salón de clase</span></a>
+  <a href="./classroom.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">En el salón de clase</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./motivation.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Motivación y desmotivación</span></a>
+  <a href="./motivation.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Motivación y desmotivación</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./online.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Enseñar en línea</span></a>
+  <a href="./online.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Enseñar en línea</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./exercises.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Tipos de ejercicios</span></a>
+  <a href="./exercises.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Tipos de ejercicios</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./community.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Construyendo una comunidad de práctica</span></a>
+  <a href="./community.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Construyendo una comunidad de práctica</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./events.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Tipos de Eventos</span></a>
+  <a href="./events.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Tipos de Eventos</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./outreach.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Difusión y vinculación</span></a>
+  <a href="./outreach.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Difusión y vinculación</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./paid.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Como vivir de enseñar</span></a>
+  <a href="./paid.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Como vivir de enseñar</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./finale.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">¿Por qué enseñamos?</span></a>
+  <a href="./finale.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">¿Por qué enseñamos?</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./license.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Licencia</span></a>
+  <a href="./license.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Licencia</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./conduct.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title">Código de conducta</span></a>
+  <a href="./conduct.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title">Código de conducta</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./joining.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">21</span>&nbsp; <span class="chapter-title">Unirse a nuestra comunidad</span></a>
+  <a href="./joining.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">21</span>&nbsp; <span class="chapter-title">Unirse a nuestra comunidad</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./glossary.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">glossary.html</span></a>
+  <a href="./glossary.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">glossary.html</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./meetings.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">23</span>&nbsp; <span class="chapter-title">Reuniones, reuniones, reuniones</span></a>
+  <a href="./meetings.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">23</span>&nbsp; <span class="chapter-title">Reuniones, reuniones, reuniones</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./checklists.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">24</span>&nbsp; <span class="chapter-title">Listas de verificación y plantillas</span></a>
+  <a href="./checklists.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">24</span>&nbsp; <span class="chapter-title">Listas de verificación y plantillas</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./conceptmaps.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">25</span>&nbsp; <span class="chapter-title">Ejemplos de Mapas Conceptuales</span></a>
+  <a href="./conceptmaps.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">25</span>&nbsp; <span class="chapter-title">Ejemplos de Mapas Conceptuales</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./chunking.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">26</span>&nbsp; <span class="chapter-title">“Solución del ejercicio de particionar”</span></a>
+  <a href="./chunking.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">26</span>&nbsp; <span class="chapter-title">“Solución del ejercicio de particionar”</span></span></a>
   </div>
 </li>
     </ul>
     </div>
 </nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#sec-pck-now" id="toc-sec-pck-now" class="nav-link active" data-scroll-target="#sec-pck-now"><span class="toc-section-number">8.1</span>  ¿Qué les estamos enseñando ahora?</a></li>
-  <li><a href="#sec-pck-learning" id="toc-sec-pck-learning" class="nav-link" data-scroll-target="#sec-pck-learning"><span class="toc-section-number">8.2</span>  ¿Cuánto están aprendiendo?</a></li>
-  <li><a href="#sec-pck-misunderstand" id="toc-sec-pck-misunderstand" class="nav-link" data-scroll-target="#sec-pck-misunderstand"><span class="toc-section-number">8.3</span>  ¿Qué conceptos erróneos tienen las personas novatas?</a></li>
-  <li><a href="#sec-pck-mistakes" id="toc-sec-pck-mistakes" class="nav-link" data-scroll-target="#sec-pck-mistakes"><span class="toc-section-number">8.4</span>  ¿Qué errores cometen las personas novatas?</a></li>
-  <li><a href="#sec-pck-programming" id="toc-sec-pck-programming" class="nav-link" data-scroll-target="#sec-pck-programming"><span class="toc-section-number">8.5</span>  ¿Cómo programan las personas novatas?</a></li>
-  <li><a href="#sec-pck-debug" id="toc-sec-pck-debug" class="nav-link" data-scroll-target="#sec-pck-debug"><span class="toc-section-number">8.6</span>  ¿Cómo identifican y resuelven errores las personas novatas?</a></li>
-  <li><a href="#sec-pck-testing" id="toc-sec-pck-testing" class="nav-link" data-scroll-target="#sec-pck-testing"><span class="toc-section-number">8.7</span>  ¿Qué pasa con las <span data-i="testing (software);pruebas (software)">pruebas (<em>tests</em>)</span>?</a></li>
-  <li><a href="#sec-pck-language" id="toc-sec-pck-language" class="nav-link" data-scroll-target="#sec-pck-language"><span class="toc-section-number">8.8</span>  ¿Importa el lenguaje?</a>
+  <li><a href="#sec-pck-now" id="toc-sec-pck-now" class="nav-link active" data-scroll-target="#sec-pck-now"><span class="header-section-number">8.1</span> ¿Qué les estamos enseñando ahora?</a></li>
+  <li><a href="#sec-pck-learning" id="toc-sec-pck-learning" class="nav-link" data-scroll-target="#sec-pck-learning"><span class="header-section-number">8.2</span> ¿Cuánto están aprendiendo?</a></li>
+  <li><a href="#sec-pck-misunderstand" id="toc-sec-pck-misunderstand" class="nav-link" data-scroll-target="#sec-pck-misunderstand"><span class="header-section-number">8.3</span> ¿Qué conceptos erróneos tienen las personas novatas?</a></li>
+  <li><a href="#sec-pck-mistakes" id="toc-sec-pck-mistakes" class="nav-link" data-scroll-target="#sec-pck-mistakes"><span class="header-section-number">8.4</span> ¿Qué errores cometen las personas novatas?</a></li>
+  <li><a href="#sec-pck-programming" id="toc-sec-pck-programming" class="nav-link" data-scroll-target="#sec-pck-programming"><span class="header-section-number">8.5</span> ¿Cómo programan las personas novatas?</a></li>
+  <li><a href="#sec-pck-debug" id="toc-sec-pck-debug" class="nav-link" data-scroll-target="#sec-pck-debug"><span class="header-section-number">8.6</span> ¿Cómo identifican y resuelven errores las personas novatas?</a></li>
+  <li><a href="#sec-pck-testing" id="toc-sec-pck-testing" class="nav-link" data-scroll-target="#sec-pck-testing"><span class="header-section-number">8.7</span> ¿Qué pasa con las <span data-i="testing (software);pruebas (software)">pruebas (<em>tests</em>)</span>?</a></li>
+  <li><a href="#sec-pck-language" id="toc-sec-pck-language" class="nav-link" data-scroll-target="#sec-pck-language"><span class="header-section-number">8.8</span> ¿Importa el lenguaje?</a>
   <ul class="collapse">
-  <li><a href="#programación-orientada-a-objetos" id="toc-programación-orientada-a-objetos" class="nav-link" data-scroll-target="#programación-orientada-a-objetos"><span class="toc-section-number">8.8.2</span>  <span data-i="programación orientada a objetos">Programación orientada a objetos</span></a></li>
-  <li><a href="#declaración-de-tipos" id="toc-declaración-de-tipos" class="nav-link" data-scroll-target="#declaración-de-tipos"><span class="toc-section-number">8.8.3</span>  <span data-i="declaración de tipos">Declaración de tipos</span></a></li>
-  <li><a href="#nombrando-variables" id="toc-nombrando-variables" class="nav-link" data-scroll-target="#nombrando-variables"><span class="toc-section-number">8.8.4</span>  <span data-i="nombrar variables">Nombrando variables</span></a></li>
+  <li><a href="#programación-orientada-a-objetos" id="toc-programación-orientada-a-objetos" class="nav-link" data-scroll-target="#programación-orientada-a-objetos"><span class="header-section-number">8.8.2</span> <span data-i="programación orientada a objetos">Programación orientada a objetos</span></a></li>
+  <li><a href="#declaración-de-tipos" id="toc-declaración-de-tipos" class="nav-link" data-scroll-target="#declaración-de-tipos"><span class="header-section-number">8.8.3</span> <span data-i="declaración de tipos">Declaración de tipos</span></a></li>
+  <li><a href="#nombrando-variables" id="toc-nombrando-variables" class="nav-link" data-scroll-target="#nombrando-variables"><span class="header-section-number">8.8.4</span> <span data-i="nombrar variables">Nombrando variables</span></a></li>
   </ul></li>
-  <li><a href="#sec-pck-error" id="toc-sec-pck-error" class="nav-link" data-scroll-target="#sec-pck-error"><span class="toc-section-number">8.9</span>  ¿Ayudan mejores mensajes de error?</a>
+  <li><a href="#sec-pck-error" id="toc-sec-pck-error" class="nav-link" data-scroll-target="#sec-pck-error"><span class="header-section-number">8.9</span> ¿Ayudan mejores mensajes de error?</a>
   <ul class="collapse">
-  <li><a href="#ayuda-la-visualización" id="toc-ayuda-la-visualización" class="nav-link" data-scroll-target="#ayuda-la-visualización"><span class="toc-section-number">8.9.1</span>  ¿Ayuda la visualización?</a></li>
+  <li><a href="#ayuda-la-visualización" id="toc-ayuda-la-visualización" class="nav-link" data-scroll-target="#ayuda-la-visualización"><span class="header-section-number">8.9.1</span> ¿Ayuda la visualización?</a></li>
   </ul></li>
-  <li><a href="#sec-pck-help" id="toc-sec-pck-help" class="nav-link" data-scroll-target="#sec-pck-help"><span class="toc-section-number">8.10</span>  ¿Qué más podemos hacer para ayudar?</a></li>
-  <li><a href="#sec-pck-final" id="toc-sec-pck-final" class="nav-link" data-scroll-target="#sec-pck-final"><span class="toc-section-number">8.11</span>  ¿Qué sigue?</a></li>
-  <li><a href="#sec-pck-exercises" id="toc-sec-pck-exercises" class="nav-link" data-scroll-target="#sec-pck-exercises"><span class="toc-section-number">8.12</span>  Ejercicios</a>
+  <li><a href="#sec-pck-help" id="toc-sec-pck-help" class="nav-link" data-scroll-target="#sec-pck-help"><span class="header-section-number">8.10</span> ¿Qué más podemos hacer para ayudar?</a></li>
+  <li><a href="#sec-pck-final" id="toc-sec-pck-final" class="nav-link" data-scroll-target="#sec-pck-final"><span class="header-section-number">8.11</span> ¿Qué sigue?</a></li>
+  <li><a href="#sec-pck-exercises" id="toc-sec-pck-exercises" class="nav-link" data-scroll-target="#sec-pck-exercises"><span class="header-section-number">8.12</span> Ejercicios</a>
   <ul class="collapse">
-  <li><a href="#conceptos-erróneos-de-tus-estudiantes-grupos-pequeños15" id="toc-conceptos-erróneos-de-tus-estudiantes-grupos-pequeños15" class="nav-link" data-scroll-target="#conceptos-erróneos-de-tus-estudiantes-grupos-pequeños15"><span class="toc-section-number">8.12.1</span>  Conceptos erróneos de tus estudiantes (grupos pequeños/15’)</a></li>
-  <li><a href="#revisando-errores-comunes-individual20" id="toc-revisando-errores-comunes-individual20" class="nav-link" data-scroll-target="#revisando-errores-comunes-individual20"><span class="toc-section-number">8.12.2</span>  Revisando errores comunes (individual/20’)</a></li>
-  <li><a href="#código-desarmado-parejas15" id="toc-código-desarmado-parejas15" class="nav-link" data-scroll-target="#código-desarmado-parejas15"><span class="toc-section-number">8.12.3</span>  Código desarmado (parejas/15’)</a></li>
-  <li><a href="#el-problema-de-la-lluvia-parejas10" id="toc-el-problema-de-la-lluvia-parejas10" class="nav-link" data-scroll-target="#el-problema-de-la-lluvia-parejas10"><span class="toc-section-number">8.12.4</span>  El problema de la lluvia (parejas/10’)</a></li>
-  <li><a href="#roles-de-variables-parejas15" id="toc-roles-de-variables-parejas15" class="nav-link" data-scroll-target="#roles-de-variables-parejas15"><span class="toc-section-number">8.12.5</span>  Roles de variables (parejas/15’)</a></li>
-  <li><a href="#qué-estás-enseñando-individual10" id="toc-qué-estás-enseñando-individual10" class="nav-link" data-scroll-target="#qué-estás-enseñando-individual10"><span class="toc-section-number">8.12.6</span>  ¿Qué estás enseñando? (individual/10’)</a></li>
-  <li><a href="#actividades-beneficiosas-individual10" id="toc-actividades-beneficiosas-individual10" class="nav-link" data-scroll-target="#actividades-beneficiosas-individual10"><span class="toc-section-number">8.12.7</span>  Actividades beneficiosas (individual/10’)</a></li>
-  <li><a href="#conceptos-erróneos-y-desafíos-grupos-pequeños15" id="toc-conceptos-erróneos-y-desafíos-grupos-pequeños15" class="nav-link" data-scroll-target="#conceptos-erróneos-y-desafíos-grupos-pequeños15"><span class="toc-section-number">8.12.8</span>  Conceptos erróneos y desafíos (grupos pequeños/15’)</a></li>
-  <li><a href="#qué-es-lo-que-más-te-importa-toda-la-clase15" id="toc-qué-es-lo-que-más-te-importa-toda-la-clase15" class="nav-link" data-scroll-target="#qué-es-lo-que-más-te-importa-toda-la-clase15"><span class="toc-section-number">8.12.9</span>  ¿Qué es lo que más te importa? (toda la clase/15’)</a></li>
+  <li><a href="#conceptos-erróneos-de-tus-estudiantes-grupos-pequeños15" id="toc-conceptos-erróneos-de-tus-estudiantes-grupos-pequeños15" class="nav-link" data-scroll-target="#conceptos-erróneos-de-tus-estudiantes-grupos-pequeños15"><span class="header-section-number">8.12.1</span> Conceptos erróneos de tus estudiantes (grupos pequeños/15’)</a></li>
+  <li><a href="#revisando-errores-comunes-individual20" id="toc-revisando-errores-comunes-individual20" class="nav-link" data-scroll-target="#revisando-errores-comunes-individual20"><span class="header-section-number">8.12.2</span> Revisando errores comunes (individual/20’)</a></li>
+  <li><a href="#código-desarmado-parejas15" id="toc-código-desarmado-parejas15" class="nav-link" data-scroll-target="#código-desarmado-parejas15"><span class="header-section-number">8.12.3</span> Código desarmado (parejas/15’)</a></li>
+  <li><a href="#el-problema-de-la-lluvia-parejas10" id="toc-el-problema-de-la-lluvia-parejas10" class="nav-link" data-scroll-target="#el-problema-de-la-lluvia-parejas10"><span class="header-section-number">8.12.4</span> El problema de la lluvia (parejas/10’)</a></li>
+  <li><a href="#roles-de-variables-parejas15" id="toc-roles-de-variables-parejas15" class="nav-link" data-scroll-target="#roles-de-variables-parejas15"><span class="header-section-number">8.12.5</span> Roles de variables (parejas/15’)</a></li>
+  <li><a href="#qué-estás-enseñando-individual10" id="toc-qué-estás-enseñando-individual10" class="nav-link" data-scroll-target="#qué-estás-enseñando-individual10"><span class="header-section-number">8.12.6</span> ¿Qué estás enseñando? (individual/10’)</a></li>
+  <li><a href="#actividades-beneficiosas-individual10" id="toc-actividades-beneficiosas-individual10" class="nav-link" data-scroll-target="#actividades-beneficiosas-individual10"><span class="header-section-number">8.12.7</span> Actividades beneficiosas (individual/10’)</a></li>
+  <li><a href="#conceptos-erróneos-y-desafíos-grupos-pequeños15" id="toc-conceptos-erróneos-y-desafíos-grupos-pequeños15" class="nav-link" data-scroll-target="#conceptos-erróneos-y-desafíos-grupos-pequeños15"><span class="header-section-number">8.12.8</span> Conceptos erróneos y desafíos (grupos pequeños/15’)</a></li>
+  <li><a href="#qué-es-lo-que-más-te-importa-toda-la-clase15" id="toc-qué-es-lo-que-más-te-importa-toda-la-clase15" class="nav-link" data-scroll-target="#qué-es-lo-que-más-te-importa-toda-la-clase15"><span class="header-section-number">8.12.9</span> ¿Qué es lo que más te importa? (toda la clase/15’)</a></li>
   </ul></li>
   </ul>
 <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/yabellini/t3es2ed/edit/main/pck.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/yabellini/t3es2ed/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
@@ -298,7 +331,7 @@ div.csl-indent {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span id="sec-pck" class="quarto-section-identifier d-none d-lg-block"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Conocimiento de la pedagogía del contenido</span></span></h1>
+<h1 class="title"><span id="sec-pck" class="quarto-section-identifier"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Conocimiento de la pedagogía del contenido</span></span></h1>
 </div>
 
 
@@ -313,17 +346,17 @@ div.csl-indent {
 
 </header>
 
-<div class="callout-note callout callout-style-default callout-captioned">
+<div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Segunda edición
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Estás leyendo la segunda edición en progreso y en castellano de Enseñar Tecnología en Comunidad (Teaching Tech Together). Este capítulo está siendo objeto de una profunda reestructuración y puede resultar confuso o incompleto</p>
+<p>Estás leyendo la segunda edición en progreso y en castellano de Enseñar Tecnología en Comunidad (Teaching Tech Together). Este capítulo está siendo objeto de una profunda reestructuración y puede resultar confuso o incompleto.</p>
 </div>
 </div>
 <p>Cada docente necesita tres cosas:</p>
@@ -416,7 +449,7 @@ Segunda edición
 </tbody>
 </table>
 <p>Títulos de temas de alto nivel como estos pueden esconder una gran cantidad de fallas. Un resultado más tangible surge de <span class="citation" data-cites="Rich2017">Rich et al. (<a href="#ref-Rich2017" role="doc-biblioref">2017</a>)</span>, quienes revisaron cien artículos y encontraron trayectorias de aprendizaje para clases de computación en escuelas primarias y secundarias. Sus resultados para la secuenciación, la repetición y los condicionales son esencialmente mapas conceptuales colectivos que combinan y racionalizan el pensamiento implícito y explícito de gran cantidad de docentes (<span class="quarto-unresolved-ref">?fig-pck-trajectory</span>).</p>
-<p><img src="diagrams/conditionals.svg" class="img-fluid" alt="Trayectoria de aprendizaje para condiciones (extraído de )">{#fig-pck-trajectory fig-alt = ““}</p>
+<p><img src="diagrams/conditionals.svg" class="quarto-discovered-preview-image img-fluid" alt="Trayectoria de aprendizaje para condiciones (extraído de )">{#fig-pck-trajectory fig-alt = ““}</p>
 </section>
 <section id="sec-pck-learning" class="level2" data-number="8.2">
 <h2 data-number="8.2" class="anchored" data-anchor-id="sec-pck-learning"><span class="header-section-number">8.2</span> ¿Cuánto están aprendiendo?</h2>
@@ -742,254 +775,254 @@ Efectividad de las intervenciones
 <p>Haz que cada persona de la clase, de forma independiente, le otorgue un punto a las ocho preguntas que más les interese, de cualquiera de las dos listas. Luego, calcula el puntaje promedio para cada pregunta. ¿Cuáles son las preguntas más populares en tu clase? ¿En qué grupo están las preguntas más populares?</p>
 
 
-<div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography">
-<div id="ref-Aiva2016" class="csl-entry" role="doc-biblioentry">
+<div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-Aiva2016" class="csl-entry" role="listitem">
 Aivaloglou, Efthimia, and Felienne Hermans. 2016. <span>“How Kids Code and How We Know.”</span> In <em>2016 International Computing Education Research Conference (<span>ICER’16</span>)</em>. Association for Computing Machinery (<span>ACM</span>). <a href="https://doi.org/10.1145/2960310.2960325">https://doi.org/10.1145/2960310.2960325</a>.
 </div>
-<div id="ref-Alqa2017" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Alqa2017" class="csl-entry" role="listitem">
 Alqadi, Basma S., and Jonathan I. Maletic. 2017. <span>“An Empirical Study of Debugging Patterns Among Novice Programmers.”</span> In <em>2017 Technical Symposium on Computer Science Education (<span>SIGCSE’17</span>)</em>. Association for Computing Machinery (<span>ACM</span>). <a href="https://doi.org/10.1145/3017680.3017761">https://doi.org/10.1145/3017680.3017761</a>.
 </div>
-<div id="ref-Bacc2013" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Bacc2013" class="csl-entry" role="listitem">
 Bacchelli, Alberto, and Christian Bird. 2013. <span>“Expectations, Outcomes, and Challenges of Modern Code Review.”</span> In <em>2013 International Conference on Software Engineering (<span>ICSE’13</span>)</em>.
 </div>
-<div id="ref-Bari2017" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Bari2017" class="csl-entry" role="listitem">
 Barik, Titus, Justin Smith, Kevin Lubick, Elisabeth Holmes, Jing Feng, Emerson Murphy-Hill, and Chris Parnin. 2017. <span>“Do Developers Read Compiler Error Messages?”</span> In <em>2017 International Conference on Software Engineering (<span>ICSE’17</span>)</em>. Institute of Electrical; Electronics Engineers (<span>IEEE</span>). <a href="https://doi.org/10.1109/icse.2017.59">https://doi.org/10.1109/icse.2017.59</a>.
 </div>
-<div id="ref-Basi1987" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Basi1987" class="csl-entry" role="listitem">
 Basili, Victor R., and Richard W. Selby. 1987. <span>“Comparing the Effectiveness of Software Testing Strategies.”</span> <em><span>IEEE</span> Transactions on Software Engineering</em> <span>SE</span>-13 (12): 1278–96. <a href="https://doi.org/10.1109/tse.1987.232881">https://doi.org/10.1109/tse.1987.232881</a>.
 </div>
-<div id="ref-Beck2013" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Beck2013" class="csl-entry" role="listitem">
 Beck, Leland, and Alexander Chizhik. 2013. <span>“Cooperative Learning Instructional Methods for <span>CS1</span>: Design, Implementation, and Evaluation.”</span> <em><span>ACM</span> Transactions on Computing Education</em> 13 (3): 10:1–21. <a href="https://doi.org/10.1145/2492686">https://doi.org/10.1145/2492686</a>.
 </div>
-<div id="ref-Beck2016" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Beck2016" class="csl-entry" role="listitem">
 Becker, Brett A., Graham Glanville, Ricardo Iwashima, Claire McDonnell, Kyle Goslin, and Catherine Mooney. 2016. <span>“Effective Compiler Error Message Enhancement for Novice Programming Students.”</span> <em>Computer Science Education</em> 26 (2-3): 148–75. <a href="https://doi.org/10.1080/08993408.2016.1225464">https://doi.org/10.1080/08993408.2016.1225464</a>.
 </div>
-<div id="ref-Beni2017" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Beni2017" class="csl-entry" role="listitem">
 Beniamini, Gal, Sarah Gingichashvili, Alon Klein Orbach, and Dror G. Feitelson. 2017. <span>“Meaningful Identifier Names: The Case of Single-Letter Variables.”</span> In <em>2017 International Conference on Program Comprehension (<span>ICPC’17</span>)</em>. Institute of Electrical; Electronics Engineers (<span>IEEE</span>). <a href="https://doi.org/10.1109/icpc.2017.18">https://doi.org/10.1109/icpc.2017.18</a>.
 </div>
-<div id="ref-Benn2007a" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Benn2007a" class="csl-entry" role="listitem">
 Bennedsen, Jens, and Michael E. Caspersen. 2007. <span>“Failure Rates in Introductory Programming.”</span> <em><span>ACM</span> <span>SIGCSE</span> Bulletin</em> 39 (2): 32. <a href="https://doi.org/10.1145/1272848.1272879">https://doi.org/10.1145/1272848.1272879</a>.
 </div>
-<div id="ref-Benn2007b" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Benn2007b" class="csl-entry" role="listitem">
 Bennedsen, Jens, and Carsten Schulte. 2007. <span>“What Does <span>‘Objects-First’</span> Mean?: An International Study of Teachers’ Perceptions of Objects-First.”</span> In <em>2007 Koli Calling Conference on Computing Education Research (<span>Koli’07</span>)</em>, 21–29.
 </div>
-<div id="ref-Bink2012" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Bink2012" class="csl-entry" role="listitem">
 Binkley, Dave, Marcia Davis, Dawn Lawrie, Jonathan I. Maletic, Christopher Morrell, and Bonita Sharif. 2012. <span>“The Impact of Identifier Style on Effort and Comprehension.”</span> <em>Empirical Software Engineering</em> 18 (2): 219–76. <a href="https://doi.org/10.1007/s10664-012-9201-4">https://doi.org/10.1007/s10664-012-9201-4</a>.
 </div>
-<div id="ref-Bria2015" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Bria2015" class="csl-entry" role="listitem">
 Brian, Samuel A., Richard N. Thomas, James M. Hogan, and Colin Fidge. 2015. <span>“Planting Bugs: A System for Testing Students’ Unit Tests.”</span> In <em>2015 Conference on Innovation and Technology in Computer Science Education (<span>ITiCSE’15</span>)</em>. Association for Computing Machinery (<span>ACM</span>). <a href="https://doi.org/10.1145/2729094.2742631">https://doi.org/10.1145/2729094.2742631</a>.
 </div>
-<div id="ref-Brow2017" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Brow2017" class="csl-entry" role="listitem">
 Brown, Neil C. C., and Amjad Altadmri. 2017. <span>“Novice Java Programming Mistakes.”</span> <em><span>ACM</span> Transactions on Computing Education</em> 17 (2). <a href="https://doi.org/10.1145/2994154">https://doi.org/10.1145/2994154</a>.
 </div>
-<div id="ref-Byck2005" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Byck2005" class="csl-entry" role="listitem">
 Byckling, Pauli, Petri Gerdt, and Jorma Sajaniemi. 2005. <span>“Roles of Variables in Object-Oriented Programming.”</span> In <em>2005 Conference on Object-Oriented Programming, Systems, Languages, and Applications (<span>OOPSLA’05</span>)</em>. Association for Computing Machinery (<span>ACM</span>). <a href="https://doi.org/10.1145/1094855.1094972">https://doi.org/10.1145/1094855.1094972</a>.
 </div>
-<div id="ref-Cart2017" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Cart2017" class="csl-entry" role="listitem">
 Carter, Adam Scott, and Christopher David Hundhausen. 2017. <span>“Using Programming Process Data to Detect Differences in Students’ Patterns of Programming.”</span> In <em>2017 Technical Symposium on Computer Science Education (<span>SIGCSE’17</span>)</em>. Association for Computing Machinery (<span>ACM</span>). <a href="https://doi.org/10.1145/3017680.3017785">https://doi.org/10.1145/3017680.3017785</a>.
 </div>
-<div id="ref-Ceti2016" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Ceti2016" class="csl-entry" role="listitem">
 Cetin, Ibrahim, and Christine Andrews-Larson. 2016. <span>“Learning Sorting Algorithms Through Visualization Construction.”</span> <em>Computer Science Education</em> 26 (1): 27–43. <a href="https://doi.org/10.1080/08993408.2016.1160664">https://doi.org/10.1080/08993408.2016.1160664</a>.
 </div>
-<div id="ref-Chen2018" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Chen2018" class="csl-entry" role="listitem">
 Chen, Chen, Paulina Haduong, Karen Brennan, Gerhard Sonnert, and Philip Sadler. 2018. <span>“The Effects of First Programming Language on College Students’ Computing Attitude and Achievement: A Comparison of Graphical and Textual Languages.”</span> <em>Computer Science Education</em> 29 (1): 23–48. <a href="https://doi.org/10.1080/08993408.2018.1547564">https://doi.org/10.1080/08993408.2018.1547564</a>.
 </div>
-<div id="ref-Chen2017" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Chen2017" class="csl-entry" role="listitem">
 Cheng, Nick, and Brian Harrington. 2017. <span>“The Code Mangler: Evaluating Coding Ability Without Writing Any Code.”</span> In <em>2017 Technical Symposium on Computer Science Education (<span>SIGCSE’17</span>)</em>. Association for Computing Machinery (<span>ACM</span>). <a href="https://doi.org/10.1145/3017680.3017704">https://doi.org/10.1145/3017680.3017704</a>.
 </div>
-<div id="ref-Cunn2017" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Cunn2017" class="csl-entry" role="listitem">
 Cunningham, Kathryn, Sarah Blanchard, Barbara J. Ericson, and Mark Guzdial. 2017. <span>“Using Tracing and Sketching to Solve Programming Problems.”</span> In <em>2017 Conference on International Computing Education Research (<span>ICER’17</span>)</em>. Association for Computing Machinery (<span>ACM</span>). <a href="https://doi.org/10.1145/3105726.3106190">https://doi.org/10.1145/3105726.3106190</a>.
 </div>
-<div id="ref-Denn2019" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Denn2019" class="csl-entry" role="listitem">
 Denny, Paul, Brett A. Becker, Michelle Craig, Greg Wilson, and Piotr Banaszkiewicz. 2019. <span>“Research This! Questions That Computing Educators Most Want Computing Education Researchers to Answer.”</span> In <em>2019 Conference on International Computing Education Research (<span>ICER’19</span>)</em>. Association for Computing Machinery (<span>ACM</span>).
 </div>
-<div id="ref-Edwa2014b" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Edwa2014b" class="csl-entry" role="listitem">
 Edwards, Stephen H., and Zalia Shams. 2014. <span>“Do Student Programmers All Tend to Write the Same Software Tests?”</span> In <em>2014 Conference on Innovation and Technology in Computer Science Education (<span>ITiCSE’14</span>)</em>. Association for Computing Machinery (<span>ACM</span>). <a href="https://doi.org/10.1145/2591708.2591757">https://doi.org/10.1145/2591708.2591757</a>.
 </div>
-<div id="ref-Endr2014" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Endr2014" class="csl-entry" role="listitem">
 Endrikat, Stefan, Stefan Hanenberg, Romain Robbes, and Andreas Stefik. 2014. <span>“How Do <span>API</span> Documentation and Static Typing Affect <span>API</span> Usability?”</span> In <em>2014 International Conference on Software Engineering (<span>ICSE’14</span>)</em>. <span>ACM</span> Press. <a href="https://doi.org/10.1145/2568225.2568299">https://doi.org/10.1145/2568225.2568299</a>.
 </div>
-<div id="ref-Finc2019" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Finc2019" class="csl-entry" role="listitem">
 Fincher, Sally, and Anthony Robins, eds. 2019. <em>The Cambridge Handbook of Computing Education Research</em>. Cambridge University Press.
 </div>
-<div id="ref-Fisc2015" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Fisc2015" class="csl-entry" role="listitem">
 Fischer, Lars, and Stefan Hanenberg. 2015. <span>“An Empirical Investigation of the Effects of Type Systems and Code Completion on <span>API</span> Usability Using <span>TypeScript</span> and <span>JavaScript</span> in <span>MS</span> <span>Visual</span> <span>Studio</span>.”</span> In <em>11th Symposium on Dynamic Languages (<span>DLS’15</span>)</em>. <span>ACM</span> Press. <a href="https://doi.org/10.1145/2816707.2816720">https://doi.org/10.1145/2816707.2816720</a>.
 </div>
-<div id="ref-Fisl2014" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Fisl2014" class="csl-entry" role="listitem">
 Fisler, Kathi. 2014. <span>“The Recurring Rainfall Problem.”</span> In <em>2014 International Computing Education Research Conference (<span>ICER’14</span>)</em>. Association for Computing Machinery (<span>ACM</span>). <a href="https://doi.org/10.1145/2632320.2632346">https://doi.org/10.1145/2632320.2632346</a>.
 </div>
-<div id="ref-Fitz2008" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Fitz2008" class="csl-entry" role="listitem">
 Fitzgerald, Sue, Gary Lewandowski, Renée McCauley, Laurie Murphy, Beth Simon, Lynda Thomas, and Carol Zander. 2008. <span>“Debugging: Finding, Fixing and Flailing, a Multi-Institutional Study of Novice Debuggers.”</span> <em>Computer Science Education</em> 18 (2): 93–116. <a href="https://doi.org/10.1080/08993400802114508">https://doi.org/10.1080/08993400802114508</a>.
 </div>
-<div id="ref-Grov2017" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Grov2017" class="csl-entry" role="listitem">
 Grover, Shuchi, and Satabdi Basu. 2017. <span>“Measuring Student Learning in Introductory Block-Based Programming.”</span> In <em>2017 Technical Symposium on Computer Science Education (<span>SIGCSE’17</span>)</em>. Association for Computing Machinery (<span>ACM</span>). <a href="https://doi.org/10.1145/3017680.3017723">https://doi.org/10.1145/3017680.3017723</a>.
 </div>
-<div id="ref-Guo2013" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Guo2013" class="csl-entry" role="listitem">
 Guo, Philip J. 2013. <span>“Online Python Tutor.”</span> In <em>2013 Technical Symposium on Computer Science Education (<span>SIGCSE’13</span>)</em>. Association for Computing Machinery (<span>ACM</span>). <a href="https://doi.org/10.1145/2445196.2445368">https://doi.org/10.1145/2445196.2445368</a>.
 </div>
-<div id="ref-Guzd2015a" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Guzd2015a" class="csl-entry" role="listitem">
 Guzdial, Mark. 2015. <em>Learner-Centered Design of Computing Education: Research on Computing for Everyone</em>. Morgan &amp; Claypool Publishers.
 </div>
-<div id="ref-Guzd2016" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Guzd2016" class="csl-entry" role="listitem">
 ———. 2016. <span>“Five Principles for Programming Languages for Learners.”</span> <a href="https://cacm.acm.org/blogs/blog-cacm/203554-five-principles-for-programming-languages-for-learners/fulltext" class="uri">https://cacm.acm.org/blogs/blog-cacm/203554-five-principles-for-programming-languages-for-learners/fulltext</a>.
 </div>
-<div id="ref-Harr2018" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Harr2018" class="csl-entry" role="listitem">
 Harrington, Brian, and Nick Cheng. 2018. <span>“Tracing Vs. Writing Code: Beyond the Learning Hierarchy.”</span> In <em>2018 Technical Symposium on Computer Science Education (<span>SIGCSE’18</span>)</em>. Association for Computing Machinery (<span>ACM</span>). <a href="https://doi.org/10.1145/3159450.3159530">https://doi.org/10.1145/3159450.3159530</a>.
 </div>
-<div id="ref-Hazz2014" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Hazz2014" class="csl-entry" role="listitem">
 Hazzan, Orit, Tami Lapidot, and Noa Ragonis. 2014. <em>Guide to Teaching Computer Science: An Activity-Based Approach</em>. Second. Springer.
 </div>
-<div id="ref-Henr2010" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Henr2010" class="csl-entry" role="listitem">
 Henrich, Joseph, Steven J. Heine, and Ara Norenzayan. 2010. <span>“The Weirdest People in the World?”</span> <em>Behavioral and Brain Sciences</em> 33 (2-3): 61–83. <a href="https://doi.org/10.1017/s0140525x0999152x">https://doi.org/10.1017/s0140525x0999152x</a>.
 </div>
-<div id="ref-Hofm2017" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Hofm2017" class="csl-entry" role="listitem">
 Hofmeister, Johannes, Janet Siegmund, and Daniel V. Holt. 2017. <span>“Shorter Identifier Names Take Longer to Comprehend.”</span> In <em>2017 Conference on Software Analysis, Evolution and Reengineering (<span>SANER’17</span>)</em>. Institute of Electrical; Electronics Engineers (<span>IEEE</span>). <a href="https://doi.org/10.1109/saner.2017.7884623">https://doi.org/10.1109/saner.2017.7884623</a>.
 </div>
-<div id="ref-Ihan2016" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Ihan2016" class="csl-entry" role="listitem">
 Ihantola, Petri, Kelly Rivers, Miguel Ángel Rubio, Judy Sheard, Bronius Skupas, Jaime Spacco, Claudia Szabo, et al. 2016. <span>“Educational Data Mining and Learning Analytics in Programming: Literature Review and Case Studies.”</span> In <em>2016 Conference on Innovation and Technology in Computer Science Education (<span>ITiCSE’16</span>)</em>. Association for Computing Machinery (<span>ACM</span>). <a href="https://doi.org/10.1145/2858796.2858798">https://doi.org/10.1145/2858796.2858798</a>.
 </div>
-<div id="ref-Keme2009" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Keme2009" class="csl-entry" role="listitem">
 Kemerer, Chris F., and Mark C. Paulk. 2009. <span>“The Impact of Design and Code Reviews on Software Quality: An Empirical Study Based on <span>PSP</span> Data.”</span> <em><span>IEEE</span> Transactions on Software Engineering</em> 35 (4): 534–50. <a href="https://doi.org/10.1109/tse.2009.27">https://doi.org/10.1109/tse.2009.27</a>.
 </div>
-<div id="ref-Kern1999" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Kern1999" class="csl-entry" role="listitem">
 Kernighan, Brian W., and Rob Pike. 1999. <em>The Practice of Programming</em>. Addison-Wesley.
 </div>
-<div id="ref-Koeh2013" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Koeh2013" class="csl-entry" role="listitem">
 Koehler, Matthew J., Punya Mishra, and William Cain. 2013. <span>“What Is Technological Pedagogical Content Knowledge (<span>TPACK</span>)?”</span> <em>Journal of Education</em> 193 (3): 13–19. <a href="https://doi.org/10.1177/002205741319300303">https://doi.org/10.1177/002205741319300303</a>.
 </div>
-<div id="ref-Kohn2017" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Kohn2017" class="csl-entry" role="listitem">
 Kohn, Tobias. 2017. <span>“Variable Evaluation: An Exploration of Novice Programmers’ Understanding and Common Misconceptions.”</span> In <em>2017 Technical Symposium on Computer Science Education (<span>SIGCSE’17</span>)</em>. Association for Computing Machinery (<span>ACM</span>). <a href="https://doi.org/10.1145/3017680.3017724">https://doi.org/10.1145/3017680.3017724</a>.
 </div>
-<div id="ref-Koll2015" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Koll2015" class="csl-entry" role="listitem">
 Kölling, Michael. 2015. <span>“Lessons from the Design of Three Educational Programming Environments.”</span> <em>International Journal of People-Oriented Programming</em> 4 (1): 5–32. <a href="https://doi.org/10.4018/ijpop.2015010102">https://doi.org/10.4018/ijpop.2015010102</a>.
 </div>
-<div id="ref-Kuit2004" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Kuit2004" class="csl-entry" role="listitem">
 Kuittinen, Marja, and Jorma Sajaniemi. 2004. <span>“Teaching Roles of Variables in Elementary Programming Courses.”</span> <em><span>ACM</span> <span>SIGCSE</span> Bulletin</em> 36 (3): 57. <a href="https://doi.org/10.1145/1026487.1008014">https://doi.org/10.1145/1026487.1008014</a>.
 </div>
-<div id="ref-List2009" class="csl-entry" role="doc-biblioentry">
+<div id="ref-List2009" class="csl-entry" role="listitem">
 Lister, Raymond, Colin Fidge, and Donna Teague. 2009. <span>“Further Evidence of a Relationship Between Explaining, Tracing and Writing Skills in Introductory Programming.”</span> <em><span>ACM</span> <span>SIGCSE</span> Bulletin</em> 41 (3): 161. <a href="https://doi.org/10.1145/1595496.1562930">https://doi.org/10.1145/1595496.1562930</a>.
 </div>
-<div id="ref-List2004" class="csl-entry" role="doc-biblioentry">
+<div id="ref-List2004" class="csl-entry" role="listitem">
 Lister, Raymond, Otto Seppälä, Beth Simon, Lynda Thomas, Elizabeth S. Adams, Sue Fitzgerald, William Fone, et al. 2004. <span>“A Multi-National Study of Reading and Tracing Skills in Novice Programmers.”</span> In <em>2004 Conference on Innovation and Technology in Computer Science Education (<span>ITiCSE’04</span>)</em>. Association for Computing Machinery (<span>ACM</span>). <a href="https://doi.org/10.1145/1044550.1041673">https://doi.org/10.1145/1044550.1041673</a>.
 </div>
-<div id="ref-Luxt2017" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Luxt2017" class="csl-entry" role="listitem">
 Luxton-Reilly, Andrew, Jacqueline Whalley, Brett A. Becker, Yingjun Cao, Roger McDermott, Claudio Mirolo, Andreas Mühling, Andrew Petersen, Kate Sanders, and Simon. 2017. <span>“Developing Assessments to Determine Mastery of Programming Fundamentals.”</span> In <em>2017 Conference on Innovation and Technology in Computer Science Education (<span>ITiCSE’17</span>)</em>. Association for Computing Machinery (<span>ACM</span>). <a href="https://doi.org/10.1145/3174781.3174784">https://doi.org/10.1145/3174781.3174784</a>.
 </div>
-<div id="ref-Malo2010" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Malo2010" class="csl-entry" role="listitem">
 Maloney, John, Mitchel Resnick, Natalie Rusk, Brian Silverman, and Evelyn Eastmond. 2010. <span>“The <span>Scratch</span> Programming Language and Environment.”</span> <em><span>ACM</span> Transactions on Computing Education</em> 10 (4): 1–15. <a href="https://doi.org/10.1145/1868358.1868363">https://doi.org/10.1145/1868358.1868363</a>.
 </div>
-<div id="ref-Marc2011" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Marc2011" class="csl-entry" role="listitem">
 Marceau, Guillaume, Kathi Fisler, and Shriram Krishnamurthi. 2011. <span>“Measuring the Effectiveness of Error Messages Designed for Novice Programmers.”</span> In <em>2011 Technical Symposium on Computer Science Education (<span>SIGCSE’11</span>)</em>. Association for Computing Machinery (<span>ACM</span>). <a href="https://doi.org/10.1145/1953163.1953308">https://doi.org/10.1145/1953163.1953308</a>.
 </div>
-<div id="ref-Marg2016" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Marg2016" class="csl-entry" role="listitem">
 Margulieux, Lauren E., Richard Catrambone, and Mark Guzdial. 2016. <span>“Employing Subgoals in Computer Programming Education.”</span> <em>Computer Science Education</em> 26 (1): 44–67. <a href="https://doi.org/10.1080/08993408.2016.1144429">https://doi.org/10.1080/08993408.2016.1144429</a>.
 </div>
-<div id="ref-Marg2012" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Marg2012" class="csl-entry" role="listitem">
 Margulieux, Lauren E., Mark Guzdial, and Richard Catrambone. 2012. <span>“Subgoal-Labeled Instructional Material Improves Performance and Transfer in Learning to Develop Mobile Applications.”</span> In <em>2012 International Computing Education Research Conference (<span>ICER’12</span>)</em>, 71–78. <span>ACM</span> Press. <a href="https://doi.org/10.1145/2361276.2361291">https://doi.org/10.1145/2361276.2361291</a>.
 </div>
-<div id="ref-Maye2004" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Maye2004" class="csl-entry" role="listitem">
 Mayer, Richard E. 2004. <span>“Teaching of Subject Matter.”</span> <em>Annual Review of Psychology</em> 55 (1): 715–44. <a href="https://doi.org/10.1146/annurev.psych.55.082602.133124">https://doi.org/10.1146/annurev.psych.55.082602.133124</a>.
 </div>
-<div id="ref-McCa2008" class="csl-entry" role="doc-biblioentry">
+<div id="ref-McCa2008" class="csl-entry" role="listitem">
 McCauley, Renée, Sue Fitzgerald, Gary Lewandowski, Laurie Murphy, Beth Simon, Lynda Thomas, and Carol Zander. 2008. <span>“Debugging: A Review of the Literature from an Educational Perspective.”</span> <em>Computer Science Education</em> 18 (2): 67–92. <a href="https://doi.org/10.1080/08993400802114581">https://doi.org/10.1080/08993400802114581</a>.
 </div>
-<div id="ref-McCr2001" class="csl-entry" role="doc-biblioentry">
+<div id="ref-McCr2001" class="csl-entry" role="listitem">
 McCracken, Michael, Tadeusz Wilusz, Vicki Almstrum, Danny Diaz, Mark Guzdial, Dianne Hagan, Yifat Ben-David Kolikant, Cary Laxer, Lynda Thomas, and Ian Utting. 2001. <span>“A Multi-National, Multi-Institutional Study of Assessment of Programming Skills of First-Year <span>CS</span> Students.”</span> In <em>2001 Conference on Innovation and Technology in Computer Science Education (<span>ITiCSE’01</span>)</em>. Association for Computing Machinery (<span>ACM</span>). <a href="https://doi.org/10.1145/572133.572137">https://doi.org/10.1145/572133.572137</a>.
 </div>
-<div id="ref-Mill2016b" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Mill2016b" class="csl-entry" role="listitem">
 Miller, Craig S., and Amber Settle. 2016. <span>“Some Trouble with Transparency: An Analysis of Student Errors with Object-Oriented <span>Python</span>.”</span> In <em>2016 International Computing Education Research Conference (<span>ICER’16</span>)</em>. Association for Computing Machinery (<span>ACM</span>). <a href="https://doi.org/10.1145/2960310.2960327">https://doi.org/10.1145/2960310.2960327</a>.
 </div>
-<div id="ref-Mlad2017" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Mlad2017" class="csl-entry" role="listitem">
 Mladenović, Monika, Ivica Boljat, and Žana Žanko. 2017. <span>“Comparing Loops Misconceptions in Block-Based and Text-Based Programming Languages at the <span>K-12</span> Level.”</span> <em>Education and Information Technologies</em>, November. <a href="https://doi.org/10.1007/s10639-017-9673-3">https://doi.org/10.1007/s10639-017-9673-3</a>.
 </div>
-<div id="ref-Mull2007b" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Mull2007b" class="csl-entry" role="listitem">
 Muller, Orna, David Ginat, and Bruria Haberman. 2007. <span>“Pattern-Oriented Instruction and Its Influence on Problem Decomposition and Solution Construction.”</span> In <em>2007 Technical Symposium on Computer Science Education (<span>SIGCSE’07</span>)</em>. Association for Computing Machinery (<span>ACM</span>). <a href="https://doi.org/10.1145/1268784.1268830">https://doi.org/10.1145/1268784.1268830</a>.
 </div>
-<div id="ref-Murp2008" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Murp2008" class="csl-entry" role="listitem">
 Murphy, Laurie, Gary Lewandowski, Renée McCauley, Beth Simon, Lynda Thomas, and Carol Zander. 2008. <span>“Debugging: The Good, the Bad, and the Quirky - a Qualitative Analysis of Novices’ Strategies.”</span> <em><span>ACM</span> <span>SIGCSE</span> Bulletin</em> 40 (1): 163. <a href="https://doi.org/10.1145/1352322.1352191">https://doi.org/10.1145/1352322.1352191</a>.
 </div>
-<div id="ref-Ojos2015" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Ojos2015" class="csl-entry" role="listitem">
 Ojose, Bobby. 2015. <em>Common Misconceptions in Mathematics: Strategies to Correct Them</em>. UPA.
 </div>
-<div id="ref-Park2015" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Park2015" class="csl-entry" role="listitem">
 Park, Thomas H., Brian Dorn, and Andrea Forte. 2015. <span>“An Analysis of <span>HTML</span> and <span>CSS</span> Syntax Errors in a Web Development Course.”</span> <em><span>ACM</span> Transactions on Computing Education</em> 15 (1): 1–21. <a href="https://doi.org/10.1145/2700514">https://doi.org/10.1145/2700514</a>.
 </div>
-<div id="ref-Pea1986" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Pea1986" class="csl-entry" role="listitem">
 Pea, Roy D. 1986. <span>“Language-Independent Conceptual <span>‘Bugs’</span> in Novice Programming.”</span> <em>Journal of Educational Computing Research</em> 2 (1): 25–36. <a href="https://doi.org/10.2190/689t-1r2a-x4w4-29j2">https://doi.org/10.2190/689t-1r2a-x4w4-29j2</a>.
 </div>
-<div id="ref-Qian2017" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Qian2017" class="csl-entry" role="listitem">
 Qian, Yizhou, and James Lehman. 2017. <span>“Students’ Misconceptions and Other Difficulties in Introductory Programming.”</span> <em><span>ACM</span> Transactions on Computing Education</em> 18 (1): 1–24. <a href="https://doi.org/10.1145/3077618">https://doi.org/10.1145/3077618</a>.
 </div>
-<div id="ref-Rago2017" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Rago2017" class="csl-entry" role="listitem">
 Ragonis, Noa, and Ronit Shmallo. 2017. <span>“On the (Mis)understanding of the This Reference.”</span> In <em>2017 Technical Symposium on Computer Science Education (<span>SIGCSE’17</span>)</em>. Association for Computing Machinery (<span>ACM</span>). <a href="https://doi.org/10.1145/3017680.3017715">https://doi.org/10.1145/3017680.3017715</a>.
 </div>
-<div id="ref-Rich2017" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Rich2017" class="csl-entry" role="listitem">
 Rich, Kathryn M., Carla Strickland, T. Andrew Binkowski, Cheryl Moran, and Diana Franklin. 2017. <span>“K-8 Learning Trajectories Derived from Research Literature.”</span> In <em>2017 International Computing Education Research Conference (<span>ICER’17</span>)</em>. Association for Computing Machinery (<span>ACM</span>). <a href="https://doi.org/10.1145/3105726.3106166">https://doi.org/10.1145/3105726.3106166</a>.
 </div>
-<div id="ref-Saja2006" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Saja2006" class="csl-entry" role="listitem">
 Sajaniemi, Jorma, Mordechai Ben-Ari, Pauli Byckling, Petri Gerdt, and Yevgeniya Kulikova. 2006. <span>“Roles of Variables in Three Programming Paradigms.”</span> <em>Computer Science Education</em> 16 (4): 261–79. <a href="https://doi.org/10.1080/08993400600874584">https://doi.org/10.1080/08993400600874584</a>.
 </div>
-<div id="ref-Scan1989" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Scan1989" class="csl-entry" role="listitem">
 Scanlan, David A. 1989. <span>“Structured Flowcharts Outperform Pseudocode: An Experimental Comparison.”</span> <em><span>IEEE</span> Software</em> 6 (5): 28–36. <a href="https://doi.org/10.1109/52.35587">https://doi.org/10.1109/52.35587</a>.
 </div>
-<div id="ref-Sent2018" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Sent2018" class="csl-entry" role="listitem">
 Sentance, Sue, Erik Barendsen, and Carsten Schulte, eds. 2018. <em>Computer Science Education: Perspectives on Teaching and Learning in School</em>. Bloomsbury Press.
 </div>
-<div id="ref-Sepp2015" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Sepp2015" class="csl-entry" role="listitem">
 Seppälä, Otto, Petri Ihantola, Essi Isohanni, Juha Sorva, and Arto Vihavainen. 2015. <span>“Do We Know How Difficult the <span>Rainfall Problem</span> Is?”</span> In <em>2015 Koli Calling Conference on Computing Education Research (<span>Koli’15</span>)</em>. <span>ACM</span> Press. <a href="https://doi.org/10.1145/2828959.2828963">https://doi.org/10.1145/2828959.2828963</a>.
 </div>
-<div id="ref-Shel2017" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Shel2017" class="csl-entry" role="listitem">
 Shell, Duane F., Leen-Kiat Soh, Abraham E. Flanigan, Markeya S. Peteranetz, and Elizabeth Ingraham. 2017. <span>“Improving Students’ Learning and Achievement in <span>CS</span> Classrooms Through Computational Creativity Exercises That Integrate Computational and Creative Thinking.”</span> In <em>2017 Technical Symposium on Computer Science Education (<span>SIGCSE’17</span>)</em>. Association for Computing Machinery (<span>ACM</span>). <a href="https://doi.org/10.1145/3017680.3017718">https://doi.org/10.1145/3017680.3017718</a>.
 </div>
-<div id="ref-Simo2013" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Simo2013" class="csl-entry" role="listitem">
 Simon. 2013. <span>“Soloway’s <span>Rainfall Problem</span> Has Become Harder.”</span> In <em>2013 Conference on Learning and Teaching in Computing and Engineering</em>. Institute of Electrical; Electronics Engineers (<span>IEEE</span>). <a href="https://doi.org/10.1109/latice.2013.44">https://doi.org/10.1109/latice.2013.44</a>.
 </div>
-<div id="ref-Sirk2012" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Sirk2012" class="csl-entry" role="listitem">
 Sirkiä, Teemu, and Juha Sorva. 2012. <span>“Exploring Programming Misconceptions: An Analysis of Student Mistakes in Visual Program Simulation Exercises.”</span> In <em>2012 Koli Calling Conference on Computing Education Research (<span>Koli’12</span>)</em>. Association for Computing Machinery (<span>ACM</span>). <a href="https://doi.org/10.1145/2401796.2401799">https://doi.org/10.1145/2401796.2401799</a>.
 </div>
-<div id="ref-Solo1986" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Solo1986" class="csl-entry" role="listitem">
 Soloway, Elliot. 1986. <span>“Learning to Program = Learning to Construct Mechanisms and Explanations.”</span> <em>Communications of the <span>ACM</span></em> 29 (9): 850–58. <a href="https://doi.org/10.1145/6592.6594">https://doi.org/10.1145/6592.6594</a>.
 </div>
-<div id="ref-Solo1984" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Solo1984" class="csl-entry" role="listitem">
 Soloway, Elliot, and Kate Ehrlich. 1984. <span>“Empirical Studies of Programming Knowledge.”</span> <em><span>IEEE</span> Transactions on Software Engineering</em> <span>SE</span>-10 (5): 595–609. <a href="https://doi.org/10.1109/tse.1984.5010283">https://doi.org/10.1109/tse.1984.5010283</a>.
 </div>
-<div id="ref-Sorv2018" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Sorv2018" class="csl-entry" role="listitem">
 Sorva, Juha. 2018. <span>“Misconceptions and the Beginner Programmer.”</span> In <em>Computer Science Education: Perspectives on Teaching and Learning in School</em>, edited by Sue Sentance, Erik Barendsen, and Carsten Schulte. Bloomsbury Press.
 </div>
-<div id="ref-Sorv2014" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Sorv2014" class="csl-entry" role="listitem">
 Sorva, Juha, and Otto Seppälä. 2014. <span>“Research-Based Design of the First Weeks of <span>CS1</span>.”</span> In <em>2014 Koli Calling Conference on Computing Education Research (<span>Koli’14</span>)</em>. Association for Computing Machinery (<span>ACM</span>). <a href="https://doi.org/10.1145/2674683.2674690">https://doi.org/10.1145/2674683.2674690</a>.
 </div>
-<div id="ref-Stas1998" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Stas1998" class="csl-entry" role="listitem">
 Stasko, John, John Domingue, Mark H. Brown, and Blaine A. Price, eds. 1998. <em>Software Visualization: Programming as a Multimedia Experience</em>. <span>MIT</span> Press.
 </div>
-<div id="ref-Stef2017" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Stef2017" class="csl-entry" role="listitem">
 Stefik, Andreas, Patrick Daleiden, Diana Franklin, Stefan Hanenberg, Antti-Juhani Kaijanaho, Walter Tichy, and Brett A. Becker. 2017. <span>“Programming Languages and Learning.”</span> <a href="https://quorumlanguage.com/evidence.html" class="uri">https://quorumlanguage.com/evidence.html</a>.
 </div>
-<div id="ref-Stef2013" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Stef2013" class="csl-entry" role="listitem">
 Stefik, Andreas, and Susanna Siebert. 2013. <span>“An Empirical Investigation into Programming Language Syntax.”</span> <em><span>ACM</span> Transactions on Computing Education</em> 13 (4): 1–40. <a href="https://doi.org/10.1145/2534973">https://doi.org/10.1145/2534973</a>.
 </div>
-<div id="ref-Steg2014" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Steg2014" class="csl-entry" role="listitem">
 Stegeman, Martijn, Erik Barendsen, and Sjaak Smetsers. 2014. <span>“Towards an Empirically Validated Model for Assessment of Code Quality.”</span> In <em>2014 Koli Calling Conference on Computing Education Research (<span>Koli’14</span>)</em>. Association for Computing Machinery (<span>ACM</span>). <a href="https://doi.org/10.1145/2674683.2674702">https://doi.org/10.1145/2674683.2674702</a>.
 </div>
-<div id="ref-Steg2016a" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Steg2016a" class="csl-entry" role="listitem">
 ———. 2016. <span>“Designing a Rubric for Feedback on Code Quality in Programming Courses.”</span> In <em>2016 Koli Calling Conference on Computing Education Research (<span>Koli’16</span>)</em>. Association for Computing Machinery (<span>ACM</span>). <a href="https://doi.org/10.1145/2999541.2999555">https://doi.org/10.1145/2999541.2999555</a>.
 </div>
-<div id="ref-Utti2013" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Utti2013" class="csl-entry" role="listitem">
 Utting, Ian, Juha Sorva, Tadeusz Wilusz, Allison Elliott Tew, Michael McCracken, Lynda Thomas, Dennis Bouvier, et al. 2013. <span>“A Fresh Look at Novice Programmers’ Performance and Their Teachers’ Expectations.”</span> In <em>2013 Conference on Innovation and Technology in Computer Science Education (<span>ITiCSE’13</span>)</em>. <span>ACM</span> Press. <a href="https://doi.org/10.1145/2543882.2543884">https://doi.org/10.1145/2543882.2543884</a>.
 </div>
-<div id="ref-Viha2014" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Viha2014" class="csl-entry" role="listitem">
 Vihavainen, Arto, Jonne Airaksinen, and Christopher Watson. 2014. <span>“A Systematic Review of Approaches for Teaching Introductory Programming and Their Influence on Success.”</span> In <em>2014 International Computing Education Research Conference (<span>ICER’14</span>)</em>. Association for Computing Machinery (<span>ACM</span>). <a href="https://doi.org/10.1145/2632320.2632349">https://doi.org/10.1145/2632320.2632349</a>.
 </div>
-<div id="ref-Wats2014" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Wats2014" class="csl-entry" role="listitem">
 Watson, Christopher, and Frederick W. B. Li. 2014. <span>“Failure Rates in Introductory Programming Revisited.”</span> In <em>2014 Conference on Innovation and Technology in Computer Science Education (<span>ITiCSE’14</span>)</em>. Association for Computing Machinery (<span>ACM</span>). <a href="https://doi.org/10.1145/2591708.2591749">https://doi.org/10.1145/2591708.2591749</a>.
 </div>
-<div id="ref-Wein2017" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Wein2017" class="csl-entry" role="listitem">
 Weintrop, David, and Uri Wilensky. 2017. <span>“Comparing Block-Based and Text-Based Programming in High School Computer Science Classrooms.”</span> <em><span>ACM</span> Transactions on Computing Education</em> 18 (1): 1–25. <a href="https://doi.org/10.1145/3089799">https://doi.org/10.1145/3089799</a>.
 </div>
-<div id="ref-Wilc2018" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Wilc2018" class="csl-entry" role="listitem">
 Wilcox, Chris, and Albert Lionelle. 2018. <span>“Quantifying the Benefits of Prior Programming Experience in an Introductory Computer Science Course.”</span> In <em>2018 Technical Symposium on Computer Science Education (<span>SIGCSE’18</span>)</em>. Association for Computing Machinery (<span>ACM</span>). <a href="https://doi.org/10.1145/3159450.3159480">https://doi.org/10.1145/3159450.3159480</a>.
 </div>
-<div id="ref-Xie2019" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Xie2019" class="csl-entry" role="listitem">
 Xie, Benjamin, Dastyni Loksa, Greg L. Nelson, Matthew J. Davidson, Dongsheng Dong, Harrison Kwik, Alex Hui Tan, Leanne Hwa, Min Li, and Amy J. Ko. 2019. <span>“A Theory of Instruction for Introductory Programming Skills.”</span> <em>Computer Science Education</em> 29 (2-3): 205–53. <a href="https://doi.org/10.1080/08993408.2019.1565235">https://doi.org/10.1080/08993408.2019.1565235</a>.
 </div>
 </div>
@@ -1024,9 +1057,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -1091,6 +1138,92 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {
@@ -1146,6 +1279,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">Enseñar Tecnología en Comunidad (2e) fue escrito por Greg Wilson y Yanina Bellini Saibene.</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
     <div class="nav-footer-right">El libro fue construido con <a href="https://quarto.org/">Quarto</a>.</div>
   </div>
 </footer>

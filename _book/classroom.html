@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.269">
+<meta name="generator" content="quarto-1.3.290">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -17,14 +17,15 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for citations */
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
 }
-.hanging div.csl-entry {
+.hanging-indent div.csl-entry {
   margin-left:2em;
   text-indent:-2em;
 }
@@ -38,8 +39,7 @@ div.csl-right-inline {
 }
 div.csl-indent {
   margin-left: 2em;
-}
-</style>
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -87,11 +87,16 @@ div.csl-indent {
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-    <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">En el salón de clase</span></h1>
-      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
-        <i class="bi bi-chevron-right"></i>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./classroom.html"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">En el salón de clase</span></a></li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
       </button>
     </div>
   </nav>
@@ -99,207 +104,235 @@ div.csl-indent {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Enseñar Tecnología en Comunidad (2e)</a> 
         <div class="sidebar-tools-main">
-    <a href="https://github.com/yabellini/t3es2ed" title="Source Code" class="sidebar-tool px-1"><i class="bi bi-github"></i></a>
+    <a href="https://github.com/yabellini/t3es2ed" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
 </div>
     </div>
       </div>
-      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="mt-2 flex-shrink-0 align-items-center">
         <div class="sidebar-search">
         <div id="quarto-search" class="" title="Search"></div>
         </div>
-      </div>
+        </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link">Preface</a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Preface</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./rules.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Las reglas</span></a>
+  <a href="./rules.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Las reglas</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./intro.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Introducción</span></a>
+  <a href="./intro.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Introducción</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./models.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Modelos mentales y evaluación formativa</span></a>
+  <a href="./models.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Modelos mentales y evaluación formativa</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./memory.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Pericia y memoria</span></a>
+  <a href="./memory.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Pericia y memoria</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./architecture.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Arquitectura Cognitiva</span></a>
+  <a href="./architecture.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Arquitectura Cognitiva</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./individual.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Aprendizaje individual</span></a>
+  <a href="./individual.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Aprendizaje individual</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./process.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Un proceso para diseñar lecciones</span></a>
+  <a href="./process.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Un proceso para diseñar lecciones</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./pck.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Conocimiento de la pedagogía del contenido</span></a>
+  <a href="./pck.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Conocimiento de la pedagogía del contenido</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./performance.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Enseñar como un arte performativo</span></a>
+  <a href="./performance.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Enseñar como un arte performativo</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./classroom.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">En el salón de clase</span></a>
+  <a href="./classroom.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">En el salón de clase</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./motivation.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Motivación y desmotivación</span></a>
+  <a href="./motivation.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Motivación y desmotivación</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./online.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Enseñar en línea</span></a>
+  <a href="./online.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Enseñar en línea</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./exercises.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Tipos de ejercicios</span></a>
+  <a href="./exercises.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Tipos de ejercicios</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./community.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Construyendo una comunidad de práctica</span></a>
+  <a href="./community.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Construyendo una comunidad de práctica</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./events.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Tipos de Eventos</span></a>
+  <a href="./events.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Tipos de Eventos</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./outreach.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Difusión y vinculación</span></a>
+  <a href="./outreach.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Difusión y vinculación</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./paid.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Como vivir de enseñar</span></a>
+  <a href="./paid.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Como vivir de enseñar</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./finale.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">¿Por qué enseñamos?</span></a>
+  <a href="./finale.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">¿Por qué enseñamos?</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./license.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Licencia</span></a>
+  <a href="./license.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Licencia</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./conduct.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title">Código de conducta</span></a>
+  <a href="./conduct.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title">Código de conducta</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./joining.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">21</span>&nbsp; <span class="chapter-title">Unirse a nuestra comunidad</span></a>
+  <a href="./joining.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">21</span>&nbsp; <span class="chapter-title">Unirse a nuestra comunidad</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./glossary.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">glossary.html</span></a>
+  <a href="./glossary.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">glossary.html</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./meetings.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">23</span>&nbsp; <span class="chapter-title">Reuniones, reuniones, reuniones</span></a>
+  <a href="./meetings.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">23</span>&nbsp; <span class="chapter-title">Reuniones, reuniones, reuniones</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./checklists.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">24</span>&nbsp; <span class="chapter-title">Listas de verificación y plantillas</span></a>
+  <a href="./checklists.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">24</span>&nbsp; <span class="chapter-title">Listas de verificación y plantillas</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./conceptmaps.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">25</span>&nbsp; <span class="chapter-title">Ejemplos de Mapas Conceptuales</span></a>
+  <a href="./conceptmaps.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">25</span>&nbsp; <span class="chapter-title">Ejemplos de Mapas Conceptuales</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./chunking.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">26</span>&nbsp; <span class="chapter-title">“Solución del ejercicio de particionar”</span></a>
+  <a href="./chunking.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">26</span>&nbsp; <span class="chapter-title">“Solución del ejercicio de particionar”</span></span></a>
   </div>
 </li>
     </ul>
     </div>
 </nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#sec-classroom-coc" id="toc-sec-classroom-coc" class="nav-link active" data-scroll-target="#sec-classroom-coc"><span class="toc-section-number">10.1</span>  Hacer cumplir el Código de Conducta</a></li>
-  <li><a href="#sec-classroom-peer" id="toc-sec-classroom-peer" class="nav-link" data-scroll-target="#sec-classroom-peer"><span class="toc-section-number">10.2</span>  Instrucción por pares</a></li>
-  <li><a href="#sec-classroom-together" id="toc-sec-classroom-together" class="nav-link" data-scroll-target="#sec-classroom-together"><span class="toc-section-number">10.3</span>  Enseñar en comunidad</a></li>
-  <li><a href="#sec-classroom-prior" id="toc-sec-classroom-prior" class="nav-link" data-scroll-target="#sec-classroom-prior"><span class="toc-section-number">10.4</span>  Evaluar conocimientos previos</a></li>
-  <li><a href="#sec-classroom-mixed" id="toc-sec-classroom-mixed" class="nav-link" data-scroll-target="#sec-classroom-mixed"><span class="toc-section-number">10.5</span>  Planifica para <span data-i="habilidades mixtas (adaptarse a)">habilidades mixtas</span></a></li>
-  <li><a href="#sec-classroom-pair" id="toc-sec-classroom-pair" class="nav-link" data-scroll-target="#sec-classroom-pair"><span class="toc-section-number">10.6</span>  Programación en parejas</a></li>
-  <li><a href="#sec-classroom-notetaking" id="toc-sec-classroom-notetaking" class="nav-link" data-scroll-target="#sec-classroom-notetaking"><span class="toc-section-number">10.7</span>  Tomar notas…¿juntas/os?</a></li>
-  <li><a href="#sec-classroom-sticky-notes" id="toc-sec-classroom-sticky-notes" class="nav-link" data-scroll-target="#sec-classroom-sticky-notes"><span class="toc-section-number">10.8</span>  Notas adhesivas</a>
+  <li><a href="#sec-classroom-coc" id="toc-sec-classroom-coc" class="nav-link active" data-scroll-target="#sec-classroom-coc"><span class="header-section-number">10.1</span> Hacer cumplir el Código de Conducta</a></li>
+  <li><a href="#sec-classroom-peer" id="toc-sec-classroom-peer" class="nav-link" data-scroll-target="#sec-classroom-peer"><span class="header-section-number">10.2</span> Instrucción por pares</a></li>
+  <li><a href="#sec-classroom-together" id="toc-sec-classroom-together" class="nav-link" data-scroll-target="#sec-classroom-together"><span class="header-section-number">10.3</span> Enseñar en comunidad</a></li>
+  <li><a href="#sec-classroom-prior" id="toc-sec-classroom-prior" class="nav-link" data-scroll-target="#sec-classroom-prior"><span class="header-section-number">10.4</span> Evaluar conocimientos previos</a></li>
+  <li><a href="#sec-classroom-mixed" id="toc-sec-classroom-mixed" class="nav-link" data-scroll-target="#sec-classroom-mixed"><span class="header-section-number">10.5</span> Planifica para <span data-i="habilidades mixtas (adaptarse a)">habilidades mixtas</span></a></li>
+  <li><a href="#sec-classroom-pair" id="toc-sec-classroom-pair" class="nav-link" data-scroll-target="#sec-classroom-pair"><span class="header-section-number">10.6</span> Programación en parejas</a></li>
+  <li><a href="#sec-classroom-notetaking" id="toc-sec-classroom-notetaking" class="nav-link" data-scroll-target="#sec-classroom-notetaking"><span class="header-section-number">10.7</span> Tomar notas…¿juntas/os?</a></li>
+  <li><a href="#sec-classroom-sticky-notes" id="toc-sec-classroom-sticky-notes" class="nav-link" data-scroll-target="#sec-classroom-sticky-notes"><span class="header-section-number">10.8</span> Notas adhesivas</a>
   <ul class="collapse">
-  <li><a href="#como-indicadores-de-estado" id="toc-como-indicadores-de-estado" class="nav-link" data-scroll-target="#como-indicadores-de-estado"><span class="toc-section-number">10.8.1</span>  Como <span data-i="notas adhesivas!como indicadores de estado">indicadores de estado</span></a></li>
-  <li><a href="#para-distribuir-atención" id="toc-para-distribuir-atención" class="nav-link" data-scroll-target="#para-distribuir-atención"><span class="toc-section-number">10.8.2</span>  Para <span data-i="notas adhesivas!para distribuir atención">distribuir atención</span></a></li>
-  <li><a href="#como-tarjetas-de-actas" id="toc-como-tarjetas-de-actas" class="nav-link" data-scroll-target="#como-tarjetas-de-actas"><span class="toc-section-number">10.8.3</span>  Como <span data-i="notas adhesivas!como tarjetas de actas">tarjetas de actas</span></a></li>
+  <li><a href="#como-indicadores-de-estado" id="toc-como-indicadores-de-estado" class="nav-link" data-scroll-target="#como-indicadores-de-estado"><span class="header-section-number">10.8.1</span> Como <span data-i="notas adhesivas!como indicadores de estado">indicadores de estado</span></a></li>
+  <li><a href="#para-distribuir-atención" id="toc-para-distribuir-atención" class="nav-link" data-scroll-target="#para-distribuir-atención"><span class="header-section-number">10.8.2</span> Para <span data-i="notas adhesivas!para distribuir atención">distribuir atención</span></a></li>
+  <li><a href="#como-tarjetas-de-actas" id="toc-como-tarjetas-de-actas" class="nav-link" data-scroll-target="#como-tarjetas-de-actas"><span class="header-section-number">10.8.3</span> Como <span data-i="notas adhesivas!como tarjetas de actas">tarjetas de actas</span></a></li>
   </ul></li>
-  <li><a href="#sec-classroom-blank" id="toc-sec-classroom-blank" class="nav-link" data-scroll-target="#sec-classroom-blank"><span class="toc-section-number">10.9</span>  Nunca una página en blanco</a></li>
-  <li><a href="#sec-classroom-setup" id="toc-sec-classroom-setup" class="nav-link" data-scroll-target="#sec-classroom-setup"><span class="toc-section-number">10.10</span>  Configuración del entorno de tus estudiantes</a></li>
-  <li><a href="#sec-classroom-practices" id="toc-sec-classroom-practices" class="nav-link" data-scroll-target="#sec-classroom-practices"><span class="toc-section-number">10.11</span>  Otras prácticas de enseñanza</a>
+  <li><a href="#sec-classroom-blank" id="toc-sec-classroom-blank" class="nav-link" data-scroll-target="#sec-classroom-blank"><span class="header-section-number">10.9</span> Nunca una página en blanco</a></li>
+  <li><a href="#sec-classroom-setup" id="toc-sec-classroom-setup" class="nav-link" data-scroll-target="#sec-classroom-setup"><span class="header-section-number">10.10</span> Configuración del entorno de tus estudiantes</a></li>
+  <li><a href="#sec-classroom-practices" id="toc-sec-classroom-practices" class="nav-link" data-scroll-target="#sec-classroom-practices"><span class="header-section-number">10.11</span> Otras prácticas de enseñanza</a>
   <ul class="collapse">
-  <li><a href="#comienza-con-introducciones" id="toc-comienza-con-introducciones" class="nav-link" data-scroll-target="#comienza-con-introducciones"><span class="toc-section-number">10.11.1</span>  Comienza con introducciones</a></li>
-  <li><a href="#configura-tu-propio-entorno" id="toc-configura-tu-propio-entorno" class="nav-link" data-scroll-target="#configura-tu-propio-entorno"><span class="toc-section-number">10.11.2</span>  Configura tu propio entorno</a></li>
-  <li><a href="#evita-dejar-tarea-para-la-casa" id="toc-evita-dejar-tarea-para-la-casa" class="nav-link" data-scroll-target="#evita-dejar-tarea-para-la-casa"><span class="toc-section-number">10.11.3</span>  Evita dejar tarea para la casa</a></li>
-  <li><a href="#no-toques-el-teclado-de-tu-estudiante" id="toc-no-toques-el-teclado-de-tu-estudiante" class="nav-link" data-scroll-target="#no-toques-el-teclado-de-tu-estudiante"><span class="toc-section-number">10.11.4</span>  No toques el teclado de tu estudiante</a></li>
-  <li><a href="#repite-la-pregunta" id="toc-repite-la-pregunta" class="nav-link" data-scroll-target="#repite-la-pregunta"><span class="toc-section-number">10.11.5</span>  Repite la pregunta</a></li>
-  <li><a href="#uno-arriba-uno-abajo" id="toc-uno-arriba-uno-abajo" class="nav-link" data-scroll-target="#uno-arriba-uno-abajo"><span class="toc-section-number">10.11.6</span>  Uno arriba, uno abajo</a></li>
-  <li><a href="#pide-que-tus-estudiantes-hagan-predicciones" id="toc-pide-que-tus-estudiantes-hagan-predicciones" class="nav-link" data-scroll-target="#pide-que-tus-estudiantes-hagan-predicciones"><span class="toc-section-number">10.11.8</span>  Pide que tus estudiantes hagan predicciones</a></li>
-  <li><a href="#configuración-de-mesas" id="toc-configuración-de-mesas" class="nav-link" data-scroll-target="#configuración-de-mesas"><span class="toc-section-number">10.11.9</span>  Configuración de mesas</a></li>
-  <li><a href="#pastillas-para-la-tos" id="toc-pastillas-para-la-tos" class="nav-link" data-scroll-target="#pastillas-para-la-tos"><span class="toc-section-number">10.11.10</span>  Pastillas para la tos</a></li>
-  <li><a href="#piensa-empareja-comparte" id="toc-piensa-empareja-comparte" class="nav-link" data-scroll-target="#piensa-empareja-comparte"><span class="toc-section-number">10.11.11</span>  Piensa, empareja, comparte</a></li>
-  <li><a href="#mañana-mediodía-y-noche" id="toc-mañana-mediodía-y-noche" class="nav-link" data-scroll-target="#mañana-mediodía-y-noche"><span class="toc-section-number">10.11.12</span>  Mañana, mediodía y noche</a></li>
-  <li><a href="#humor" id="toc-humor" class="nav-link" data-scroll-target="#humor"><span class="toc-section-number">10.11.13</span>  Humor</a></li>
+  <li><a href="#comienza-con-introducciones" id="toc-comienza-con-introducciones" class="nav-link" data-scroll-target="#comienza-con-introducciones"><span class="header-section-number">10.11.1</span> Comienza con introducciones</a></li>
+  <li><a href="#configura-tu-propio-entorno" id="toc-configura-tu-propio-entorno" class="nav-link" data-scroll-target="#configura-tu-propio-entorno"><span class="header-section-number">10.11.2</span> Configura tu propio entorno</a></li>
+  <li><a href="#evita-dejar-tarea-para-la-casa" id="toc-evita-dejar-tarea-para-la-casa" class="nav-link" data-scroll-target="#evita-dejar-tarea-para-la-casa"><span class="header-section-number">10.11.3</span> Evita dejar tarea para la casa</a></li>
+  <li><a href="#no-toques-el-teclado-de-tu-estudiante" id="toc-no-toques-el-teclado-de-tu-estudiante" class="nav-link" data-scroll-target="#no-toques-el-teclado-de-tu-estudiante"><span class="header-section-number">10.11.4</span> No toques el teclado de tu estudiante</a></li>
+  <li><a href="#repite-la-pregunta" id="toc-repite-la-pregunta" class="nav-link" data-scroll-target="#repite-la-pregunta"><span class="header-section-number">10.11.5</span> Repite la pregunta</a></li>
+  <li><a href="#uno-arriba-uno-abajo" id="toc-uno-arriba-uno-abajo" class="nav-link" data-scroll-target="#uno-arriba-uno-abajo"><span class="header-section-number">10.11.6</span> Uno arriba, uno abajo</a></li>
+  <li><a href="#pide-que-tus-estudiantes-hagan-predicciones" id="toc-pide-que-tus-estudiantes-hagan-predicciones" class="nav-link" data-scroll-target="#pide-que-tus-estudiantes-hagan-predicciones"><span class="header-section-number">10.11.8</span> Pide que tus estudiantes hagan predicciones</a></li>
+  <li><a href="#configuración-de-mesas" id="toc-configuración-de-mesas" class="nav-link" data-scroll-target="#configuración-de-mesas"><span class="header-section-number">10.11.9</span> Configuración de mesas</a></li>
+  <li><a href="#pastillas-para-la-tos" id="toc-pastillas-para-la-tos" class="nav-link" data-scroll-target="#pastillas-para-la-tos"><span class="header-section-number">10.11.10</span> Pastillas para la tos</a></li>
+  <li><a href="#piensa-empareja-comparte" id="toc-piensa-empareja-comparte" class="nav-link" data-scroll-target="#piensa-empareja-comparte"><span class="header-section-number">10.11.11</span> Piensa, empareja, comparte</a></li>
+  <li><a href="#mañana-mediodía-y-noche" id="toc-mañana-mediodía-y-noche" class="nav-link" data-scroll-target="#mañana-mediodía-y-noche"><span class="header-section-number">10.11.12</span> Mañana, mediodía y noche</a></li>
+  <li><a href="#humor" id="toc-humor" class="nav-link" data-scroll-target="#humor"><span class="header-section-number">10.11.13</span> Humor</a></li>
   </ul></li>
-  <li><a href="#sec-classroom-innovate" id="toc-sec-classroom-innovate" class="nav-link" data-scroll-target="#sec-classroom-innovate"><span class="toc-section-number">10.12</span>  Limita la innovación</a></li>
-  <li><a href="#sec-classroom-exercises" id="toc-sec-classroom-exercises" class="nav-link" data-scroll-target="#sec-classroom-exercises"><span class="toc-section-number">10.13</span>  Ejercicios</a>
+  <li><a href="#sec-classroom-innovate" id="toc-sec-classroom-innovate" class="nav-link" data-scroll-target="#sec-classroom-innovate"><span class="header-section-number">10.12</span> Limita la innovación</a></li>
+  <li><a href="#sec-classroom-exercises" id="toc-sec-classroom-exercises" class="nav-link" data-scroll-target="#sec-classroom-exercises"><span class="header-section-number">10.13</span> Ejercicios</a>
   <ul class="collapse">
-  <li><a href="#crea-un-cuestionario-individual20" id="toc-crea-un-cuestionario-individual20" class="nav-link" data-scroll-target="#crea-un-cuestionario-individual20"><span class="toc-section-number">10.13.1</span>  Crea un cuestionario (individual/20’)</a></li>
-  <li><a href="#una-práctica-de-enseñanza-propia-pensar-emparejar-compartir15" id="toc-una-práctica-de-enseñanza-propia-pensar-emparejar-compartir15" class="nav-link" data-scroll-target="#una-práctica-de-enseñanza-propia-pensar-emparejar-compartir15"><span class="toc-section-number">10.13.2</span>  Una práctica de enseñanza propia (pensar-emparejar-compartir/15’)</a></li>
-  <li><a href="#puedo-conducir-parejas10" id="toc-puedo-conducir-parejas10" class="nav-link" data-scroll-target="#puedo-conducir-parejas10"><span class="toc-section-number">10.13.3</span>  ¿Puedo conducir? (parejas/10’)</a></li>
-  <li><a href="#emparejar-parejas15" id="toc-emparejar-parejas15" class="nav-link" data-scroll-target="#emparejar-parejas15"><span class="toc-section-number">10.13.4</span>  Emparejar (parejas/15’)</a></li>
-  <li><a href="#compara-notas-grupos-pequeños15" id="toc-compara-notas-grupos-pequeños15" class="nav-link" data-scroll-target="#compara-notas-grupos-pequeños15"><span class="toc-section-number">10.13.5</span>  Compara notas (grupos pequeños/15’)</a></li>
-  <li><a href="#credibilidad-individual15" id="toc-credibilidad-individual15" class="nav-link" data-scroll-target="#credibilidad-individual15"><span class="toc-section-number">10.13.6</span>  Credibilidad (individual/15’)</a></li>
-  <li><a href="#medir-la-eficacia-individual15" id="toc-medir-la-eficacia-individual15" class="nav-link" data-scroll-target="#medir-la-eficacia-individual15"><span class="toc-section-number">10.13.7</span>  Medir la eficacia (individual/15’)</a></li>
-  <li><a href="#objeciones-y-contraobjeciones-piensa-empareja-comparte15" id="toc-objeciones-y-contraobjeciones-piensa-empareja-comparte15" class="nav-link" data-scroll-target="#objeciones-y-contraobjeciones-piensa-empareja-comparte15"><span class="toc-section-number">10.13.8</span>  Objeciones y contraobjeciones (piensa-empareja-comparte/15’)</a></li>
+  <li><a href="#crea-un-cuestionario-individual20" id="toc-crea-un-cuestionario-individual20" class="nav-link" data-scroll-target="#crea-un-cuestionario-individual20"><span class="header-section-number">10.13.1</span> Crea un cuestionario (individual/20’)</a></li>
+  <li><a href="#una-práctica-de-enseñanza-propia-pensar-emparejar-compartir15" id="toc-una-práctica-de-enseñanza-propia-pensar-emparejar-compartir15" class="nav-link" data-scroll-target="#una-práctica-de-enseñanza-propia-pensar-emparejar-compartir15"><span class="header-section-number">10.13.2</span> Una práctica de enseñanza propia (pensar-emparejar-compartir/15’)</a></li>
+  <li><a href="#puedo-conducir-parejas10" id="toc-puedo-conducir-parejas10" class="nav-link" data-scroll-target="#puedo-conducir-parejas10"><span class="header-section-number">10.13.3</span> ¿Puedo conducir? (parejas/10’)</a></li>
+  <li><a href="#emparejar-parejas15" id="toc-emparejar-parejas15" class="nav-link" data-scroll-target="#emparejar-parejas15"><span class="header-section-number">10.13.4</span> Emparejar (parejas/15’)</a></li>
+  <li><a href="#compara-notas-grupos-pequeños15" id="toc-compara-notas-grupos-pequeños15" class="nav-link" data-scroll-target="#compara-notas-grupos-pequeños15"><span class="header-section-number">10.13.5</span> Compara notas (grupos pequeños/15’)</a></li>
+  <li><a href="#credibilidad-individual15" id="toc-credibilidad-individual15" class="nav-link" data-scroll-target="#credibilidad-individual15"><span class="header-section-number">10.13.6</span> Credibilidad (individual/15’)</a></li>
+  <li><a href="#medir-la-eficacia-individual15" id="toc-medir-la-eficacia-individual15" class="nav-link" data-scroll-target="#medir-la-eficacia-individual15"><span class="header-section-number">10.13.7</span> Medir la eficacia (individual/15’)</a></li>
+  <li><a href="#objeciones-y-contraobjeciones-piensa-empareja-comparte15" id="toc-objeciones-y-contraobjeciones-piensa-empareja-comparte15" class="nav-link" data-scroll-target="#objeciones-y-contraobjeciones-piensa-empareja-comparte15"><span class="header-section-number">10.13.8</span> Objeciones y contraobjeciones (piensa-empareja-comparte/15’)</a></li>
   </ul></li>
   </ul>
 <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/yabellini/t3es2ed/edit/main/classroom.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/yabellini/t3es2ed/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
@@ -309,7 +342,7 @@ div.csl-indent {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span id="sec-classroom" class="quarto-section-identifier d-none d-lg-block"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">En el salón de clase</span></span></h1>
+<h1 class="title"><span id="sec-classroom" class="quarto-section-identifier"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">En el salón de clase</span></span></h1>
 </div>
 
 
@@ -324,17 +357,17 @@ div.csl-indent {
 
 </header>
 
-<div class="callout-note callout callout-style-default callout-captioned">
+<div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Segunda edición
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Estás leyendo la segunda edición en progreso y en castellano de Enseñar Tecnología en Comunidad (Teaching Tech Together). Este capítulo está siendo objeto de una profunda reestructuración y puede resultar confuso o incompleto</p>
+<p>Estás leyendo la segunda edición en progreso y en castellano de Enseñar Tecnología en Comunidad (Teaching Tech Together). Este capítulo está siendo objeto de una profunda reestructuración y puede resultar confuso o incompleto.</p>
 </div>
 </div>
 <p>El capítulo anterior describió cómo practicar la enseñanza de una lección y describió un método—programación en vivo—que permite a las/los docentes adaptarse al ritmo y los intereses de sus estudiantes. Este capítulo describe otras prácticas que también son útiles en clases de programación.</p>
@@ -430,7 +463,7 @@ Segunda edición
 <h2 data-number="10.4" class="anchored" data-anchor-id="sec-classroom-prior"><span class="header-section-number">10.4</span> Evaluar conocimientos previos</h2>
 <p>Cuanto más sepas sobre tus estudiantes antes de comenzar a enseñar, más podrás ayudarles. Dentro de un sistema escolar formal, los pre-requisitos de tu curso te darán información sobre lo que probablemente ya sepan. Sin embargo, en un entorno free-range, tus estudiantes pueden ser mucho más diversas/os, por lo que es posible que quieras hacerles una breve encuesta o cuestionario antes de la clase para averiguar qué conocimientos y habilidades tienen.</p>
 <p>Pedir a las personas que se <span data-i="auto-evaluación (peligros de)">califiquen a sí mismas</span> en una escala del 1 al 5 no tiene sentido porque cuanto menos saben las personas sobre un tema, con menor precisión pueden estimar sus conocimientos (<span class="quarto-unresolved-ref">?fig-classroom-dunning-kruger</span>, de [Neurologica][dunning-kruger-critique]), un fenómeno llamado <span data-g="dunning-kruger-effect">efecto Dunning-Kruger</span> <span class="citation" data-cites="Krug1999">Kruger and Dunning (<a href="#ref-Krug1999" role="doc-biblioref">1999</a>)</span>. Por el contrario, las personas que integran grupos sub-representados a menudo subestiman sus habilidades.</p>
-<p><img src="diagrams/dunning-kruger.png" class="img-fluid" alt="El efecto Dunning-Kruger">{fig-classroom-dunning-kruger fig-alt = “el gráfico muestra una escala de 0 a 100 en el eje vertical y en el eje horizontal las etiquetas:”Primer cuartil”, “Segundo cuartil”, “Tercer cuartil” y “Cuarto cuartil”, en ese orden. Hay tres series graficadas, la correspondiente a la “habilidad percibida” en el primer cuartil toma valores entre 50 y 60 que son muy similares a los presentes en el segundo cuartil. El tercer cuartil presenta valores por encima de 60 y el cuarto cuartil valores cercanos a 80. La serie “puntaje recibido en la prueba”, copia de forma casi idéntica la serie “habilidad percibida”. La serie “puntuación real de la prueba” toma valores cercanos a 10 en el primer cuartil, valores cercanos a 30 en el segundo cuartil, cercanos a 60 en el tercer cuartil y entre 80 y 90 para el cuarto cuartil.” }</p>
+<p><img src="diagrams/dunning-kruger.png" class="quarto-discovered-preview-image img-fluid" alt="El efecto Dunning-Kruger">{fig-classroom-dunning-kruger fig-alt = “el gráfico muestra una escala de 0 a 100 en el eje vertical y en el eje horizontal las etiquetas:”Primer cuartil”, “Segundo cuartil”, “Tercer cuartil” y “Cuarto cuartil”, en ese orden. Hay tres series graficadas, la correspondiente a la “habilidad percibida” en el primer cuartil toma valores entre 50 y 60 que son muy similares a los presentes en el segundo cuartil. El tercer cuartil presenta valores por encima de 60 y el cuarto cuartil valores cercanos a 80. La serie “puntaje recibido en la prueba”, copia de forma casi idéntica la serie “habilidad percibida”. La serie “puntuación real de la prueba” toma valores cercanos a 10 en el primer cuartil, valores cercanos a 30 en el segundo cuartil, cercanos a 60 en el tercer cuartil y entre 80 y 90 para el cuarto cuartil.” }</p>
 <p>En lugar de pedirles a las personas que se autoevalúen, puedes preguntarles con qué facilidad podrían completar algunas tareas específicas. Sin embargo, hacer esto es arriesgado: la escuela entrena a las personas para que traten cualquier cosa que parezca un examen como algo que tienen que aprobar, en lugar de tomarlo como una oportunidad para dar forma a la instrucción. Si alguien responde “No sé” incluso a un par de preguntas en su pre-evaluación, podría concluir que tu clase es demasiado avanzada para su nivel. Por lo tanto, es posible que asustes a muchas de las personas que más deseas ayudar.</p>
 <p>La <a href="checklists.html#sec-checklists-preassess"><span>Section&nbsp;24.6</span></a> presenta un breve cuestionario de pre-evaluación que la mayoría de tus potenciales estudiantes no va a encontrar intimidante. Si usas este formulario o una herramienta parecida, trata de hacer un seguimiento a las personas que <em>no</em> respondan para averiguar por qué no lo hicieron. Además, compara tu evaluación con la que las personas hicieron de sí mismas, de modo de mejorar tus preguntas en el futuro.</p>
 </section>
@@ -675,98 +708,98 @@ Segunda edición
 <p>Trabajando por tu cuenta, encuentra respuestas a estas objeciones. Luego, comparte tus respuestas con una/un compañera/o y discutan los enfoques a los que han llegado. Cuando hayan terminado, compartan su aproximación favorita con la clase.</p>
 
 
-<div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography">
-<div id="ref-Aike1975" class="csl-entry" role="doc-biblioentry">
+<div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-Aike1975" class="csl-entry" role="listitem">
 Aiken, Edwin G., Gary S. Thomas, and William A. Shennum. 1975. <span>“Memory for a Lecture: Effects of Notes, Lecture Rate, and Informational Density.”</span> <em>Journal of Educational Psychology</em> 67 (3): 439–44. <a href="https://doi.org/10.1037/h0076613">https://doi.org/10.1037/h0076613</a>.
 </div>
-<div id="ref-Alvi1999" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Alvi1999" class="csl-entry" role="listitem">
 Alvidrez, Jennifer, and Rhona S. Weinstein. 1999. <span>“Early Teacher Perceptions and Later Student Academic Achievement.”</span> <em>Journal of Educational Psychology</em> 91 (4): 731–46. <a href="https://doi.org/10.1037/0022-0663.91.4.731">https://doi.org/10.1037/0022-0663.91.4.731</a>.
 </div>
-<div id="ref-Auro2019" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Auro2019" class="csl-entry" role="listitem">
 Aurora, Valerie, and Mary Gardiner. 2019. <em>How to Respond to Code of Conduct Reports</em>. Version 1.1. Frame Shift Consulting LLC.
 </div>
-<div id="ref-Bloo1984" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Bloo1984" class="csl-entry" role="listitem">
 Bloom, Benjamin S. 1984. <span>“The 2 Sigma Problem: The Search for Methods of Group Instruction as Effective as One-to-One Tutoring.”</span> <em>Educational Researcher</em> 13 (6): 4–16. <a href="https://doi.org/10.3102/0013189x013006004">https://doi.org/10.3102/0013189x013006004</a>.
 </div>
-<div id="ref-Boha2011" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Boha2011" class="csl-entry" role="listitem">
 Bohay, Mark, Daniel P. Blakely, Andrea K. Tamplin, and Gabriel A. Radvansky. 2011. <span>“Note Taking, Review, Memory, and Comprehension.”</span> <em>American Journal of Psychology</em> 124 (1): 63. <a href="https://doi.org/10.5406/amerjpsyc.124.1.0063">https://doi.org/10.5406/amerjpsyc.124.1.0063</a>.
 </div>
-<div id="ref-Cele2018" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Cele2018" class="csl-entry" role="listitem">
 Celepkolu, Mehmet, and Kristy Elizabeth Boyer. 2018. <span>“Thematic Analysis of Students’ Reflections on Pair Programming in <span>CS1</span>.”</span> In <em>2018 Technical Symposium on Computer Science Education (<span>SIGCSE’18</span>)</em>. Association for Computing Machinery (<span>ACM</span>). <a href="https://doi.org/10.1145/3159450.3159516">https://doi.org/10.1145/3159450.3159516</a>.
 </div>
-<div id="ref-Crou2001" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Crou2001" class="csl-entry" role="listitem">
 Crouch, Catherine H., and Eric Mazur. 2001. <span>“Peer Instruction: Ten Years of Experience and Results.”</span> <em>American Journal of Physics</em> 69 (9): 970–77. <a href="https://doi.org/10.1119/1.1374249">https://doi.org/10.1119/1.1374249</a>.
 </div>
-<div id="ref-Fink2013" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Fink2013" class="csl-entry" role="listitem">
 Fink, L. Dee. 2013. <em>Creating Significant Learning Experiences: An Integrated Approach to Designing College Courses</em>. Jossey-Bass.
 </div>
-<div id="ref-Frie2016" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Frie2016" class="csl-entry" role="listitem">
 Friend, Marilyn, and Lynne Cook. 2016. <em>Interactions: Collaboration Skills for School Professionals</em>. Eighth. Pearson.
 </div>
-<div id="ref-Hank2011" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Hank2011" class="csl-entry" role="listitem">
 Hanks, Brian, Sue Fitzgerald, Renée McCauley, Laurie Murphy, and Carol Zander. 2011. <span>“Pair Programming in Education: A Literature Review.”</span> <em>Computer Science Education</em> 21 (2): 135–73. <a href="https://doi.org/10.1080/08993408.2011.579808">https://doi.org/10.1080/08993408.2011.579808</a>.
 </div>
-<div id="ref-Hann2010" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Hann2010" class="csl-entry" role="listitem">
 Hannay, Jo Erskine, Erik Arisholm, Harald Engvik, and Dag I. K. Sjøberg. 2010. <span>“Effects of Personality on Pair Programming.”</span> <em><span>IEEE</span> Transactions on Software Engineering</em> 36 (1): 61–80. <a href="https://doi.org/10.1109/tse.2009.41">https://doi.org/10.1109/tse.2009.41</a>.
 </div>
-<div id="ref-Hann2009" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Hann2009" class="csl-entry" role="listitem">
 Hannay, Jo Erskine, Tore Dybå, Erik Arisholm, and Dag I. K. Sjøberg. 2009. <span>“The Effectiveness of Pair Programming: A Meta-Analysis.”</span> <em>Information and Software Technology</em> 51 (7): 1110–22. <a href="https://doi.org/10.1016/j.infsof.2009.02.001">https://doi.org/10.1016/j.infsof.2009.02.001</a>.
 </div>
-<div id="ref-Juss2005" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Juss2005" class="csl-entry" role="listitem">
 Jussim, Lee, and Kent D. Harber. 2005. <span>“Teacher Expectations and Self-Fulfilling Prophecies: Knowns and Unknowns, Resolved and Unresolved Controversies.”</span> <em>Personality and Social Psychology Review</em> 9 (2): 131–55. <a href="https://doi.org/10.1207/s15327957pspr0902_3">https://doi.org/10.1207/s15327957pspr0902_3</a>.
 </div>
-<div id="ref-Kirk1994" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Kirk1994" class="csl-entry" role="listitem">
 Kirkpatrick, Donald L. 1994. <em>Evaluating Training Programs: The Four Levels</em>. Berrett-Koehle.
 </div>
-<div id="ref-Krug1999" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Krug1999" class="csl-entry" role="listitem">
 Kruger, Justin, and David Dunning. 1999. <span>“Unskilled and Unaware of It: How Difficulties in Recognizing One’s Own Incompetence Lead to Inflated Self-Assessments.”</span> <em>Journal of Personality and Social Psychology</em> 77 (6): 1121–34. <a href="https://doi.org/10.1037/0022-3514.77.6.1121">https://doi.org/10.1037/0022-3514.77.6.1121</a>.
 </div>
-<div id="ref-Lewi2015" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Lewi2015" class="csl-entry" role="listitem">
 Lewis, Colleen M., and Niral Shah. 2015. <span>“How Equity and Inequity Can Emerge in Pair Programming.”</span> In <em>2015 International Computing Education Research Conference (<span>ICER’15</span>)</em>. Association for Computing Machinery (<span>ACM</span>). <a href="https://doi.org/10.1145/2787622.2787716">https://doi.org/10.1145/2787622.2787716</a>.
 </div>
-<div id="ref-Marg2010" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Marg2010" class="csl-entry" role="listitem">
 Margolis, Jane, Rachel Estrella, Joanna Goode, Jennifer Jellison Holme, and Kim Nao. 2010. <em>Stuck in the Shallow End: Education, Race, and Computing</em>. <span>MIT</span> Press.
 </div>
-<div id="ref-Mazu1996" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Mazu1996" class="csl-entry" role="listitem">
 Mazur, Eric. 1996. <em>Peer Instruction: A User’s Manual</em>. Prentice-Hall.
 </div>
-<div id="ref-McDo2006" class="csl-entry" role="doc-biblioentry">
+<div id="ref-McDo2006" class="csl-entry" role="listitem">
 McDowell, Charlie, Linda Werner, Heather E. Bullock, and Julian Fernald. 2006. <span>“Pair Programming Improves Student Retention, Confidence, and Program Quality.”</span> <em>Communications of the <span>ACM</span></em> 49 (8): 90–95. <a href="https://doi.org/10.1145/1145287.1145293">https://doi.org/10.1145/1145287.1145293</a>.
 </div>
-<div id="ref-Mill2013" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Mill2013" class="csl-entry" role="listitem">
 Miller, Kelly, Nathaniel Lasry, Kelvin Chu, and Eric Mazur. 2013. <span>“Role of Physics Lecture Demonstrations in Conceptual Learning.”</span> <em>Physical Review Special Topics - Physics Education Research</em> 9 (2). <a href="https://doi.org/10.1103/physrevstper.9.020113">https://doi.org/10.1103/physrevstper.9.020113</a>.
 </div>
-<div id="ref-More2019" class="csl-entry" role="doc-biblioentry">
+<div id="ref-More2019" class="csl-entry" role="listitem">
 Morehead, Kayla, John Dunlosky, and Katherine A. Rawson. 2019. <span>“How Much Mightier Is the Pen Than the Keyboard for Note-Taking? A Replication and Extension of Mueller and Oppenheimer (2014).”</span> <em>Educational Psychology Review</em>, February. <a href="https://doi.org/10.1007/s10648-019-09468-2">https://doi.org/10.1007/s10648-019-09468-2</a>.
 </div>
-<div id="ref-Muel2014" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Muel2014" class="csl-entry" role="listitem">
 Mueller, Pam A., and Daniel M. Oppenheimer. 2014. <span>“The Pen Is Mightier Than the Keyboard.”</span> <em>Psychological Science</em> 25 (6): 1159–68. <a href="https://doi.org/10.1177/0956797614524581">https://doi.org/10.1177/0956797614524581</a>.
 </div>
-<div id="ref-Ornd2015" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Ornd2015" class="csl-entry" role="listitem">
 Orndorff III, Harold N. 2015. <span>“Collaborative Note-Taking: The Impact of Cloud Computing on Classroom Performance.”</span> <em>International Journal of Teaching and Learning in Higher Education</em> 27 (3): 340–51.
 </div>
-<div id="ref-Part2011" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Part2011" class="csl-entry" role="listitem">
 Partanen, Anu. 2011. <span>“What Americans Keep Ignoring about Finland’s School Success.”</span> https://www.theatlantic.com/national/archive/2011/12/what-americans-keep-ignoring-about-finlands-school-success/250564/.
 </div>
-<div id="ref-Port2016" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Port2016" class="csl-entry" role="listitem">
 Porter, Leo, Dennis Bouvier, Quintin Cutts, Scott Grissom, Cynthia Bailey Lee, Robert McCartney, Daniel Zingaro, and Beth Simon. 2016. <span>“A Multi-Institutional Study of Peer Instruction in Introductory Computing.”</span> In <em>2016 Technical Symposium on Computer Science Education (<span>SIGCSE’16</span>)</em>. Association for Computing Machinery (<span>ACM</span>). <a href="https://doi.org/10.1145/2839509.2844642">https://doi.org/10.1145/2839509.2844642</a>.
 </div>
-<div id="ref-Port2013" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Port2013" class="csl-entry" role="listitem">
 Porter, Leo, Mark Guzdial, Charlie McDowell, and Beth Simon. 2013. <span>“Success in Introductory Programming: What Works?”</span> <em>Communications of the <span>ACM</span></em> 56 (8): 34. <a href="https://doi.org/10.1145/2492007.2492020">https://doi.org/10.1145/2492007.2492020</a>.
 </div>
-<div id="ref-Smar2018" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Smar2018" class="csl-entry" role="listitem">
 Smarr, Benjamin L., and Aaron E. Schirmer. 2018. <span>“3.4 Million Real-World Learning Management System Logins Reveal the Majority of Students Experience Social Jet Lag Correlated with Decreased Performance.”</span> <em>Scientific Reports</em> 8 (1). <a href="https://doi.org/10.1038/s41598-018-23044-8">https://doi.org/10.1038/s41598-018-23044-8</a>.
 </div>
-<div id="ref-Smit2009" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Smit2009" class="csl-entry" role="listitem">
 Smith, Michelle K., William B. Wood, Wendy K. Adams, Carl E. Wieman, Jennifer K. Knight, N. Guild, and T. T. Su. 2009. <span>“Why Peer Discussion Improves Student Performance on in-Class Concept Questions.”</span> <em>Science</em> 323 (5910): 122–24. <a href="https://doi.org/10.1126/science.1165919">https://doi.org/10.1126/science.1165919</a>.
 </div>
-<div id="ref-Wall2009" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Wall2009" class="csl-entry" role="listitem">
 Walle, Thorbjorn, and Jo Erskine Hannay. 2009. <span>“Personality and the Nature of Collaboration in Pair Programming.”</span> In <em>2009 International Symposium on Empirical Software Engineering and Measurement (<span>ESER’09</span>)</em>. Institute of Electrical; Electronics Engineers (<span>IEEE</span>). <a href="https://doi.org/10.1109/esem.2009.5315996">https://doi.org/10.1109/esem.2009.5315996</a>.
 </div>
-<div id="ref-Ward2015" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Ward2015" class="csl-entry" role="listitem">
 Ward, James. 2015. <em>Adventures in Stationery: A Journey Through Your Pencil Case</em>. Profile Books.
 </div>
-<div id="ref-Yang2015" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Yang2015" class="csl-entry" role="listitem">
 Yang, Yu-Fen, and Yuan-Yu Lin. 2015. <span>“Online Collaborative Note-Taking Strategies to Foster <span>EFL</span> Beginners’ Literacy Development.”</span> <em>System</em> 52 (August): 127–38. <a href="https://doi.org/10.1016/j.system.2015.05.006">https://doi.org/10.1016/j.system.2015.05.006</a>.
 </div>
 </div>
@@ -801,9 +834,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -868,6 +915,92 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {
@@ -923,6 +1056,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">Enseñar Tecnología en Comunidad (2e) fue escrito por Greg Wilson y Yanina Bellini Saibene.</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
     <div class="nav-footer-right">El libro fue construido con <a href="https://quarto.org/">Quarto</a>.</div>
   </div>
 </footer>

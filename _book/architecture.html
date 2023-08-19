@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.269">
+<meta name="generator" content="quarto-1.3.290">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -17,14 +17,15 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for citations */
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
 }
-.hanging div.csl-entry {
+.hanging-indent div.csl-entry {
   margin-left:2em;
   text-indent:-2em;
 }
@@ -38,8 +39,7 @@ div.csl-right-inline {
 }
 div.csl-indent {
   margin-left: 2em;
-}
-</style>
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -87,11 +87,16 @@ div.csl-indent {
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-    <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Arquitectura Cognitiva</span></h1>
-      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
-        <i class="bi bi-chevron-right"></i>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./architecture.html"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Arquitectura Cognitiva</span></a></li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
       </button>
     </div>
   </nav>
@@ -99,186 +104,214 @@ div.csl-indent {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Enseñar Tecnología en Comunidad (2e)</a> 
         <div class="sidebar-tools-main">
-    <a href="https://github.com/yabellini/t3es2ed" title="Source Code" class="sidebar-tool px-1"><i class="bi bi-github"></i></a>
+    <a href="https://github.com/yabellini/t3es2ed" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
 </div>
     </div>
       </div>
-      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="mt-2 flex-shrink-0 align-items-center">
         <div class="sidebar-search">
         <div id="quarto-search" class="" title="Search"></div>
         </div>
-      </div>
+        </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link">Preface</a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Preface</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./rules.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Las reglas</span></a>
+  <a href="./rules.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Las reglas</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./intro.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Introducción</span></a>
+  <a href="./intro.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Introducción</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./models.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Modelos mentales y evaluación formativa</span></a>
+  <a href="./models.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Modelos mentales y evaluación formativa</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./memory.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Pericia y memoria</span></a>
+  <a href="./memory.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Pericia y memoria</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./architecture.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Arquitectura Cognitiva</span></a>
+  <a href="./architecture.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Arquitectura Cognitiva</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./individual.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Aprendizaje individual</span></a>
+  <a href="./individual.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Aprendizaje individual</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./process.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Un proceso para diseñar lecciones</span></a>
+  <a href="./process.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Un proceso para diseñar lecciones</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./pck.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Conocimiento de la pedagogía del contenido</span></a>
+  <a href="./pck.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Conocimiento de la pedagogía del contenido</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./performance.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Enseñar como un arte performativo</span></a>
+  <a href="./performance.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Enseñar como un arte performativo</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./classroom.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">En el salón de clase</span></a>
+  <a href="./classroom.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">En el salón de clase</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./motivation.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Motivación y desmotivación</span></a>
+  <a href="./motivation.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Motivación y desmotivación</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./online.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Enseñar en línea</span></a>
+  <a href="./online.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Enseñar en línea</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./exercises.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Tipos de ejercicios</span></a>
+  <a href="./exercises.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Tipos de ejercicios</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./community.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Construyendo una comunidad de práctica</span></a>
+  <a href="./community.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Construyendo una comunidad de práctica</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./events.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Tipos de Eventos</span></a>
+  <a href="./events.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Tipos de Eventos</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./outreach.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Difusión y vinculación</span></a>
+  <a href="./outreach.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Difusión y vinculación</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./paid.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Como vivir de enseñar</span></a>
+  <a href="./paid.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Como vivir de enseñar</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./finale.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">¿Por qué enseñamos?</span></a>
+  <a href="./finale.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">¿Por qué enseñamos?</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./license.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Licencia</span></a>
+  <a href="./license.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Licencia</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./conduct.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title">Código de conducta</span></a>
+  <a href="./conduct.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title">Código de conducta</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./joining.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">21</span>&nbsp; <span class="chapter-title">Unirse a nuestra comunidad</span></a>
+  <a href="./joining.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">21</span>&nbsp; <span class="chapter-title">Unirse a nuestra comunidad</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./glossary.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">glossary.html</span></a>
+  <a href="./glossary.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">glossary.html</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./meetings.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">23</span>&nbsp; <span class="chapter-title">Reuniones, reuniones, reuniones</span></a>
+  <a href="./meetings.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">23</span>&nbsp; <span class="chapter-title">Reuniones, reuniones, reuniones</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./checklists.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">24</span>&nbsp; <span class="chapter-title">Listas de verificación y plantillas</span></a>
+  <a href="./checklists.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">24</span>&nbsp; <span class="chapter-title">Listas de verificación y plantillas</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./conceptmaps.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">25</span>&nbsp; <span class="chapter-title">Ejemplos de Mapas Conceptuales</span></a>
+  <a href="./conceptmaps.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">25</span>&nbsp; <span class="chapter-title">Ejemplos de Mapas Conceptuales</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./chunking.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">26</span>&nbsp; <span class="chapter-title">“Solución del ejercicio de particionar”</span></a>
+  <a href="./chunking.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">26</span>&nbsp; <span class="chapter-title">“Solución del ejercicio de particionar”</span></span></a>
   </div>
 </li>
     </ul>
     </div>
 </nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#sec-architecture-brain" id="toc-sec-architecture-brain" class="nav-link active" data-scroll-target="#sec-architecture-brain"><span class="toc-section-number">5.1</span>  ¿Qué es lo que sucede allí?</a></li>
-  <li><a href="#sec-architecture-load" id="toc-sec-architecture-load" class="nav-link" data-scroll-target="#sec-architecture-load"><span class="toc-section-number">5.2</span>  Carga cognitiva</a>
+  <li><a href="#sec-architecture-brain" id="toc-sec-architecture-brain" class="nav-link active" data-scroll-target="#sec-architecture-brain"><span class="header-section-number">5.1</span> ¿Qué es lo que sucede allí?</a></li>
+  <li><a href="#sec-architecture-load" id="toc-sec-architecture-load" class="nav-link" data-scroll-target="#sec-architecture-load"><span class="header-section-number">5.2</span> Carga cognitiva</a>
   <ul class="collapse">
-  <li><a href="#sec-architecture-parsons" id="toc-sec-architecture-parsons" class="nav-link" data-scroll-target="#sec-architecture-parsons"><span class="toc-section-number">5.2.1</span>  Problemas de Parsons</a></li>
-  <li><a href="#sec-architecture-faded" id="toc-sec-architecture-faded" class="nav-link" data-scroll-target="#sec-architecture-faded"><span class="toc-section-number">5.2.2</span>  Ejemplos desvanecidos (o con espacios en blanco)</a></li>
-  <li><a href="#sec-architecture-subgoal" id="toc-sec-architecture-subgoal" class="nav-link" data-scroll-target="#sec-architecture-subgoal"><span class="toc-section-number">5.2.4</span>  Sub-objetivos etiquetados</a></li>
-  <li><a href="#sec-architecture-minimal-manual" id="toc-sec-architecture-minimal-manual" class="nav-link" data-scroll-target="#sec-architecture-minimal-manual"><span class="toc-section-number">5.2.5</span>  Manuales mínimos</a></li>
+  <li><a href="#sec-architecture-parsons" id="toc-sec-architecture-parsons" class="nav-link" data-scroll-target="#sec-architecture-parsons"><span class="header-section-number">5.2.1</span> Problemas de Parsons</a></li>
+  <li><a href="#sec-architecture-faded" id="toc-sec-architecture-faded" class="nav-link" data-scroll-target="#sec-architecture-faded"><span class="header-section-number">5.2.2</span> Ejemplos desvanecidos (o con espacios en blanco)</a></li>
+  <li><a href="#sec-architecture-subgoal" id="toc-sec-architecture-subgoal" class="nav-link" data-scroll-target="#sec-architecture-subgoal"><span class="header-section-number">5.2.4</span> Sub-objetivos etiquetados</a></li>
+  <li><a href="#sec-architecture-minimal-manual" id="toc-sec-architecture-minimal-manual" class="nav-link" data-scroll-target="#sec-architecture-minimal-manual"><span class="header-section-number">5.2.5</span> Manuales mínimos</a></li>
   </ul></li>
-  <li><a href="#sec-architecture-theory" id="toc-sec-architecture-theory" class="nav-link" data-scroll-target="#sec-architecture-theory"><span class="toc-section-number">5.3</span>  Otros modelos de aprendizaje</a></li>
-  <li><a href="#sec-architecture-exercises" id="toc-sec-architecture-exercises" class="nav-link" data-scroll-target="#sec-architecture-exercises"><span class="toc-section-number">5.4</span>  Ejercicios</a>
+  <li><a href="#sec-architecture-theory" id="toc-sec-architecture-theory" class="nav-link" data-scroll-target="#sec-architecture-theory"><span class="header-section-number">5.3</span> Otros modelos de aprendizaje</a></li>
+  <li><a href="#sec-architecture-exercises" id="toc-sec-architecture-exercises" class="nav-link" data-scroll-target="#sec-architecture-exercises"><span class="header-section-number">5.4</span> Ejercicios</a>
   <ul class="collapse">
-  <li><a href="#crear-un-ejemplo-desvanecido-parejas30" id="toc-crear-un-ejemplo-desvanecido-parejas30" class="nav-link" data-scroll-target="#crear-un-ejemplo-desvanecido-parejas30"><span class="toc-section-number">5.4.1</span>  Crear un ejemplo desvanecido (parejas/30’)</a></li>
-  <li><a href="#clasificación-de-carga-grupos-pequeños15" id="toc-clasificación-de-carga-grupos-pequeños15" class="nav-link" data-scroll-target="#clasificación-de-carga-grupos-pequeños15"><span class="toc-section-number">5.4.2</span>  Clasificación de carga (grupos pequeños/15’)</a></li>
-  <li><a href="#crear-un-problema-de-parsons-en-parejas20" id="toc-crear-un-problema-de-parsons-en-parejas20" class="nav-link" data-scroll-target="#crear-un-problema-de-parsons-en-parejas20"><span class="toc-section-number">5.4.3</span>  Crear un problema de Parsons (en parejas/20’)</a></li>
-  <li><a href="#manuales-mínimos-individual20" id="toc-manuales-mínimos-individual20" class="nav-link" data-scroll-target="#manuales-mínimos-individual20"><span class="toc-section-number">5.4.4</span>  Manuales mínimos (individual/20’)</a></li>
-  <li><a href="#aprendizaje-cognitivo-parejas15" id="toc-aprendizaje-cognitivo-parejas15" class="nav-link" data-scroll-target="#aprendizaje-cognitivo-parejas15"><span class="toc-section-number">5.4.5</span>  Aprendizaje cognitivo (parejas/15’)</a></li>
-  <li><a href="#ejemplos-resueltos-parejas15" id="toc-ejemplos-resueltos-parejas15" class="nav-link" data-scroll-target="#ejemplos-resueltos-parejas15"><span class="toc-section-number">5.4.6</span>  Ejemplos resueltos (parejas/15’)</a></li>
-  <li><a href="#gráficos-críticos-individual30" id="toc-gráficos-críticos-individual30" class="nav-link" data-scroll-target="#gráficos-críticos-individual30"><span class="toc-section-number">5.4.7</span>  Gráficos críticos (individual/30’)</a></li>
+  <li><a href="#crear-un-ejemplo-desvanecido-parejas30" id="toc-crear-un-ejemplo-desvanecido-parejas30" class="nav-link" data-scroll-target="#crear-un-ejemplo-desvanecido-parejas30"><span class="header-section-number">5.4.1</span> Crear un ejemplo desvanecido (parejas/30’)</a></li>
+  <li><a href="#clasificación-de-carga-grupos-pequeños15" id="toc-clasificación-de-carga-grupos-pequeños15" class="nav-link" data-scroll-target="#clasificación-de-carga-grupos-pequeños15"><span class="header-section-number">5.4.2</span> Clasificación de carga (grupos pequeños/15’)</a></li>
+  <li><a href="#crear-un-problema-de-parsons-en-parejas20" id="toc-crear-un-problema-de-parsons-en-parejas20" class="nav-link" data-scroll-target="#crear-un-problema-de-parsons-en-parejas20"><span class="header-section-number">5.4.3</span> Crear un problema de Parsons (en parejas/20’)</a></li>
+  <li><a href="#manuales-mínimos-individual20" id="toc-manuales-mínimos-individual20" class="nav-link" data-scroll-target="#manuales-mínimos-individual20"><span class="header-section-number">5.4.4</span> Manuales mínimos (individual/20’)</a></li>
+  <li><a href="#aprendizaje-cognitivo-parejas15" id="toc-aprendizaje-cognitivo-parejas15" class="nav-link" data-scroll-target="#aprendizaje-cognitivo-parejas15"><span class="header-section-number">5.4.5</span> Aprendizaje cognitivo (parejas/15’)</a></li>
+  <li><a href="#ejemplos-resueltos-parejas15" id="toc-ejemplos-resueltos-parejas15" class="nav-link" data-scroll-target="#ejemplos-resueltos-parejas15"><span class="header-section-number">5.4.6</span> Ejemplos resueltos (parejas/15’)</a></li>
+  <li><a href="#gráficos-críticos-individual30" id="toc-gráficos-críticos-individual30" class="nav-link" data-scroll-target="#gráficos-críticos-individual30"><span class="header-section-number">5.4.7</span> Gráficos críticos (individual/30’)</a></li>
   </ul></li>
-  <li><a href="#sec-architecture-review" id="toc-sec-architecture-review" class="nav-link" data-scroll-target="#sec-architecture-review"><span class="toc-section-number">5.5</span>  Revisión</a></li>
+  <li><a href="#sec-architecture-review" id="toc-sec-architecture-review" class="nav-link" data-scroll-target="#sec-architecture-review"><span class="header-section-number">5.5</span> Revisión</a></li>
   </ul>
 <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/yabellini/t3es2ed/edit/main/architecture.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/yabellini/t3es2ed/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
     </div>
@@ -287,7 +320,7 @@ div.csl-indent {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span id="sec-architecture" class="quarto-section-identifier d-none d-lg-block"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Arquitectura Cognitiva</span></span></h1>
+<h1 class="title"><span id="sec-architecture" class="quarto-section-identifier"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Arquitectura Cognitiva</span></span></h1>
 </div>
 
 
@@ -302,17 +335,17 @@ div.csl-indent {
 
 </header>
 
-<div class="callout-note callout callout-style-default callout-captioned">
+<div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Segunda edición
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Estás leyendo la segunda edición en progreso y en castellano de Enseñar Tecnología en Comunidad (Teaching Tech Together). Este capítulo está siendo objeto de una reestructuración y puede resultar confuso o incompleto</p>
+<p>Estás leyendo la segunda edición en progreso y en castellano de Enseñar Tecnología en Comunidad (Teaching Tech Together). Este capítulo está siendo objeto de una reestructuración y puede resultar confuso o incompleto.</p>
 </div>
 </div>
 <p>Hemos hablado acerca de modelos mentales como si fueran cosas reales, pero ¿qué es lo que realmente sucede en el cerebro de una persona cuando está aprendiendo? La respuesta corta es que no lo sabemos, la respuesta larga es que sabemos mucho más que antes. Este capítulo profundizará en qué hace el cerebro mientras el aprendizaje sucede y en cómo podemos aprovecharlo para diseñar y brindar lecciones de manera más efectiva.</p>
@@ -320,7 +353,7 @@ Segunda edición
 <h2 data-number="5.1" class="anchored" data-anchor-id="sec-architecture-brain"><span class="header-section-number">5.1</span> ¿Qué es lo que sucede allí?</h2>
 <div id="fig-arch-model" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
-<p><img src="diagrams/cognitive-architecture.svg" class="img-fluid figure-img" alt="esquema que presenta dos recuadros principales, uno llamado 'memoria de largo plazo' y otro 'memoria de corto plazo'. El recuadro 'memoria de largo plazo' contiene un modelo mental de cajas y flechas que se relacionan entre sí. En el recuadro 'memoria de corto plazo', hay una caja representando al canal visual y otra caja representando al canal verbal. Desde ambas cajas salen una flecha hacia un signo más desde el cual sale una relación llamada 'codificar' hacia la memoria de largo plazo. Desde la memoria de largo plazo sale una relación llamada 'recuperar' hacia la memoria de corto plazo. Las imágenes tomadas a partir de los ojos y el habla registrada por medio de los oídos están por fuera de los dos recuadros principales y se relacionan con los canales visuales y verbales de la memoria a corto plazo, respectivamente."></p>
+<p><img src="diagrams/cognitive-architecture.svg" class="quarto-discovered-preview-image img-fluid figure-img" alt="esquema que presenta dos recuadros principales, uno llamado 'memoria de largo plazo' y otro 'memoria de corto plazo'. El recuadro 'memoria de largo plazo' contiene un modelo mental de cajas y flechas que se relacionan entre sí. En el recuadro 'memoria de corto plazo', hay una caja representando al canal visual y otra caja representando al canal verbal. Desde ambas cajas salen una flecha hacia un signo más desde el cual sale una relación llamada 'codificar' hacia la memoria de largo plazo. Desde la memoria de largo plazo sale una relación llamada 'recuperar' hacia la memoria de corto plazo. Las imágenes tomadas a partir de los ojos y el habla registrada por medio de los oídos están por fuera de los dos recuadros principales y se relacionan con los canales visuales y verbales de la memoria a corto plazo, respectivamente."></p>
 <p></p><figcaption class="figure-caption">Figure&nbsp;5.1: Arquitectura cognitiva</figcaption><p></p>
 </figure>
 </div>
@@ -622,80 +655,80 @@ define generar_acronimo(lista_de_palabras):
 <h2 data-number="5.5" class="anchored" data-anchor-id="sec-architecture-review"><span class="header-section-number">5.5</span> Revisión</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="diagrams/conceptmap-cognitive-load.svg" class="img-fluid figure-img" alt="el pensamiento está limitado por la carga cognitiva. Esta carga cognitiva puede ser intrísica (que es deseable), pertinente (que debería ser reducida) y extrínseca (que debería ser eliminada). El pensamiento accede a la memoria de corto plazo, el cual codificado pasa a la memoria de largo plazo desde la cual se puede recuperar a la memoría de corto plazo para ser utilizado. El discurso usa el canal lingüístico, las imágenes usan el canal visual y el texto usa ambos canales. El canal visual puede reforzar o puede conflictuar el canal lingüístico. Estos canales integrados se almacenan en la memoria de corto plazo."></p>
-<p></p><figcaption class="figure-caption">Conceptos: Carga cognitiva</figcaption><p></p>
+<p><img src="diagrams/conceptmap-cognitive-load.svg" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">el pensamiento está limitado por la carga cognitiva. Esta carga cognitiva puede ser intrísica (que es deseable), pertinente (que debería ser reducida) y extrínseca (que debería ser eliminada). El pensamiento accede a la memoria de corto plazo, el cual codificado pasa a la memoria de largo plazo desde la cual se puede recuperar a la memoría de corto plazo para ser utilizado. El discurso usa el canal lingüístico, las imágenes usan el canal visual y el texto usa ambos canales. El canal visual puede reforzar o puede conflictuar el canal lingüístico. Estos canales integrados se almacenan en la memoria de corto plazo.</figcaption><p></p>
 </figure>
 </div>
 
 
-<div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography">
-<div id="ref-Atki2000" class="csl-entry" role="doc-biblioentry">
+<div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-Atki2000" class="csl-entry" role="listitem">
 Atkinson, Robert K., Sharon J. Derry, Alexander Renkl, and Donald Wortham. 2000. <span>“Learning from Examples: Instructional Principles from the Worked Examples Research.”</span> <em>Review of Educational Research</em> 70 (2): 181–214. <a href="https://doi.org/10.3102/00346543070002181">https://doi.org/10.3102/00346543070002181</a>.
 </div>
-<div id="ref-Carr2014" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Carr2014" class="csl-entry" role="listitem">
 Carroll, John. 2014. <span>“Creating Minimalist Instruction.”</span> <em>International Journal of Designs for Learning</em> 5 (2). <a href="https://doi.org/10.14434/ijdl.v5i2.12887">https://doi.org/10.14434/ijdl.v5i2.12887</a>.
 </div>
-<div id="ref-Carr1987" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Carr1987" class="csl-entry" role="listitem">
 Carroll, John, Penny Smith-Kerker, James Ford, and Sandra Mazur-Rimetz. 1987. <span>“The Minimal Manual.”</span> <em>Human-Computer Interaction</em> 3 (2): 123–53. <a href="https://doi.org/10.1207/s15327051hci0302_2">https://doi.org/10.1207/s15327051hci0302_2</a>.
 </div>
-<div id="ref-Casp2007" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Casp2007" class="csl-entry" role="listitem">
 Caspersen, Michael E., and Jens Bennedsen. 2007. <span>“Instructional Design of a Programming Course.”</span> In <em>2007 International Computing Education Research Conference (<span>ICER’07</span>)</em>. Association for Computing Machinery (<span>ACM</span>). <a href="https://doi.org/10.1145/1288580.1288595">https://doi.org/10.1145/1288580.1288595</a>.
 </div>
-<div id="ref-Coll1991" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Coll1991" class="csl-entry" role="listitem">
 Collins, Allan, John Seely Brown, and Ann Holum. 1991. <span>“Cognitive Apprenticeship: Making Thinking Visible.”</span> <em>American Educator</em> 6: 38–46.
 </div>
-<div id="ref-Grif2016" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Grif2016" class="csl-entry" role="listitem">
 Griffin, Jean M. 2016. <span>“Learning by Taking Apart.”</span> In <em>2016 Conference on Information Technology Education (<span>SIGITE’16</span>)</em>. <span>ACM</span> Press. <a href="https://doi.org/10.1145/2978192.2978231">https://doi.org/10.1145/2978192.2978231</a>.
 </div>
-<div id="ref-Kaly2015" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Kaly2015" class="csl-entry" role="listitem">
 Kalyuga, Slava, and Anne-Marie Singh. 2015. <span>“Rethinking the Boundaries of Cognitive Load Theory in Complex Learning.”</span> <em>Educational Psychology Review</em> 28 (4): 831–52. <a href="https://doi.org/10.1007/s10648-015-9352-0">https://doi.org/10.1007/s10648-015-9352-0</a>.
 </div>
-<div id="ref-Kirs2006" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Kirs2006" class="csl-entry" role="listitem">
 Kirschner, Paul A., John Sweller, and Richard E. Clark. 2006. <span>“Why Minimal Guidance During Instruction Does Not Work: An Analysis of the Failure of Constructivist, Discovery, Problem-Based, Experiential, and Inquiry-Based Teaching.”</span> <em>Educational Psychologist</em> 41 (2): 75–86. <a href="https://doi.org/10.1207/s15326985ep4102_1">https://doi.org/10.1207/s15326985ep4102_1</a>.
 </div>
-<div id="ref-Kirs2018" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Kirs2018" class="csl-entry" role="listitem">
 Kirschner, Paul A., John Sweller, Femke Kirschner, and Jimmy Zambrano R. 2018. <span>“From Cognitive Load Theory to Collaborative Cognitive Load Theory.”</span> <em>International Journal of Computer-Supported Collaborative Learning</em>, April. <a href="https://doi.org/10.1007/s11412-018-9277-y">https://doi.org/10.1007/s11412-018-9277-y</a>.
 </div>
-<div id="ref-Lazo1993" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Lazo1993" class="csl-entry" role="listitem">
 Lazonder, Ard W., and Hans van der Meij. 1993. <span>“The Minimal Manual: Is Less Really More?”</span> <em>International Journal of Man-Machine Studies</em> 39 (5): 729–52. <a href="https://doi.org/10.1006/imms.1993.1081">https://doi.org/10.1006/imms.1993.1081</a>.
 </div>
-<div id="ref-Marg2016" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Marg2016" class="csl-entry" role="listitem">
 Margulieux, Lauren E., Richard Catrambone, and Mark Guzdial. 2016. <span>“Employing Subgoals in Computer Programming Education.”</span> <em>Computer Science Education</em> 26 (1): 44–67. <a href="https://doi.org/10.1080/08993408.2016.1144429">https://doi.org/10.1080/08993408.2016.1144429</a>.
 </div>
-<div id="ref-Marg2012" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Marg2012" class="csl-entry" role="listitem">
 Margulieux, Lauren E., Mark Guzdial, and Richard Catrambone. 2012. <span>“Subgoal-Labeled Instructional Material Improves Performance and Transfer in Learning to Develop Mobile Applications.”</span> In <em>2012 International Computing Education Research Conference (<span>ICER’12</span>)</em>, 71–78. <span>ACM</span> Press. <a href="https://doi.org/10.1145/2361276.2361291">https://doi.org/10.1145/2361276.2361291</a>.
 </div>
-<div id="ref-Mark2018" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Mark2018" class="csl-entry" role="listitem">
 Markovits, Rebecca A., and Yana Weinstein. 2018. <span>“Can Cognitive Processes Help Explain the Success of Instructional Techniques Recommended by Behavior Analysts?”</span> <em>NPJ Science of Learning</em> 3 (1). <a href="https://doi.org/10.1038/s41539-017-0018-1">https://doi.org/10.1038/s41539-017-0018-1</a>.
 </div>
-<div id="ref-Maso2016" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Maso2016" class="csl-entry" role="listitem">
 Mason, Raina, Carolyn Seton, and Graham Cooper. 2016. <span>“Applying Cognitive Load Theory to the Redesign of a Conventional Database Systems Course.”</span> <em>Computer Science Education</em> 26 (1): 68–87. <a href="https://doi.org/10.1080/08993408.2016.1160597">https://doi.org/10.1080/08993408.2016.1160597</a>.
 </div>
-<div id="ref-Maye2009" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Maye2009" class="csl-entry" role="listitem">
 Mayer, Richard E. 2009. <em>Multimedia Learning</em>. Second. Cambridge University Press.
 </div>
-<div id="ref-Maye2003" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Maye2003" class="csl-entry" role="listitem">
 Mayer, Richard E., and Roxana Moreno. 2003. <span>“Nine Ways to Reduce Cognitive Load in Multimedia Learning.”</span> <em>Educational Psychologist</em> 38 (1): 43–52. <a href="https://doi.org/10.1207/s15326985ep3801_6">https://doi.org/10.1207/s15326985ep3801_6</a>.
 </div>
-<div id="ref-Mill2016a" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Mill2016a" class="csl-entry" role="listitem">
 Miller, Michelle D. 2016. <em>Minds Online: Teaching Effectively with Technology</em>. Harvard University Press.
 </div>
-<div id="ref-Morr2016" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Morr2016" class="csl-entry" role="listitem">
 Morrison, Briana B., Lauren E. Margulieux, Barbara J. Ericson, and Mark Guzdial. 2016. <span>“Subgoals Help Students Solve <span>Parsons Problems</span>.”</span> In <em>2016 Technical Symposium on Computer Science Education (<span>SIGCSE’16</span>)</em>. Association for Computing Machinery (<span>ACM</span>). <a href="https://doi.org/10.1145/2839509.2844617">https://doi.org/10.1145/2839509.2844617</a>.
 </div>
-<div id="ref-Pars2006" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Pars2006" class="csl-entry" role="listitem">
 Parsons, Dale, and Patricia Haden. 2006. <span>“<span class="nocase">Parson’s</span> Programming Puzzles: A Fun and Effective Learning Tool for First Programming Courses.”</span> In <em>2006 Australasian Conference on Computing Education (<span>ACE’06</span>)</em>, 157–63. Australian Computer Society.
 </div>
-<div id="ref-Skud2014" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Skud2014" class="csl-entry" role="listitem">
 Skudder, Ben, and Andrew Luxton-Reilly. 2014. <span>“Worked Examples in Computer Science.”</span> In <em>2014 Australasian Computing Education Conference, (<span>ACE’14</span>)</em>.
 </div>
-<div id="ref-Stam2013" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Stam2013" class="csl-entry" role="listitem">
 Stampfer, Eliane, and Kenneth R. Koedinger. 2013. <span>“When Seeing Isn’t Believing: Influences of Prior Conceptions and Misconceptions.”</span> In <em>2013 Annual Meeting of the Cognitive Science Society (<span>CogSci’13</span>)</em>.
 </div>
-<div id="ref-Sung2012" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Sung2012" class="csl-entry" role="listitem">
 Sung, Eunmo, and Richard E. Mayer. 2012. <span>“When Graphics Improve Liking but Not Learning from Online Lessons.”</span> <em>Computers in Human Behavior</em> 28 (5): 1618–25. <a href="https://doi.org/10.1016/j.chb.2012.03.026">https://doi.org/10.1016/j.chb.2012.03.026</a>.
 </div>
-<div id="ref-Wibu2016" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Wibu2016" class="csl-entry" role="listitem">
 Wiburg, Karin, Julia Parra, Gaspard Mucundanyi, Jennifer Green, and Nate Shaver, eds. 2016. <em>The Little Book of Learning Theories</em>. Second. CreateSpace.
 </div>
 </div>
@@ -729,9 +762,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -796,6 +843,92 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {
@@ -851,6 +984,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">Enseñar Tecnología en Comunidad (2e) fue escrito por Greg Wilson y Yanina Bellini Saibene.</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
     <div class="nav-footer-right">El libro fue construido con <a href="https://quarto.org/">Quarto</a>.</div>
   </div>
 </footer>

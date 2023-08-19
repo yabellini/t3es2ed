@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.269">
+<meta name="generator" content="quarto-1.3.290">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -17,14 +17,15 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for citations */
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
 }
-.hanging div.csl-entry {
+.hanging-indent div.csl-entry {
   margin-left:2em;
   text-indent:-2em;
 }
@@ -38,8 +39,7 @@ div.csl-right-inline {
 }
 div.csl-indent {
   margin-left: 2em;
-}
-</style>
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -87,11 +87,16 @@ div.csl-indent {
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-    <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">24</span>&nbsp; <span class="chapter-title">Listas de verificación y plantillas</span></h1>
-      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
-        <i class="bi bi-chevron-right"></i>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./checklists.html"><span class="chapter-number">24</span>&nbsp; <span class="chapter-title">Listas de verificación y plantillas</span></a></li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
       </button>
     </div>
   </nav>
@@ -99,197 +104,225 @@ div.csl-indent {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Enseñar Tecnología en Comunidad (2e)</a> 
         <div class="sidebar-tools-main">
-    <a href="https://github.com/yabellini/t3es2ed" title="Source Code" class="sidebar-tool px-1"><i class="bi bi-github"></i></a>
+    <a href="https://github.com/yabellini/t3es2ed" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
 </div>
     </div>
       </div>
-      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="mt-2 flex-shrink-0 align-items-center">
         <div class="sidebar-search">
         <div id="quarto-search" class="" title="Search"></div>
         </div>
-      </div>
+        </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link">Preface</a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Preface</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./rules.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Las reglas</span></a>
+  <a href="./rules.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Las reglas</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./intro.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Introducción</span></a>
+  <a href="./intro.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Introducción</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./models.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Modelos mentales y evaluación formativa</span></a>
+  <a href="./models.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Modelos mentales y evaluación formativa</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./memory.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Pericia y memoria</span></a>
+  <a href="./memory.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Pericia y memoria</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./architecture.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Arquitectura Cognitiva</span></a>
+  <a href="./architecture.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Arquitectura Cognitiva</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./individual.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Aprendizaje individual</span></a>
+  <a href="./individual.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Aprendizaje individual</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./process.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Un proceso para diseñar lecciones</span></a>
+  <a href="./process.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Un proceso para diseñar lecciones</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./pck.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Conocimiento de la pedagogía del contenido</span></a>
+  <a href="./pck.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Conocimiento de la pedagogía del contenido</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./performance.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Enseñar como un arte performativo</span></a>
+  <a href="./performance.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Enseñar como un arte performativo</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./classroom.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">En el salón de clase</span></a>
+  <a href="./classroom.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">En el salón de clase</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./motivation.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Motivación y desmotivación</span></a>
+  <a href="./motivation.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Motivación y desmotivación</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./online.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Enseñar en línea</span></a>
+  <a href="./online.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Enseñar en línea</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./exercises.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Tipos de ejercicios</span></a>
+  <a href="./exercises.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Tipos de ejercicios</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./community.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Construyendo una comunidad de práctica</span></a>
+  <a href="./community.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Construyendo una comunidad de práctica</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./events.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Tipos de Eventos</span></a>
+  <a href="./events.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Tipos de Eventos</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./outreach.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Difusión y vinculación</span></a>
+  <a href="./outreach.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Difusión y vinculación</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./paid.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Como vivir de enseñar</span></a>
+  <a href="./paid.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Como vivir de enseñar</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./finale.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">¿Por qué enseñamos?</span></a>
+  <a href="./finale.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">¿Por qué enseñamos?</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./license.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Licencia</span></a>
+  <a href="./license.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Licencia</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./conduct.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title">Código de conducta</span></a>
+  <a href="./conduct.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title">Código de conducta</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./joining.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">21</span>&nbsp; <span class="chapter-title">Unirse a nuestra comunidad</span></a>
+  <a href="./joining.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">21</span>&nbsp; <span class="chapter-title">Unirse a nuestra comunidad</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./glossary.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">glossary.html</span></a>
+  <a href="./glossary.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">glossary.html</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./meetings.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">23</span>&nbsp; <span class="chapter-title">Reuniones, reuniones, reuniones</span></a>
+  <a href="./meetings.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">23</span>&nbsp; <span class="chapter-title">Reuniones, reuniones, reuniones</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./checklists.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">24</span>&nbsp; <span class="chapter-title">Listas de verificación y plantillas</span></a>
+  <a href="./checklists.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">24</span>&nbsp; <span class="chapter-title">Listas de verificación y plantillas</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./conceptmaps.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">25</span>&nbsp; <span class="chapter-title">Ejemplos de Mapas Conceptuales</span></a>
+  <a href="./conceptmaps.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">25</span>&nbsp; <span class="chapter-title">Ejemplos de Mapas Conceptuales</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./chunking.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">26</span>&nbsp; <span class="chapter-title">“Solución del ejercicio de particionar”</span></a>
+  <a href="./chunking.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">26</span>&nbsp; <span class="chapter-title">“Solución del ejercicio de particionar”</span></span></a>
   </div>
 </li>
     </ul>
     </div>
 </nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#sec-checklists-teacheval" id="toc-sec-checklists-teacheval" class="nav-link active" data-scroll-target="#sec-checklists-teacheval"><span class="toc-section-number">24.1</span>  Enseñando a evaluar</a></li>
-  <li><a href="#sec-checklists-teameval" id="toc-sec-checklists-teameval" class="nav-link" data-scroll-target="#sec-checklists-teameval"><span class="toc-section-number">24.2</span>  Evaluación del grupo docente</a></li>
-  <li><a href="#evaluación-del-docente-individual" id="toc-evaluación-del-docente-individual" class="nav-link" data-scroll-target="#evaluación-del-docente-individual"><span class="toc-section-number">24.3</span>  Evaluación del docente individual</a></li>
-  <li><a href="#sec-checklists-events" id="toc-sec-checklists-events" class="nav-link" data-scroll-target="#sec-checklists-events"><span class="toc-section-number">24.4</span>  Organización de eventos</a>
+  <li><a href="#sec-checklists-teacheval" id="toc-sec-checklists-teacheval" class="nav-link active" data-scroll-target="#sec-checklists-teacheval"><span class="header-section-number">24.1</span> Enseñando a evaluar</a></li>
+  <li><a href="#sec-checklists-teameval" id="toc-sec-checklists-teameval" class="nav-link" data-scroll-target="#sec-checklists-teameval"><span class="header-section-number">24.2</span> Evaluación del grupo docente</a></li>
+  <li><a href="#evaluación-del-docente-individual" id="toc-evaluación-del-docente-individual" class="nav-link" data-scroll-target="#evaluación-del-docente-individual"><span class="header-section-number">24.3</span> Evaluación del docente individual</a></li>
+  <li><a href="#sec-checklists-events" id="toc-sec-checklists-events" class="nav-link" data-scroll-target="#sec-checklists-events"><span class="header-section-number">24.4</span> Organización de eventos</a>
   <ul class="collapse">
-  <li><a href="#programar-el-evento" id="toc-programar-el-evento" class="nav-link" data-scroll-target="#programar-el-evento"><span class="toc-section-number">24.4.1</span>  Programar el evento</a></li>
-  <li><a href="#construir-el-evento" id="toc-construir-el-evento" class="nav-link" data-scroll-target="#construir-el-evento"><span class="toc-section-number">24.4.2</span>  Construir el evento</a></li>
-  <li><a href="#al-comienzo-del-evento" id="toc-al-comienzo-del-evento" class="nav-link" data-scroll-target="#al-comienzo-del-evento"><span class="toc-section-number">24.4.3</span>  Al comienzo del evento</a></li>
-  <li><a href="#al-finalizar-el-evento" id="toc-al-finalizar-el-evento" class="nav-link" data-scroll-target="#al-finalizar-el-evento"><span class="toc-section-number">24.4.4</span>  Al finalizar el evento</a></li>
-  <li><a href="#equipo-de-viaje" id="toc-equipo-de-viaje" class="nav-link" data-scroll-target="#equipo-de-viaje"><span class="toc-section-number">24.4.5</span>  Equipo de viaje</a></li>
+  <li><a href="#programar-el-evento" id="toc-programar-el-evento" class="nav-link" data-scroll-target="#programar-el-evento"><span class="header-section-number">24.4.1</span> Programar el evento</a></li>
+  <li><a href="#construir-el-evento" id="toc-construir-el-evento" class="nav-link" data-scroll-target="#construir-el-evento"><span class="header-section-number">24.4.2</span> Construir el evento</a></li>
+  <li><a href="#al-comienzo-del-evento" id="toc-al-comienzo-del-evento" class="nav-link" data-scroll-target="#al-comienzo-del-evento"><span class="header-section-number">24.4.3</span> Al comienzo del evento</a></li>
+  <li><a href="#al-finalizar-el-evento" id="toc-al-finalizar-el-evento" class="nav-link" data-scroll-target="#al-finalizar-el-evento"><span class="header-section-number">24.4.4</span> Al finalizar el evento</a></li>
+  <li><a href="#equipo-de-viaje" id="toc-equipo-de-viaje" class="nav-link" data-scroll-target="#equipo-de-viaje"><span class="header-section-number">24.4.5</span> Equipo de viaje</a></li>
   </ul></li>
-  <li><a href="#sec-checklists-design" id="toc-sec-checklists-design" class="nav-link" data-scroll-target="#sec-checklists-design"><span class="toc-section-number">24.5</span>  Diseño de lecciones</a>
+  <li><a href="#sec-checklists-design" id="toc-sec-checklists-design" class="nav-link" data-scroll-target="#sec-checklists-design"><span class="header-section-number">24.5</span> Diseño de lecciones</a>
   <ul class="collapse">
-  <li><a href="#para-quién-es-esta-lección" id="toc-para-quién-es-esta-lección" class="nav-link" data-scroll-target="#para-quién-es-esta-lección"><span class="toc-section-number">24.5.1</span>  ¿Para quién es esta lección?</a></li>
-  <li><a href="#cuál-es-la-idea-principal" id="toc-cuál-es-la-idea-principal" class="nav-link" data-scroll-target="#cuál-es-la-idea-principal"><span class="toc-section-number">24.5.2</span>  ¿Cuál es la idea principal?</a></li>
-  <li><a href="#qué-harán-tus-estudiantes-durante-la-lección" id="toc-qué-harán-tus-estudiantes-durante-la-lección" class="nav-link" data-scroll-target="#qué-harán-tus-estudiantes-durante-la-lección"><span class="toc-section-number">24.5.3</span>  ¿Qué harán tus estudiantes durante la lección?</a></li>
-  <li><a href="#cómo-están-conectados-los-conceptos" id="toc-cómo-están-conectados-los-conceptos" class="nav-link" data-scroll-target="#cómo-están-conectados-los-conceptos"><span class="toc-section-number">24.5.4</span>  ¿Cómo están conectados los conceptos</a></li>
-  <li><a href="#descripción-general-de-la-lección" id="toc-descripción-general-de-la-lección" class="nav-link" data-scroll-target="#descripción-general-de-la-lección"><span class="toc-section-number">24.5.5</span>  Descripción general de la lección</a></li>
+  <li><a href="#para-quién-es-esta-lección" id="toc-para-quién-es-esta-lección" class="nav-link" data-scroll-target="#para-quién-es-esta-lección"><span class="header-section-number">24.5.1</span> ¿Para quién es esta lección?</a></li>
+  <li><a href="#cuál-es-la-idea-principal" id="toc-cuál-es-la-idea-principal" class="nav-link" data-scroll-target="#cuál-es-la-idea-principal"><span class="header-section-number">24.5.2</span> ¿Cuál es la idea principal?</a></li>
+  <li><a href="#qué-harán-tus-estudiantes-durante-la-lección" id="toc-qué-harán-tus-estudiantes-durante-la-lección" class="nav-link" data-scroll-target="#qué-harán-tus-estudiantes-durante-la-lección"><span class="header-section-number">24.5.3</span> ¿Qué harán tus estudiantes durante la lección?</a></li>
+  <li><a href="#cómo-están-conectados-los-conceptos" id="toc-cómo-están-conectados-los-conceptos" class="nav-link" data-scroll-target="#cómo-están-conectados-los-conceptos"><span class="header-section-number">24.5.4</span> ¿Cómo están conectados los conceptos</a></li>
+  <li><a href="#descripción-general-de-la-lección" id="toc-descripción-general-de-la-lección" class="nav-link" data-scroll-target="#descripción-general-de-la-lección"><span class="header-section-number">24.5.5</span> Descripción general de la lección</a></li>
   </ul></li>
-  <li><a href="#sec-checklists-preassess" id="toc-sec-checklists-preassess" class="nav-link" data-scroll-target="#sec-checklists-preassess"><span class="toc-section-number">24.6</span>  Cuestionario de pre-evaluación</a></li>
-  <li><a href="#organizando-un-curso-o-taller" id="toc-organizando-un-curso-o-taller" class="nav-link" data-scroll-target="#organizando-un-curso-o-taller"><span class="toc-section-number">24.7</span>  Organizando un curso o taller</a>
+  <li><a href="#sec-checklists-preassess" id="toc-sec-checklists-preassess" class="nav-link" data-scroll-target="#sec-checklists-preassess"><span class="header-section-number">24.6</span> Cuestionario de pre-evaluación</a></li>
+  <li><a href="#organizando-un-curso-o-taller" id="toc-organizando-un-curso-o-taller" class="nav-link" data-scroll-target="#organizando-un-curso-o-taller"><span class="header-section-number">24.7</span> Organizando un curso o taller</a>
   <ul class="collapse">
-  <li><a href="#formuario-de-registro" id="toc-formuario-de-registro" class="nav-link" data-scroll-target="#formuario-de-registro"><span class="toc-section-number">24.7.1</span>  Formuario de registro</a></li>
-  <li><a href="#formulario-de-feedback" id="toc-formulario-de-feedback" class="nav-link" data-scroll-target="#formulario-de-feedback"><span class="toc-section-number">24.7.2</span>  Formulario de Feedback</a></li>
+  <li><a href="#formuario-de-registro" id="toc-formuario-de-registro" class="nav-link" data-scroll-target="#formuario-de-registro"><span class="header-section-number">24.7.1</span> Formuario de registro</a></li>
+  <li><a href="#formulario-de-feedback" id="toc-formulario-de-feedback" class="nav-link" data-scroll-target="#formulario-de-feedback"><span class="header-section-number">24.7.2</span> Formulario de Feedback</a></li>
   </ul></li>
-  <li><a href="#documentos-compartido" id="toc-documentos-compartido" class="nav-link" data-scroll-target="#documentos-compartido"><span class="toc-section-number">24.8</span>  Documentos compartido</a></li>
-  <li><a href="#comunicación-con-estudiantes" id="toc-comunicación-con-estudiantes" class="nav-link" data-scroll-target="#comunicación-con-estudiantes"><span class="toc-section-number">24.9</span>  Comunicación con estudiantes</a>
+  <li><a href="#documentos-compartido" id="toc-documentos-compartido" class="nav-link" data-scroll-target="#documentos-compartido"><span class="header-section-number">24.8</span> Documentos compartido</a></li>
+  <li><a href="#comunicación-con-estudiantes" id="toc-comunicación-con-estudiantes" class="nav-link" data-scroll-target="#comunicación-con-estudiantes"><span class="header-section-number">24.9</span> Comunicación con estudiantes</a>
   <ul class="collapse">
-  <li><a href="#email-pre-curso" id="toc-email-pre-curso" class="nav-link" data-scroll-target="#email-pre-curso"><span class="toc-section-number">24.9.1</span>  Email pre curso</a></li>
-  <li><a href="#email-pos-curso" id="toc-email-pos-curso" class="nav-link" data-scroll-target="#email-pos-curso"><span class="toc-section-number">24.9.2</span>  Email pos curso</a></li>
-  <li><a href="#formulario-de-feedback-despues-de-un-tiempo-de-tomar-la-capacitación" id="toc-formulario-de-feedback-despues-de-un-tiempo-de-tomar-la-capacitación" class="nav-link" data-scroll-target="#formulario-de-feedback-despues-de-un-tiempo-de-tomar-la-capacitación"><span class="toc-section-number">24.9.3</span>  Formulario de feedback despues de un tiempo de tomar la capacitación</a></li>
+  <li><a href="#email-pre-curso" id="toc-email-pre-curso" class="nav-link" data-scroll-target="#email-pre-curso"><span class="header-section-number">24.9.1</span> Email pre curso</a></li>
+  <li><a href="#email-pos-curso" id="toc-email-pos-curso" class="nav-link" data-scroll-target="#email-pos-curso"><span class="header-section-number">24.9.2</span> Email pos curso</a></li>
+  <li><a href="#formulario-de-feedback-despues-de-un-tiempo-de-tomar-la-capacitación" id="toc-formulario-de-feedback-despues-de-un-tiempo-de-tomar-la-capacitación" class="nav-link" data-scroll-target="#formulario-de-feedback-despues-de-un-tiempo-de-tomar-la-capacitación"><span class="header-section-number">24.9.3</span> Formulario de feedback despues de un tiempo de tomar la capacitación</a></li>
   </ul></li>
   </ul>
 <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/yabellini/t3es2ed/edit/main/checklists.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/yabellini/t3es2ed/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
@@ -299,7 +332,7 @@ div.csl-indent {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span id="sec-checklists" class="quarto-section-identifier d-none d-lg-block"><span class="chapter-number">24</span>&nbsp; <span class="chapter-title">Listas de verificación y plantillas</span></span></h1>
+<h1 class="title"><span id="sec-checklists" class="quarto-section-identifier"><span class="chapter-number">24</span>&nbsp; <span class="chapter-title">Listas de verificación y plantillas</span></span></h1>
 </div>
 
 
@@ -314,17 +347,17 @@ div.csl-indent {
 
 </header>
 
-<div class="callout-warning callout callout-style-default callout-captioned">
+<div class="callout callout-style-default callout-warning callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Segunda edición
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Estás leyendo la segunda edición en progreso y en castellano de Enseñar Tecnología en Comunidad (Teaching Tech Together). Este capítulo está siendo objeto de una profunda reestructuración y puede resultar confuso o incompleto</p>
+<p>Estás leyendo la segunda edición en progreso y en castellano de Enseñar Tecnología en Comunidad (Teaching Tech Together). Este capítulo está siendo objeto de una profunda reestructuración y puede resultar confuso o incompleto.</p>
 </div>
 </div>
 <p><span class="citation" data-cites="Gawa2007">Gawande (<a href="#ref-Gawa2007" role="doc-biblioref">2007</a>)</span> hizo popular la idea de que usar listas de verificación puede salvar vidas y estudios más recientes apoyan su efectividad <span class="citation" data-cites="Avel2013">Aveling, McCulloch, and Dixon-Woods (<a href="#ref-Avel2013" role="doc-biblioref">2013</a>)</span>,<span class="citation" data-cites="Urba2014">Urbach et al. (<a href="#ref-Urba2014" role="doc-biblioref">2014</a>)</span>,<span class="citation" data-cites="Rams2019">Ramsay et al. (<a href="#ref-Rams2019" role="doc-biblioref">2019</a>)</span>. En particular, encontramos útiles las listas de verificación cuando hay docentes que recién se incorporan al equipo. Los ejemplos que siguen pueden servirte como material inicial a partir del cual desarrollar tus propias listas de verificación.</p>
@@ -952,26 +985,26 @@ Segunda edición
 <fixme exit="" ticket="">
 
 
-<div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography">
-<div id="ref-Avel2013" class="csl-entry" role="doc-biblioentry">
+<div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-Avel2013" class="csl-entry" role="listitem">
 Aveling, Emma-Louise, Peter McCulloch, and Mary Dixon-Woods. 2013. <span>“A Qualitative Study Comparing Experiences of the Surgical Safety Checklist in Hospitals in High-Income and Low-Income Countries.”</span> <em><span>BMJ</span> Open</em> 3 (8). <a href="https://doi.org/10.1136/bmjopen-2013-003039">https://doi.org/10.1136/bmjopen-2013-003039</a>.
 </div>
-<div id="ref-Bigg2011" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Bigg2011" class="csl-entry" role="listitem">
 Biggs, John, and Catherine Tang. 2011. <em>Teaching for Quality Learning at University</em>. Open University Press.
 </div>
-<div id="ref-Fink2013" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Fink2013" class="csl-entry" role="listitem">
 Fink, L. Dee. 2013. <em>Creating Significant Learning Experiences: An Integrated Approach to Designing College Courses</em>. Jossey-Bass.
 </div>
-<div id="ref-Gawa2007" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Gawa2007" class="csl-entry" role="listitem">
 Gawande, Atul. 2007. <span>“The Checklist.”</span> <em>The New Yorker</em>, December.
 </div>
-<div id="ref-Rams2019" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Rams2019" class="csl-entry" role="listitem">
 Ramsay, G., A. B. Haynes, S. R. Lipsitz, I. Solsky, J. Leitch, A. A. Gawande, and M. Kumar. 2019. <span>“Reducing Surgical Mortality in Scotland by Use of the <span>WHO</span> Surgical Safety Checklist.”</span> <em><span>BJS</span></em>, April. <a href="https://doi.org/10.1002/bjs.11151">https://doi.org/10.1002/bjs.11151</a>.
 </div>
-<div id="ref-Urba2014" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Urba2014" class="csl-entry" role="listitem">
 Urbach, David R., Anand Govindarajan, Refik Saskin, Andrew S. Wilton, and Nancy N. Baxter. 2014. <span>“Introduction of Surgical Safety Checklists in Ontario, Canada.”</span> <em>New England Journal of Medicine</em> 370 (11): 1029–38. <a href="https://doi.org/10.1056/nejmsa1308261">https://doi.org/10.1056/nejmsa1308261</a>.
 </div>
-<div id="ref-Wigg2005" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Wigg2005" class="csl-entry" role="listitem">
 Wiggins, Grant, and Jay McTighe. 2005. <em>Understanding by Design</em>. Association for Supervision &amp; Curriculum Development (<span>ASCD</span>).
 </div>
 </div>
@@ -1006,9 +1039,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -1073,6 +1120,92 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {
@@ -1128,6 +1261,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">Enseñar Tecnología en Comunidad (2e) fue escrito por Greg Wilson y Yanina Bellini Saibene.</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
     <div class="nav-footer-right">El libro fue construido con <a href="https://quarto.org/">Quarto</a>.</div>
   </div>
 </footer>

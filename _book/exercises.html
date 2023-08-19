@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.269">
+<meta name="generator" content="quarto-1.3.290">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -17,14 +17,15 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for citations */
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
 }
-.hanging div.csl-entry {
+.hanging-indent div.csl-entry {
   margin-left:2em;
   text-indent:-2em;
 }
@@ -38,8 +39,7 @@ div.csl-right-inline {
 }
 div.csl-indent {
   margin-left: 2em;
-}
-</style>
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -87,11 +87,16 @@ div.csl-indent {
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-    <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Tipos de ejercicios</span></h1>
-      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
-        <i class="bi bi-chevron-right"></i>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./exercises.html"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Tipos de ejercicios</span></a></li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
       </button>
     </div>
   </nav>
@@ -99,181 +104,209 @@ div.csl-indent {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Enseñar Tecnología en Comunidad (2e)</a> 
         <div class="sidebar-tools-main">
-    <a href="https://github.com/yabellini/t3es2ed" title="Source Code" class="sidebar-tool px-1"><i class="bi bi-github"></i></a>
+    <a href="https://github.com/yabellini/t3es2ed" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
 </div>
     </div>
       </div>
-      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="mt-2 flex-shrink-0 align-items-center">
         <div class="sidebar-search">
         <div id="quarto-search" class="" title="Search"></div>
         </div>
-      </div>
+        </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link">Preface</a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Preface</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./rules.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Las reglas</span></a>
+  <a href="./rules.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Las reglas</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./intro.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Introducción</span></a>
+  <a href="./intro.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Introducción</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./models.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Modelos mentales y evaluación formativa</span></a>
+  <a href="./models.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Modelos mentales y evaluación formativa</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./memory.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Pericia y memoria</span></a>
+  <a href="./memory.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Pericia y memoria</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./architecture.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Arquitectura Cognitiva</span></a>
+  <a href="./architecture.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Arquitectura Cognitiva</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./individual.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Aprendizaje individual</span></a>
+  <a href="./individual.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Aprendizaje individual</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./process.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Un proceso para diseñar lecciones</span></a>
+  <a href="./process.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Un proceso para diseñar lecciones</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./pck.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Conocimiento de la pedagogía del contenido</span></a>
+  <a href="./pck.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Conocimiento de la pedagogía del contenido</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./performance.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Enseñar como un arte performativo</span></a>
+  <a href="./performance.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Enseñar como un arte performativo</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./classroom.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">En el salón de clase</span></a>
+  <a href="./classroom.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">En el salón de clase</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./motivation.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Motivación y desmotivación</span></a>
+  <a href="./motivation.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Motivación y desmotivación</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./online.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Enseñar en línea</span></a>
+  <a href="./online.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Enseñar en línea</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./exercises.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Tipos de ejercicios</span></a>
+  <a href="./exercises.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Tipos de ejercicios</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./community.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Construyendo una comunidad de práctica</span></a>
+  <a href="./community.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Construyendo una comunidad de práctica</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./events.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Tipos de Eventos</span></a>
+  <a href="./events.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Tipos de Eventos</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./outreach.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Difusión y vinculación</span></a>
+  <a href="./outreach.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Difusión y vinculación</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./paid.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Como vivir de enseñar</span></a>
+  <a href="./paid.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Como vivir de enseñar</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./finale.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">¿Por qué enseñamos?</span></a>
+  <a href="./finale.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">¿Por qué enseñamos?</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./license.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Licencia</span></a>
+  <a href="./license.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Licencia</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./conduct.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title">Código de conducta</span></a>
+  <a href="./conduct.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title">Código de conducta</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./joining.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">21</span>&nbsp; <span class="chapter-title">Unirse a nuestra comunidad</span></a>
+  <a href="./joining.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">21</span>&nbsp; <span class="chapter-title">Unirse a nuestra comunidad</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./glossary.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">glossary.html</span></a>
+  <a href="./glossary.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">glossary.html</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./meetings.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">23</span>&nbsp; <span class="chapter-title">Reuniones, reuniones, reuniones</span></a>
+  <a href="./meetings.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">23</span>&nbsp; <span class="chapter-title">Reuniones, reuniones, reuniones</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./checklists.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">24</span>&nbsp; <span class="chapter-title">Listas de verificación y plantillas</span></a>
+  <a href="./checklists.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">24</span>&nbsp; <span class="chapter-title">Listas de verificación y plantillas</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./conceptmaps.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">25</span>&nbsp; <span class="chapter-title">Ejemplos de Mapas Conceptuales</span></a>
+  <a href="./conceptmaps.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">25</span>&nbsp; <span class="chapter-title">Ejemplos de Mapas Conceptuales</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./chunking.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">26</span>&nbsp; <span class="chapter-title">“Solución del ejercicio de particionar”</span></a>
+  <a href="./chunking.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">26</span>&nbsp; <span class="chapter-title">“Solución del ejercicio de particionar”</span></span></a>
   </div>
 </li>
     </ul>
     </div>
 </nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#exercises-classics" id="toc-exercises-classics" class="nav-link active" data-scroll-target="#exercises-classics"><span class="toc-section-number">13.1</span>  Los clásicos</a></li>
-  <li><a href="#exercises-tracing" id="toc-exercises-tracing" class="nav-link" data-scroll-target="#exercises-tracing"><span class="toc-section-number">13.2</span>  Seguir</a></li>
-  <li><a href="#exercises-diagrams" id="toc-exercises-diagrams" class="nav-link" data-scroll-target="#exercises-diagrams"><span class="toc-section-number">13.3</span>  Diagramas</a></li>
-  <li><a href="#exercises-grading" id="toc-exercises-grading" class="nav-link" data-scroll-target="#exercises-grading"><span class="toc-section-number">13.4</span>  <span data-i="calificación automática">Calificación automática</span></a></li>
-  <li><a href="#exercises-higher" id="toc-exercises-higher" class="nav-link" data-scroll-target="#exercises-higher"><span class="toc-section-number">13.5</span>  Razonamientos de alto nivel</a></li>
-  <li><a href="#exercises-exercises" id="toc-exercises-exercises" class="nav-link" data-scroll-target="#exercises-exercises"><span class="toc-section-number">13.6</span>  Ejercicios</a>
+  <li><a href="#exercises-classics" id="toc-exercises-classics" class="nav-link active" data-scroll-target="#exercises-classics"><span class="header-section-number">13.1</span> Los clásicos</a></li>
+  <li><a href="#exercises-tracing" id="toc-exercises-tracing" class="nav-link" data-scroll-target="#exercises-tracing"><span class="header-section-number">13.2</span> Seguir</a></li>
+  <li><a href="#exercises-diagrams" id="toc-exercises-diagrams" class="nav-link" data-scroll-target="#exercises-diagrams"><span class="header-section-number">13.3</span> Diagramas</a></li>
+  <li><a href="#exercises-grading" id="toc-exercises-grading" class="nav-link" data-scroll-target="#exercises-grading"><span class="header-section-number">13.4</span> <span data-i="calificación automática">Calificación automática</span></a></li>
+  <li><a href="#exercises-higher" id="toc-exercises-higher" class="nav-link" data-scroll-target="#exercises-higher"><span class="header-section-number">13.5</span> Razonamientos de alto nivel</a></li>
+  <li><a href="#exercises-exercises" id="toc-exercises-exercises" class="nav-link" data-scroll-target="#exercises-exercises"><span class="header-section-number">13.6</span> Ejercicios</a>
   <ul class="collapse">
-  <li><a href="#programar-y-ejecutar-parejas10" id="toc-programar-y-ejecutar-parejas10" class="nav-link" data-scroll-target="#programar-y-ejecutar-parejas10"><span class="toc-section-number">13.6.1</span>  Programar y ejecutar (parejas/10’)</a></li>
-  <li><a href="#invertir-el-código-y-la-ejecución-grupos-pequeños15" id="toc-invertir-el-código-y-la-ejecución-grupos-pequeños15" class="nav-link" data-scroll-target="#invertir-el-código-y-la-ejecución-grupos-pequeños15"><span class="toc-section-number">13.6.2</span>  Invertir el código y la ejecución (grupos pequeños/15’)</a></li>
-  <li><a href="#siguiendo-valores-parejas10" id="toc-siguiendo-valores-parejas10" class="nav-link" data-scroll-target="#siguiendo-valores-parejas10"><span class="toc-section-number">13.6.3</span>  Siguiendo valores (parejas/10’)</a></li>
-  <li><a href="#refactorizar-grupos-pequeños15" id="toc-refactorizar-grupos-pequeños15" class="nav-link" data-scroll-target="#refactorizar-grupos-pequeños15"><span class="toc-section-number">13.6.4</span>  Refactorizar (grupos pequeños/15’)</a></li>
-  <li><a href="#rotulando-un-diagrama-parejas10" id="toc-rotulando-un-diagrama-parejas10" class="nav-link" data-scroll-target="#rotulando-un-diagrama-parejas10"><span class="toc-section-number">13.6.5</span>  Rotulando un diagrama (parejas/10’)</a></li>
-  <li><a href="#acertijos-de-lápiz-y-papel-toda-la-clase15" id="toc-acertijos-de-lápiz-y-papel-toda-la-clase15" class="nav-link" data-scroll-target="#acertijos-de-lápiz-y-papel-toda-la-clase15"><span class="toc-section-number">13.6.6</span>  Acertijos de lápiz y papel (toda la clase/15’)</a></li>
-  <li><a href="#contando-fallos-parejas15" id="toc-contando-fallos-parejas15" class="nav-link" data-scroll-target="#contando-fallos-parejas15"><span class="toc-section-number">13.6.7</span>  Contando fallos (parejas/15’)</a></li>
-  <li><a href="#hablando-de-tiempo-individual10" id="toc-hablando-de-tiempo-individual10" class="nav-link" data-scroll-target="#hablando-de-tiempo-individual10"><span class="toc-section-number">13.6.8</span>  Hablando de tiempo (individual/10’)</a></li>
+  <li><a href="#programar-y-ejecutar-parejas10" id="toc-programar-y-ejecutar-parejas10" class="nav-link" data-scroll-target="#programar-y-ejecutar-parejas10"><span class="header-section-number">13.6.1</span> Programar y ejecutar (parejas/10’)</a></li>
+  <li><a href="#invertir-el-código-y-la-ejecución-grupos-pequeños15" id="toc-invertir-el-código-y-la-ejecución-grupos-pequeños15" class="nav-link" data-scroll-target="#invertir-el-código-y-la-ejecución-grupos-pequeños15"><span class="header-section-number">13.6.2</span> Invertir el código y la ejecución (grupos pequeños/15’)</a></li>
+  <li><a href="#siguiendo-valores-parejas10" id="toc-siguiendo-valores-parejas10" class="nav-link" data-scroll-target="#siguiendo-valores-parejas10"><span class="header-section-number">13.6.3</span> Siguiendo valores (parejas/10’)</a></li>
+  <li><a href="#refactorizar-grupos-pequeños15" id="toc-refactorizar-grupos-pequeños15" class="nav-link" data-scroll-target="#refactorizar-grupos-pequeños15"><span class="header-section-number">13.6.4</span> Refactorizar (grupos pequeños/15’)</a></li>
+  <li><a href="#rotulando-un-diagrama-parejas10" id="toc-rotulando-un-diagrama-parejas10" class="nav-link" data-scroll-target="#rotulando-un-diagrama-parejas10"><span class="header-section-number">13.6.5</span> Rotulando un diagrama (parejas/10’)</a></li>
+  <li><a href="#acertijos-de-lápiz-y-papel-toda-la-clase15" id="toc-acertijos-de-lápiz-y-papel-toda-la-clase15" class="nav-link" data-scroll-target="#acertijos-de-lápiz-y-papel-toda-la-clase15"><span class="header-section-number">13.6.6</span> Acertijos de lápiz y papel (toda la clase/15’)</a></li>
+  <li><a href="#contando-fallos-parejas15" id="toc-contando-fallos-parejas15" class="nav-link" data-scroll-target="#contando-fallos-parejas15"><span class="header-section-number">13.6.7</span> Contando fallos (parejas/15’)</a></li>
+  <li><a href="#hablando-de-tiempo-individual10" id="toc-hablando-de-tiempo-individual10" class="nav-link" data-scroll-target="#hablando-de-tiempo-individual10"><span class="header-section-number">13.6.8</span> Hablando de tiempo (individual/10’)</a></li>
   </ul></li>
   </ul>
 <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/yabellini/t3es2ed/edit/main/exercises.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/yabellini/t3es2ed/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
@@ -283,7 +316,7 @@ div.csl-indent {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span id="sec-exercises" class="quarto-section-identifier d-none d-lg-block"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Tipos de ejercicios</span></span></h1>
+<h1 class="title"><span id="sec-exercises" class="quarto-section-identifier"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Tipos de ejercicios</span></span></h1>
 </div>
 
 
@@ -298,17 +331,17 @@ div.csl-indent {
 
 </header>
 
-<div class="callout-note callout callout-style-default callout-captioned">
+<div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Segunda edición
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Estás leyendo la segunda edición en progreso y en castellano de Enseñar Tecnología en Comunidad (Teaching Tech Together). Este capítulo está siendo objeto de una profunda reestructuración y puede resultar confuso o incompleto</p>
+<p>Estás leyendo la segunda edición en progreso y en castellano de Enseñar Tecnología en Comunidad (Teaching Tech Together). Este capítulo está siendo objeto de una profunda reestructuración y puede resultar confuso o incompleto.</p>
 </div>
 </div>
 <p>Todo/a buen/a carpintero/a tiene un juego de destornilladores y todo/a buen/a docente tiene diferentes tipos de ejercicios para comprobar qué están aprendiendo realmente los/las estudiantes, para ayudarlos a practicar sus nuevas habilidades y para mantener su compromiso.</p>
@@ -497,7 +530,7 @@ for v in valores:
 <h3 id="etiquetado-de-un-diagrama" data-number="13.3.1" class="anchored"><span class="header-section-number">13.3.1</span> Etiquetado de un diagrama</h3>
 <p>La <span class="quarto-unresolved-ref">?fig-exercises-labeling</span> muestra cómo un fragmento pequeño de <em>HTML</em> se representa en memoria. Coloca las etiquetas 1–9 sobre los elementos del árbol para mostrar el orden en el que se alcanzan en un recorrido en profundidad.</p>
 </blockquote>
-<p><img src="diagrams/labeling.svg" class="img-fluid" alt="Etiquetado de un diagrama">{fig-exercises-labeling, fig-alt = “Inicia con una caja con una letra P mayúscula, salen cuatro flechas, dos hacia dos cajas diferentes con la misma etiqueta:”texto”, otra hacia una caja con la letra I mayúscula y la última hacia una caja con la letra B mayúscula. Desde la caja de la letra B salen dos flechas, una hacia una caja etiquetada como “texto” y otra hacia una caja con la letra U mayúscula. Desde las letras I e U también salen flechas hacia diferentes cajas etiquetadas como “texto”.}</p>
+<p><img src="diagrams/labeling.svg" class="quarto-discovered-preview-image img-fluid" alt="Etiquetado de un diagrama">{fig-exercises-labeling, fig-alt = “Inicia con una caja con una letra P mayúscula, salen cuatro flechas, dos hacia dos cajas diferentes con la misma etiqueta:”texto”, otra hacia una caja con la letra I mayúscula y la última hacia una caja con la letra B mayúscula. Desde la caja de la letra B salen dos flechas, una hacia una caja etiquetada como “texto” y otra hacia una caja con la letra U mayúscula. Desde las letras I e U también salen flechas hacia diferentes cajas etiquetadas como “texto”.}</p>
 <p>Otra forma de usar diagramas es dar a tus estudiantes las partes del diagrama y pedirles que las organicen correctamente.</p>
 <p>Este es un equivalente visual a un problema de Parsons, y para ayudar con el etiquetado puedes proporcionar más o menos del esqueleto, de acuerdo a la dificultad para la que crees que están preparados/as.</p>
 <p>Tengo buenas memorias de tratar de colocar resistencias y capacitores en un diagrama de circuito con el fin de obtener el voltaje correcto en un punto determinado, y he visto docentes que les dan a sus estudiantes un conjunto definido de bloques de <span data-i="Scratch">Scratch</span> y les piden que creen un diseño particular usando solo esos bloques.</p>
@@ -611,71 +644,71 @@ for v in valores:
 <p>¿Qué tan precisas han sido las estimaciones de tiempo de los ejercicios de este libro hasta ahora?</p>
 
 
-<div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography">
-<div id="ref-Armo2008" class="csl-entry" role="doc-biblioentry">
+<div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-Armo2008" class="csl-entry" role="listitem">
 Armoni, Michal, and David Ginat. 2008. <span>“Reversing: A Fundamental Idea in Computer Science.”</span> <em>Computer Science Education</em> 18 (3): 213–30. <a href="https://doi.org/10.1080/08993400802332670">https://doi.org/10.1080/08993400802332670</a>.
 </div>
-<div id="ref-Basu2015" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Basu2015" class="csl-entry" role="listitem">
 Basu, Soumya, Albert Wu, Brian Hou, and John DeNero. 2015. <span>“Problems Before Solutions: Automated Problem Clarification at Scale.”</span> In <em>2015 Conference on Learning @ Scale (<span>L@S’15</span>)</em>. Association for Computing Machinery (<span>ACM</span>). <a href="https://doi.org/10.1145/2724660.2724679">https://doi.org/10.1145/2724660.2724679</a>.
 </div>
-<div id="ref-Buff2015" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Buff2015" class="csl-entry" role="listitem">
 Buffardi, Kevin, and Stephen H. Edwards. 2015. <span>“Reconsidering Automated Feedback: A Test-Driven Approach.”</span> In <em>2015 Technical Symposium on Computer Science Education (<span>SIGCSE’15</span>)</em>. Association for Computing Machinery (<span>ACM</span>). <a href="https://doi.org/10.1145/2676723.2677313">https://doi.org/10.1145/2676723.2677313</a>.
 </div>
-<div id="ref-Butl2017" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Butl2017" class="csl-entry" role="listitem">
 Butler, Zack, Ivona Bezakova, and Kimberly Fluet. 2017. <span>“Pencil Puzzles for Introductory Computer Science.”</span> In <em>2017 Technical Symposium on Computer Science Education (<span>SIGCSE’17</span>)</em>. Association for Computing Machinery (<span>ACM</span>). <a href="https://doi.org/10.1145/3017680.3017765">https://doi.org/10.1145/3017680.3017765</a>.
 </div>
-<div id="ref-Douc2005" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Douc2005" class="csl-entry" role="listitem">
 Douce, Christopher, David Livingstone, and James Orwell. 2005. <span>“Automatic Test-Based Assessment of Programming.”</span> <em>Journal on Educational Resources in Computing</em> 5 (3). <a href="https://doi.org/10.1145/1163405.1163409">https://doi.org/10.1145/1163405.1163409</a>.
 </div>
-<div id="ref-Edwa2014a" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Edwa2014a" class="csl-entry" role="listitem">
 Edwards, Stephen H., Zalia Shams, and Craig Estep. 2014. <span>“Adaptively Identifying Non-Terminating Code When Testing Student Programs.”</span> In <em>2014 Technical Symposium on Computer Science Education (<span>SIGCSE’14</span>)</em>. Association for Computing Machinery (<span>ACM</span>). <a href="https://doi.org/10.1145/2538862.2538926">https://doi.org/10.1145/2538862.2538926</a>.
 </div>
-<div id="ref-Eric2017" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Eric2017" class="csl-entry" role="listitem">
 Ericson, Barbara J., Lauren E. Margulieux, and Jochen Rick. 2017. <span>“Solving <span>Parsons Problems</span> Versus Fixing and Writing Code.”</span> In <em>2017 Koli Calling Conference on Computing Education Research (<span>Koli’17</span>)</em>. Association for Computing Machinery (<span>ACM</span>). <a href="https://doi.org/10.1145/3141880.3141895">https://doi.org/10.1145/3141880.3141895</a>.
 </div>
-<div id="ref-Eric2015" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Eric2015" class="csl-entry" role="listitem">
 Ericson, Barbara J., Steven Moore, Briana B. Morrison, and Mark Guzdial. 2015. <span>“Usability and Usage of Interactive Features in an Online Ebook for <span>CS</span> Teachers.”</span> In <em>2015 Workshop in Primary and Secondary Computing Education (WiPSCE’15)</em>, 111–20. Association for Computing Machinery (<span>ACM</span>). <a href="https://doi.org/10.1145/2818314.2818335">https://doi.org/10.1145/2818314.2818335</a>.
 </div>
-<div id="ref-Harm2016" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Harm2016" class="csl-entry" role="listitem">
 Harms, Kyle James, Jason Chen, and Caitlin L. Kelleher. 2016. <span>“Distractors in <span>Parsons Problems</span> Decrease Learning Efficiency for Young Novice Programmers.”</span> In <em>2016 International Computing Education Research Conference (<span>ICER’16</span>)</em>. Association for Computing Machinery (<span>ACM</span>). <a href="https://doi.org/10.1145/2960310.2960314">https://doi.org/10.1145/2960310.2960314</a>.
 </div>
-<div id="ref-Ihan2010" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Ihan2010" class="csl-entry" role="listitem">
 Ihantola, Petri, Tuukka Ahoniemi, Ville Karavirta, and Otto Seppälä. 2010. <span>“Review of Recent Systems for Automatic Assessment of Programming Assignments.”</span> In <em>2010 Koli Calling Conference on Computing Education Research (<span>Koli’10</span>)</em>. Association for Computing Machinery (<span>ACM</span>). <a href="https://doi.org/10.1145/1930464.1930480">https://doi.org/10.1145/1930464.1930480</a>.
 </div>
-<div id="ref-Ihan2011" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Ihan2011" class="csl-entry" role="listitem">
 Ihantola, Petri, and Ville Karavirta. 2011. <span>“Two-Dimensional <span class="nocase">Parson’s Puzzles</span>: The Concept, Tools, and First Observations.”</span> <em>Journal of Information Technology Education: Innovations in Practice</em> 10: 119–32. <a href="https://doi.org/10.28945/1394">https://doi.org/10.28945/1394</a>.
 </div>
-<div id="ref-Keun2016a" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Keun2016a" class="csl-entry" role="listitem">
 Keuning, Hieke, Johan Jeuring, and Bastiaan Heeren. 2016a. <span>“Towards a Systematic Review of Automated Feedback Generation for Programming Exercises.”</span> In <em>2016 Conference on Innovation and Technology in Computer Science Education (<span>ITiCSE’16</span>)</em>. Association for Computing Machinery (<span>ACM</span>). <a href="https://doi.org/10.1145/2899415.2899422">https://doi.org/10.1145/2899415.2899422</a>.
 </div>
-<div id="ref-Keun2016b" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Keun2016b" class="csl-entry" role="listitem">
 ———. 2016b. <span>“Towards a Systematic Review of Automated Feedback Generation for Programming Exercises - Extended Version.”</span> Technical Report UU-CS-2016-001, Utrecht University.
 </div>
-<div id="ref-Luxt2009" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Luxt2009" class="csl-entry" role="listitem">
 Luxton-Reilly, Andrew. 2009. <span>“A Systematic Review of Tools That Support Peer Assessment.”</span> <em>Computer Science Education</em> 19 (4): 209–32. <a href="https://doi.org/10.1080/08993400903384844">https://doi.org/10.1080/08993400903384844</a>.
 </div>
-<div id="ref-Magu2018" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Magu2018" class="csl-entry" role="listitem">
 Maguire, Phil, Rebecca Maguire, and Robert Kelly. 2018. <span>“Using Automatic Machine Assessment to Teach Computer Programming.”</span> <em>Computer Science Education</em>, February, 1–18. <a href="https://doi.org/10.1080/08993408.2018.1435113">https://doi.org/10.1080/08993408.2018.1435113</a>.
 </div>
-<div id="ref-Morr2016" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Morr2016" class="csl-entry" role="listitem">
 Morrison, Briana B., Lauren E. Margulieux, Barbara J. Ericson, and Mark Guzdial. 2016. <span>“Subgoals Help Students Solve <span>Parsons Problems</span>.”</span> In <em>2016 Technical Symposium on Computer Science Education (<span>SIGCSE’16</span>)</em>. Association for Computing Machinery (<span>ACM</span>). <a href="https://doi.org/10.1145/2839509.2844617">https://doi.org/10.1145/2839509.2844617</a>.
 </div>
-<div id="ref-Nutb2016" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Nutb2016" class="csl-entry" role="listitem">
 Nutbrown, Stephen, and Colin Higgins. 2016. <span>“Static Analysis of Programming Exercises: Fairness, Usefulness and a Method for Application.”</span> <em>Computer Science Education</em> 26 (2-3): 104–28. <a href="https://doi.org/10.1080/08993408.2016.1179865">https://doi.org/10.1080/08993408.2016.1179865</a>.
 </div>
-<div id="ref-Pars2006" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Pars2006" class="csl-entry" role="listitem">
 Parsons, Dale, and Patricia Haden. 2006. <span>“<span class="nocase">Parson’s</span> Programming Puzzles: A Fun and Effective Learning Tool for First Programming Courses.”</span> In <em>2006 Australasian Conference on Computing Education (<span>ACE’06</span>)</em>, 157–63. Australian Computer Society.
 </div>
-<div id="ref-Rubi2014" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Rubi2014" class="csl-entry" role="listitem">
 Rubio-Sánchez, Manuel, Päivi Kinnunen, Cristóbal Pareja-Flores, and J. Ángel Velázquez-Iturbide. 2014. <span>“Student Perception and Usage of an Automated Programming Assessment Tool.”</span> <em>Computers in Human Behavior</em> 31 (February): 453–60. <a href="https://doi.org/10.1016/j.chb.2013.04.001">https://doi.org/10.1016/j.chb.2013.04.001</a>.
 </div>
-<div id="ref-Sand2013" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Sand2013" class="csl-entry" role="listitem">
 Sanders, Kate, Jaime Spacco, Marzieh Ahmadzadeh, Tony Clear, Stephen H. Edwards, Mikey Goldweber, Chris Johnson, Raymond Lister, Robert McCartney, and Elizabeth Patitsas. 2013. <span>“The <span>Canterbury</span> <span>QuestionBank</span>: Building a Repository of Multiple-Choice <span>CS1</span> and <span>CS2</span> Questions.”</span> In <em>2013 Conference on Innovation and Technology in Computer Science Education (<span>ITiCSE’13</span>)</em>. Association for Computing Machinery (<span>ACM</span>). <a href="https://doi.org/10.1145/2543882.2543885">https://doi.org/10.1145/2543882.2543885</a>.
 </div>
-<div id="ref-Srid2016" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Srid2016" class="csl-entry" role="listitem">
 Sridhara, Sumukh, Brian Hou, Jeffrey Lu, and John DeNero. 2016. <span>“Fuzz Testing Projects in Massive Courses.”</span> In <em>2016 Conference on Learning @ Scale (<span>L@S’16</span>)</em>. Association for Computing Machinery (<span>ACM</span>). <a href="https://doi.org/10.1145/2876034.2876050">https://doi.org/10.1145/2876034.2876050</a>.
 </div>
-<div id="ref-Steg2016b" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Steg2016b" class="csl-entry" role="listitem">
 Stegeman, Martijn, Erik Barendsen, and Sjaak Smetsers. 2016. <span>“Rubric for Feedback on Code Quality in Programming Courses.”</span> <a href="http://stgm.nl/quality" class="uri">http://stgm.nl/quality</a>.
 </div>
 </div>
@@ -710,9 +743,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -777,6 +824,92 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {
@@ -832,6 +965,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">Enseñar Tecnología en Comunidad (2e) fue escrito por Greg Wilson y Yanina Bellini Saibene.</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
     <div class="nav-footer-right">El libro fue construido con <a href="https://quarto.org/">Quarto</a>.</div>
   </div>
 </footer>

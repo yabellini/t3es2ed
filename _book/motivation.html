@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.269">
+<meta name="generator" content="quarto-1.3.290">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -17,14 +17,15 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for citations */
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
 }
-.hanging div.csl-entry {
+.hanging-indent div.csl-entry {
   margin-left:2em;
   text-indent:-2em;
 }
@@ -38,8 +39,7 @@ div.csl-right-inline {
 }
 div.csl-indent {
   margin-left: 2em;
-}
-</style>
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -87,11 +87,16 @@ div.csl-indent {
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-    <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Motivación y desmotivación</span></h1>
-      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
-        <i class="bi bi-chevron-right"></i>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./motivation.html"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Motivación y desmotivación</span></a></li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
       </button>
     </div>
   </nav>
@@ -99,197 +104,225 @@ div.csl-indent {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Enseñar Tecnología en Comunidad (2e)</a> 
         <div class="sidebar-tools-main">
-    <a href="https://github.com/yabellini/t3es2ed" title="Source Code" class="sidebar-tool px-1"><i class="bi bi-github"></i></a>
+    <a href="https://github.com/yabellini/t3es2ed" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
 </div>
     </div>
       </div>
-      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="mt-2 flex-shrink-0 align-items-center">
         <div class="sidebar-search">
         <div id="quarto-search" class="" title="Search"></div>
         </div>
-      </div>
+        </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link">Preface</a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Preface</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./rules.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Las reglas</span></a>
+  <a href="./rules.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Las reglas</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./intro.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Introducción</span></a>
+  <a href="./intro.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Introducción</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./models.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Modelos mentales y evaluación formativa</span></a>
+  <a href="./models.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Modelos mentales y evaluación formativa</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./memory.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Pericia y memoria</span></a>
+  <a href="./memory.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Pericia y memoria</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./architecture.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Arquitectura Cognitiva</span></a>
+  <a href="./architecture.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Arquitectura Cognitiva</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./individual.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Aprendizaje individual</span></a>
+  <a href="./individual.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Aprendizaje individual</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./process.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Un proceso para diseñar lecciones</span></a>
+  <a href="./process.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Un proceso para diseñar lecciones</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./pck.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Conocimiento de la pedagogía del contenido</span></a>
+  <a href="./pck.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Conocimiento de la pedagogía del contenido</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./performance.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Enseñar como un arte performativo</span></a>
+  <a href="./performance.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Enseñar como un arte performativo</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./classroom.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">En el salón de clase</span></a>
+  <a href="./classroom.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">En el salón de clase</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./motivation.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Motivación y desmotivación</span></a>
+  <a href="./motivation.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Motivación y desmotivación</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./online.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Enseñar en línea</span></a>
+  <a href="./online.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Enseñar en línea</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./exercises.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Tipos de ejercicios</span></a>
+  <a href="./exercises.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Tipos de ejercicios</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./community.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Construyendo una comunidad de práctica</span></a>
+  <a href="./community.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Construyendo una comunidad de práctica</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./events.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Tipos de Eventos</span></a>
+  <a href="./events.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Tipos de Eventos</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./outreach.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Difusión y vinculación</span></a>
+  <a href="./outreach.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Difusión y vinculación</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./paid.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Como vivir de enseñar</span></a>
+  <a href="./paid.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Como vivir de enseñar</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./finale.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">¿Por qué enseñamos?</span></a>
+  <a href="./finale.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">¿Por qué enseñamos?</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./license.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Licencia</span></a>
+  <a href="./license.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Licencia</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./conduct.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title">Código de conducta</span></a>
+  <a href="./conduct.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title">Código de conducta</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./joining.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">21</span>&nbsp; <span class="chapter-title">Unirse a nuestra comunidad</span></a>
+  <a href="./joining.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">21</span>&nbsp; <span class="chapter-title">Unirse a nuestra comunidad</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./glossary.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">glossary.html</span></a>
+  <a href="./glossary.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">glossary.html</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./meetings.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">23</span>&nbsp; <span class="chapter-title">Reuniones, reuniones, reuniones</span></a>
+  <a href="./meetings.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">23</span>&nbsp; <span class="chapter-title">Reuniones, reuniones, reuniones</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./checklists.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">24</span>&nbsp; <span class="chapter-title">Listas de verificación y plantillas</span></a>
+  <a href="./checklists.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">24</span>&nbsp; <span class="chapter-title">Listas de verificación y plantillas</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./conceptmaps.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">25</span>&nbsp; <span class="chapter-title">Ejemplos de Mapas Conceptuales</span></a>
+  <a href="./conceptmaps.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">25</span>&nbsp; <span class="chapter-title">Ejemplos de Mapas Conceptuales</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./chunking.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">26</span>&nbsp; <span class="chapter-title">“Solución del ejercicio de particionar”</span></a>
+  <a href="./chunking.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">26</span>&nbsp; <span class="chapter-title">“Solución del ejercicio de particionar”</span></span></a>
   </div>
 </li>
     </ul>
     </div>
 </nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#sec-motivation-authentic" id="toc-sec-motivation-authentic" class="nav-link active" data-scroll-target="#sec-motivation-authentic"><span class="toc-section-number">11.1</span>  Tareas auténticas</a></li>
-  <li><a href="#sec-motivation-demotivation" id="toc-sec-motivation-demotivation" class="nav-link" data-scroll-target="#sec-motivation-demotivation"><span class="toc-section-number">11.2</span>  Desmotivación</a>
+  <li><a href="#sec-motivation-authentic" id="toc-sec-motivation-authentic" class="nav-link active" data-scroll-target="#sec-motivation-authentic"><span class="header-section-number">11.1</span> Tareas auténticas</a></li>
+  <li><a href="#sec-motivation-demotivation" id="toc-sec-motivation-demotivation" class="nav-link" data-scroll-target="#sec-motivation-demotivation"><span class="header-section-number">11.2</span> Desmotivación</a>
   <ul class="collapse">
-  <li><a href="#síndrome-del-impostora" id="toc-síndrome-del-impostora" class="nav-link" data-scroll-target="#síndrome-del-impostora"><span class="toc-section-number">11.2.2</span>  Síndrome del impostor/a</a></li>
-  <li><a href="#mentalidad-y-amenaza-de-estereotipo" id="toc-mentalidad-y-amenaza-de-estereotipo" class="nav-link" data-scroll-target="#mentalidad-y-amenaza-de-estereotipo"><span class="toc-section-number">11.2.3</span>  Mentalidad y amenaza de estereotipo</a></li>
+  <li><a href="#síndrome-del-impostora" id="toc-síndrome-del-impostora" class="nav-link" data-scroll-target="#síndrome-del-impostora"><span class="header-section-number">11.2.2</span> Síndrome del impostor/a</a></li>
+  <li><a href="#mentalidad-y-amenaza-de-estereotipo" id="toc-mentalidad-y-amenaza-de-estereotipo" class="nav-link" data-scroll-target="#mentalidad-y-amenaza-de-estereotipo"><span class="header-section-number">11.2.3</span> Mentalidad y amenaza de estereotipo</a></li>
   </ul></li>
-  <li><a href="#sec-motivation-accessibility" id="toc-sec-motivation-accessibility" class="nav-link" data-scroll-target="#sec-motivation-accessibility"><span class="toc-section-number">11.3</span>  <span data-i="accesibilidad">Accesibilidad</span></a>
+  <li><a href="#sec-motivation-accessibility" id="toc-sec-motivation-accessibility" class="nav-link" data-scroll-target="#sec-motivation-accessibility"><span class="header-section-number">11.3</span> <span data-i="accesibilidad">Accesibilidad</span></a>
   <ul class="collapse">
-  <li><a href="#cucharas" id="toc-cucharas" class="nav-link" data-scroll-target="#cucharas"><span class="toc-section-number">11.3.2</span>  <span data-i="cucharas (metáfora)">Cucharas</span></a></li>
+  <li><a href="#cucharas" id="toc-cucharas" class="nav-link" data-scroll-target="#cucharas"><span class="header-section-number">11.3.2</span> <span data-i="cucharas (metáfora)">Cucharas</span></a></li>
   </ul></li>
-  <li><a href="#sec-motivation-inclusivity" id="toc-sec-motivation-inclusivity" class="nav-link" data-scroll-target="#sec-motivation-inclusivity"><span class="toc-section-number">11.4</span>  Inclusión</a>
+  <li><a href="#sec-motivation-inclusivity" id="toc-sec-motivation-inclusivity" class="nav-link" data-scroll-target="#sec-motivation-inclusivity"><span class="header-section-number">11.4</span> Inclusión</a>
   <ul class="collapse">
-  <li><a href="#pasando-el-modelo-del-déficit" id="toc-pasando-el-modelo-del-déficit" class="nav-link" data-scroll-target="#pasando-el-modelo-del-déficit"><span class="toc-section-number">11.4.2</span>  Pasando el modelo del déficit</a></li>
+  <li><a href="#pasando-el-modelo-del-déficit" id="toc-pasando-el-modelo-del-déficit" class="nav-link" data-scroll-target="#pasando-el-modelo-del-déficit"><span class="header-section-number">11.4.2</span> Pasando el modelo del déficit</a></li>
   </ul></li>
-  <li><a href="#sec-motivation-exercises" id="toc-sec-motivation-exercises" class="nav-link" data-scroll-target="#sec-motivation-exercises"><span class="toc-section-number">11.5</span>  Ejercicios</a>
+  <li><a href="#sec-motivation-exercises" id="toc-sec-motivation-exercises" class="nav-link" data-scroll-target="#sec-motivation-exercises"><span class="header-section-number">11.5</span> Ejercicios</a>
   <ul class="collapse">
-  <li><a href="#tareas-auténticas-parejas15" id="toc-tareas-auténticas-parejas15" class="nav-link" data-scroll-target="#tareas-auténticas-parejas15"><span class="toc-section-number">11.5.1</span>  Tareas auténticas (parejas/15’)</a></li>
-  <li><a href="#necesidades-básicas-toda-la-clase10" id="toc-necesidades-básicas-toda-la-clase10" class="nav-link" data-scroll-target="#necesidades-básicas-toda-la-clase10"><span class="toc-section-number">11.5.2</span>  Necesidades básicas (toda la clase/10’)</a></li>
-  <li><a href="#implementa-una-estrategia-para-la-inclusión-individual5" id="toc-implementa-una-estrategia-para-la-inclusión-individual5" class="nav-link" data-scroll-target="#implementa-una-estrategia-para-la-inclusión-individual5"><span class="toc-section-number">11.5.3</span>  Implementa una estrategia para la inclusión (individual/5’)</a></li>
-  <li><a href="#después-de-los-hechos-piensa-empareja-comparte20" id="toc-después-de-los-hechos-piensa-empareja-comparte20" class="nav-link" data-scroll-target="#después-de-los-hechos-piensa-empareja-comparte20"><span class="toc-section-number">11.5.4</span>  Después de los hechos (piensa-empareja-comparte/20’)</a></li>
-  <li><a href="#camina-la-ruta-toda-la-clase15" id="toc-camina-la-ruta-toda-la-clase15" class="nav-link" data-scroll-target="#camina-la-ruta-toda-la-clase15"><span class="toc-section-number">11.5.5</span>  Camina la ruta (toda la clase/15’)</a></li>
-  <li><a href="#quién-decide-toda-la-clase15" id="toc-quién-decide-toda-la-clase15" class="nav-link" data-scroll-target="#quién-decide-toda-la-clase15"><span class="toc-section-number">11.5.6</span>  ¿Quién decide? (toda la clase/15’)</a></li>
-  <li><a href="#estereotipos-comunes-parejas10" id="toc-estereotipos-comunes-parejas10" class="nav-link" data-scroll-target="#estereotipos-comunes-parejas10"><span class="toc-section-number">11.5.7</span>  Estereotipos comunes (parejas/10’)</a></li>
-  <li><a href="#no-ser-un-idiota-individual15" id="toc-no-ser-un-idiota-individual15" class="nav-link" data-scroll-target="#no-ser-un-idiota-individual15"><span class="toc-section-number">11.5.8</span>  No ser un idiota (individual/15’)</a></li>
-  <li><a href="#salvar-las-apariencias-individual10" id="toc-salvar-las-apariencias-individual10" class="nav-link" data-scroll-target="#salvar-las-apariencias-individual10"><span class="toc-section-number">11.5.9</span>  Salvar las apariencias (individual/10’)</a></li>
-  <li><a href="#juguetes-infantiles-toda-la-clase15" id="toc-juguetes-infantiles-toda-la-clase15" class="nav-link" data-scroll-target="#juguetes-infantiles-toda-la-clase15"><span class="toc-section-number">11.5.10</span>  Juguetes infantiles (toda la clase/15’)</a></li>
-  <li><a href="#accesibilidad-de-la-lección-parejas30" id="toc-accesibilidad-de-la-lección-parejas30" class="nav-link" data-scroll-target="#accesibilidad-de-la-lección-parejas30"><span class="toc-section-number">11.5.11</span>  Accesibilidad de la lección (parejas/30’)</a></li>
-  <li><a href="#siguiendo-el-ciclo-grupos-pequeños15" id="toc-siguiendo-el-ciclo-grupos-pequeños15" class="nav-link" data-scroll-target="#siguiendo-el-ciclo-grupos-pequeños15"><span class="toc-section-number">11.5.12</span>  Siguiendo el ciclo (grupos pequeños/15’)</a></li>
-  <li><a href="#qué-es-lo-peor-que-podría-pasar-grupos-pequeños5" id="toc-qué-es-lo-peor-que-podría-pasar-grupos-pequeños5" class="nav-link" data-scroll-target="#qué-es-lo-peor-que-podría-pasar-grupos-pequeños5"><span class="toc-section-number">11.5.13</span>  ¿Qué es lo peor que podría pasar? (grupos pequeños/5’)</a></li>
+  <li><a href="#tareas-auténticas-parejas15" id="toc-tareas-auténticas-parejas15" class="nav-link" data-scroll-target="#tareas-auténticas-parejas15"><span class="header-section-number">11.5.1</span> Tareas auténticas (parejas/15’)</a></li>
+  <li><a href="#necesidades-básicas-toda-la-clase10" id="toc-necesidades-básicas-toda-la-clase10" class="nav-link" data-scroll-target="#necesidades-básicas-toda-la-clase10"><span class="header-section-number">11.5.2</span> Necesidades básicas (toda la clase/10’)</a></li>
+  <li><a href="#implementa-una-estrategia-para-la-inclusión-individual5" id="toc-implementa-una-estrategia-para-la-inclusión-individual5" class="nav-link" data-scroll-target="#implementa-una-estrategia-para-la-inclusión-individual5"><span class="header-section-number">11.5.3</span> Implementa una estrategia para la inclusión (individual/5’)</a></li>
+  <li><a href="#después-de-los-hechos-piensa-empareja-comparte20" id="toc-después-de-los-hechos-piensa-empareja-comparte20" class="nav-link" data-scroll-target="#después-de-los-hechos-piensa-empareja-comparte20"><span class="header-section-number">11.5.4</span> Después de los hechos (piensa-empareja-comparte/20’)</a></li>
+  <li><a href="#camina-la-ruta-toda-la-clase15" id="toc-camina-la-ruta-toda-la-clase15" class="nav-link" data-scroll-target="#camina-la-ruta-toda-la-clase15"><span class="header-section-number">11.5.5</span> Camina la ruta (toda la clase/15’)</a></li>
+  <li><a href="#quién-decide-toda-la-clase15" id="toc-quién-decide-toda-la-clase15" class="nav-link" data-scroll-target="#quién-decide-toda-la-clase15"><span class="header-section-number">11.5.6</span> ¿Quién decide? (toda la clase/15’)</a></li>
+  <li><a href="#estereotipos-comunes-parejas10" id="toc-estereotipos-comunes-parejas10" class="nav-link" data-scroll-target="#estereotipos-comunes-parejas10"><span class="header-section-number">11.5.7</span> Estereotipos comunes (parejas/10’)</a></li>
+  <li><a href="#no-ser-un-idiota-individual15" id="toc-no-ser-un-idiota-individual15" class="nav-link" data-scroll-target="#no-ser-un-idiota-individual15"><span class="header-section-number">11.5.8</span> No ser un idiota (individual/15’)</a></li>
+  <li><a href="#salvar-las-apariencias-individual10" id="toc-salvar-las-apariencias-individual10" class="nav-link" data-scroll-target="#salvar-las-apariencias-individual10"><span class="header-section-number">11.5.9</span> Salvar las apariencias (individual/10’)</a></li>
+  <li><a href="#juguetes-infantiles-toda-la-clase15" id="toc-juguetes-infantiles-toda-la-clase15" class="nav-link" data-scroll-target="#juguetes-infantiles-toda-la-clase15"><span class="header-section-number">11.5.10</span> Juguetes infantiles (toda la clase/15’)</a></li>
+  <li><a href="#accesibilidad-de-la-lección-parejas30" id="toc-accesibilidad-de-la-lección-parejas30" class="nav-link" data-scroll-target="#accesibilidad-de-la-lección-parejas30"><span class="header-section-number">11.5.11</span> Accesibilidad de la lección (parejas/30’)</a></li>
+  <li><a href="#siguiendo-el-ciclo-grupos-pequeños15" id="toc-siguiendo-el-ciclo-grupos-pequeños15" class="nav-link" data-scroll-target="#siguiendo-el-ciclo-grupos-pequeños15"><span class="header-section-number">11.5.12</span> Siguiendo el ciclo (grupos pequeños/15’)</a></li>
+  <li><a href="#qué-es-lo-peor-que-podría-pasar-grupos-pequeños5" id="toc-qué-es-lo-peor-que-podría-pasar-grupos-pequeños5" class="nav-link" data-scroll-target="#qué-es-lo-peor-que-podría-pasar-grupos-pequeños5"><span class="header-section-number">11.5.13</span> ¿Qué es lo peor que podría pasar? (grupos pequeños/5’)</a></li>
   </ul></li>
-  <li><a href="#sec-motivation-review" id="toc-sec-motivation-review" class="nav-link" data-scroll-target="#sec-motivation-review"><span class="toc-section-number">11.6</span>  Revisa</a></li>
+  <li><a href="#sec-motivation-review" id="toc-sec-motivation-review" class="nav-link" data-scroll-target="#sec-motivation-review"><span class="header-section-number">11.6</span> Revisa</a></li>
   </ul>
 <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/yabellini/t3es2ed/edit/main/motivation.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/yabellini/t3es2ed/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
     </div>
@@ -298,7 +331,7 @@ div.csl-indent {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span id="sec-motivation" class="quarto-section-identifier d-none d-lg-block"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Motivación y desmotivación</span></span></h1>
+<h1 class="title"><span id="sec-motivation" class="quarto-section-identifier"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Motivación y desmotivación</span></span></h1>
 </div>
 
 
@@ -313,17 +346,17 @@ div.csl-indent {
 
 </header>
 
-<div class="callout-note callout callout-style-default callout-captioned">
+<div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Segunda edición
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Estás leyendo la segunda edición en progreso y en castellano de Enseñar Tecnología en Comunidad (Teaching Tech Together). Este capítulo está siendo objeto de una profunda reestructuración y puede resultar confuso o incompleto</p>
+<p>Estás leyendo la segunda edición en progreso y en castellano de Enseñar Tecnología en Comunidad (Teaching Tech Together). Este capítulo está siendo objeto de una profunda reestructuración y puede resultar confuso o incompleto.</p>
 </div>
 </div>
 <p>Los/las estudiantes necesitan ánimo para enfrentar terreno desconocido, así que este capítulo analiza maneras en las que el cuerpo docente puede motivarlos/las. Y más importante, el capítulo habla de cómo los/las docentes pueden desmotivarlos/as y cómo evitarlo.</p>
@@ -359,7 +392,7 @@ Segunda edición
 <p>Como <span data-i="Wiliam, Dylan">Dylan Wiliam</span> menciona en <span class="citation" data-cites="Hend2017">Hendrick and Macpherson (<a href="#ref-Hend2017" role="doc-biblioref">2017</a>)</span>, la motivación no siempre conduce al logro pero el logro casi siempre conduce a la motivación: el éxito de los/las estudiantes les motiva mucho más a que les digan lo geniales que son. Podemos usar esta idea en la docencia creando una cuadrícula cuyos ejes son “tiempo medio para dominar” y “utilidad una vez dominado” (<a href="#fig-motivation-what">Figure&nbsp;<span>11.1</span></a>).</p>
 <div id="fig-motivation-what" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
-<p><img src="diagrams/what-to-teach.svg" class="img-fluid figure-img" alt=""></p>
+<p><img src="diagrams/what-to-teach.svg" class="quarto-discovered-preview-image img-fluid figure-img" alt=""></p>
 <p></p><figcaption class="figure-caption">Figure&nbsp;11.1: Qué enseñar</figcaption><p></p>
 </figure>
 </div>
@@ -659,134 +692,134 @@ Segunda edición
 <p><img src="diagrams/conceptmap-motivation.svg" class="img-fluid" alt="Conceptos: Motivación">{fig-alt = ““}</p>
 
 
-<div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography">
-<div id="ref-Abba2012" class="csl-entry" role="doc-biblioentry">
+<div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-Abba2012" class="csl-entry" role="listitem">
 Abbate, Janet. 2012. <em>Recoding Gender: Women’s Changing Participation in Computing</em>. <span>MIT</span> Press.
 </div>
-<div id="ref-Dahl2018" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Dahl2018" class="csl-entry" role="listitem">
 Albright, Sarah Dahlby, Titus H. Klinge, and Samuel A. Rebelsky. 2018. <span>“A Functional Approach to Data Science in <span>CS1</span>.”</span> In <em>2018 Technical Symposium on Computer Science Education (<span>SIGCSE’18</span>)</em>. Association for Computing Machinery (<span>ACM</span>). <a href="https://doi.org/10.1145/3159450.3159550">https://doi.org/10.1145/3159450.3159550</a>.
 </div>
-<div id="ref-Ambr2010" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Ambr2010" class="csl-entry" role="listitem">
 Ambrose, Susan A., Michael W. Bridges, Michele DiPietro, Marsha C. Lovett, and Marie K. Norman. 2010. <em>How Learning Works: Seven Research-Based Principles for Smart Teaching</em>. Jossey-Bass.
 </div>
-<div id="ref-Bark2014" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Bark2014" class="csl-entry" role="listitem">
 Barker, Lecia, Christopher Lynnly Hovey, and Leisa D. Thompson. 2014. <span>“Results of a Large-Scale, Multi-Institutional Study of Undergraduate Retention in Computing.”</span> In <em>2014 Frontiers in Education Conference (<span>FIE’14</span>)</em>. Institute of Electrical; Electronics Engineers (<span>IEEE</span>). <a href="https://doi.org/10.1109/fie.2014.7044267">https://doi.org/10.1109/fie.2014.7044267</a>.
 </div>
-<div id="ref-Bigg2011" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Bigg2011" class="csl-entry" role="listitem">
 Biggs, John, and Catherine Tang. 2011. <em>Teaching for Quality Learning at University</em>. Open University Press.
 </div>
-<div id="ref-Brop1983" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Brop1983" class="csl-entry" role="listitem">
 Brophy, Jere E. 1983. <span>“Research on the Self-Fulfilling Prophecy and Teacher Expectations.”</span> <em>Journal of Educational Psychology</em> 75 (5): 631–61. <a href="https://doi.org/10.1037/0022-0663.75.5.631">https://doi.org/10.1037/0022-0663.75.5.631</a>.
 </div>
-<div id="ref-Burg2015" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Burg2015" class="csl-entry" role="listitem">
 Burgstahler, Sheryl E. 2015. <em>Universal Design in Higher Education: From Principles to Practice</em>. Second. Harvard Education Press.
 </div>
-<div id="ref-Cher2009" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Cher2009" class="csl-entry" role="listitem">
 Cheryan, Sapna, Victoria C. Plaut, Paul G. Davies, and Claude M. Steele. 2009. <span>“Ambient Belonging: How Stereotypical Cues Impact Gender Participation in Computer Science.”</span> <em>Journal of Personality and Social Psychology</em> 97 (6): 1045–60. <a href="https://doi.org/10.1037/a0016239">https://doi.org/10.1037/a0016239</a>.
 </div>
-<div id="ref-Coco2018" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Coco2018" class="csl-entry" role="listitem">
 Community Organizations, Center for. 2018. <span>“The <span>‘Problem’</span> Woman of Colour in the Workplace.”</span> <a href="https://coco-net.org/problem-woman-colour-nonprofit-organizations/" class="uri">https://coco-net.org/problem-woman-colour-nonprofit-organizations/</a>.
 </div>
-<div id="ref-Coom2012" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Coom2012" class="csl-entry" role="listitem">
 Coombs, Norman. 2012. <em>Making Online Teaching Accessible</em>. Jossey-Bass.
 </div>
-<div id="ref-Covi2017" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Covi2017" class="csl-entry" role="listitem">
 Covington, Martin V., Linda M. von Hoene, and Dominic J. Voge. 2017. <em>Life Beyond Grades: Designing College Courses to Promote Intrinsic Motivation</em>. Cambridge University Press.
 </div>
-<div id="ref-Cutt2017" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Cutt2017" class="csl-entry" role="listitem">
 Cutts, Quintin, Charles Riedesel, Elizabeth Patitsas, Elizabeth Cole, Peter Donaldson, Bedour Alshaigy, Mirela Gutica, Arto Hellas, Edurne Larraza-Mendiluze, and Robert McCartney. 2017. <span>“Early Developmental Activities and Computing Proficiency.”</span> In <em>2017 Conference on Innovation and Technology in Computer Science Education (<span>ITiCSE’17</span>)</em>. Association for Computing Machinery (<span>ACM</span>). <a href="https://doi.org/10.1145/3174781.3174789">https://doi.org/10.1145/3174781.3174789</a>.
 </div>
-<div id="ref-DiSa2014a" class="csl-entry" role="doc-biblioentry">
+<div id="ref-DiSa2014a" class="csl-entry" role="listitem">
 DiSalvo, Betsy, Mark Guzdial, Amy Bruckman, and Tom McKlin. 2014. <span>“Saving Face While Geeking Out: Video Game Testing as a Justification for Learning Computer Science.”</span> <em>Journal of the Learning Sciences</em> 23 (3): 272–315. <a href="https://doi.org/10.1080/10508406.2014.893434">https://doi.org/10.1080/10508406.2014.893434</a>.
 </div>
-<div id="ref-Ensm2003" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Ensm2003" class="csl-entry" role="listitem">
 Ensmenger, Nathan L. 2003. <span>“Letting the <span>‘Computer Boys’</span> Take over: Technology and the Politics of Organizational Transformation.”</span> <em>International Review of Social History</em> 48 (S11): 153–80. <a href="https://doi.org/10.1017/s0020859003001305">https://doi.org/10.1017/s0020859003001305</a>.
 </div>
-<div id="ref-Ensm2012" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Ensm2012" class="csl-entry" role="listitem">
 ———. 2012. <em>The Computer Boys Take over: Computers, Programmers, and the Politics of Technical Expertise</em>. <span>MIT</span> Press.
 </div>
-<div id="ref-Ford2016" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Ford2016" class="csl-entry" role="listitem">
 Ford, Denae, Justin Smith, Philip J. Guo, and Chris Parnin. 2016. <span>“Paradise Unplugged: Identifying Barriers for Female Participation on <span>Stack Overflow</span>.”</span> In <em>2016 International Symposium on Foundations of Software Engineering (<span>FSE’16</span>)</em>. Association for Computing Machinery (<span>ACM</span>). <a href="https://doi.org/10.1145/2950290.2950331">https://doi.org/10.1145/2950290.2950331</a>.
 </div>
-<div id="ref-Galp2002" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Galp2002" class="csl-entry" role="listitem">
 Galpin, Vashti. 2002. <span>“Women in Computing Around the World.”</span> <em><span>ACM</span> <span>SIGCSE</span> Bulletin</em> 34 (2). <a href="https://doi.org/10.1145/543812.543839">https://doi.org/10.1145/543812.543839</a>.
 </div>
-<div id="ref-Gauc2011" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Gauc2011" class="csl-entry" role="listitem">
 Gaucher, Danielle, Justin Friesen, and Aaron C. Kay. 2011. <span>“Evidence That Gendered Wording in Job Advertisements Exists and Sustains Gender Inequality.”</span> <em>Journal of Personality and Social Psychology</em> 101 (1): 109–28. <a href="https://doi.org/10.1037/a0022530">https://doi.org/10.1037/a0022530</a>.
 </div>
-<div id="ref-Guzd2013" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Guzd2013" class="csl-entry" role="listitem">
 Guzdial, Mark. 2013. <span>“Exploring Hypotheses about Media Computation.”</span> In <em>2013 International Computing Education Research Conference (<span>ICER’13</span>)</em>. Association for Computing Machinery (<span>ACM</span>). <a href="https://doi.org/10.1145/2493394.2493397">https://doi.org/10.1145/2493394.2493397</a>.
 </div>
-<div id="ref-Hend2017" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Hend2017" class="csl-entry" role="listitem">
 Hendrick, Carl, and Robin Macpherson. 2017. <em>What Does This Look Like in the Classroom?: Bridging the Gap Between Research and Practice</em>. John Catt Educational.
 </div>
-<div id="ref-Hick2018" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Hick2018" class="csl-entry" role="listitem">
 Hicks, Marie. 2018. <em>Programmed Inequality: How Britain Discarded Women Technologists and Lost Its Edge in Computing</em>. <span>MIT</span> Press.
 </div>
-<div id="ref-Kapu2016" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Kapu2016" class="csl-entry" role="listitem">
 Kapur, Manu. 2016. <span>“Examining Productive Failure, Productive Success, Unproductive Failure, and Unproductive Success in Learning.”</span> <em>Educational Psychologist</em> 51 (2): 289–99. <a href="https://doi.org/10.1080/00461520.2016.1155457">https://doi.org/10.1080/00461520.2016.1155457</a>.
 </div>
-<div id="ref-Lach2018" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Lach2018" class="csl-entry" role="listitem">
 Lachney, Michael. 2018. <span>“Computational Communities: <span>African-American</span> Cultural Capital in Computer Science Education.”</span> <em>Computer Science Education</em>, February, 1–22. <a href="https://doi.org/10.1080/08993408.2018.1429062">https://doi.org/10.1080/08993408.2018.1429062</a>.
 </div>
-<div id="ref-Lang2013" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Lang2013" class="csl-entry" role="listitem">
 Lang, James M. 2013. <em>Cheating Lessons: Learning from Academic Dishonesty</em>. Harvard University Press.
 </div>
-<div id="ref-Lee2013" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Lee2013" class="csl-entry" role="listitem">
 Lee, Cynthia Bailey. 2013. <span>“Experience Report: <span>CS1</span> in <span>MATLAB</span> for Non-Majors, with Media Computation and Peer Instruction.”</span> In <em>2013 Technical Symposium on Computer Science Education (<span>SIGCSE’13</span>)</em>. Association for Computing Machinery (<span>ACM</span>). <a href="https://doi.org/10.1145/2445196.2445214">https://doi.org/10.1145/2445196.2445214</a>.
 </div>
-<div id="ref-Lee2017" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Lee2017" class="csl-entry" role="listitem">
 ———. 2017. <span>“What Can i Do Today to Create a More Inclusive Community in <span>CS</span>?”</span> <a href="http://bit.ly/2oynmSH" class="uri">http://bit.ly/2oynmSH</a>.
 </div>
-<div id="ref-Litt2004" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Litt2004" class="csl-entry" role="listitem">
 Littky, Dennis. 2004. <em>The Big Picture: Education Is Everyone’s Business</em>. Association for Supervision &amp; Curriculum Development (<span>ASCD</span>).
 </div>
-<div id="ref-Marg2003" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Marg2003" class="csl-entry" role="listitem">
 Margolis, Jane, and Allan Fisher. 2003. <em>Unlocking the Clubhouse: Women in Computing</em>. <span>MIT</span> Press.
 </div>
-<div id="ref-Meys2018" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Meys2018" class="csl-entry" role="listitem">
 Meysenburg, Mark, Tessa Durham Brooks, Raychelle Burks, Erin Doyle, and Timothy Frey. 2018. <span>“<span>DIVAS</span>: Outreach to the Natural Sciences Through Image Processing.”</span> In <em>2018 Technical Symposium on Computer Science Education (<span>SIGCSE’18</span>)</em>. Association for Computing Machinery (<span>ACM</span>). <a href="https://doi.org/10.1145/3159450.3159537">https://doi.org/10.1145/3159450.3159537</a>.
 </div>
-<div id="ref-Mill2015" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Mill2015" class="csl-entry" role="listitem">
 Miller, David I., and Jonathan Wai. 2015. <span>“The Bachelor’s to Ph.d. <span>STEM</span> Pipeline No Longer Leaks More Women Than Men: A 30-Year Analysis.”</span> <em>Frontiers in Psychology</em> 6 (February). <a href="https://doi.org/10.3389/fpsyg.2015.00037">https://doi.org/10.3389/fpsyg.2015.00037</a>.
 </div>
-<div id="ref-Mill2016a" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Mill2016a" class="csl-entry" role="listitem">
 Miller, Michelle D. 2016. <em>Minds Online: Teaching Effectively with Technology</em>. Harvard University Press.
 </div>
-<div id="ref-Milt2018" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Milt2018" class="csl-entry" role="listitem">
 Miltner, Kate M. 2018. <span>“Girls Who Coded: Gender in Twentieth Century <span>U.K.</span> And <span>U.S.</span> Computing.”</span> <em>Science, Technology, &amp; Human Values</em>, May. <a href="https://doi.org/10.1177/0162243918770287">https://doi.org/10.1177/0162243918770287</a>.
 </div>
-<div id="ref-Pati2016" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Pati2016" class="csl-entry" role="listitem">
 Patitsas, Elizabeth, Jesse Berlin, Michelle Craig, and Steve Easterbrook. 2016. <span>“Evidence That Computer Science Grades Are Not Bimodal.”</span> In <em>2016 International Computing Education Research Conference (<span>ICER’16</span>)</em>. Association for Computing Machinery (<span>ACM</span>). <a href="https://doi.org/10.1145/2960310.2960312">https://doi.org/10.1145/2960310.2960312</a>.
 </div>
-<div id="ref-Ritz2018" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Ritz2018" class="csl-entry" role="listitem">
 Ritz, Anna. 2018. <span>“Programming the Central Dogma: An Integrated Unit on Computer Science and Molecular Biology Concepts.”</span> In <em>2018 Technical Symposium on Computer Science Education (<span>SIGCSE’18</span>)</em>. Association for Computing Machinery (<span>ACM</span>). <a href="https://doi.org/10.1145/3159450.3159590">https://doi.org/10.1145/3159450.3159590</a>.
 </div>
-<div id="ref-Robe2017" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Robe2017" class="csl-entry" role="listitem">
 Roberts, Eric. 2017. <span>“Assessing and Responding to the Growth of Computer Science Undergraduate Enrollments: Annotated Findings.”</span> <a href="http://cs.stanford.edu/people/eroberts/ResourcesForTheCSCapacityCrisis/files/AnnotatedFindings.pptx" class="uri">http://cs.stanford.edu/people/eroberts/ResourcesForTheCSCapacityCrisis/files/AnnotatedFindings.pptx</a>.
 </div>
-<div id="ref-Shap2007" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Shap2007" class="csl-entry" role="listitem">
 Shapiro, Jenessa R., and Steven L. Neuberg. 2007. <span>“From Stereotype Threat to Stereotype Threats: Implications of a Multi-Threat Framework for Causes, Moderators, Mediators, Consequences, and Interventions.”</span> <em>Personality and Social Psychology Review</em> 11 (2): 107–30. <a href="https://doi.org/10.1177/1088868306294790">https://doi.org/10.1177/1088868306294790</a>.
 </div>
-<div id="ref-Sisk2018" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Sisk2018" class="csl-entry" role="listitem">
 Sisk, Victoria F., Alexander P. Burgoyne, Jingze Sun, Jennifer L. Butler, and Brooke N. Macnamara. 2018. <span>“To What Extent and Under Which Circumstances Are Growth Mind-Sets Important to Academic Achievement? <span>Two</span> Meta-Analyses.”</span> <em>Psychological Science</em>, March, 095679761773970. <a href="https://doi.org/10.1177/0956797617739704">https://doi.org/10.1177/0956797617739704</a>.
 </div>
-<div id="ref-Stee2011" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Stee2011" class="csl-entry" role="listitem">
 Steele, Claude M. 2011. <em>Whistling Vivaldi: How Stereotypes Affect Us and What We Can Do</em>. W. W. Norton &amp; Company.
 </div>
-<div id="ref-Sved2016" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Sved2016" class="csl-entry" role="listitem">
 Svedin, Maria, and Olle Bälter. 2016. <span>“Gender Neutrality Improved Completion Rate for All.”</span> <em>Computer Science Education</em> 26 (2-3): 192–207. <a href="https://doi.org/10.1080/08993408.2016.1231469">https://doi.org/10.1080/08993408.2016.1231469</a>.
 </div>
-<div id="ref-Varm2015" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Varm2015" class="csl-entry" role="listitem">
 Varma, Roli, and Deepak Kapur. 2015. <span>“Decoding Femininity in Computer Science in India.”</span> <em>Communications of the <span>ACM</span></em> 58 (5): 56–62. <a href="https://doi.org/10.1145/2663339">https://doi.org/10.1145/2663339</a>.
 </div>
-<div id="ref-Wilc2018" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Wilc2018" class="csl-entry" role="listitem">
 Wilcox, Chris, and Albert Lionelle. 2018. <span>“Quantifying the Benefits of Prior Programming Experience in an Introductory Computer Science Course.”</span> In <em>2018 Technical Symposium on Computer Science Education (<span>SIGCSE’18</span>)</em>. Association for Computing Machinery (<span>ACM</span>). <a href="https://doi.org/10.1145/3159450.3159480">https://doi.org/10.1145/3159450.3159480</a>.
 </div>
-<div id="ref-Wilk2011" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Wilk2011" class="csl-entry" role="listitem">
 Wilkinson, Richard, and Kate Pickett. 2011. <em>The Spirit Level: Why Greater Equality Makes Societies Stronger</em>. Bloomsbury Press.
 </div>
-<div id="ref-Wlod2017" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Wlod2017" class="csl-entry" role="listitem">
 Wlodkowski, Raymond J., and Margery B. Ginsberg. 2017. <em>Enhancing Adult Motivation to Learn: A Comprehensive Guide for Teaching All Adults</em>. Jossey-Bass.
 </div>
 </div>
@@ -820,9 +853,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -887,6 +934,92 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {
@@ -942,6 +1075,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">Enseñar Tecnología en Comunidad (2e) fue escrito por Greg Wilson y Yanina Bellini Saibene.</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
     <div class="nav-footer-right">El libro fue construido con <a href="https://quarto.org/">Quarto</a>.</div>
   </div>
 </footer>
