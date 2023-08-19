@@ -118,6 +118,46 @@ Chequear bien que estos sean los capítulos correctos y si hay alguno más que a
 
 #### 2. Modelos mentales
 
+1. Describir las diferencias entre estudiantes principiantes, competentes y expertos/as.
+2. Explicar qué es un modelo mental y por qué no necesita ser completo ni correcto para ser útil.
+3. Explicar cómo la falta de un modelo mental afecta el aprendizaje de las personas principiantes y por qué el objetivo de las lecciones para principiantes debe ser ayudarles a construir un modelo mental.
+4. Explicar cómo el docente puede saber si alguien tiene un modelo mental funcional.
+5. Explicar qué es un mapa conceptual y qué elementos debe tener.
+6. Describir cinco maneras en que los mapas conceptuales pueden ser utilizados para planificar, enseñar y evaluar lecciones.
+7. Crear mapas conceptuales.
+8. Describir 5 estrategias para trabajar con estudiantes de distintos niveles.
+
+::: callout-tip
+## Recortando contenido
+Para la versión de ocho horas, los objetivos 4 y 8 se pueden quitar de la lección.
+:::
+
+#### 3. Carga Cognitiva
+
+1. Explicar la diferencia entre la memoria a largo plazo y a corto plazo y describir el ciclo de recuperación/codificación.
+2. Describir cómo se procesa, integra y almacena la información visual y auditiva.
+3. Resumir las conclusiones de Benner et al sobre los modos de aprendizaje (visual + habla, visual + texto, visual + habla + texto).
+4. Definir los tres tipos de carga cognitiva e identificar correctamente ejemplos de cada uno.
+5. Explicar que implicancias tiene la teoría de la carga cognitiva para el diseñar y enseñar lecciones.
+6. Explicar qué es un problema de Parsons y cómo su eficacia puede basarse en la teoría de la carga cognitiva.
+7. Crear Problemas de Parsons y explicar cuándo y cómo deben o no deben utilizarse.
+
+#### 4. Capacidad Cognitiva
+
+1. Explicar qué es "siete más menos dos" (capacidad de la memoria a corto plazo) y qué implica para diseñar y enseñar lecciones.
+2. Explicar como los mapas conceptuales pueden ayudar a manejar la capacidad cognitiva.
+3. Explicar qué es un ejemplo desvanecido y cómo su eficacia puede basarse en la capacidad limitada de la memoria a corto plazo.
+4. Identificar qué tipo de carga cognitiva reducen los problemas desvanecidos.
+5. Crear ejercicios con ejemplos desvanecidos y explicar cuándo y cómo deben o no utilizarse.
+
+::: callout-tip
+## Recortando contenido
+Para la versión de ocho horas, los objetivos 2 y 4 se pueden quitar de la lección.
+:::
+
+#### 
+
+
 
 #### Formato del curso
 
@@ -163,7 +203,7 @@ Este curso puede dictarse con diferentes configuraciones.  Este cronograma de ej
 ::: callout-note
 ## Material complementario
 
-Si quieres enseñar el libro utilizando alguno de los formatos que mencionamos, el curso [Enseñando Tecnología en Comunidad. Consejos prácticos para enseñar aplicando la ciencia del aprendizaje y la enseñanza.](https://yabellini.github.io/t3es/) tiene todo el material en español para un taller de doce horas y [Teaching Tech Together](https://third-bit.com/t3/) tiene todo el material en inglés para un taller de 8 horas.
+Si quieres enseñar el libro utilizando alguno de los formatos de cursos largos, el curso [Enseñando Tecnología en Comunidad. Consejos prácticos para enseñar aplicando la ciencia del aprendizaje y la enseñanza.](https://yabellini.github.io/t3es/) tiene todo el material en español para un taller de doce horas y [Teaching Tech Together](https://third-bit.com/t3/) tiene todo el material en inglés para un taller de 8 horas.
 
 :::
 
