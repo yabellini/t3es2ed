@@ -80,7 +80,7 @@ Paso 7. Guía de participación durante el encuentro
 
 Paso 8. Llevar adelante los encuentros
 
-:   Los responsables inician la plataforma, dan la bienvenida,  recuerdan el código de conducta y dirigen la actividad (chat, documento compartido, diapositivas, salas para grupos, orden para hablar, etc).  Quien presenta repasa los contenidos y gestiona la discusión. Cuando se cumple el tiempo, se comparte la encuesta anónima (si es presencial se puede usar las @sec-classroom-sticky-notes) y los temas del encuentro siguiente. Si son encuentros sincrónicos y online, se puede dejar abierta la videollamada para extender el horario y quienes pueden siguen compartiendo.
+:   Los responsables inician la plataforma, dan la bienvenida,  recuerdan el código de conducta y dirigen la actividad (chat, documento compartido, diapositivas, salas para grupos, orden para hablar, etc).  Quien presenta repasa los contenidos y gestiona la discusión. Cuando se cumple el tiempo, se comparte la encuesta anónima (si es presencial se puede usar las notas adhesivas @sec-classroom-sticky-notes) y los temas del encuentro siguiente. Si son encuentros sincrónicos y online, se puede dejar abierta la videollamada para extender el horario y quienes pueden siguen compartiendo.
 
 Paso 9. Darle un cierre memorable
 
@@ -98,27 +98,27 @@ Tengo que gregar link a las secciones de notas compartidas, feedback y notas adh
 
 ### Cursos largos
 
-Llamamos cursos largos a los talleres de ocho a 16 horas de clase. Esta versión del curso se divide en diez lecciones donde se puede cubrir gran parte de los capítulos @sec-models a @sec-process, @sec-performance, y @sec-motivation. Esta lista resume los objetivos de aprendizaje de cada lección.
+Llamamos cursos largos a los talleres de 8 a 16 horas de clase. Esta versión del curso se divide en diez lecciones donde se puede cubrir gran parte de los capítulos @sec-models a @sec-process, @sec-performance, y @sec-motivation. Greg a enseñado la versión de ocho horas más de 30 veces desde 2017 para compañías, bibliotecas y organizaciones de software libre. Yanina ha enseñado la versión de 12 y 16 horas más de 10 veces desde 2021, en español y online para comunidades de práctica, compañías, instituciones de investigación y universidades públicas. 
 
+Esta lista resume los objetivos de aprendizaje de cada lección.
 
 ::: callout-warning
 ## TODO Yani!
 Chequear bien que estos sean los capítulos correctos y si hay alguno más que agregar.
 :::
 
+Lección 1. Introducción y Personas
 
-#### 1. Introducción y Personas
-
-1. Resumir cuatro objetivos clave de esta formación.
+:   1. Resumir cuatro objetivos clave de esta formación.
 2. Explicar cómo y por qué esta formación prepara a las personas para ser “paramédicos educativos”.
 3. Explicar qué son las personas o estudiantes tipo y para qué sirven.
 4. Describir los cuatro elementos que debe tener toda persona tipo.
 5. Crear estudiantes tipo.
 6. Resumir las lecciones de manera que resulten entendibles y atractivas para determinadas personas tipo.
 
-#### 2. Modelos mentales
+Lección 2. Modelos mentales
 
-1. Describir las diferencias entre estudiantes principiantes, competentes y expertos/as.
+:   1. Describir las diferencias entre estudiantes principiantes, competentes y expertos/as.
 2. Explicar qué es un modelo mental y por qué no necesita ser completo ni correcto para ser útil.
 3. Explicar cómo la falta de un modelo mental afecta el aprendizaje de las personas principiantes y por qué el objetivo de las lecciones para principiantes debe ser ayudarles a construir un modelo mental.
 4. Explicar cómo el docente puede saber si alguien tiene un modelo mental funcional.
@@ -132,9 +132,9 @@ Chequear bien que estos sean los capítulos correctos y si hay alguno más que a
 Para la versión de ocho horas, el objetivo 4 se pueden quitar de la lección.
 :::
 
-#### 3. Carga Cognitiva
+Lección 3. Carga Cognitiva
 
-1. Explicar la diferencia entre la memoria a largo plazo y a corto plazo y describir el ciclo de recuperación/codificación.
+:   1. Explicar la diferencia entre la memoria a largo plazo y a corto plazo y describir el ciclo de recuperación/codificación.
 2. Describir cómo se procesa, integra y almacena la información visual y auditiva.
 3. Resumir las conclusiones de Benner et al sobre los modos de aprendizaje (visual + habla, visual + texto, visual + habla + texto).
 4. Definir los tres tipos de carga cognitiva e identificar correctamente ejemplos de cada uno.
@@ -142,9 +142,9 @@ Para la versión de ocho horas, el objetivo 4 se pueden quitar de la lección.
 6. Explicar qué es un problema de Parsons y cómo su eficacia puede basarse en la teoría de la carga cognitiva.
 7. Crear Problemas de Parsons y explicar cuándo y cómo deben o no deben utilizarse.
 
-#### 4. Capacidad Cognitiva
+Lección 4. Capacidad Cognitiva
 
-1. Explicar qué es "siete más menos dos" (capacidad de la memoria a corto plazo) y qué implica para diseñar y enseñar lecciones.
+:   1. Explicar qué es "siete más menos dos" (capacidad de la memoria a corto plazo) y qué implica para diseñar y enseñar lecciones.
 2. Explicar como los mapas conceptuales pueden ayudar a manejar la capacidad cognitiva.
 3. Explicar qué es un ejemplo desvanecido y cómo su eficacia puede basarse en la capacidad limitada de la memoria a corto plazo.
 4. Identificar qué tipo de carga cognitiva reducen los problemas desvanecidos.
@@ -155,9 +155,9 @@ Para la versión de ocho horas, el objetivo 4 se pueden quitar de la lección.
 Para la versión de ocho horas, los objetivos 2 y 4 se pueden quitar de la lección.
 :::
 
-#### 5.Crítica - Devolución - Feedback
+Lección 5.Crítica - Devolución - Feedback
 
-1. Describir las principales diferencias entre el material didáctico estático y la presentación dinámica de las clases, así como el papel de la improvisación en esta última.
+:   1. Describir las principales diferencias entre el material didáctico estático y la presentación dinámica de las clases, así como el papel de la improvisación en esta última.
 2. Explicar tres estrategias para obtener feedback que son útiles para mejorar nuestra enseñanza.
 3. Explicar las características de una crítica constructiva.
 4. Describir los elementos de una rubrica básica para dar feedback sobre la enseñanza.
@@ -171,9 +171,9 @@ Para la versión de ocho horas, los objetivos 2 y 4 se pueden quitar de la lecci
 Para la versión de ocho horas, los objetivos 2,3,5 y 8 se pueden quitar de la lección.
 :::
 
-#### 6.Evaluación
+Lección 6.Evaluación
 
-1. Definir los términos "evaluación formativa" y "evaluación sumativa" y explicar las diferentes funciones de cada una.
+:   1. Definir los términos "evaluación formativa" y "evaluación sumativa" y explicar las diferentes funciones de cada una.
 2. Explicar por qué y cómo las evaluaciones formativas deben identificar conceptos erróneos.
 3. Describir tres maneras en que los docentes pueden determinar qué conceptos erróneos buscar.
 4. Explicar los objetivos complementarios de las evaluaciones formativas para docentes y estudiantes.
@@ -187,9 +187,9 @@ Para la versión de ocho horas, los objetivos 2,3,5 y 8 se pueden quitar de la l
 Para la versión de ocho horas, el objetivo 8 se pueden quitar de la lección.
 :::
 
-#### 7.Motivación
+Lección 7.Motivación
 
-1. Describir la diferencia entre motivación intrínseca y extrínseca.
+:   1. Describir la diferencia entre motivación intrínseca y extrínseca.
 2. Resumir tres factores principales de motivación y desmotivación de estudiantes adultos neurotípicos.
 3. Definir el término "falso principiante", explicarlo en términos de modelos mentales y explicar los desafíos especiales que los falsos principiantes presentan en la enseñanza.
 4. Explicar los peligros de la pre-evaluación y como se relaciona con la motivación.
@@ -202,9 +202,9 @@ Para la versión de ocho horas, el objetivo 8 se pueden quitar de la lección.
 Para la versión de ocho horas, los objetivos 3, 4 y 5 se pueden quitar de la lección.
 :::
 
-#### 8.Aprendizaje
+Lección 8.Aprendizaje
 
-1. Explicar la diferencia entre aprendizaje activo y pasivo y dar dos razones de por qué el primero es más eficaz.
+:   1. Explicar la diferencia entre aprendizaje activo y pasivo y dar dos razones de por qué el primero es más eficaz.
 2. Enumerar seis estrategias que los estudiantes pueden utilizar para acelerar su aprendizaje
 3. Justificar al menos dos de las estrategias mencionadas en función de las ideas introducidas en esta formación.
 
@@ -213,9 +213,9 @@ Para la versión de ocho horas, los objetivos 3, 4 y 5 se pueden quitar de la le
 Para la versión de ocho horas, el objetivo 3 se pueden quitar de la lección.
 :::
 
-#### 9.Preparándote para Enseñar
+Lección 9.Preparándote para Enseñar
 
-1. Describir y resumir las técnicas para que la enseñanza interactiva en línea sea más eficaz.
+:   1. Describir y resumir las técnicas para que la enseñanza interactiva en línea sea más eficaz.
 2. Describir dos métodos para garantizar que la atención se distribuye equitativamente entre los participantes de la clase y explicar por qué es importante.
 3. Preparar un inicio de clase que genere un ambiente positivo, incluyendo tu presentación.
 4. Escribir objetivos de aprendizajes claros y determinar como se pueden evaluar.
@@ -225,9 +225,9 @@ Para la versión de ocho horas, el objetivo 3 se pueden quitar de la lección.
 Para la versión de ocho horas, el objetivo 3 y 4 se pueden quitar de la lección.
 :::
 
-#### 10. Mitos Educativos y Reglas para enseñar
+Lección 10. Mitos Educativos y Reglas para enseñar
 
-1. Identificar varios mitos comunes sobre la educación y el aprendizaje.
+:   1. Identificar varios mitos comunes sobre la educación y el aprendizaje.
 2. Mencionar varias ideas sobre la educación y el aprendizaje que se encuentran en revisión.
 3. Reflexionar sobre realizar una buena enseñanza.
 4. Identificar fuentes de información donde seguir aprendiendo.
@@ -239,7 +239,7 @@ Para la versión de ocho horas, los objetivos 2 a 4 se pueden quitar de la lecci
 
 #### Formato del curso
 
-Este curso puede dictarse con diferentes configuraciones.  Este cronograma de ejemplo corresponde a un curso de doce horas con tres encuentros de cuatro horas cada uno.  Es recomendable espaciar los encuentros, con al menos un día entre cada uno.  Se puede enseñar en persona, en formato hibrido u online. Se recomienda que la cantidad de asistentes no sea mayor a 25 personas.
+Este curso puede dictarse con diferentes configuraciones.  Este cronograma de ejemplo corresponde a un curso de doce horas con tres encuentros de cuatro horas cada uno.  Es recomendable espaciar los encuentros, con al menos un día entre cada uno.  Se puede enseñar en persona, en formato híbrido u online. Se recomienda que la cantidad de participantes no sea mayor a 25 personas.
 
 |Día 1|  Ejemplo horario a la mañana|        
 |:---:|:-----------------------------------|
@@ -285,6 +285,49 @@ Si quieres enseñar el libro utilizando alguno de los formatos de cursos largos,
 
 :::
 
+### Cursos cortos
+
+Es posible crear cursos cortos con una duración de entre una hora y media y tres horas. Se pueden dar online de forma sincrónica o en persona. Yanina impartió estos cursos cortos más de 20 veces desde 2020. 
+
+el objetivo es crear conciencia de la existencia de buenas prácticas básicas para manejo de espacios de intercambio de conocimiento sincrónico y proveer un momento donde experimentar estas buenas prácticas en primera persona durante el taller.
+
+El objetivo de este formato es *introducir* buenas prácticas básicas para manejo de espacios de intercambio de conocimiento sincrónico, ya sea de forma online o presencial y proveer el momento donde experimentar estas buenas prácticas en primera persona durante el taller. 
+
+::: callout-tip
+## Haciendo lo que predicamos
+
+Todos los detalles del encuentro, empezando por el registro hasta el pedido de devolución antes de finalizar el curso, pasando por la ejecución del mismo, son una demostración de las estrategias mencionadas en este libro y que pueden ser adoptadas o adaptadas a cualquier intercambio de saberes que suceda interactuando en simultáneo con una audiencia.
+
+:::
+
+
+Los conceptos pedagógicos que se introducen son:
+
+-   Diseño del espacio de intercambio de saberes pensando en la audiencia objetivo (personas tipo)
+-   Mapas conceptuales para el diseño de lecciones y evaluación.
+-   Evaluación formativa diagnóstica cada 10-15 minutos para determinar si la audiencia sigue lo explicado y corregir en el momento explicación y contenido.
+-   Participación en un documento compartido colaborativo para tomar notas, resolver evaluaciones formativas, compartir material.
+-   Herramientas pedagógicas rápidas basadas en evidencia y fáciles de implementar en entornos online, hibridos y presenciales.
+-   Como pedir y dar devoluciones efectivas.
+-   Compartir fuentes de las cuales seguir aprendiendo y expandiendo prácticas pedagógicas
+
+[Aqui se pueden encontrar un ejemplo de los materiales utilizados en español](https://yabellini.netlify.app/courses/intro-abc-online/).
+
+### Encuentro sincónico de hora y media
+
+Nuevamente el objetivo es crear conciencia de la existencia de buenas prácticas básicas para manejo de espacios de intercambio de conocimiento sincrónico y proveer un momento donde experimentar estas buenas prácticas en primera persona durante el taller.
+
+Los conceptos pedagógicos que se introducen son:
+
+-   Diseño del evento pensando en la audiencia objetivo.
+-   Mapas conceptuales.
+-   Evaluación formativa diagnóstica para determinar entendimiento y corregir en el momento la explicación y el contenido.
+-   Uso de un documento compartido colaborativo para tomar notas, resolver evaluaciones formativas, compartir material.
+-   Herramientas pedagógicas rápidas basadas en evidencia y fáciles de implementar en entornos en línea, híbridos y presenciales.
+-   Como pedir devoluciones efectivas.
+-   Compartir fuentes de las cuales seguir aprendiendo y expandiendo prácticas pedagógicas
+
+Yanina impartió este taller con este formato 10 veces durante 2020. [Aqui se pueden encontrar un ejemplo de los materiales utilizados en español](https://yabellini.netlify.app/courses/introalabc_corto/).
 
 
 
@@ -344,41 +387,7 @@ Los alumnos hacen ejercicios cada 10-30 minutos. Yo pego una lista de nombres en
 
 Al final, pido a los alumnos que hagan un recordatorio en el calendario dentro de un mes para enviarme un correo y decirme lo que aún recuerdan o les ha parecido útil. Alrededor del 20% de ellos envía ese mensaje, y es un indicador útil sobre lo que hay que seguir enseñando y lo que hay que dejar de lado porque no ha tenido impacto.
 
-## Modularizar los contenidos.
 
-También es posible crear módulos de cada contenido y enseñarlos en talleres sincrónicos de entre una hora y media y tres horas.
-
-### Encuentro online sincrónico de tres horas
-
-El objetivo es *introducir* buenas prácticas básicas para manejo de espacios de intercambio de conocimiento sincrónico, como por ejemplo, una clase, un seminario, un taller o una charla. Todos los detalles del encuentro, empezando por el formulario de registro hasta el pedido de devolución antes de finalizar el taller, pasando por la ejecución del mismo, son una demostración de las estrategias mencionadas en este libro y que pueden ser adoptadas o adaptadas a cualquier intercambio de saberes que suceda interactuando en simultáneo con una audiencia.
-
-Los conceptos pedagógicos que se introducen son:
-
--   Diseño del espacio de intercambio de saberes pensando en la audiencia objetivo (personas tipo)
--   Mapas conceptuales para el diseño de lecciones y evaluación.
--   Evaluación formativa diagnóstica cada 10-15 minutos para determinar si la audiencia sigue lo explicado y corregir en el momento explicación y contenido.
--   Participación en un documento compartido colaborativo para tomar notas, resolver evaluaciones formativas, compartir material
--   Herramientas pedagógicas rápidas basadas en evidencia y fáciles de implementar en entornos online, hibridos y presenciales.
--   Como pedir y dar devoluciones efectivas.
--   Compartir fuentes de las cuales seguir aprendiendo y expandiendo prácticas pedagógicas
-
-Yanina impartió este taller con este formato más de 20 veces durante 2020 a 2022. [Aqui se pueden encontrar un ejemplo de los materiales utilizados en español](https://yabellini.netlify.app/courses/intro-abc-online/).
-
-### Encuentro sincónico de hora y media
-
-Nuevamente el objetivo es crear conciencia de la existencia de buenas prácticas básicas para manejo de espacios de intercambio de conocimiento sincrónico y proveer un momento donde experimentar estas buenas prácticas en primera persona durante el taller.
-
-Los conceptos pedagógicos que se introducen son:
-
--   Diseño del evento pensando en la audiencia objetivo.
--   Mapas conceptuales.
--   Evaluación formativa diagnóstica para determinar entendimiento y corregir en el momento la explicación y el contenido.
--   Uso de un documento compartido colaborativo para tomar notas, resolver evaluaciones formativas, compartir material.
--   Herramientas pedagógicas rápidas basadas en evidencia y fáciles de implementar en entornos en línea, híbridos y presenciales.
--   Como pedir devoluciones efectivas.
--   Compartir fuentes de las cuales seguir aprendiendo y expandiendo prácticas pedagógicas
-
-Yanina impartió este taller con este formato 10 veces durante 2020. [Aqui se pueden encontrar un ejemplo de los materiales utilizados en español](https://yabellini.netlify.app/courses/introalabc_corto/).
 
 
 ### ¿Qué enseñamos en cada formato?
@@ -387,10 +396,6 @@ En dos jornadas completas (16 horas de curso) se puede cubrir gran parte de los 
 
 También se puede hacer en una jornada completa o dos medias jornadas (8 horas de curso), en ese caso, estos son los objetivos de aprendizaje
 
-<FIXME traducir estos objetivos de aprendizaje de Greg>
-
-```         
-```
 
 En el caso de los talleres de tres horas, tenemos dos talleres diferentes.
 
