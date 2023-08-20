@@ -239,7 +239,7 @@ Para la versión de ocho horas, los objetivos 2 a 4 se pueden quitar de la lecci
 
 #### Formato del curso
 
-Este curso puede dictarse con diferentes configuraciones.  Este cronograma de ejemplo corresponde a un curso de doce horas con tres encuentros de cuatro horas cada uno.  Es recomendable espaciar los encuentros, con al menos un día entre cada uno.  Se puede enseñar en persona u online. Se recomienda que la cantidad de asistentes no sea mayor a 25 personas.
+Este curso puede dictarse con diferentes configuraciones.  Este cronograma de ejemplo corresponde a un curso de doce horas con tres encuentros de cuatro horas cada uno.  Es recomendable espaciar los encuentros, con al menos un día entre cada uno.  Se puede enseñar en persona, en formato hibrido u online. Se recomienda que la cantidad de asistentes no sea mayor a 25 personas.
 
 |Día 1|  Ejemplo horario a la mañana|        
 |:---:|:-----------------------------------|
@@ -281,9 +281,12 @@ Este curso puede dictarse con diferentes configuraciones.  Este cronograma de ej
 ::: callout-note
 ## Material complementario
 
-Si quieres enseñar el libro utilizando alguno de los formatos de cursos largos, el curso [Enseñando Tecnología en Comunidad. Consejos prácticos para enseñar aplicando la ciencia del aprendizaje y la enseñanza.](https://yabellini.github.io/t3es/) tiene todo el material en español para un taller de doce horas y [Teaching Tech Together](https://third-bit.com/t3/) tiene todo el material en inglés para un taller de 8 horas.
+Si quieres enseñar el libro utilizando alguno de los formatos de cursos largos, el curso [Enseñando Tecnología en Comunidad. Consejos prácticos para enseñar aplicando la ciencia del aprendizaje y la enseñanza.](https://yabellini.github.io/t3es/) tiene todo el material en español para un taller de doce horas y [Teaching Tech Together](https://third-bit.com/t3/) tiene todo el material en inglés para un taller de 8 horas, que incluye una propuesta que re acomoda los contenidos de las lecciones.
 
 :::
+
+
+
 
 
 
@@ -333,13 +336,13 @@ La clase consta de dos sesiones de 4,5 horas en días consecutivos. Unos días a
 
 ##### Durante la clase
 
-I usually have between half a dozen and two dozen learners at a time. If some of them are co-located, I ask them to share one webcam and a decent meeting room microphone (the microphones built into laptops aren't good for group conversations), but they should all still be in the Google Doc.
+Suelo tener entre media docena y dos docenas de alumnos a la vez. Si algunos de ellos están en el mismo lugar, les pido que compartan una cámara web y un micrófono de sala de reuniones decente (los micrófonos integrados en los portátiles no son buenos para las conversaciones en grupo), pero todos deben estar en el documento de Google.
 
-Everyone is muted by default. If someone wants to ask a question, they can either type it into the video conference chat channel or signal that they want to speak and unmute themselves when I call on them. (Allowing both modes helps people who feel shy or who need more time to compose a question feel more comfortable.) We use breakout rooms for small-group discussion and peer teaching exercises. They work pretty well, though it's easy for groups to lose track of time.
+Todos están silenciados por defecto. Si alguien quiere hacer una pregunta, puede escribirla en el canal de chat de la videoconferencia o indicar que quiere hablar y anular el silencio cuando le llame. (Permitir ambos modos ayuda a sentirse más cómodas a las personas que se sienten tímidas o que necesitan más tiempo para redactar una pregunta). Utilizamos salas de descanso para debates en grupos pequeños y ejercicios de enseñanza entre iguales. Funcionan bastante bien, aunque es fácil que los grupos pierdan la noción del tiempo.
 
-Learners do exercises every 10-30 minutes. I paste a list of names into the shared doc; they then write their answers under their names so that they don't stumble over one another's cursors. They can also paste in images of things like concept maps; it's a bit clumsy, but it works surprisingly well. They can also screenshare with the rest of the class whenever they want to demonstrate something, which is so useful that I've started doing it for in-person programming classes as well.
+Los alumnos hacen ejercicios cada 10-30 minutos. Yo pego una lista de nombres en el documento compartido; ellos escriben sus respuestas debajo de sus nombres para no tropezar con los cursores de los demás. También pueden pegar imágenes de cosas como mapas conceptuales; es un poco torpe, pero funciona sorprendentemente bien. También pueden compartir la pantalla con el resto de la clase siempre que quieran demostrar algo, lo cual es tan útil que he empezado a hacerlo también en las clases presenciales de programación.
 
-At the end I ask learners to make a calendar reminder one month in the future to mail me and tell me what they still remember or found useful. About 20% of them send that message, and it's a useful gauge on what to keep teaching and what to drop because it hasn't made an impact.
+Al final, pido a los alumnos que hagan un recordatorio en el calendario dentro de un mes para enviarme un correo y decirme lo que aún recuerdan o les ha parecido útil. Alrededor del 20% de ellos envía ese mensaje, y es un indicador útil sobre lo que hay que seguir enseñando y lo que hay que dejar de lado porque no ha tenido impacto.
 
 ## Modularizar los contenidos.
 
