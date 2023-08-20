@@ -295,7 +295,6 @@ El objetivo de este formato es *introducir* buenas prácticas básicas para mane
 ## Haciendo lo que predicamos
 
 Todos los detalles del encuentro, empezando por el registro hasta el pedido de devolución antes de finalizar el curso, pasando por la ejecución del mismo, son una demostración de las estrategias mencionadas en este libro y que pueden ser adoptadas o adaptadas a cualquier intercambio de saberes que suceda interactuando en simultáneo con una audiencia.
-
 :::
 
 Los objetivos de aprendizaje de estos cursos son:
@@ -316,6 +315,30 @@ Los objetivos de aprendizaje de estos cursos son:
 ## Recortando contenido
 Para la versión de una hora y media, los objetivos 4,5 y 7 se pueden quitar de la lección.
 :::
+
+#### Fromato del curso
+
+Este curso puede dictarse con diferentes configuraciones.  Este cronograma de ejemplo corresponde al curso de tres horas en horaario de la mañana. Se puede enseñar en persona, en formato híbrido u online. Se recomienda que la cantidad de participantes no sea mayor a 25 personas.
+
+|  Horario  | Actividad  |
+| ------:|:----------- |
+| 8:50 - 9:00 | Tiempo previo para conectarse y asegurarse que anda bien tu conexión de audio y video (si no tienes cámara no importa, si la tienes, ayuda) |
+|9:00 - 9:05 | Comienzo con reglas básicas para bajar la frustración en una teleconferencia |
+|9:05 - 9:15 | Nos presentamos |
+|9:15 - 9:20 | Ejercicio: piensa y comparte una persona tipo que será parte de tu audiencia |
+|9:20 - 9:30 | Mapas conceptuales |
+|9:35 - 9:50 | Ejercicio: haz un mapa conceptual |
+|9:50 - 9:55 | Pausa lejos de la pantalla |
+|9:55 - 10:15 | Consejos concretos para todo tipo de clases |
+|10:15 - 10:30| Ejercicio en grupos: tu consejo favorito |
+|10:30 - 10:50| Consejos concretos para clases online |
+|10:50 - 10:55| Pausa lejos de la pantalla |
+|10:55 - 11:05| Más consejos para clases remotas |
+|11:05 - 11:20| Ejercicio en grupos: qué consejos de los anteriores usamos en este taller |
+|11:20 - 11:40| ¿Cómo hacer buenas devoluciones? |
+|11:45 - 11:50| Ejercicio individual: Cuéntanos qué te pareció el taller |
+|11:50 - 12:00| Fuentes adicionales y cierre |
+
 
 ::: callout-note
 ## Material complementario
