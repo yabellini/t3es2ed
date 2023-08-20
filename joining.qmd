@@ -408,25 +408,24 @@ En este formato, entre 10 a 40 estudiantes se juntan en 2 a 6 grupos de 4 a 12 p
 
 Toda la clase toma notas compartidas (@sec-classroom-notetaking), y también usa las notas compartidas para hacer y responder preguntas. Tener varias decenas de personas tratando de hablar en una llamada no funciona bien, así que en la mayoría de las sesiones el/la docente habla y sus estudiantes responden a través del chat de la video llamada o de la herramienta para tomar notas.
 
-### En línea de forma individual {#sec-joining-using-online}
+### En línea 
 
-La extensión natural de estar en línea en grupos es estar en línea en forma individual. Al igual que con los grupos en línea, el/la docente hablará la mayoría de las veces y los/las estudiantes participarán principalmente a través del chat de texto. También en este caso, y siempre teniendo en cuenta los aspectos de accesibilidad, un buen audio es más importante que un buen video, y quienes participan deberían usar el chat de texto para indicar que quieren hablar (@sec-meetings).
+Asistiendo de forma individual
+
+:   La extensión natural de estar en línea en grupos es estar en línea en forma individual. Al igual que con los grupos en línea, el/la docente hablará la mayoría de las veces y los/las estudiantes participarán principalmente a través del chat de texto. También en este caso, y siempre teniendo en cuenta los aspectos de accesibilidad, un buen audio es más importante que un buen video, y quienes participan deberían usar el chat de texto para indicar que quieren hablar (@sec-meetings).
 
 Tener participantes en línea individualmente hace que sea más difícil dibujar y compartir mapas conceptuales (@sec-memory-exercises) o dar retroalimentación sobre la enseñanza (@sec-performance-exercises). Por lo tanto, quienes enseñen deberán confiar más en el uso de ejercicios con resultados escritos que se puedan poner en las notas compartidas, como por ejemplo, dar una devolución sobre videos de personas enseñando.
 
-### Multi-semana en línea {#sec-joining-using-multiweek}
 
-#### Clases de una hora {#sec-joining-using-multiweek-onehour}
+Multi-semana
 
-La clase se reúne todas las semanas durante una hora a través de videoconferencia. Cada reunión puede realizarse dos veces para acomodar las zonas horarias y los horarios de los/las estudiantes. Los/las participantes toman notas compartidas como se describió anteriormente para las clases grupales en línea, para publicar tareas en línea entre clases y para comentar sobre el trabajo de los demás. En la práctica, los comentarios son relativamente raros: la gente prefiere discutir el material en las reuniones semanales.
+:   el grupo se reunirá durante varias semanas combinando opciones en cantidad y duración de los encuentros:
+
+* _Clases de una hora_: la clase se reúne todas las semanas durante una hora a través de videoconferencia. Cada reunión puede realizarse dos veces para acomodar las zonas horarias y los horarios de los/las estudiantes. Los/las participantes toman notas compartidas como se describió anteriormente para las clases grupales en línea, para publicar tareas en línea entre clases y para comentar sobre el trabajo de los demás. En la práctica, los comentarios son relativamente raros: la gente prefiere discutir el material en las reuniones semanales.
 
 Este fue el primer formato que Greg utilizó pero ya no lo recomienda. Mientras que extender la clase les da a las personas tiempo para reflexionar y abordar ejercicios más extensos, también aumenta en gran medida las probabilidades de que tengan que abandonar debido a otras demandas de su tiempo.
 
-#### Encuentros de medias jornadas {#sec-joining-using-multiweek-hours}
-
-##### Cuatro encuentros de cuatro horas
-
-El grupo de entre 12 a 26 personas realiza uno o dos encuentros semanales, durante cuatro o dos semanas de forma sincrónica on-line durante cuatro horas. Todo el material del curso está disponible en un sitio web con anterioridad. Si Hay dos clases semanales se deja al menos un día entre cada encuentro.
+* Encuentro de medias jornadas:  el grupo de entre 12 a 26 personas realiza uno o dos encuentros semanales, durante cuatro o dos semanas de forma sincrónica on-line durante cuatro horas. Todo el material del curso está disponible en un sitio web con anterioridad. Si Hay dos clases semanales se deja al menos un día entre cada encuentro.
 
 La clase está estructurada con presentación de contenido con participación activa de los estudiantes por medio de notas compartidas y el chat de la plataforma de videoconferencia. También hay resolución de ejercicios grupales al finalizar de explicar un grupo de temas o conceptos. Se usan documentos compartidos y una reflexión grupal general luego de cada ejercitación. Todos los grupos comparten, al menos una vez, el resultado de sus ejercicios grupales durante los encuentros sincrónicos.
 
@@ -434,13 +433,14 @@ Se les permite a los estudiantes seleccionar si quieren mantener los grupos de u
 
 Este formato tiene la ventaja de dar tiempo para reflexionar y repasar el material entre las clases, pero se mantiene lo suficientemente concentrado en el tiempo para que no intervenga tanto en la rutina de las personas, llevandolas a abandonar. Yanina ha enseñado este material utilizando este formato con muy buenos resultados.
 
-#### Dos encuentros de entre 4.5 horas
 
-##### Antes de empezar
+### Organizando los cursos
+
+#### Antes de empezar
 
 La clase consta de dos sesiones de 4,5 horas en días consecutivos. Unos días antes de empezar, envío a los participantes un recordatorio con los detalles de la videoconferencia, un par de lecturas breves y una invitación a un documento de Google para tomar notas en común. Les pido que añadan una o dos líneas sobre sí mismos al documento antes de que empiece la clase, tanto a modo de introducción como para asegurarme de que tienen permiso para editar el documento.
 
-##### Durante la clase
+#### Durante la clase
 
 Suelo tener entre media docena y dos docenas de alumnos a la vez. Si algunos de ellos están en el mismo lugar, les pido que compartan una cámara web y un micrófono de sala de reuniones decente (los micrófonos integrados en los portátiles no son buenos para las conversaciones en grupo), pero todos deben estar en el documento de Google.
 
@@ -450,6 +450,12 @@ Los alumnos hacen ejercicios cada 10-30 minutos. Yo pego una lista de nombres en
 
 Al final, pido a los alumnos que hagan un recordatorio en el calendario dentro de un mes para enviarme un correo y decirme lo que aún recuerdan o les ha parecido útil. Alrededor del 20% de ellos envía ese mensaje, y es un indicador útil sobre lo que hay que seguir enseñando y lo que hay que dejar de lado porque no ha tenido impacto.
 
+::: callout-warning
+## TODO Yani!
+Revisar el como organziar porque posiblemente puedo agregar ams material del "en una caja".
+Linkear al anexo de plantillas y check list.
+
+:::
 
 ### ¿Quién puede enseñar este material?
 
