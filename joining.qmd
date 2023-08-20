@@ -294,7 +294,7 @@ Es posible crear cursos cortos con una duración de entre una hora y media y tre
 El objetivo de este curso corto es *introducir* buenas prácticas básicas para manejo de espacios de intercambio de conocimiento sincrónico, ya sea de forma online o presencial y proveer el momento donde experimentar estas buenas prácticas en primera persona durante el taller. 
 
 ::: callout-tip
-## Haciendo lo que predicamos
+## Predicar con el ejemplo
 
 Todos los detalles del encuentro, empezando por el registro hasta el pedido de devolución antes de finalizar el curso, pasando por la ejecución del mismo, son una demostración de las estrategias mencionadas en este libro y que pueden ser adoptadas o adaptadas a cualquier intercambio de saberes que suceda interactuando en simultáneo con una audiencia.
 :::
