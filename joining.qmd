@@ -129,7 +129,7 @@ Chequear bien que estos sean los capítulos correctos y si hay alguno más que a
 
 ::: callout-tip
 ## Recortando contenido
-Para la versión de ocho horas, los objetivos 4 y 8 se pueden quitar de la lección.
+Para la versión de ocho horas, el objetivo 4 se pueden quitar de la lección.
 :::
 
 #### 3. Carga Cognitiva
@@ -155,7 +155,7 @@ Para la versión de ocho horas, los objetivos 4 y 8 se pueden quitar de la lecci
 Para la versión de ocho horas, los objetivos 2 y 4 se pueden quitar de la lección.
 :::
 
-#### Crítica - Devolución - Feedback
+#### 5.Crítica - Devolución - Feedback
 
 1. Describir las principales diferencias entre el material didáctico estático y la presentación dinámica de las clases, así como el papel de la improvisación en esta última.
 2. Explicar tres estrategias para obtener feedback que son útiles para mejorar nuestra enseñanza.
@@ -171,7 +171,7 @@ Para la versión de ocho horas, los objetivos 2 y 4 se pueden quitar de la lecci
 Para la versión de ocho horas, los objetivos 2,3,5 y 8 se pueden quitar de la lección.
 :::
 
-#### Evaluación
+#### 6.Evaluación
 
 1. Definir los términos "evaluación formativa" y "evaluación sumativa" y explicar las diferentes funciones de cada una.
 2. Explicar por qué y cómo las evaluaciones formativas deben identificar conceptos erróneos.
@@ -187,7 +187,7 @@ Para la versión de ocho horas, los objetivos 2,3,5 y 8 se pueden quitar de la l
 Para la versión de ocho horas, el objetivo 8 se pueden quitar de la lección.
 :::
 
-#### Motivación
+#### 7.Motivación
 
 1. Describir la diferencia entre motivación intrínseca y extrínseca.
 2. Resumir tres factores principales de motivación y desmotivación de estudiantes adultos neurotípicos.
@@ -200,6 +200,41 @@ Para la versión de ocho horas, el objetivo 8 se pueden quitar de la lección.
 ::: callout-tip
 ## Recortando contenido
 Para la versión de ocho horas, los objetivos 3, 4 y 5 se pueden quitar de la lección.
+:::
+
+#### 8.Aprendizaje
+
+1. Explicar la diferencia entre aprendizaje activo y pasivo y dar dos razones de por qué el primero es más eficaz.
+2. Enumerar seis estrategias que los estudiantes pueden utilizar para acelerar su aprendizaje
+3. Justificar al menos dos de las estrategias mencionadas en función de las ideas introducidas en esta formación.
+
+::: callout-tip
+## Recortando contenido
+Para la versión de ocho horas, el objetivo 3 se pueden quitar de la lección.
+:::
+
+#### 9.Preparándote para Enseñar
+
+1. Describir y resumir las técnicas para que la enseñanza interactiva en línea sea más eficaz.
+2. Describir dos métodos para garantizar que la atención se distribuye equitativamente entre los participantes de la clase y explicar por qué es importante.
+3. Preparar un inicio de clase que genere un ambiente positivo, incluyendo tu presentación.
+4. Escribir objetivos de aprendizajes claros y determinar como se pueden evaluar.
+
+::: callout-tip
+## Recortando contenido
+Para la versión de ocho horas, el objetivo 3 y 4 se pueden quitar de la lección.
+:::
+
+#### 10. Mitos Educativos y Reglas para enseñar
+
+1. Identificar varios mitos comunes sobre la educación y el aprendizaje.
+2. Mencionar varias ideas sobre la educación y el aprendizaje que se encuentran en revisión.
+3. Reflexionar sobre realizar una buena enseñanza.
+4. Identificar fuentes de información donde seguir aprendiendo.
+
+::: callout-tip
+## Recortando contenido
+Para la versión de ocho horas, los objetivos 2 a 4 se pueden quitar de la lección.
 :::
 
 #### Formato del curso
