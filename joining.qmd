@@ -318,7 +318,7 @@ Los objetivos de aprendizaje de estos cursos son:
 Para la versión de una hora y media, los objetivos 4,5 y 7 se pueden quitar de la lección.
 :::
 
-#### Fromato del curso
+#### Formato del curso
 
 Este curso puede dictarse con diferentes configuraciones.  Este cronograma de ejemplo corresponde al curso de tres horas en horaario de la mañana. Se puede enseñar en persona, en formato híbrido u online. Se recomienda que la cantidad de participantes no sea mayor a 25 personas.
 
@@ -352,22 +352,41 @@ Si quieres enseñar estos contenidos del libro utilizando alguno de los formatos
 #### Cómo enseñar a programar
 
 
-El objetivo de este curso corto es *introducir* y *demostrar* técnicas y buenas prácticas básicas para el diseño de tus lecciones de programación y el manejo de espacios de intercambio de conocimiento sincrónico, ya sea de forma online o presencial. 
+El objetivo de este curso corto es *introducir* y *demostrar* técnicas y buenas prácticas básicas para el diseño de tus lecciones de programación y el manejo de espacios de intercambio de conocimiento sincrónico, ya sea de forma online o presencial. Durante todo el taller se ilustran los conceptos presentados usando ejemplos de uso en diferentes lenguajes de programación.
 
-Durante este taller:
+Los objetivos de aprendizaje de este taller son:
 
--   Mostraremos cómo diseñar tus cursos de programación de una manera eficiente y productiva.
+1. Describir los cuatro elementos que debe tener toda persona tipo.
+2. Describir las diferencias entre estudiantes principiantes, competentes, expertos/as y falso principiante.
+3. Explicar qué es un modelo mental y cómo la falta de un modelo mental afecta el aprendizaje de las personas principiantes.
+4. Escribir objetivos de aprendizajes claros y determinar como se pueden evaluar.
+5. Describir el proceso de diseño reverso de una lección.
+6. Definir los términos "evaluación formativa" y "evaluación sumativa" y explicar las diferentes funciones de cada una.
+7. Explicar por qué y cómo las evaluaciones formativas deben identificar conceptos erróneos.
+8. Identificar y utilizar ocho tipos de ejercicios para enseñar programación de forma activa y utilizarlos como evaluación formativa.
+9. Explicar qué es la instrucción entre pares, por qué es eficaz y los requisitos para que tenga éxito.
+10. Explicar qué es la demostración (y programación) en vivo.
+11.Explicar los cuatro pasos que debe dar un instructor cada vez que comete un error durante una demostración en vivo delante de una clase.
+12. Utilizar una rúbrica simple de evaluación.
+13.Identificar buenas prácticas de programación y las formas de promover su uso entre tus estudiantes.
+14. Describir recursos fuera del aula que pueden dar apoyo a tus estudiantes en su camino de aprender a programar.
 
--   Hablaremos de la utilidad de la revisión entre pares y la importancia de recibir feedback. Discutiremos cómo implementar estas prácticas.
 
--   Presentaremos diferentes tipos de evaluación y ejercicios posibles. Por ejemplo: problemas de Parsons, Completar los espacios en blancos, etc.
+#### Formato del curso
 
--   Haremos un recorrido por las buenas prácticas de programación y las formas de promover su uso entre tus estudiantes.
+Este curso puede dictarse con diferentes configuraciones.  Este cronograma de ejemplo corresponde al curso de tres horas. Se puede enseñar en persona, en formato híbrido u online. Se recomienda que la cantidad de participantes no sea mayor a 25 personas.
 
--   Presentaremos la práctica de Códificación en vivo (*Live Coding*). Veremos ejemplos prácticos que ayudarán a reconocer detalles a tener en cuenta a la hora de llevarla a cabo.
-
--   Durante todo el taller ilustraremos los conceptos presentados usando ejemplos de uso en diferentes lenguajes de programación.
-
+|  Duración (min)  |  Actividad  |
+| :------:|:----------- |
+| 5 | Tiempo previo para conectarse y asegurarse que anda bien tu conexión de audio y video (si no tienes camarita no importa, pero si la tienes ayuda) |
+| 15 | Presentación del curso |
+| 30 | Diseño de lecciones | 
+| 20 | Revisión por pares y Devolución | 
+| 25 | Tipos de Evaluación |
+| 15 | Promueve buenas prácticas de programación |
+| 10 | Enseña a buscar ayuda |
+| 30 | Programación en vivo |
+| 10 | Cierre del curso: resumen y devolución |
 
 ::: callout-note
 ## Material complementario
@@ -430,8 +449,6 @@ Todos están silenciados por defecto. Si alguien quiere hacer una pregunta, pued
 Los alumnos hacen ejercicios cada 10-30 minutos. Yo pego una lista de nombres en el documento compartido; ellos escriben sus respuestas debajo de sus nombres para no tropezar con los cursores de los demás. También pueden pegar imágenes de cosas como mapas conceptuales; es un poco torpe, pero funciona sorprendentemente bien. También pueden compartir la pantalla con el resto de la clase siempre que quieran demostrar algo, lo cual es tan útil que he empezado a hacerlo también en las clases presenciales de programación.
 
 Al final, pido a los alumnos que hagan un recordatorio en el calendario dentro de un mes para enviarme un correo y decirme lo que aún recuerdan o les ha parecido útil. Alrededor del 20% de ellos envía ese mensaje, y es un indicador útil sobre lo que hay que seguir enseñando y lo que hay que dejar de lado porque no ha tenido impacto.
-
-
 
 
 ### ¿Quién puede enseñar este material?
