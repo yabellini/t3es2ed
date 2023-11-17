@@ -6,7 +6,14 @@
 Estás leyendo la segunda edición en progreso y en castellano de Enseñar Tecnología en Comunidad (Teaching Tech Together). Este capítulo está siendo objeto de una profunda reestructuración y puede resultar confuso o incompleto.
 :::
 
-En *Darwin entre las máquinas*, [George Dyson]{i="Dyson, George"} escribió, "En el juego de la vida y la evolución hay tres jugadores en la mesa: las personas, la naturaleza y las máquinas. Estoy firmemente del lado de la naturaleza. Pero la naturaleza, sospecho, está del lado de las máquinas..." De manera similar, ahora hay tres jugadores en el juego de la educación: los libros de texto y otros materiales de lectura, las clases en vivo, y las clases en línea automatizadas. Podrías darle a tus estudiantes clases escritas y alguna combinación de videos grabados y ejercicios para que realicen a su propio ritmo, pero si vas a enseñar en persona tienes que ofrecer algo diferente (y con suerte mejor que) cualquiera de los anteriores. Por lo tanto, este capítulo se enfoca en cómo enseñar a programar programando.
+En *Darwin entre las máquinas*, [George Dyson]{i="Dyson, George"} escribió, "En el juego de la vida y la evolución hay tres jugadores en la mesa: las personas, la naturaleza y las máquinas. Estoy firmemente del lado de la naturaleza. Pero la naturaleza, sospecho, está del lado de las máquinas..." De manera similar, ahora hay cuatro jugadores en el juego de la educación: los libros de texto y otros materiales de lectura, las clases en vivo, las clases en línea automatizadas y los _large language models_ o LLMs (grandes modelos de lenguaje). Podrías darle a tus estudiantes clases escritas y alguna combinación de videos grabados y ejercicios para que realicen a su propio ritmo, pero si vas a enseñar de forma sincrónica, ya sea en persona o en linea, tienes que ofrecer algo diferente (y preferentemente mejor que) cualquiera de las opciones anteriores. Por lo tanto, este capítulo se enfoca en cómo enseñar a programar programando y como enseñar otras herramientas tecnológicas usándolas.
+
+Los métodos que vamos a presentar se pueden considerar una implementación de la _práctica guiada_, la cual consiste en que quien enseña va presentando y resolviendo ejemplos de la habilidad o concepto que se está enseñando, junto con los estudiantes, paso a paso, mientras comprueba que ejecutan cada paso correctamente. (Hollingsworth e Ybarra, 2017).  Cuando usamos práctica guiada durante la clase, es fundamental que comprobemos si se está entendiendo y que proporcionemos una retroalimentación inmediata y eficaz.
+
+__Todo:__ _linkear a checking for understanding y feedback en este mismo capítulo y en el libro._ 
+
+__Todo:__ _Agregar a bibliografia. Hollingsworth, J. R., & Ybarra, S. E. (2017). Explicit Direct Instruction (EDI): The power of the well-crafted, well-taught lesson (2nd ed.). New York, NY: Corwin Press._
+
 
 ## Programar en vivo {#sec-performance-live}
 
