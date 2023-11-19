@@ -10,13 +10,13 @@ En *Darwin entre las máquinas*, [George Dyson]{i="Dyson, George"} escribió, "E
 
 Los métodos que vamos a presentar se conocen como *programacion participativa en vivo* y *demostracion participativa en vivo*.
 
-La codificación participativa en vivo es una técnica en la que la persona que enseña escribe y explica el código en frente de la clase mientras que sus estudiantes le siguen a la par, escribiendo y ejecutando el mismo código a medida que avanzan (\@Nederbragt2020).
+La codificación participativa en vivo es una técnica en la que la persona que enseña escribe y explica el código en frente de la clase mientras que sus estudiantes le siguen a la par, escribiendo y ejecutando el mismo código a medida que avanzan (@Nederbragt2020).
 
 La demostracion participativa en vivo tiene el mismo principio que la programacion participativa en vivo, pero se aplica a situaciones donde no se programa, si no que se muestra como usar una aplicacion o un sistema.
 
-Este enfoque supone una mejora con respecto a enseñar a programar mostrando código estático, o haciendo una demostración en vivo donde la audicencia observa pasivamente, o donde se confía en que nuestros estudiantes lean un libro de texto (\@Nederbragt2020).
+Este enfoque supone una mejora con respecto a enseñar a programar mostrando código estático, o haciendo una demostración en vivo donde la audicencia observa pasivamente, o donde se confía en que nuestros estudiantes lean un libro de texto (@Nederbragt2020).
 
-Estas tecnicas encarnan el enfoque "yo lo hago, nosotros lo hacemos, tú lo haces" de la transferencia de conocimientos, que se utiliza tanto en entornos educativos formales e informales para enseñar desde técnicas de laboratorio hasta la redacción de solicitudes de fondos (\@Nederbragt2020). Tambien se pueden considerar una implementación de la *práctica guiada*, la cual consiste en que quien enseña va presentando y resolviendo ejemplos de la habilidad o concepto que se está enseñando, junto con los estudiantes, paso a paso, mientras comprueba que ejecutan cada paso correctamente. (\@hollingsworth2009).
+Estas tecnicas encarnan el enfoque "yo lo hago, nosotros lo hacemos, tú lo haces" de la transferencia de conocimientos, que se utiliza tanto en entornos educativos formales e informales para enseñar desde técnicas de laboratorio hasta la redacción de solicitudes de fondos (@Nederbragt2020). Tambien se pueden considerar una implementación de la *práctica guiada*, la cual consiste en que quien enseña va presentando y resolviendo ejemplos de la habilidad o concepto que se está enseñando, junto con los estudiantes, paso a paso, mientras comprueba que ejecutan cada paso correctamente. (@hollingsworth2009).
 
 ::: callout-note
 ## Programacion en vivo
@@ -61,40 +61,37 @@ Esta es una estrategia eficaz para enseñar a programar (@Rubi2013,@Haar2017,@Ra
 
 Como toda tecnica de ensenanza, hablar mientras se escribe código en frente de un público requiere práctica, pero la mayoría de las personas indican que el nivel de dificultad rápidamente se vuelve igual que hablar con una presentación de diapositivas. Las secciones que siguen ofrecen consejos sobre cómo mejorar la manera de ensenar con programacion participativa en vivo.
 
-### 1. Que te vean y te escuchen 
+### Que te vean y te escuchen 
 
-A medida que tus estudiantes van codificando, deben ver y oír lo que estás haciendo.
+A medida que tus estudiantes van codificando, deben ver y oír lo que estás haciendo. 
 
 #### En persona
 
-Cuando te sientas, es más probable que mires tu pantalla en vez de mirar a tu público y puedes quedar fuera de la vista de tus estudiantes en las últimas filas del aula. Si eres físicamente capaz de pararte durante un par de horas, debes hacerlo mientras enseñas. Planifícalo y asegúrate de tener una mesa elevada, un escritorio de pie, o un atril para tu computadora portátil para que no tengas que inclinarte al escribir.
+Si eres físicamente capaz de pararte durante un par de horas, debes hacerlo mientras enseñas. Esto te permitira que te muevas, por ejemplo para acércate a la pantalla para señalar algo, dibuja algo en la pizarra, o simplemente aléjate de la computadora por un momento y háblale directamente a tu público. Hacer esto aleja la atención de tus estudiantes de sus pantallas y les proporciona un momento natural para hacer preguntas. Cuando te sientas, es más probable que mires tu pantalla en vez de mirar a tu público y puedes quedar fuera de la vista de tus estudiantes en las últimas filas del aula. 
 
-Independientemente de si estás de pie o sentado/a, asegúrate de moverte lo más que puedas: acércate a la pantalla para señalar algo, dibuja algo en la pizarra, o simplemente aléjate de la computadora por un momento y háblale directamente a tu público. Hacer esto aleja la atención de tus estudiantes de sus pantallas y les proporciona un momento natural para hacer preguntas.
+Está bien mirar la pantalla donde estás proyectando ocasionalmente cuando estás mostrando una sección de código o dibujando un esquema: *no* mirar a la sala llena de personas que te están mirando puede ayudarte a reducir tu nivel de ansiedad y darte un momento para pensar qué decir a continuación. Sin embargo, no deberías hacerlo por más de unos segundos.
 
-Si vas a enseñar por más de un par de horas, vale la pena usar un micrófono incluso si la habitación es pequeña. Tu garganta se cansa tanto como cualquier otra parte de tu cuerpo; usar un micrófono no es diferente de usar zapatos cómodos (algo que también deberías usar). También puede marcar una gran diferencia para las personas que tienen discapacidad auditiva.
+Es conveniente tener una mesa elevada, un escritorio de pie, o un atril para tu computadora portátil para que tengas una posicion mas comoda al escribir.
 
-### Mira a la pantalla---de vez en cuando
-
-Está bien mirar la pantalla donde estás proyectando ocasionalmente cuando estás mostrando una sección de código o dibujando un esquema: *no* mirar a la sala llena de personas que te están mirando puede ayudarte a reducir tu nivel de ansiedad y darte un momento para pensar qué decir a continuación.
-
-Sin embargo, no deberías hacerlo por más de unos segundos. Una buena regla general es tratar a la pantalla como a uno/a de tus estudiantes: si mirar a una persona durante el tiempo que miras a la pantalla te resulta incómodo, es hora de darte la vuelta y mirar a la clase nuevamente.
-
+Si vas a enseñar por más de un par de horas, vale la pena usar un micrófono incluso si la habitación es pequeña, ademas de ayudarte a cuidar tu vos puede marcar una gran diferencia para las personas que tienen discapacidad auditiva.
 
 #### En linea
 
 En un entorno en línea, esto puede requerir más recursos en términos de tecnología e infraestructura, como una conexión estable a Internet, una pantalla panorámica o una segunda pantalla para ti y tus estudiantes.
 
-Antes de empezar: Explica a tus estudiantes cómo acomodar su pantalla. En caso de que sólo tengan una (como la mayoría de mis alumnos), demuéstrales cómo pueden dividir la pantalla en dos vertical u horizontalmente. Si tienen dos pantallas, muestra cómo dividir las ventanas, una con las pantallas del docente y la otra con su entorno de programación. Puedes tener algunas imágenes o vídeos para mostrar cómo conseguirlo.
+##### Antes de empezar la programacion en vivo
+
+Explica a tus estudiantes cómo acomodar su pantalla. En caso de que sólo tengan una demuéstrales cómo pueden dividir la pantalla en dos vertical u horizontalmente. Si tienen dos pantallas, muestra cómo dividir las ventanas, una con las pantallas del docente y la otra con su entorno de programación. Puedes tener algunas imágenes o vídeos para mostrar cómo conseguirlo.
 
 Si estás enseñando cursos largos (más de tres clases), podes hacer una demostración la primera clase y después hacerlo de vez en cuando como recordatorio. También podes compartir estos videos o imágenes asi tus estudiantes pueden chequear como ordenar sus pantallas.
 
-#### Durante el live coding:
+##### Durante la programacion en vivo
 
-comparte tu pantalla y pregunta antes de empezar a programar si tus estudiantes ven tu pantalla correctamente y si el tamaño de la fuente es adecuado. Cambialo si te lo solicitan.
+* comparte tu pantalla y pregunta antes de empezar a programar si tus estudiantes ven tu pantalla correctamente y si el tamaño de la fuente es adecuado. Cambialo si te lo solicitan.
 
-Agranda tu puntero del mouse y considera usar un puntero resaltado ( algo como esto).
+* Agranda tu puntero del mouse y considera usar un puntero resaltado ( algo como esto).
 
-Usa un software que muestre en pantalla las teclas que presionas, como Screenkey. Si te olvidas de decir un atajo de teclado en voz alta, el programa lo mostrará en la pantalla para tus estudiantes.
+* Usa un software que muestre en pantalla las teclas que presionas, como Screenkey. Si te olvidas de decir un atajo de teclado en voz alta, el programa lo mostrará en la pantalla para tus estudiantes.
 
 El fondo blanco parece mejor para las clases sincrónicas. El tema nocturno parece mejor para los vídeos grabados porque hay estudiantes que los ven de noche y utilizan dispositivos pequeños.
 
