@@ -63,7 +63,7 @@ Como toda tecnica de ensenanza, hablar mientras se escribe código en frente de 
 
 ### Que te vean y te escuchen 
 
-A medida que tus estudiantes van codificando, deben ver y oír lo que estás haciendo. 
+A medida que tus estudiantes van codificando, deben ver y oír lo que estás haciendo con claridad. 
 
 #### En persona
 
@@ -93,53 +93,49 @@ Si estás enseñando cursos largos (más de tres clases), podes hacer una demost
 
 * Usa un software que muestre en pantalla las teclas que presionas, como Screenkey. Si te olvidas de decir un atajo de teclado en voz alta, el programa lo mostrará en la pantalla para tus estudiantes.
 
-El fondo blanco parece mejor para las clases sincrónicas. El tema nocturno parece mejor para los vídeos grabados porque hay estudiantes que los ven de noche y utilizan dispositivos pequeños.
+* El fondo blanco es mejor para las clases sincrónicas. El tema nocturno es mejor para los vídeos grabados porque hay estudiantes que los ven de noche y utilizan dispositivos pequeños.
 
-Si puedes, comparte tu código no solo por medio de tu pantalla mientras lo escribes. Antonio Vazquez Brust explica como hacerlo usando ngrok y RStudio para enseñar R y Elio Campitelli explica como enseña R con programación en vivo sin fricción en este vídeo. Existen otras herramientas para otros lenguajes. Naomi Alterman nos muestra cómo transmitir en directo tu codificación en vivo a páginas web estáticas para tus estudiantes en esta charla para CarpentryCon 2022.
-
-#### Después del live coding
-
-Debemos considerar la posibilidad de que algunos de tus estudiantes se hayan quedado atrás, no puedan resolver un ejercicio o lo hagan de forma poco eficiente. Por eso es importante compartir después de la clase el código generado en vivo durante la misma. Puedes copiarlo y pegarlo en el chat de la plataforma, copiarlo y pegarlo en los apuntes compartidos o subirlo a la página web del curso o al campus virtual. También puedes compartir una carpeta en un servicio de almacenamiento en la nube. Disponer del código final ayudará a tus alumnos a validar su código y a ponerse al día si no pueden copiar o escribir alguna parte del mismo.
+* Si puedes, comparte tu código no solo por medio de tu pantalla mientras lo escribes. Existen soluciones para transmitir en directo tu progrmacion en vivo a paginas web estaticas donde tus estudiantes pueden acceder a tu codigo. 
 
 
+::: {.callout-tip}
+## Después de la programacion participatoria en vivo
+
+Debemos considerar la posibilidad de que algunos estudiantes se hayan quedado atrás, no puedan resolver un ejercicio o lo hagan de forma poco eficiente. 
+
+Por eso es importante compartir el código generado en vivo después de la clase. Puedes copiarlo y pegarlo en el chat de la plataforma, copiarlo y pegarlo en los apuntes compartidos o subirlo a la página web del curso o al campus virtual. También puedes compartir una carpeta en un servicio de almacenamiento en la nube. 
+
+Disponer del código final ayudará a tus estudiantes a validar su código y a ponerse al día si no pueden copiar o escribir alguna parte del mismo.
+:::
+ 
 ### 2. Ve despacio y no enseñes sola/o. 
 
 Cuando se realiza codificación participativa en vivo, es necesario enseñar y programar a un ritmo que permita a tus estudiantes seguir el proceso sin quedarse atrás. 
 
-### En persona
+Empieza con un script o notebook en blanco para asegurarte de que les explicas todo lo que necesitan para que el código funcione. Explica el objetivo del código que vas a desarrollar y escríbelo en la notebook o como comentario en el script. Nos ayuda a centrarnos en lo que queremos y en el razonamiento que hay detrás de codificar para ese objetivo. *No* copies y pegues código: hacer eso prácticamente garantiza que irás mucho más rápido que tus estudiantes. 
 
-Cada vez que escribas un comando, agregues una línea de código a un programa o selecciones un elemento de un menú, di qué estas haciendo en voz alta. Luego señala lo que haz hecho y su resultado en la pantalla y repásalo una segunda vez. Así tus estudiantes podrán ponerse al día y revisar si lo que acaban de hacer es correcto. Esto es particularmente importante cuando algunos/as de tus estudiantes tienen dificultades para ver o escuchar, o no dominan el idioma en el que estás enseñando.
+Narra lo que escribes, las combinaciones de teclas y atajos de teclado, especialmente cuando tengas que utilizar signos de puntuación complicados (“corchetes”, “paréntesis”, etc.). Cuando una IDE autocompleta cosas, es útil señalarlo las primeras veces (y decir cómo se usa o activa esa característica) ya que puede ser la primera vez que algunos estudiantes lo vean.
 
-Hagas lo que hagas, *no* copies y pegues código: hacer eso prácticamente garantiza que irás mucho más rápido que tus estudiantes. Y si usas la tecla *Tab* para autocompletar lo que estás escribiendo, dilo en voz alta para que tus estudiantes entiendan qué estás haciendo, como en el siguiente ejemplo para el lenguage *Python*: "Usemos *turtle* punto `r'`i' y *Tab* para completar con *\`right'*."
+No utilices muchos atajos de teclado, sobre todo al principio. Si utilizas un atajo de teclado, dilo en voz alta la primera vez que lo hagas. Explica una alternativa al atajo (por ejemplo, el uso de menús). Puedes recordar a tus estudiantes qué atajos utilizas de vez en cuando (en caso de que no utilices un programa que muestre las teclas que pulsaste en pantalla).
 
-Si la salida de tu comando o código hace que lo que acabas de escribir desaparezca de la vista, vuelve arriba para que tus estudiantes puedan verlo de nuevo. Si eso no es posible, ejecuta el mismo comando una segunda vez o copia y pega el último comando o comandos en las notas compartidas del taller.
+Explica cada paso que has dado. Di en voz alta lo que estás haciendo mientras lo haces para cada comando o cada palabra de código que escribes y cada elemento de menú o botón que pulsas. A continuación, señala el comando y su resultado en la pantalla y repítelo para que tus estudiantes puedan comprobar lo que han hecho.
+
+Si la salida de código hace que lo que acabas de escribir desaparezca de la vista, vuelve arriba para que tus estudiantes puedan verlo de nuevo. Si eso no es posible, ejecuta el mismo comando una segunda vez o copia y pega el último comando o comandos en las notas compartidas del taller (o en el chat si estas en linea).
+
+Menciona el número de línea del código al que te refieres.
 
 
 #### En linea 
 
-En los entornos en línea, es esencial que tus estudiantes cambien de ventana (la demostración del docente y su propia codificación) o de pantalla si tienen más de una.
+Los consejos anteriores son validos para clases en persona y en linea. Hay algunas consideraciones extra para los entornos en línea:
 
-Empieza con un script o notebook en blanco para asegurarte de que les explicas todo lo que necesitan para que el código funcione.
+* es esencial que tus estudiantes puedan cambiar de ventana (la demostración del docente y su propia codificación) o de pantalla si tienen más de una.
 
-Explica el objetivo del código que vas a desarrollar y escríbelo en la notebook o como comentario en el script. Nos ayuda a centrarnos en lo que queremos y en el razonamiento que hay detrás de codificar para ese objetivo.
+* Tu ayudante o co-docente debe prestar atención al chat, ayudando a localizar y resolver los problemas de tus estudiantes, copiando enlaces o trozos de código si es necesario, y avisándote cuando haya que aclarar, volver a explicar o mostrar algo una vez más.
 
-Explica cada paso que has dado. Di en voz alta lo que estás haciendo mientras lo haces para cada comando que escribes, cada palabra de código que escribes y cada elemento de menú o botón de sitio web que pulsas. A continuación, señala el comando y su resultado en la pantalla y repítelo para que tus estudiantes puedan comprobar lo que han hecho.
+* Si estás enseñando sin ayuda, informa a tus estudiantes cuándo estarás prestando atención al chat para ayudarles. Deja claro cómo pueden participar y hacer preguntas (utilizando el chat, utilizando una expresión no verbal, notas compartidas, activando su microfono, etc.) y cómo responderás tú.
 
-Menciona el número de línea del código al que te refieres.
-
-Narra lo que escribes (y las combinaciones de teclas y atajos de teclado), especialmente cuando tengas que utilizar signos de puntuación complicados (“corchetes”, “paréntesis redondos”, etc.).
-
-Cuando una IDE autocompleta cosas, es útil señalarlo las primeras veces (y decir cómo se usa o activa esa característica) ya que puede ser la primera vez que algunos estudiantes lo vean. Por ejemplo, RStudio IDE tiene IntelliSense. Puedes detenerte y explicar lo que está mostrando y cómo cambia cuando escribes, luego necesitas usar la tecla tab (en windows) para completar la palabra, lo cual también explico, para que no piensen que escribo tan rápido. Luego el IDE muestra un resumen de ayuda para la función. También me detengo ahí y leo esa ayuda y explico las diferentes partes de la ayuda para que puedan reconocer parámetros, valores por defecto, etc.
-
-Si la salida de tu comando o código hace que lo que acabas de escribir desaparezca de la vista, desplázate hacia atrás para que tus estudiantes puedan verlo de nuevo.
-
-No utilices muchos atajos de teclado, sobre todo al principio. Si utilizas un atajo de teclado, dilo en voz alta la primera vez que lo hagas. Explica una alternativa al atajo (por ejemplo, el uso de menús). Puedes recordar a tus estudiantes qué atajos utilizas de vez en cuando (en caso de que no utilices un programa que muestre las teclas que pulsaste en pantalla).
-
-Tu ayudante o co-docente debe prestar atención al chat, ayudando a localizar y resolver los problemas de tus estudiantes, copiando enlaces o trozos de código si es necesario, y avisándote cuando haya que aclarar, volver a explicar o mostrar algo una vez más.
-
-Si estás enseñando sin ayuda, informa a tus estudiantes cuándo estarás prestando atención al chat para ayudarles. Deja claro cómo pueden participar y hacer preguntas (utilizando el chat, sin silenciarlos, utilizando una expresión no verbal, notas compartidas, etc.) y cómo responderás tú.
-
-Utiliza el chat o el documento de las notas compartidas para copiar y pegar el código o los errores de tus estudiantes. Ten cuidado con los sistemas de chat traicioneros que pueden manipular tu código. Las comillas rectas pueden transformarse en comillas tipográficas, y los límites de caracteres pueden cortar partes del código, etc.
+* Utiliza el chat o el documento de las notas compartidas para copiar y pegar el código o los errores de tus estudiantes. Ten cuidado con los sistemas de chat traicioneros que pueden cambiar el formato de tu código. 
 
 ### 3. Duplica el entorno de tus estudiantes. 
 
