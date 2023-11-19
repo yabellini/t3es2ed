@@ -6,16 +6,17 @@
 Estás leyendo la segunda edición en progreso y en castellano de Enseñar Tecnología en Comunidad (Teaching Tech Together). Este capítulo está siendo objeto de una profunda reestructuración y puede resultar confuso o incompleto.
 :::
 
-En *Darwin entre las máquinas*, [George Dyson]{i="Dyson, George"} escribió, "En el juego de la vida y la evolución hay tres jugadores en la mesa: las personas, la naturaleza y las máquinas. Estoy firmemente del lado de la naturaleza. Pero la naturaleza, sospecho, está del lado de las máquinas..." De manera similar, ahora hay cuatro jugadores en el juego de la educación: los libros de texto y otros materiales de lectura, las clases en vivo, las clases en línea automatizadas y los _large language models_ o LLMs (grandes modelos de lenguaje). Podrías darle a tus estudiantes clases escritas y alguna combinación de videos grabados y ejercicios para que realicen a su propio ritmo, pero si vas a enseñar de forma sincrónica, ya sea en persona o en linea, tienes que ofrecer algo diferente (y preferentemente mejor que) cualquiera de las opciones anteriores. Por lo tanto, este capítulo se enfoca en cómo enseñar a programar programando y como enseñar otras herramientas tecnológicas usándolas.
+En *Darwin entre las máquinas*, [George Dyson]{i="Dyson, George"} escribió, "En el juego de la vida y la evolución hay tres jugadores en la mesa: las personas, la naturaleza y las máquinas. Estoy firmemente del lado de la naturaleza. Pero la naturaleza, sospecho, está del lado de las máquinas..." De manera similar, ahora hay cuatro jugadores en el juego de la educación: los libros de texto y otros materiales de lectura, las clases en vivo, las clases en línea automatizadas y los *large language models* o LLMs (grandes modelos de lenguaje). Podrías darle a tus estudiantes clases escritas y alguna combinación de videos grabados y ejercicios para que realicen a su propio ritmo, pero si vas a enseñar de forma sincrónica, ya sea en persona o en linea, tienes que ofrecer algo diferente (y preferentemente mejor que) cualquiera de las opciones anteriores. Por lo tanto, este capítulo se enfoca en cómo enseñar a programar programando y como enseñar otras herramientas tecnológicas usándolas.
 
-Los métodos que vamos a presentar se pueden considerar una implementación de la _práctica guiada_, la cual consiste en que quien enseña va presentando y resolviendo ejemplos de la habilidad o concepto que se está enseñando, junto con los estudiantes, paso a paso, mientras comprueba que ejecutan cada paso correctamente. (Hollingsworth e Ybarra, 2017).  Cuando usamos práctica guiada durante la clase, es fundamental que comprobemos si se está entendiendo y que proporcionemos una retroalimentación inmediata y eficaz.
+Los métodos que vamos a presentar se conocen como *programacion participativa en vivo* y *demostracion participativa en vivo*.
 
-__Todo:__ _linkear a checking for understanding y feedback en este mismo capítulo y en el libro._ 
+La codificación participativa en vivo es una técnica en la que la persona que enseña comparte su pantalla y escribe y narra código en voz alta en el momento, mientras esta enseñando, e invita a sus estudiantes a escribir y ejecutar el mismo código (\@Nederbragt2020).
 
-__Todo:__ _Agregar a bibliografia. Hollingsworth, J. R., & Ybarra, S. E. (2017). Explicit Direct Instruction (EDI): The power of the well-crafted, well-taught lesson (2nd ed.). New York, NY: Corwin Press._
+La demostracion participativa en vivo tiene el mismo principio que la programacion participativa en vivo, pero se aplica a situaciones donde no se programa, si no que se muestra como usar una aplicacion o un sistema.
 
+Estas tecnicas encarnan el enfoque "yo lo hago, nosotros lo hacemos, tú lo haces" de la transferencia de conocimientos, que se utiliza tanto en entornos educativos formales e informales para enseñar desde técnicas de laboratorio hasta la redacción de solicitudes de fondos (\@Nederbragt2020). Tambien se pueden considerar una implementación de la *práctica guiada*, la cual consiste en que quien enseña va presentando y resolviendo ejemplos de la habilidad o concepto que se está enseñando, junto con los estudiantes, paso a paso, mientras comprueba que ejecutan cada paso correctamente. (\@hollingsworth2009).
 
-## Programar en vivo {#sec-performance-live}
+## Programacion participativa en vivo {#sec-performance-live}
 
 > La enseñanza es teatro, no cine.<br/> --- [Neal Davis]{i="Davis, Neal"}
 
