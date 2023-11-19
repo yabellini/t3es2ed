@@ -108,7 +108,7 @@ Por eso es importante compartir el código generado en vivo después de la clase
 Disponer del código final ayudará a tus estudiantes a validar su código y a ponerse al día si no pueden copiar o escribir alguna parte del mismo.
 :::
  
-### 2. Ve despacio y no enseñes sola/o. 
+### Ve despacio y no enseñes sola/o. 
 
 Cuando se realiza codificación participativa en vivo, es necesario enseñar y programar a un ritmo que permita a tus estudiantes seguir el proceso sin quedarse atrás. 
 
@@ -136,7 +136,7 @@ Los consejos anteriores son validos para clases en persona y en linea. Hay algun
 
 * Utiliza el chat o el documento de las notas compartidas para copiar y pegar el código o los errores de tus estudiantes. Ten cuidado con los sistemas de chat traicioneros que pueden cambiar el formato de tu código. 
 
-### 3. Duplica el entorno de tus estudiantes. 
+### Duplica el entorno de tus estudiantes. 
 
 Si tus estudiantes tienen que trabajar en un entorno distinto al tuyo, tienen que hacer un esfuerzo mental que no contribuye al aprendizaje. La ciencia del aprendizaje llama a esto “carga cognitiva externa”. Intenta crear un entorno lo más parecido posible al que tienen tus estudiantes. Si son principiantes, es muy probable que tengan la configuración por defecto de la IDE o software que vayas a utilizar.
 
@@ -144,11 +144,11 @@ Una solución basada en la nube es la mejor alternativa para asegurarte de que t
 
 Algunos/as docentes crean un usuario distinto con configuración básica en sus computadoras o una cuenta específica para enseñar si están usando algún servicio online como Scratch o GitHub. Hacer esto también puede ayudar a evitar que los paquetes que instalaste ayer para trabajar rompan la lección que se supone que enseñes hoy.
 
-### 4. Usa tu(s) pantalla(s) sabiamente. 
+### Usa tu(s) pantalla(s) sabiamente. 
 
 ### En persona
 
-Por lo general, necesitarás agrandar el tamaño de la letra considerablemente para que las personas en el fondo de la sala puedan leer. Esto significa que podrás colocar muchas menos cosas en la pantalla de las que estás acostumbrado/a. En muchos casos, se reducirá a 60--70 columnas y 20--30 filas, por lo que estarás usando una super computadora del siglo XXI como si fuera una sencilla terminal de principios de la década de 1980.
+Por lo general, necesitarás agrandar el tamaño de la letra considerablemente para que las personas en el fondo de la sala puedan leer. Esto significa que podrás colocar muchas menos cosas en la pantalla de las que estás acostumbrado/a. 
 
 Para organizarte, maximiza la ventana que estás usando para enseñar y luego pregúntale a todos si pueden leer lo que está en la pantalla o no. Usa una fuente de color negro sobre un fondo ligeramente coloreado en vez de una fuente de color claro sobre un fondo oscuro---el tono claro deslumbrará menos que el blanco puro.
 
@@ -171,33 +171,25 @@ Algunas personas usan dos dispositivos cuando enseñan: una computadora portáti
 
 #### On line
 
-Ya hemos mencionado que necesitas mostrar a tus estudiantes cómo acomodar su pantalla para verte mejor. Al utilizar live coding, también debes acomodar tu(s) pantalla(s) para enseñar.
+Ya hemos mencionado que necesitas mostrar a tus estudiantes cómo acomodar su pantalla para verte mejor. Al utilizar programacion en vivo, también debes acomodar tu(s) pantalla(s) para enseñar.
 
 La mejor solución es utilizar dos dispositivos o pantallas al enseñar: una para compartir con tus estudiantes y otra para ver sus notas y vídeos, las notas de la lección y la ventana de chat.
 
 Si no tienes dos pantallas, comparte con tus estudiantes sólo las ventanas o paneles que quieras que vean. Puedes tener las notas de la lección impresas en papel o en una ventana no compartida.
 
-Aquí tienes un bonito ejemplo de configuración de escritorio de Paola Corrales con una o dos pantallas.
-
 Amplía el panel de la pantalla que necesitas mostrar. Por ejemplo, si necesitas mostrar el código amplía las ventanas de script. Si necesitas mostrar un resultado, amplía el panel de la consola, o de gráficos, etc.
 
 Una de las ventajas de la enseñanza en línea es que cuando la gente se encuentra con problemas, puede compartir la pantalla y resolver el problema trabajando en conjunto. Si tu estudiante se siente cómodo/a, permitirle compartir su pantalla para resolver problemas con toda la clase; esta es una excelente experiencia de aprendizaje. También pueden compartir su pantalla para demostrar algo que han hecho.
 
-### 5. Evita las distracciones. 
+### Evita las distracciones. 
 
-#### En persona
+Desactiva las notificaciones en los dispositivos que estés utilizando y en tu teléfono. Ver las notificaciones parpadear en la pantalla te distrae a ti y a tus estudiantes. Abre sólo el software, las aplicaciones y las páginas web que vayas a utilizar durante la clase. Cierra cualquier otra aplicación, incluidos el correo electrónico y las redes sociales. Ten en cuenta qué imagen de escritorio y salvapantallas utilizas porque acabarás compartiéndolos con la clase y en el vídeo si grabas la lección. De nuevo, tener una cuenta especifica para ensenar puede ayudarte a cumplir este punto de forma mas sencilla.
 
-Desactiva las notificaciones que usas en tu computadora, especialmente las de redes sociales. Ver mensajes parpadeando en la pantalla te distrae a tí y a tus estudiantes, y puede ser incómodo si aparece un mensaje que no te gustaría que otras personas vean. De nuevo, es posible que quieras crear una segunda cuenta en tu computadora que no tenga correo electrónico u otras herramientas configuradas.
-
-#### Online
-
-Desactiva las notificaciones en los dispositivos que estés utilizando y en tu teléfono. Ver las notificaciones parpadear en la pantalla te distrae a ti y a tus estudiantes. Abre sólo el software, las aplicaciones y las páginas web que vayas a utilizar durante la clase. Cierra cualquier otra aplicación, incluidos el correo electrónico y las redes sociales. Ten en cuenta qué imagen de escritorio y salvapantallas utilizas porque acabarás compartiéndolos con la clase y en el vídeo si grabas la lección.
-
-Es importante que tu ayudante o co-docente trabaje para resolver las dudas y problemas que puedan tener tus estudiantes durante la clase, de modo que las interrupciones sean ordenadas y sirvan a la lección en lugar de cortar su fluidez. Acuérdate también de dar instrucciones sobre cómo participar, cómo hacer preguntas y qué herramientas utilizar antes de empezar la demostración en vivo ( ver consejo número 1).
+Es importante que tu ayudante o co-docente trabaje para resolver las dudas y problemas que puedan tener tus estudiantes durante la clase, de modo que las interrupciones sean ordenadas y sirvan a la lección en lugar de cortar su fluidez. Acuérdate también de dar instrucciones sobre cómo participar, cómo hacer preguntas y qué herramientas utilizar antes de empezar la demostración en vivo (ver consejo número 1).
 
 Por último, pide a tus estudiantes que reduzcan el número de distracciones en sus dispositivos, como notificaciones, correos electrónicos y otras pestañas del navegador que puedan tener abiertas mientras tiene lugar la clase. No puedes controlar lo que hacen, pero hacer una petición amistosa puede ayudarles a cerrar estos distractores.
 
-### 6. Sigue el material de la lección. 
+### Sigue el material de la lección. 
 
 #### En persona
 
