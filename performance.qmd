@@ -212,7 +212,7 @@ Una vez que el material te sea familiar, puedes y debes empezar a improvisar bas
 Si surge una pregunta o un “¿qué pasaría si…?”, pero no quieres interrumpir el flujo de la lección, o sabes que te llevará más tiempo del que tienes, o necesitas algo de tiempo para ordenarte, pide a tus estudiantes que las agreguen en un documento compartido en línea o pide a tu co-docente o ayudante que las registre. Luego, puedes pensar en ellas mientras tus estudiantes hacen los ejercicios y responderlas después que terminen, o a la clase siguiente.
 
 
-### 7. Convierte a tus estudiantes en co-docentes 
+### Convierte a tus estudiantes en co-docentes 
 
 #### Online
 
@@ -233,7 +233,7 @@ Esta estrategia les permite reforzar el aprendizaje porque programan durante mi 
 
 Puedes utilizar diferentes tipos de ejercicios para el trabajo en grupos, como rellenar los espacios en blanco, problemas de Parson y tutoriales interactivos que ofrezcan diferentes tipos de andamiaje.
 
-### 8. Obten información en tiempo real y proporciona ayuda inmediata. 
+### Obten información en tiempo real y proporciona ayuda inmediata. 
 
 #### En persona
 
@@ -259,7 +259,7 @@ Algunos temas permiten agregar en el código un elemento de aleatoriedad que va 
 
 Una vez más, enseñar con otras personas es una buena estrategia para este consejo. El papel principal de tus co-docentes es garantizar que tus estudiantes no se queden atrás debido, por ejemplo, a problemas técnicos. A veces es una buena idea crear una sala para resolver problemas técnicos donde tu estudiante y co-docentes puedan ir y resolver el problema. Tus ayudantes deben prestar atención a los documentos compartidos, los emojis o el canal de Slack, que indican que un/a estudiante está pidiendo ayuda.
 
-### 9. Usa ilustraciones, aún mejor dibujalas en tiempo real. 
+### Usa ilustraciones, aún mejor dibujalas en tiempo real. 
 
 #### En persona
 
@@ -278,7 +278,7 @@ Por ejemplo, yo solía dibujar un mapa conceptual del código de control de fluj
 Algunas herramientas permiten escribir y dibujar sobre la pantalla compartida. Esto puede ser útil para marcar parte del código y anotar el valor de una variable mientras ejecutas un fragmento de código o los pasos y el orden de ejecución de una sentencia.
 
 
-### 10. Acepta tus errores. 
+### Acepta tus errores. 
 
 #### On line
 Aunque te sepas bien la lección y la sigas, es muy probable que cometas errores mientras demuestras cómo programar en vivo. Cometer errores suele ser el mayor temor de los/as docentes que utilizan esta técnica. Está bien que ocurra (ya que es lo que pasa en la vida real cuando programamos), y puede ser una excelente oportunidad para aprender a depurar. Esta forma de afrontar los errores se denomina “encuadre positivo del error”, y es beneficiosa para el aprendizaje.
@@ -312,7 +312,9 @@ Y si sientes que estás pasando demasiado tiempo escribiendo código para import
 
 ## Estudiar la lección {#sec-performance-jugyokenkyu}
 
-Desde políticos/as hasta investigadores/as y docentes, quienes reforman la educación han diseñado sistemas para encontrar y apoyar a personas que pueden enseñar bien y eliminar a las personas que no lo hacen. Pero la suposición de que algunas personas nacen como docentes es errónea: en cambio, como cualquier otra representación artística, las claves para enseñar mejor son práctica y colaboración. Como explica @Gree2014, en japonés este enfoque se llama [*jugyokenkyu*]{g="jugyokenkyu"}, que significa "estudiar la lección":
+Hemos visto que ofrecer oportunidades para practicar y dar devoluciones constructivas a nuestros estudiantes son componentes esenciales del proceso de aprendizaje. Podemos aplicar estos mismos principios para aprender a enseñar.  
+
+Sin embargo, mucha gente asume que los/as buenas docentes nacen, no se hacen.  Esta es una asuncion erronea. Las personas que ensenan pueden mejorar su habilidad docente con el tiempo a través de la práctica y mejoran más cuando reciben comentarios sobre como ensenaron de parte de otros docentes. Como explica @Gree2014, en japonés este enfoque se llama [*jugyokenkyu*]{g="jugyokenkyu"}, que significa "estudiar la lección":
 
 > Para graduarse, los/las especialistas en educación \[de Japón\] no solo tenían que ver como trabajaba el/la docente que le asignaban, tenían que reemplazarlo/a efectivamente, participando en su aula primero como observadores/as y luego, a la tercera semana, como una aproximación...titubeante del propio/a docente. Funcionó como una especie de relevo de docentes. Cada estudiante eligió una asignatura, preparando clases para cinco días... \[y luego\] cada uno/a enseñó un día. Para pasar la batuta, tenía que enseñar una clase de un día en cada asignatura: la que tenían planeada y las cuatro que no... y tenían que hacerlo delante de su docente. Después, todas las personas---el/la docente, los/las estudiantes para ser docentes, y a veces, incluso un/a observador/a externo---se sentaban alrededor de una mesa para hablar sobre lo que observaron.
 
