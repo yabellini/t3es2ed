@@ -97,21 +97,12 @@ Si puedes, comparte tu código no solo por medio de tu pantalla mientras lo escr
 
 Debemos considerar la posibilidad de que algunos de tus estudiantes se hayan quedado atrás, no puedan resolver un ejercicio o lo hagan de forma poco eficiente. Por eso es importante compartir después de la clase el código generado en vivo durante la misma. Puedes copiarlo y pegarlo en el chat de la plataforma, copiarlo y pegarlo en los apuntes compartidos o subirlo a la página web del curso o al campus virtual. También puedes compartir una carpeta en un servicio de almacenamiento en la nube. Disponer del código final ayudará a tus alumnos a validar su código y a ponerse al día si no pueden copiar o escribir alguna parte del mismo.
 
-### Aprovecha tus errores
 
-> Los errores de tipeo son la pedagogía.<br/> --- [Emily Jane McTavish]{i="McTavish, Emily Jane"}
+### 2. Ve despacio y no enseñes sola/o. 
 
-La regla más importante de la programación en vivo es [aprovechar tus errores]{i="errores (importancia de aprovecharlos)"}. No importa qué tan bien te prepares, cometerás algunos errores; cuando lo hagas, piensa sobre ellos con tu público. Si bien obtener datos es difícil, los/las programadores/as profesionales dedican del 25% al 60% de su tiempo identificando y resolviendo errores; las personas novatas le dedican mucho más (@sec-pck-debug). A pesar de ello, la mayoría de los libros de texto y tutoriales dedican poco tiempo a diagnosticar y corregir problemas. Si hablas en voz alta mientras intentas identificar qué escribiste mal o dónde tomaste el camino equivocado, y explicas cómo lo corriges, les darás a tus estudiantes un conjunto de herramientas que pueden usar cuando comentan sus propios errores.
+Cuando se realiza codificación participativa en vivo, es necesario enseñar y programar a un ritmo que permita a tus estudiantes seguir el proceso sin quedarse atrás. 
 
-> ### Tropiezos deliberados
->
-> Una vez que hayas enseñado una lección varias veces, es poco probable que cometas nada más que errores básicos de tipeo (que de todas maneras pueden ser informativos). Puedes intentar recordar errores pasados y cometerlos deliberadamente, pero usualmente eso se siente forzado. Un enfoque alternativo es [sacudir la programación]{g="twitch-coding"}: pide a tus estudiantes, en turnos, que te indiquen qué escribir a continuación. Esto prácticamente garantiza que te encuentres en algún tipo de problema.
-
-### Pregunta por predicciones
-
-Una manera de mantener la motivación de tus estudiantes mientras estás programando en vivo es pedirles que hagan predicciones sobre qué hará el código que ven en la pantalla. Luego, puedes escribir las primeras sugerencias que hagan, hacer que toda la clase vote sobre cuál piensan que es la opción más probable, y finalmente ejecutar el código. Esta es una forma simple de [instrucción por pares,]{i="instrucción por pares"} que discutiremos en la @sec-classroom-peer. Además de mantener su atención en la actividad, les permite practicar cómo razonar sobre el comportamiento del código.
-
-### Tómalo con calma
+### En persona
 
 Cada vez que escribas un comando, agregues una línea de código a un programa o selecciones un elemento de un menú, di qué estas haciendo en voz alta. Luego señala lo que haz hecho y su resultado en la pantalla y repásalo una segunda vez. Así tus estudiantes podrán ponerse al día y revisar si lo que acaban de hacer es correcto. Esto es particularmente importante cuando algunos/as de tus estudiantes tienen dificultades para ver o escuchar, o no dominan el idioma en el que estás enseñando.
 
@@ -120,12 +111,48 @@ Hagas lo que hagas, *no* copies y pegues código: hacer eso prácticamente garan
 Si la salida de tu comando o código hace que lo que acabas de escribir desaparezca de la vista, vuelve arriba para que tus estudiantes puedan verlo de nuevo. Si eso no es posible, ejecuta el mismo comando una segunda vez o copia y pega el último comando o comandos en las notas compartidas del taller.
 
 
+#### En linea 
 
-### Emula la pantalla de tu estudiante
+En los entornos en línea, es esencial que tus estudiantes cambien de ventana (la demostración del docente y su propia codificación) o de pantalla si tienen más de una.
+
+Empieza con un script o notebook en blanco para asegurarte de que les explicas todo lo que necesitan para que el código funcione.
+
+Explica el objetivo del código que vas a desarrollar y escríbelo en la notebook o como comentario en el script. Nos ayuda a centrarnos en lo que queremos y en el razonamiento que hay detrás de codificar para ese objetivo.
+
+Explica cada paso que has dado. Di en voz alta lo que estás haciendo mientras lo haces para cada comando que escribes, cada palabra de código que escribes y cada elemento de menú o botón de sitio web que pulsas. A continuación, señala el comando y su resultado en la pantalla y repítelo para que tus estudiantes puedan comprobar lo que han hecho.
+
+Menciona el número de línea del código al que te refieres.
+
+Narra lo que escribes (y las combinaciones de teclas y atajos de teclado), especialmente cuando tengas que utilizar signos de puntuación complicados (“corchetes”, “paréntesis redondos”, etc.).
+
+Cuando una IDE autocompleta cosas, es útil señalarlo las primeras veces (y decir cómo se usa o activa esa característica) ya que puede ser la primera vez que algunos estudiantes lo vean. Por ejemplo, RStudio IDE tiene IntelliSense. Puedes detenerte y explicar lo que está mostrando y cómo cambia cuando escribes, luego necesitas usar la tecla tab (en windows) para completar la palabra, lo cual también explico, para que no piensen que escribo tan rápido. Luego el IDE muestra un resumen de ayuda para la función. También me detengo ahí y leo esa ayuda y explico las diferentes partes de la ayuda para que puedan reconocer parámetros, valores por defecto, etc.
+
+Si la salida de tu comando o código hace que lo que acabas de escribir desaparezca de la vista, desplázate hacia atrás para que tus estudiantes puedan verlo de nuevo.
+
+No utilices muchos atajos de teclado, sobre todo al principio. Si utilizas un atajo de teclado, dilo en voz alta la primera vez que lo hagas. Explica una alternativa al atajo (por ejemplo, el uso de menús). Puedes recordar a tus estudiantes qué atajos utilizas de vez en cuando (en caso de que no utilices un programa que muestre las teclas que pulsaste en pantalla).
+
+Tu ayudante o co-docente debe prestar atención al chat, ayudando a localizar y resolver los problemas de tus estudiantes, copiando enlaces o trozos de código si es necesario, y avisándote cuando haya que aclarar, volver a explicar o mostrar algo una vez más.
+
+Si estás enseñando sin ayuda, informa a tus estudiantes cuándo estarás prestando atención al chat para ayudarles. Deja claro cómo pueden participar y hacer preguntas (utilizando el chat, sin silenciarlos, utilizando una expresión no verbal, notas compartidas, etc.) y cómo responderás tú.
+
+Utiliza el chat o el documento de las notas compartidas para copiar y pegar el código o los errores de tus estudiantes. Ten cuidado con los sistemas de chat traicioneros que pueden manipular tu código. Las comillas rectas pueden transformarse en comillas tipográficas, y los límites de caracteres pueden cortar partes del código, etc.
+
+### 3. Duplica el entorno de tus estudiantes. 
+
+#### En persona
 
 Es posible que hayas personalizado tu entorno de trabajo con una terminal de Unix elegante, un esquema de colores personalizado o una gran cantidad de atajos de teclado. Tus estudiantes no tendrán nada de eso, así que intenta crear un entorno de trabajo que refleje lo que *sí* tienen. Algunos/as docentes crean un usuario distinto con configuración básica en sus computadoras o una cuenta específica para enseñar si están usando algún servicio online como Scratch o GitHub. Hacer esto también puede ayudar a evitar que los paquetes que instalaste ayer para trabajar rompan la lección que se supone que enseñes hoy.
 
-### Usa la pantalla de manera sabia
+#### En linea 
+Si tus estudiantes tienen que trabajar en un entorno distinto al tuyo, tienen que hacer un esfuerzo mental que no contribuye al aprendizaje. La ciencia del aprendizaje llama a esto “carga cognitiva extraña”. Intenta crear un entorno lo más parecido posible al que tienen tus estudiantes. Si son principiantes, es muy probable que tengan la configuración por defecto de la IDE o software que vayas a utilizar.
+
+Una solución basada en la nube es la mejor alternativa para asegurarte de que tú y tus estudiantes tienen la misma configuración. Algunas de estas herramientas te permiten incluir todo el software, paquetes y datos que necesitas evitando problemas de instalación y la consiguiente frustración.
+
+Cuando enseño SQL, utilizo SQL Lite Online. Cuando enseño R, utilizo Posit Cloud en la primera clase, y luego utilizamos la última parte de esa clase para solucionar problemas de instalación en los ordenadores de mis estudiantes. También tengo un proyecto Posit Cloud como copia de seguridad en caso de que algunos estudiantes no puedan instalar todo en sus computadoras. Dentro de los problemas que tienen esta soluviones está el costo y el ancho de banda necesario para usarlas durante las clases.
+
+### 4. Usa tu(s) pantalla(s) sabiamente. 
+
+### En persona
 
 Por lo general, necesitarás agrandar el tamaño de la letra considerablemente para que las personas en el fondo de la sala puedan leer. Esto significa que podrás colocar muchas menos cosas en la pantalla de las que estás acostumbrado/a. En muchos casos, se reducirá a 60--70 columnas y 20--30 filas, por lo que estarás usando una super computadora del siglo XXI como si fuera una sencilla terminal de principios de la década de 1980.
 
@@ -147,13 +174,59 @@ Finalmente, si estás enseñando algo como la terminal de Unix en una consola, e
 
 Algunas personas usan dos dispositivos cuando enseñan: una computadora portátil conectada al proyector que sus estudiantes ven y una tableta para que puedan ver sus propias notas y las notas que los/las estudiantes están tomando (@sec-classroom-notetaking). Esto es más confiable que pasar de un escritorio virtual al otro, aunque imprimir la lección sigue siendo la tecnología de respaldo más confiable.
 
+
+#### On line
+
+Ya hemos mencionado que necesitas mostrar a tus estudiantes cómo acomodar su pantalla para verte mejor. Al utilizar live coding, también debes acomodar tu(s) pantalla(s) para enseñar.
+
+La mejor solución es utilizar dos dispositivos o pantallas al enseñar: una para compartir con tus estudiantes y otra para ver sus notas y vídeos, las notas de la lección y la ventana de chat.
+
+Si no tienes dos pantallas, comparte con tus estudiantes sólo las ventanas o paneles que quieras que vean. Puedes tener las notas de la lección impresas en papel o en una ventana no compartida.
+
+Aquí tienes un bonito ejemplo de configuración de escritorio de Paola Corrales con una o dos pantallas.
+
+Amplía el panel de la pantalla que necesitas mostrar. Por ejemplo, si necesitas mostrar el código amplía las ventanas de script. Si necesitas mostrar un resultado, amplía el panel de la consola, o de gráficos, etc.
+
+Una de las ventajas de la enseñanza en línea es que cuando la gente se encuentra con problemas, puede compartir la pantalla y resolver el problema trabajando en conjunto. Si tu estudiante se siente cómodo/a, permitirle compartir su pantalla para resolver problemas con toda la clase; esta es una excelente experiencia de aprendizaje. También pueden compartir su pantalla para demostrar algo que han hecho.
+
+### 5. Evita las distracciones. 
+
+#### En persona
+
+Desactiva las notificaciones que usas en tu computadora, especialmente las de redes sociales. Ver mensajes parpadeando en la pantalla te distrae a tí y a tus estudiantes, y puede ser incómodo si aparece un mensaje que no te gustaría que otras personas vean. De nuevo, es posible que quieras crear una segunda cuenta en tu computadora que no tenga correo electrónico u otras herramientas configuradas.
+
+#### Online
+
+Desactiva las notificaciones en los dispositivos que estés utilizando y en tu teléfono. Ver las notificaciones parpadear en la pantalla te distrae a ti y a tus estudiantes. Abre sólo el software, las aplicaciones y las páginas web que vayas a utilizar durante la clase. Cierra cualquier otra aplicación, incluidos el correo electrónico y las redes sociales. Ten en cuenta qué imagen de escritorio y salvapantallas utilizas porque acabarás compartiéndolos con la clase y en el vídeo si grabas la lección.
+
+Es importante que tu ayudante o co-docente trabaje para resolver las dudas y problemas que puedan tener tus estudiantes durante la clase, de modo que las interrupciones sean ordenadas y sirvan a la lección en lugar de cortar su fluidez. Acuérdate también de dar instrucciones sobre cómo participar, cómo hacer preguntas y qué herramientas utilizar antes de empezar la demostración en vivo ( ver consejo número 1).
+
+Por último, pide a tus estudiantes que reduzcan el número de distracciones en sus dispositivos, como notificaciones, correos electrónicos y otras pestañas del navegador que puedan tener abiertas mientras tiene lugar la clase. No puedes controlar lo que hacen, pero hacer una petición amistosa puede ayudarles a cerrar estos distractores.
+
+
+### Aprovecha tus errores
+
+> Los errores de tipeo son la pedagogía.<br/> --- [Emily Jane McTavish]{i="McTavish, Emily Jane"}
+
+La regla más importante de la programación en vivo es [aprovechar tus errores]{i="errores (importancia de aprovecharlos)"}. No importa qué tan bien te prepares, cometerás algunos errores; cuando lo hagas, piensa sobre ellos con tu público. Si bien obtener datos es difícil, los/las programadores/as profesionales dedican del 25% al 60% de su tiempo identificando y resolviendo errores; las personas novatas le dedican mucho más (@sec-pck-debug). A pesar de ello, la mayoría de los libros de texto y tutoriales dedican poco tiempo a diagnosticar y corregir problemas. Si hablas en voz alta mientras intentas identificar qué escribiste mal o dónde tomaste el camino equivocado, y explicas cómo lo corriges, les darás a tus estudiantes un conjunto de herramientas que pueden usar cuando comentan sus propios errores.
+
+> ### Tropiezos deliberados
+>
+> Una vez que hayas enseñado una lección varias veces, es poco probable que cometas nada más que errores básicos de tipeo (que de todas maneras pueden ser informativos). Puedes intentar recordar errores pasados y cometerlos deliberadamente, pero usualmente eso se siente forzado. Un enfoque alternativo es [sacudir la programación]{g="twitch-coding"}: pide a tus estudiantes, en turnos, que te indiquen qué escribir a continuación. Esto prácticamente garantiza que te encuentres en algún tipo de problema.
+
+### Pregunta por predicciones
+
+Una manera de mantener la motivación de tus estudiantes mientras estás programando en vivo es pedirles que hagan predicciones sobre qué hará el código que ven en la pantalla. Luego, puedes escribir las primeras sugerencias que hagan, hacer que toda la clase vote sobre cuál piensan que es la opción más probable, y finalmente ejecutar el código. Esta es una forma simple de [instrucción por pares,]{i="instrucción por pares"} que discutiremos en la @sec-classroom-peer. Además de mantener su atención en la actividad, les permite practicar cómo razonar sobre el comportamiento del código.
+
+
+
+
+
+
 ### Dibuja temprano, dibuja seguido
 
 Los diagramas son siempre una buena idea. A veces tengo una presentación de diapositivas llena de diagramas preparada de antemano, pero construir los diagramas paso a paso ayuda a retenerlos más (@sec-architecture-brain) y te permite improvisar.
 
-### Evita las distracciones
-
-Desactiva las notificaciones que usas en tu computadora, especialmente las de redes sociales. Ver mensajes parpadeando en la pantalla te distrae a tí y a tus estudiantes, y puede ser incómodo si aparece un mensaje que no te gustaría que otras personas vean. De nuevo, es posible que quieras crear una segunda cuenta en tu computadora que no tenga correo electrónico u otras herramientas configuradas.
 
 ### Improvisa---luego de haber aprendido el material
 
