@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.269">
+<meta name="generator" content="quarto-1.3.433">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -17,14 +17,15 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for citations */
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
 }
-.hanging div.csl-entry {
+.hanging-indent div.csl-entry {
   margin-left:2em;
   text-indent:-2em;
 }
@@ -38,8 +39,7 @@ div.csl-right-inline {
 }
 div.csl-indent {
   margin-left: 2em;
-}
-</style>
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -76,7 +76,8 @@ div.csl-indent {
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 
@@ -87,11 +88,16 @@ div.csl-indent {
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-    <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Como vivir de enseñar</span></h1>
-      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
-        <i class="bi bi-chevron-right"></i>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./paid.html"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Como vivir de enseñar</span></a></li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
+      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
       </button>
     </div>
   </nav>
@@ -99,179 +105,208 @@ div.csl-indent {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Enseñar Tecnología en Comunidad (2e)</a> 
         <div class="sidebar-tools-main">
-    <a href="https://github.com/yabellini/t3es2ed" title="Source Code" class="sidebar-tool px-1"><i class="bi bi-github"></i></a>
+    <a href="https://github.com/yabellini/t3es2ed" rel="" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
 </div>
     </div>
       </div>
-      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="mt-2 flex-shrink-0 align-items-center">
         <div class="sidebar-search">
         <div id="quarto-search" class="" title="Search"></div>
         </div>
-      </div>
+        </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link">Preface</a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Preface</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./rules.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Las reglas</span></a>
+  <a href="./rules.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Las reglas</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./intro.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Introducción</span></a>
+  <a href="./intro.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Introducción</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./models.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Modelos mentales y evaluación formativa</span></a>
+  <a href="./models.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Modelos mentales y evaluación formativa</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./memory.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Pericia y memoria</span></a>
+  <a href="./memory.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Pericia y memoria</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./architecture.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Arquitectura Cognitiva</span></a>
+  <a href="./architecture.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Arquitectura Cognitiva</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./individual.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Aprendizaje individual</span></a>
+  <a href="./individual.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Aprendizaje individual</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./process.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Un proceso para diseñar lecciones</span></a>
+  <a href="./process.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Un proceso para diseñar lecciones</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./pck.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Conocimiento de la pedagogía del contenido</span></a>
+  <a href="./pck.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Conocimiento de la pedagogía del contenido</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./performance.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Enseñar como un arte performativo</span></a>
+  <a href="./performance.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Enseñar como un arte performativo</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./classroom.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">En el salón de clase</span></a>
+  <a href="./classroom.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">En el salón de clase</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./motivation.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Motivación y desmotivación</span></a>
+  <a href="./motivation.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Motivación y desmotivación</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./online.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Enseñar en línea</span></a>
+  <a href="./online.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Enseñar en línea</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./exercises.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Tipos de ejercicios</span></a>
+  <a href="./exercises.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Tipos de ejercicios</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./community.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Construyendo una comunidad de práctica</span></a>
+  <a href="./community.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Construyendo una comunidad de práctica</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./events.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Tipos de Eventos</span></a>
+  <a href="./events.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Tipos de Eventos</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./outreach.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Difusión y vinculación</span></a>
+  <a href="./outreach.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Difusión y vinculación</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./paid.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Como vivir de enseñar</span></a>
+  <a href="./paid.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Como vivir de enseñar</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./finale.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">¿Por qué enseñamos?</span></a>
+  <a href="./finale.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">¿Por qué enseñamos?</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./license.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Licencia</span></a>
+  <a href="./license.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Licencia</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./conduct.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title">Código de conducta</span></a>
+  <a href="./conduct.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title">Código de conducta</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./joining.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">21</span>&nbsp; <span class="chapter-title">Unirse a nuestra comunidad</span></a>
+  <a href="./joining.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">21</span>&nbsp; <span class="chapter-title">Unirse a nuestra comunidad</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./glossary.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">glossary.html</span></a>
+  <a href="./glossary.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">glossary.html</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./meetings.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">23</span>&nbsp; <span class="chapter-title">Reuniones, reuniones, reuniones</span></a>
+  <a href="./meetings.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">23</span>&nbsp; <span class="chapter-title">Reuniones, reuniones, reuniones</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./checklists.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">24</span>&nbsp; <span class="chapter-title">Listas de verificación y plantillas</span></a>
+  <a href="./checklists.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">24</span>&nbsp; <span class="chapter-title">Listas de verificación y plantillas</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./conceptmaps.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">25</span>&nbsp; <span class="chapter-title">Ejemplos de Mapas Conceptuales</span></a>
+  <a href="./conceptmaps.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">25</span>&nbsp; <span class="chapter-title">Ejemplos de Mapas Conceptuales</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./chunking.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">26</span>&nbsp; <span class="chapter-title">“Solución del ejercicio de particionar”</span></a>
+  <a href="./chunking.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">26</span>&nbsp; <span class="chapter-title">“Solución del ejercicio de particionar”</span></span></a>
   </div>
 </li>
     </ul>
     </div>
 </nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#sec-getting-paid-start" id="toc-sec-getting-paid-start" class="nav-link active" data-scroll-target="#sec-getting-paid-start"><span class="toc-section-number">17.1</span>  Por donde empezar</a></li>
-  <li><a href="#sec-getting-paid-charge" id="toc-sec-getting-paid-charge" class="nav-link" data-scroll-target="#sec-getting-paid-charge"><span class="toc-section-number">17.2</span>  Como determinar cuanto cobrar / Negociando el pago</a></li>
-  <li><a href="#sec-getting-paid-outreach" id="toc-sec-getting-paid-outreach" class="nav-link" data-scroll-target="#sec-getting-paid-outreach"><span class="toc-section-number">17.3</span>  Dándote a conocer</a>
+  <li><a href="#segunda-edición" id="toc-segunda-edición" class="nav-link active" data-scroll-target="#segunda-edición"><span class="header-section-number">17.1</span> Segunda edición</a></li>
+  <li><a href="#sec-getting-paid-start" id="toc-sec-getting-paid-start" class="nav-link" data-scroll-target="#sec-getting-paid-start"><span class="header-section-number">17.2</span> Por donde empezar</a></li>
+  <li><a href="#sec-getting-paid-charge" id="toc-sec-getting-paid-charge" class="nav-link" data-scroll-target="#sec-getting-paid-charge"><span class="header-section-number">17.3</span> Como determinar cuanto cobrar / Negociando el pago</a></li>
+  <li><a href="#sec-getting-paid-outreach" id="toc-sec-getting-paid-outreach" class="nav-link" data-scroll-target="#sec-getting-paid-outreach"><span class="header-section-number">17.4</span> Dándote a conocer</a>
   <ul class="collapse">
-  <li><a href="#sec-getting-paid-material" id="toc-sec-getting-paid-material" class="nav-link" data-scroll-target="#sec-getting-paid-material"><span class="toc-section-number">17.3.1</span>  Materiales</a></li>
+  <li><a href="#sec-getting-paid-material" id="toc-sec-getting-paid-material" class="nav-link" data-scroll-target="#sec-getting-paid-material"><span class="header-section-number">17.4.1</span> Materiales</a></li>
   </ul></li>
-  <li><a href="#sec-getting-paid-exercises" id="toc-sec-getting-paid-exercises" class="nav-link" data-scroll-target="#sec-getting-paid-exercises"><span class="toc-section-number">17.4</span>  Ejercicios</a>
+  <li><a href="#sec-getting-paid-exercises" id="toc-sec-getting-paid-exercises" class="nav-link" data-scroll-target="#sec-getting-paid-exercises"><span class="header-section-number">17.5</span> Ejercicios</a>
   <ul class="collapse">
-  <li><a href="#sobre-hombros-de-gigantes-individual15" id="toc-sobre-hombros-de-gigantes-individual15" class="nav-link" data-scroll-target="#sobre-hombros-de-gigantes-individual15"><span class="toc-section-number">17.4.1</span>  Sobre hombros de gigantes (individual/15’)</a></li>
-  <li><a href="#licencias-individual15" id="toc-licencias-individual15" class="nav-link" data-scroll-target="#licencias-individual15"><span class="toc-section-number">17.4.2</span>  Licencias (individual/15’)</a></li>
-  <li><a href="#cuanto-cobrar-clase-completa15" id="toc-cuanto-cobrar-clase-completa15" class="nav-link" data-scroll-target="#cuanto-cobrar-clase-completa15"><span class="toc-section-number">17.4.3</span>  Cuanto cobrar (clase completa/15’)</a></li>
-  <li><a href="#determinando-la-licencia-de-un-material-en-grupos15" id="toc-determinando-la-licencia-de-un-material-en-grupos15" class="nav-link" data-scroll-target="#determinando-la-licencia-de-un-material-en-grupos15"><span class="toc-section-number">17.4.4</span>  Determinando la licencia de un material (en grupos/15’)</a></li>
-  <li><a href="#contribuyendo-en-grupos15" id="toc-contribuyendo-en-grupos15" class="nav-link" data-scroll-target="#contribuyendo-en-grupos15"><span class="toc-section-number">17.4.5</span>  Contribuyendo (en grupos/15’)</a></li>
+  <li><a href="#sobre-hombros-de-gigantes-individual15" id="toc-sobre-hombros-de-gigantes-individual15" class="nav-link" data-scroll-target="#sobre-hombros-de-gigantes-individual15"><span class="header-section-number">17.5.1</span> Sobre hombros de gigantes (individual/15’)</a></li>
+  <li><a href="#licencias-individual15" id="toc-licencias-individual15" class="nav-link" data-scroll-target="#licencias-individual15"><span class="header-section-number">17.5.2</span> Licencias (individual/15’)</a></li>
+  <li><a href="#cuanto-cobrar-clase-completa15" id="toc-cuanto-cobrar-clase-completa15" class="nav-link" data-scroll-target="#cuanto-cobrar-clase-completa15"><span class="header-section-number">17.5.3</span> Cuanto cobrar (clase completa/15’)</a></li>
+  <li><a href="#determinando-la-licencia-de-un-material-en-grupos15" id="toc-determinando-la-licencia-de-un-material-en-grupos15" class="nav-link" data-scroll-target="#determinando-la-licencia-de-un-material-en-grupos15"><span class="header-section-number">17.5.4</span> Determinando la licencia de un material (en grupos/15’)</a></li>
+  <li><a href="#contribuyendo-en-grupos15" id="toc-contribuyendo-en-grupos15" class="nav-link" data-scroll-target="#contribuyendo-en-grupos15"><span class="header-section-number">17.5.5</span> Contribuyendo (en grupos/15’)</a></li>
   </ul></li>
   </ul>
 <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/yabellini/t3es2ed/edit/main/paid.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/yabellini/t3es2ed/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
@@ -281,7 +316,7 @@ div.csl-indent {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span id="sec-getting-paid" class="quarto-section-identifier d-none d-lg-block"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Como vivir de enseñar</span></span></h1>
+<h1 class="title"><span id="sec-getting-paid" class="quarto-section-identifier"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Como vivir de enseñar</span></span></h1>
 </div>
 
 
@@ -296,25 +331,16 @@ div.csl-indent {
 
 </header>
 
-<div class="callout-warninig callout callout-style-default no-icon callout-captioned">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-caption-container flex-fill">
-Segunda edición
-</div>
-</div>
-<div class="callout-body-container callout-body">
+<section id="segunda-edición" class="level2 callout-warninig" data-number="17.1">
+<h2 data-number="17.1" class="anchored" data-anchor-id="segunda-edición"><span class="header-section-number">17.1</span> Segunda edición</h2>
 <p>Estás leyendo la segunda edición en progreso y en castellano de Enseñar Tecnología en Comunidad (Teaching Tech Together). Este capítulo es actualmente un mero borrador de ideas, y no recomendamos su lectura.</p>
-</div>
-</div>
+</section>
 <p>La primera opción para trabajar como docente es pertener a alguna institución formal de educación, como las escuelas y las universidades. Pero estas instituciones no son los únicos lugares en donde la gente va a aprender programación (u otro tipo de tecnología); en los últimos años, un número creciente de personas ha acudido a talleres <em>free-range</em> y programas de entrenamiento intensivo. Estos últimos suelen tener entre uno y seis meses de duración, son llevados a cabo por grupos de personas voluntarias o por empresas con un fin de lucro y apuntan a un mercado de personas que quieren cambiar de carrera o se están re-entrenando para ingresar al mercado laborar de la tecnología.</p>
 <p>Ya sea como docente independiente o como representante de una comunidad de práctica de enseñanza, vas a tener que empezar de alguna manera, hacerte conocer y lograr que te paguen por tus actividades para que puedas enseñar de forma sustentable.</p>
 <p>En este capitulo repasamos diferentes modelos para hacer el bien enseñando y lograr que te paguen por eso lo suficiente para hacerlo tu profesión.</p>
 <p>No vamos a cubrir ningún aspecto legal, impositivo o de contaduría porque son específicos a cada lugar y por eso te recomendamos que busques asesoramiento profesional en tu localidad. El libro de <span class="citation" data-cites="Gunderloy2009">(<a href="#ref-Gunderloy2009" role="doc-biblioref"><strong>Gunderloy2009?</strong></a>)</span> tiene consejos sobre estos temas enfocados en Estados Unidos, puede ser una referencia útil si tu negocio de enseñanza es internacional.</p>
-<section id="sec-getting-paid-start" class="level2" data-number="17.1">
-<h2 data-number="17.1" class="anchored" data-anchor-id="sec-getting-paid-start"><span class="header-section-number">17.1</span> Por donde empezar</h2>
+<section id="sec-getting-paid-start" class="level2" data-number="17.2">
+<h2 data-number="17.2" class="anchored" data-anchor-id="sec-getting-paid-start"><span class="header-section-number">17.2</span> Por donde empezar</h2>
 <p>Aqui hay un par de opciones sobre como empezar a ofrecer tus servicios y dar clases como docente autónomo.</p>
 <dl>
 <dt>Empieza como parte del grupo de apoyo.</dt>
@@ -372,8 +398,8 @@ Si ya están trabajando en eso tal vez puedas sumarte al equipo. Este reuso pued
 </dd>
 </dl>
 </section>
-<section id="sec-getting-paid-charge" class="level2" data-number="17.2">
-<h2 data-number="17.2" class="anchored" data-anchor-id="sec-getting-paid-charge"><span class="header-section-number">17.2</span> Como determinar cuanto cobrar / Negociando el pago</h2>
+<section id="sec-getting-paid-charge" class="level2" data-number="17.3">
+<h2 data-number="17.3" class="anchored" data-anchor-id="sec-getting-paid-charge"><span class="header-section-number">17.3</span> Como determinar cuanto cobrar / Negociando el pago</h2>
 <p>Muchas veces el pago está fijado con antelación, por ejemplo, en una institución formal hay convenios colectivos de trabajo que determinan el sueldo de un docente.</p>
 <p>También puede ser que en conferencias y algunas comunidades de práctica el pago sea determinado por quienes organizan el evento. En otras ocasiones las contrataciones gubernamentales o en empresas cuentan con un presupuesto prefijado destinado a capacitaciones, por ejmplo un monto máximo al año o un valor fijo de la hora de enseñanza. En estos casos, como el precio no se puede negociar, tienes que analizar si el arreglo es conveniente o no para ti, teniendo en cuenta algunos de los puntos de la sección anterior.</p>
 <p>Otras veces te van a pedir un presupuesto por tu trabajo docente. Determinar este precio depende de diversos factores, como por ejemplo <em>la región del mundo</em> donde vas a vender tu curso, el <em>tipo de empresa u organización</em> que te lo pide, la <em>duración</em> del curso, la <em>modalidad</em> (presencial, online o híbrida) o el <em>nivel de personalización</em> requerido, por mencionar algunos.</p>
@@ -401,8 +427,8 @@ Si ya están trabajando en eso tal vez puedas sumarte al equipo. Este reuso pued
 </dd>
 </dl>
 </section>
-<section id="sec-getting-paid-outreach" class="level2" data-number="17.3">
-<h2 data-number="17.3" class="anchored" data-anchor-id="sec-getting-paid-outreach"><span class="header-section-number">17.3</span> Dándote a conocer</h2>
+<section id="sec-getting-paid-outreach" class="level2" data-number="17.4">
+<h2 data-number="17.4" class="anchored" data-anchor-id="sec-getting-paid-outreach"><span class="header-section-number">17.4</span> Dándote a conocer</h2>
 <p>Tus clientes deben poder encontrarte y conocer lo que ofreces para poder contratarte. En esta sección veremos algunas opciones para tener una presencia online que te ayude a realizar tu trabajo de enseñanza.</p>
 <dl>
 <dt>Manten tus redes sociales actualizadas</dt>
@@ -414,8 +440,8 @@ Si ya están trabajando en eso tal vez puedas sumarte al equipo. Este reuso pued
 <p>Tu página web debería tener - información de contacto (<em>no</em> uses el correo electrónico de tu trabajo si empiezas a dedicarte a esto a medio tiempo); - una breve biografía; - muestras de tus cursos (vamos a ver más detalle en la próxima sección); - un par de vídeos cortos donde estés enseñando o dando charlas; - un blog con algunas publicaciones recientes relacionadas con lo que enseñas o que describan compromisos recientes (con énfasis en <em>recientes</em>: si el último post tiene dos años, puede ser contraproducente); - comentarios positivos de clientes anteriores (o de profesores para los que has sido asistente, o personas con las cuales has trabajado antes) y - el código de conducta de tus talleres. - opcionalmente, y si te sientes cómoda/o, puedes compartir un calendario de los próximos compromisos, como por ejemplo las conferencias a las que vas a asistir, porque aunque no estés enseñando hay personas que pueden aprovechar la oportunidad para contactarte.</p>
 </dd>
 </dl>
-<section id="sec-getting-paid-material" class="level3" data-number="17.3.1">
-<h3 data-number="17.3.1" class="anchored" data-anchor-id="sec-getting-paid-material"><span class="header-section-number">17.3.1</span> Materiales</h3>
+<section id="sec-getting-paid-material" class="level3" data-number="17.4.1">
+<h3 data-number="17.4.1" class="anchored" data-anchor-id="sec-getting-paid-material"><span class="header-section-number">17.4.1</span> Materiales</h3>
 <p>En el punto anterior mencionamos que es una buena idea tener una muestra de tus materiales de enseñanza en tu sitio web. Como se detalla en <span class="citation" data-cites="Deve2018">Devenyi et al. (<a href="#ref-Deve2018" role="doc-biblioref">2018</a>)</span> generar material educativo requieren un esfuerzo significativo tanto para su desarrollo inicial como para mantenerlo actualizado.</p>
 <p>A pesar que existe la paradoja de la reusabilidad ( <span class="citation" data-cites="Frantiska2016">(<a href="#ref-Frantiska2016" role="doc-biblioref"><strong>Frantiska2016?</strong></a>)</span>) que postula que un material didáctico será más reutilizables cuando sea lo más genérico posible pero será más efectivo cuando esté personalizado para una audiencia particular, en un contexto particular ( <span class="citation" data-cites="Wiley2004">(<a href="#ref-Wiley2004" role="doc-biblioref"><strong>Wiley2004?</strong></a>)</span>); compatir nuestro material de una manera que otras personas puedan encontrarla, utilizarla, mejorarla y citarla es una actividad que vale la pena el esfuerzo. Además, si los materiales son buenos, hay una alta probabilidad que terminen en internet de todas maneras, poder compartirlo bajo tus propios términos es una mejor opción.</p>
 <p>Sumemos a esto que tanto <span class="citation" data-cites="Deve2018">Devenyi et al. (<a href="#ref-Deve2018" role="doc-biblioref">2018</a>)</span> como <span class="citation" data-cites="Wilson2019">(<a href="#ref-Wilson2019" role="doc-biblioref"><strong>Wilson2019?</strong></a>)</span>, mencionan que tratar las lecciones como un recurso comunitario que debe actualizarse, adaptarse y mejorarse gradualmente puede incrementar la calidad del material educativo y liberar un tiempo valioso en el diseño del propio material. Compartiendo nuestro material, estamos ayudando a nuestros colegas y también a nuestros estudiantes, que pueden acceder a nuestras lecciones sin costo y en el momento que lo necesiten.</p>
@@ -450,10 +476,10 @@ Si ya están trabajando en eso tal vez puedas sumarte al equipo. Este reuso pued
 </dl>
 </section>
 </section>
-<section id="sec-getting-paid-exercises" class="level2" data-number="17.4">
-<h2 data-number="17.4" class="anchored" data-anchor-id="sec-getting-paid-exercises"><span class="header-section-number">17.4</span> Ejercicios</h2>
-<section id="sobre-hombros-de-gigantes-individual15" class="level3 exercise" data-number="17.4.1">
-<h3 class="exercise anchored" data-number="17.4.1" data-anchor-id="sobre-hombros-de-gigantes-individual15"><span class="header-section-number">17.4.1</span> Sobre hombros de gigantes (individual/15’)</h3>
+<section id="sec-getting-paid-exercises" class="level2" data-number="17.5">
+<h2 data-number="17.5" class="anchored" data-anchor-id="sec-getting-paid-exercises"><span class="header-section-number">17.5</span> Ejercicios</h2>
+<section id="sobre-hombros-de-gigantes-individual15" class="level3 exercise" data-number="17.5.1">
+<h3 class="exercise anchored" data-number="17.5.1" data-anchor-id="sobre-hombros-de-gigantes-individual15"><span class="header-section-number">17.5.1</span> Sobre hombros de gigantes (individual/15’)</h3>
 <p>En la web del <a href="https://jose.theoj.org/"><em>Journal of Open Source Education</em></a> busca publicaciones relacionadas con los temas que enseñas. Analiza el formato y contenido de los artículos.</p>
 <ol type="1">
 <li><p>¿Podrías presentar tus cursos de esta manera?</p></li>
@@ -461,16 +487,16 @@ Si ya están trabajando en eso tal vez puedas sumarte al equipo. Este reuso pued
 <li><p>¿Es claro la licencia de los trabajos? ¿Y como citarlos?</p></li>
 </ol>
 </section>
-<section id="licencias-individual15" class="level3 exercise" data-number="17.4.2">
-<h3 class="exercise anchored" data-number="17.4.2" data-anchor-id="licencias-individual15"><span class="header-section-number">17.4.2</span> Licencias (individual/15’)</h3>
+<section id="licencias-individual15" class="level3 exercise" data-number="17.5.2">
+<h3 class="exercise anchored" data-number="17.5.2" data-anchor-id="licencias-individual15"><span class="header-section-number">17.5.2</span> Licencias (individual/15’)</h3>
 <p>Utiliza el <a href="https://creativecommons.org/choose/?lang=es_AR">selector de licencias</a> de Creative Commons para decidir que tipo de licencia usarías con tus materiales.</p>
 <ol type="1">
 <li><p>¿Cuál elegiste? ¿Porqué?</p></li>
 <li><p>¿Usarías la misma para todos tus cursos?</p></li>
 </ol>
 </section>
-<section id="cuanto-cobrar-clase-completa15" class="level3 exercise" data-number="17.4.3">
-<h3 class="exercise anchored" data-number="17.4.3" data-anchor-id="cuanto-cobrar-clase-completa15"><span class="header-section-number">17.4.3</span> Cuanto cobrar (clase completa/15’)</h3>
+<section id="cuanto-cobrar-clase-completa15" class="level3 exercise" data-number="17.5.3">
+<h3 class="exercise anchored" data-number="17.5.3" data-anchor-id="cuanto-cobrar-clase-completa15"><span class="header-section-number">17.5.3</span> Cuanto cobrar (clase completa/15’)</h3>
 <ol type="1">
 <li><p>Utilicen el sitio web <a href="https://fixthegap.shinyapps.io/live/">500 Women Scientists’ Fix The Gap initiative</a> para analizar cuanto se cobra por diferentes actividades de enseñanza.</p></li>
 <li><p>¿Es útil esta información? ¿Te parece que son necesarios estos sitios?</p></li>
@@ -478,16 +504,16 @@ Si ya están trabajando en eso tal vez puedas sumarte al equipo. Este reuso pued
 <li><p>(opcional) Agreguen sus datos y experiencias a la base de datos para ayudar a más personas a determinar un costo ético y justo para su actividad.</p></li>
 </ol>
 </section>
-<section id="determinando-la-licencia-de-un-material-en-grupos15" class="level3 exercise" data-number="17.4.4">
-<h3 class="exercise anchored" data-number="17.4.4" data-anchor-id="determinando-la-licencia-de-un-material-en-grupos15"><span class="header-section-number">17.4.4</span> Determinando la licencia de un material (en grupos/15’)</h3>
+<section id="determinando-la-licencia-de-un-material-en-grupos15" class="level3 exercise" data-number="17.5.4">
+<h3 class="exercise anchored" data-number="17.5.4" data-anchor-id="determinando-la-licencia-de-un-material-en-grupos15"><span class="header-section-number">17.5.4</span> Determinando la licencia de un material (en grupos/15’)</h3>
 <p>Recorre las lecciones de <a href="https://carpentries.org/">The Carpentries</a> y contesta:</p>
 <ol type="1">
 <li><p>¿Dónde se especifica la licencia? ¿Cuál es?</p></li>
 <li><p>¿Qué podrías hacer con este material?</p></li>
 </ol>
 </section>
-<section id="contribuyendo-en-grupos15" class="level3 exercise" data-number="17.4.5">
-<h3 class="exercise anchored" data-number="17.4.5" data-anchor-id="contribuyendo-en-grupos15"><span class="header-section-number">17.4.5</span> Contribuyendo (en grupos/15’)</h3>
+<section id="contribuyendo-en-grupos15" class="level3 exercise" data-number="17.5.5">
+<h3 class="exercise anchored" data-number="17.5.5" data-anchor-id="contribuyendo-en-grupos15"><span class="header-section-number">17.5.5</span> Contribuyendo (en grupos/15’)</h3>
 <p><a href="https://github.com/gvwilson/teachtogether.tech/issues">En el repositorio de este libro</a> hay una lista de <em>issues</em> a resolver.</p>
 <ol type="1">
 <li><p>Si ves alguno que te interesa, agrega tus comentarios o la solución al problema si es que la tienes.</p></li>
@@ -495,20 +521,20 @@ Si ya están trabajando en eso tal vez puedas sumarte al equipo. Este reuso pued
 </ol>
 
 
-<div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography">
-<div id="ref-Burk2018" class="csl-entry" role="doc-biblioentry">
+<div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-Burk2018" class="csl-entry" role="listitem">
 Burke, Quinn, Cinamon Bailey, Louise Ann Lyon, and Emily Greeen. 2018. <span>“Understanding the Software Development Industry’s Perspective on Coding Boot Camps Versus Traditional 4-Year Colleges.”</span> In <em>2018 Technical Symposium on Computer Science Education (<span>SIGCSE’18</span>)</em>. Association for Computing Machinery (<span>ACM</span>). <a href="https://doi.org/10.1145/3159450.3159485">https://doi.org/10.1145/3159450.3159485</a>.
 </div>
-<div id="ref-Deve2018" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Deve2018" class="csl-entry" role="listitem">
 Devenyi, Gabriel A., Rémi Emonet, Rayna M. Harris, Kate L. Hertweck, Damien Irving, Ian Milligan, and Greg Wilson. 2018. <span>“Ten Simple Rules for Collaborative Lesson Development.”</span> <em><span>PLoS</span> Computational Biology</em> 14 (3). <a href="https://doi.org/10.1371/journal.pcbi.1005963">https://doi.org/10.1371/journal.pcbi.1005963</a>.
 </div>
-<div id="ref-Lang2016" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Lang2016" class="csl-entry" role="listitem">
 Lang, James M. 2016. <em>Small Teaching: Everyday Lessons from the Science of Learning</em>. Jossey-Bass.
 </div>
-<div id="ref-McMi2017" class="csl-entry" role="doc-biblioentry">
+<div id="ref-McMi2017" class="csl-entry" role="listitem">
 McMillan Cottom, Tressie. 2017. <em>Lower Ed: The Troubling Rise of for-Profit Colleges in the New Economy</em>. The New Press.
 </div>
-<div id="ref-Thay2017" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Thay2017" class="csl-entry" role="listitem">
 Thayer, Kyle, and Amy J. Ko. 2017. <span>“Barriers Faced by Coding Bootcamp Students.”</span> In <em>2017 International Computing Education Research Conference (<span>ICER’17</span>)</em>. Association for Computing Machinery (<span>ACM</span>). <a href="https://doi.org/10.1145/3105726.3106176">https://doi.org/10.1145/3105726.3106176</a>.
 </div>
 </div>
@@ -543,9 +569,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -610,6 +650,92 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {
@@ -665,6 +791,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">Enseñar Tecnología en Comunidad (2e) fue escrito por Greg Wilson y Yanina Bellini Saibene.</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
     <div class="nav-footer-right">El libro fue construido con <a href="https://quarto.org/">Quarto</a>.</div>
   </div>
 </footer>
