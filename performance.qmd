@@ -61,8 +61,41 @@ Esta es una estrategia eficaz para enseñar a programar (@Rubi2013,@Haar2017,@Ra
 
 Como toda tecnica de ensenanza, hablar mientras se escribe código en frente de un público requiere práctica, pero la mayoría de las personas indican que el nivel de dificultad rápidamente se vuelve igual que hablar con una presentación de diapositivas. Las secciones que siguen ofrecen consejos sobre cómo mejorar la manera de ensenar con programacion participativa en vivo.
 
+### 1. Que te vean y te escuchen 
 
+A medida que tus estudiantes van codificando, deben ver y oír lo que estás haciendo.
 
+#### En persona
+
+Cuando te sientas, es más probable que mires tu pantalla en vez de mirar a tu público y puedes quedar fuera de la vista de tus estudiantes en las últimas filas del aula. Si eres físicamente capaz de pararte durante un par de horas, debes hacerlo mientras enseñas. Planifícalo y asegúrate de tener una mesa elevada, un escritorio de pie, o un atril para tu computadora portátil para que no tengas que inclinarte al escribir.
+
+Independientemente de si estás de pie o sentado/a, asegúrate de moverte lo más que puedas: acércate a la pantalla para señalar algo, dibuja algo en la pizarra, o simplemente aléjate de la computadora por un momento y háblale directamente a tu público. Hacer esto aleja la atención de tus estudiantes de sus pantallas y les proporciona un momento natural para hacer preguntas.
+
+Si vas a enseñar por más de un par de horas, vale la pena usar un micrófono incluso si la habitación es pequeña. Tu garganta se cansa tanto como cualquier otra parte de tu cuerpo; usar un micrófono no es diferente de usar zapatos cómodos (algo que también deberías usar). También puede marcar una gran diferencia para las personas que tienen discapacidad auditiva.
+
+#### En linea
+
+En un entorno en línea, esto puede requerir más recursos en términos de tecnología e infraestructura, como una conexión estable a Internet, una pantalla panorámica o una segunda pantalla para ti y tus estudiantes.
+
+Antes de empezar: Explica a tus estudiantes cómo acomodar su pantalla. En caso de que sólo tengan una (como la mayoría de mis alumnos), demuéstrales cómo pueden dividir la pantalla en dos vertical u horizontalmente. Si tienen dos pantallas, muestra cómo dividir las ventanas, una con las pantallas del docente y la otra con su entorno de programación. Puedes tener algunas imágenes o vídeos para mostrar cómo conseguirlo.
+
+Si estás enseñando cursos largos (más de tres clases), podes hacer una demostración la primera clase y después hacerlo de vez en cuando como recordatorio. También podes compartir estos videos o imágenes asi tus estudiantes pueden chequear como ordenar sus pantallas.
+
+#### Durante el live coding:
+
+comparte tu pantalla y pregunta antes de empezar a programar si tus estudiantes ven tu pantalla correctamente y si el tamaño de la fuente es adecuado. Cambialo si te lo solicitan.
+
+Agranda tu puntero del mouse y considera usar un puntero resaltado ( algo como esto).
+
+Usa un software que muestre en pantalla las teclas que presionas, como Screenkey. Si te olvidas de decir un atajo de teclado en voz alta, el programa lo mostrará en la pantalla para tus estudiantes.
+
+El fondo blanco parece mejor para las clases sincrónicas. El tema nocturno parece mejor para los vídeos grabados porque hay estudiantes que los ven de noche y utilizan dispositivos pequeños.
+
+Si puedes, comparte tu código no solo por medio de tu pantalla mientras lo escribes. Antonio Vazquez Brust explica como hacerlo usando ngrok y RStudio para enseñar R y Elio Campitelli explica como enseña R con programación en vivo sin fricción en este vídeo. Existen otras herramientas para otros lenguajes. Naomi Alterman nos muestra cómo transmitir en directo tu codificación en vivo a páginas web estáticas para tus estudiantes en esta charla para CarpentryCon 2022.
+
+#### Después del live coding
+
+Debemos considerar la posibilidad de que algunos de tus estudiantes se hayan quedado atrás, no puedan resolver un ejercicio o lo hagan de forma poco eficiente. Por eso es importante compartir después de la clase el código generado en vivo durante la misma. Puedes copiarlo y pegarlo en el chat de la plataforma, copiarlo y pegarlo en los apuntes compartidos o subirlo a la página web del curso o al campus virtual. También puedes compartir una carpeta en un servicio de almacenamiento en la nube. Disponer del código final ayudará a tus alumnos a validar su código y a ponerse al día si no pueden copiar o escribir alguna parte del mismo.
 
 ### Aprovecha tus errores
 
@@ -86,13 +119,7 @@ Hagas lo que hagas, *no* copies y pegues código: hacer eso prácticamente garan
 
 Si la salida de tu comando o código hace que lo que acabas de escribir desaparezca de la vista, vuelve arriba para que tus estudiantes puedan verlo de nuevo. Si eso no es posible, ejecuta el mismo comando una segunda vez o copia y pega el último comando o comandos en las notas compartidas del taller.
 
-### Visible y con voz clara
 
-Cuando te sientas, es más probable que mires tu pantalla en vez de mirar a tu público y puedes quedar fuera de la vista de tus estudiantes en las últimas filas del aula. Si eres físicamente capaz de pararte durante un par de horas, debes hacerlo mientras enseñas. Planifícalo y asegúrate de tener una mesa elevada, un escritorio de pie, o un atril para tu computadora portátil para que no tengas que inclinarte al escribir.
-
-Independientemente de si estás de pie o sentado/a, asegúrate de moverte lo más que puedas: acércate a la pantalla para señalar algo, dibuja algo en la pizarra, o simplemente aléjate de la computadora por un momento y háblale directamente a tu público. Hacer esto aleja la atención de tus estudiantes de sus pantallas y les proporciona un momento natural para hacer preguntas.
-
-Si vas a enseñar por más de un par de horas, vale la pena usar un micrófono incluso si la habitación es pequeña. Tu garganta se cansa tanto como cualquier otra parte de tu cuerpo; usar un micrófono no es diferente de usar zapatos cómodos (algo que también deberías usar). También puede marcar una gran diferencia para las personas que tienen discapacidad auditiva.
 
 ### Emula la pantalla de tu estudiante
 
