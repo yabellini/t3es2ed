@@ -73,6 +73,13 @@ Independientemente de si estás de pie o sentado/a, asegúrate de moverte lo má
 
 Si vas a enseñar por más de un par de horas, vale la pena usar un micrófono incluso si la habitación es pequeña. Tu garganta se cansa tanto como cualquier otra parte de tu cuerpo; usar un micrófono no es diferente de usar zapatos cómodos (algo que también deberías usar). También puede marcar una gran diferencia para las personas que tienen discapacidad auditiva.
 
+### Mira a la pantalla---de vez en cuando
+
+Está bien mirar la pantalla donde estás proyectando ocasionalmente cuando estás mostrando una sección de código o dibujando un esquema: *no* mirar a la sala llena de personas que te están mirando puede ayudarte a reducir tu nivel de ansiedad y darte un momento para pensar qué decir a continuación.
+
+Sin embargo, no deberías hacerlo por más de unos segundos. Una buena regla general es tratar a la pantalla como a uno/a de tus estudiantes: si mirar a una persona durante el tiempo que miras a la pantalla te resulta incómodo, es hora de darte la vuelta y mirar a la clase nuevamente.
+
+
 #### En linea
 
 En un entorno en línea, esto puede requerir más recursos en términos de tecnología e infraestructura, como una conexión estable a Internet, una pantalla panorámica o una segunda pantalla para ti y tus estudiantes.
@@ -203,32 +210,9 @@ Es importante que tu ayudante o co-docente trabaje para resolver las dudas y pro
 
 Por último, pide a tus estudiantes que reduzcan el número de distracciones en sus dispositivos, como notificaciones, correos electrónicos y otras pestañas del navegador que puedan tener abiertas mientras tiene lugar la clase. No puedes controlar lo que hacen, pero hacer una petición amistosa puede ayudarles a cerrar estos distractores.
 
+### 6. Sigue el material de la lección. 
 
-### Aprovecha tus errores
-
-> Los errores de tipeo son la pedagogía.<br/> --- [Emily Jane McTavish]{i="McTavish, Emily Jane"}
-
-La regla más importante de la programación en vivo es [aprovechar tus errores]{i="errores (importancia de aprovecharlos)"}. No importa qué tan bien te prepares, cometerás algunos errores; cuando lo hagas, piensa sobre ellos con tu público. Si bien obtener datos es difícil, los/las programadores/as profesionales dedican del 25% al 60% de su tiempo identificando y resolviendo errores; las personas novatas le dedican mucho más (@sec-pck-debug). A pesar de ello, la mayoría de los libros de texto y tutoriales dedican poco tiempo a diagnosticar y corregir problemas. Si hablas en voz alta mientras intentas identificar qué escribiste mal o dónde tomaste el camino equivocado, y explicas cómo lo corriges, les darás a tus estudiantes un conjunto de herramientas que pueden usar cuando comentan sus propios errores.
-
-> ### Tropiezos deliberados
->
-> Una vez que hayas enseñado una lección varias veces, es poco probable que cometas nada más que errores básicos de tipeo (que de todas maneras pueden ser informativos). Puedes intentar recordar errores pasados y cometerlos deliberadamente, pero usualmente eso se siente forzado. Un enfoque alternativo es [sacudir la programación]{g="twitch-coding"}: pide a tus estudiantes, en turnos, que te indiquen qué escribir a continuación. Esto prácticamente garantiza que te encuentres en algún tipo de problema.
-
-### Pregunta por predicciones
-
-Una manera de mantener la motivación de tus estudiantes mientras estás programando en vivo es pedirles que hagan predicciones sobre qué hará el código que ven en la pantalla. Luego, puedes escribir las primeras sugerencias que hagan, hacer que toda la clase vote sobre cuál piensan que es la opción más probable, y finalmente ejecutar el código. Esta es una forma simple de [instrucción por pares,]{i="instrucción por pares"} que discutiremos en la @sec-classroom-peer. Además de mantener su atención en la actividad, les permite practicar cómo razonar sobre el comportamiento del código.
-
-
-
-
-
-
-### Dibuja temprano, dibuja seguido
-
-Los diagramas son siempre una buena idea. A veces tengo una presentación de diapositivas llena de diagramas preparada de antemano, pero construir los diagramas paso a paso ayuda a retenerlos más (@sec-architecture-brain) y te permite improvisar.
-
-
-### Improvisa---luego de haber aprendido el material
+#### En persona
 
 No te alejes de la lección que planificaste o pediste prestada la primera vez que la enseñes. Puede ser tentador desviarse del material porque te gustaría mostrar un lindo truco o demostrar otra manera de hacer algo, pero existe la posibilidad de que te encuentres con algo inesperado que te lleve más tiempo del que tienes.
 
@@ -240,11 +224,106 @@ Cuando quieras usar algo nuevo, revísalo de antemano *usando la misma computado
 >
 > La [enseñanza directa]{g="direct-instruction"} es un método de enseñanza centrado en el diseño meticuloso del plan de estudio dictado usando un guíon predefinido. Es más como un actor recitando líneas que como el enfoque de improvisación que recomendamos. @Stoc2018 encontró que la enseñanza directa tiene un efecto estadísticamente significativo positivo a pesar de que a veces pueda ser muy repetitivo. Yo prefiero improvisar porque la enseñanza directa requiere más preparación inicial que lo que la mayoría de los grupos de estudiantes free-range pueden permitirse.
 
-### Mira a la pantalla---de vez en cuando
+#### Online 
 
-Está bien mirar la pantalla donde estás proyectando ocasionalmente cuando estás mostrando una sección de código o dibujando un esquema: *no* mirar a la sala llena de personas que te están mirando puede ayudarte a reducir tu nivel de ansiedad y darte un momento para pensar qué decir a continuación.
+Es importante que te ajustes bastante al plan de la lección y que practiques la técnica de codificación en vivo, sobre todo si es la primera vez que impartes la lección. Añade notas a tus impresiones del material de la clase, o tenlas fácilmente disponibles en la segunda pantalla o dispositivo (tableta o portátil), si utilizas uno.
 
-Sin embargo, no deberías hacerlo por más de unos segundos. Una buena regla general es tratar a la pantalla como a uno/a de tus estudiantes: si mirar a una persona durante el tiempo que miras a la pantalla te resulta incómodo, es hora de darte la vuelta y mirar a la clase nuevamente.
+Una vez que el material te sea familiar, puedes y debes empezar a improvisar basándote en los antecedentes de tus estudiantes, sus preguntas en clase y lo que te parezca más interesante.
+
+Si surge una pregunta o un “¿qué pasaría si…?”, pero no quieres interrumpir el flujo de la lección, o sabes que te llevará más tiempo del que tienes, o necesitas algo de tiempo para ordenarte, pide a tus estudiantes que las agreguen en un documento compartido en línea o pide a tu co-docente o ayudante que las registre. Luego, puedes pensar en ellas mientras tus estudiantes hacen los ejercicios y responderlas después que terminen, o a la clase siguiente.
+
+
+### 7. Convierte a tus estudiantes en co-docentes 
+
+#### Online
+
+Durante la codificación participativa en vivo, las/os estudiantes programan activamente junto con el docente. Esto puede ser un reto en la enseñanza en línea y más aún con principiantes.
+
+Una herramienta valiosa para disminuir esta dificultad es utilizar las salas de reuniones que ofrecen Zoom o Meet (incluso en su versión gratuita). La enseñanza entre pares es la práctica docente escalable más eficaz que conocemos. Podemos utilizarla para reforzar la lección que dimos usando programación en vivo.
+
+Las salas de reuniones de Zoom hacen que esto sea relativamente fácil de ejecutar en línea: se tarda entre 15 y 30 segundos en meter a todo el grupo en las salas. En una clase de cuarenta personas, uno o dos tendrán dificultades al principio, pero ayuda a mantener a tus estudiantes motivados y atentos.
+
+Yo utilizo esta dinámica con los principiantes cuando hago live coding:
+
+Hago entre 10 y 20 minutos de live coding.
+Los envío a la salas en grupos de 3 o 4 estudiantes (los grupos más grandes crean subgrupos, o bien alguien no participa) para resolver un ejercicio.
+El ejercicio es el mismo o muy similar al que intentamos hacer durante mi programación en vivo.
+Antes de ir a la sala, doy las instrucciones: cuánto tiempo tienen para resolver el ejercicio (entre 10 y 20 minutos), como se den organizar: un estudiante comparte una pantalla, y programan juntos para resolverlo.
+Tomo el tiempo (ahora la herramienta de videoconferencia lo hace por mí), y cuando se acaba el tiempo, vuelven a la sala común, y hablamos de cómo ha ido, qué problemas y preguntas tienen. Repasamos estos detalles. Es un buen momento para dejarles compartir la pantalla para ver sus problemas o soluciones, sobre todo si han resuelto el ejercicio de forma diferente.
+Esta estrategia les permite reforzar el aprendizaje porque programan durante mi live coding y luego una vez más en grupo.
+
+Puedes utilizar diferentes tipos de ejercicios para el trabajo en grupos, como rellenar los espacios en blanco, problemas de Parson y tutoriales interactivos que ofrezcan diferentes tipos de andamiaje.
+
+### 8. Obten información en tiempo real y proporciona ayuda inmediata. 
+
+#### En persona
+
+### Pregunta por predicciones
+
+Una manera de mantener la motivación de tus estudiantes mientras estás programando en vivo es pedirles que hagan predicciones sobre qué hará el código que ven en la pantalla. Luego, puedes escribir las primeras sugerencias que hagan, hacer que toda la clase vote sobre cuál piensan que es la opción más probable, y finalmente ejecutar el código. Esta es una forma simple de [instrucción por pares,]{i="instrucción por pares"} que discutiremos en la @sec-classroom-peer. Además de mantener su atención en la actividad, les permite practicar cómo razonar sobre el comportamiento del código.
+
+#### Online
+
+Al programar en vivo en línea puede resultar difícil saber si tus estudiantes están siguiendo el proceso o si están teniendo dificultades para programar que aún no se hemos solucionado.
+
+Una forma de comprobarlo es ofrecer a tus estudiantes una manera diferente de indicarnos su estado. Cuando enseñamos en persona, utilizamos notas adhesivas de colores. Algunas opciones para enseñar en línea son:
+
+El feedback no verbal en plataformas de videoconferencia aparece como la primera opción para sustituir a las notas adhesivas de colores. Si utilizamos Zoom, se puede pedir a una persona que marque con una marca verde si ha terminado o con una marca roja en caso de que esté atascada. Al igual que con las notas adhesivas, estas marcas no se quitan solas, por lo que es necesario pedir a la persona que las quite si ya ha resuelto el problema o que pase a otro ejercicio.
+
+Crea una tabla en el documento colaborativo (utilizando HackMD o google docs) con los nombres de todos los participantes. Pídeles que pongan un check verde o una cruz roja para comprobar si van por buen camino. Puedes comprobar si alguien no ha rellenado algo.
+
+En zoom, las otras reacciones con emojis son útiles para un estado general rápido porque también nos muestran el número de cada emoji en la lista de participantes. Pero estos emojis se limpian al cabo de un rato, por lo que puedes perderte alguna información. Con el mismo propósito, también podemos pedirles que escriban en el chat cuando terminen una tarea. Aunque puede ser mucha información junta en grupos de más de 20 personas y complicado determinar quién no contestó.
+
+Se pueden utilizar otras herramientas, como encuestas o un canal paralelo de Slack, pero agregar más herramientas a la clase sincrónica, sobre todo si es una herramienta nueva, es una carga cognitiva que debemos considerar.
+
+Algunos temas permiten agregar en el código un elemento de aleatoriedad que va a dar resultados diferentes en diferentes máquinas o entornos y podes preguntarle a tus estudiantes si sus resultados son iguales a los tuyos. Cuando enseño gráficos de redes, el algoritmo es no determinístico por o que el gráfico que obtienen mis estudiantes suele ser diferente al mio, muchas veces no necesito preguntar, el chat se inunda con mensajes avisando que sus gráficos son distintos. De esta forma sabrás que te siguen.
+
+Una vez más, enseñar con otras personas es una buena estrategia para este consejo. El papel principal de tus co-docentes es garantizar que tus estudiantes no se queden atrás debido, por ejemplo, a problemas técnicos. A veces es una buena idea crear una sala para resolver problemas técnicos donde tu estudiante y co-docentes puedan ir y resolver el problema. Tus ayudantes deben prestar atención a los documentos compartidos, los emojis o el canal de Slack, que indican que un/a estudiante está pidiendo ayuda.
+
+### 9. Usa ilustraciones, aún mejor dibujalas en tiempo real. 
+
+#### En persona
+
+### Dibuja temprano, dibuja seguido
+
+Los diagramas son siempre una buena idea. A veces tengo una presentación de diapositivas llena de diagramas preparada de antemano, pero construir los diagramas paso a paso ayuda a retenerlos más (@sec-architecture-brain) y te permite improvisar.
+
+
+#### Online
+Los diagramas y mapas conceptuales pueden ayudar a tus estudiantes a comprender las etapas de la lección y a organizar el material. Generar los diagramas junto con tus estudiantes a medida que avanzas en el material puede funcionar muy bien. Hay varias herramientas para hacerlo en línea (Miro, Jamboard, Whiteboard.fi, draw.io y excalidraw, entre otras). Puedes usarlo con el ratón o con una tableta (yo uso la Wacom One, que es estupenda).
+
+Puedes construir diagramas, haciéndolos cada vez más complejos en paralelo con el material que enseñas. Presentar información complementaria utilizando representaciones visuales y verbales ayuda a aprender (conocido como “codificación dual”).
+
+Por ejemplo, yo solía dibujar un mapa conceptual del código de control de flujo con mis alumnos para hablar de los conceptos esenciales antes de hacer la codificación en vivo. También dibujo un mapa del orden de ejecución de una sentencia SQL para explicar el resultado de una consulta o por qué debemos utilizar una función y no otra después de hacer el live coding.
+
+Algunas herramientas permiten escribir y dibujar sobre la pantalla compartida. Esto puede ser útil para marcar parte del código y anotar el valor de una variable mientras ejecutas un fragmento de código o los pasos y el orden de ejecución de una sentencia.
+
+
+### 10. Acepta tus errores. 
+
+#### On line
+Aunque te sepas bien la lección y la sigas, es muy probable que cometas errores mientras demuestras cómo programar en vivo. Cometer errores suele ser el mayor temor de los/as docentes que utilizan esta técnica. Está bien que ocurra (ya que es lo que pasa en la vida real cuando programamos), y puede ser una excelente oportunidad para aprender a depurar. Esta forma de afrontar los errores se denomina “encuadre positivo del error”, y es beneficiosa para el aprendizaje.
+
+Cuando se produzca un error, detente, léelo en voz alta y explica cómo has determinado lo que ha ocurrido. Marca qué parte del texto del error te da una pista que te ayuda a diagnosticarlo y resolverlo. A continuación, vuelve al código y muestra qué elemento o elementos del código arrojan el error. Es útil aclarar qué hace cada parte del código creando nuevos ejemplos que muestren por qué se produce un error en una situación y no en otra. También puedes involucrar a los estudiantes en la resolución de problemas preguntándoles qué creen que ha fallado y cómo solucionarlo.
+
+Si tiene tiempo, utilice el error para hacer una “búsqueda en vivo”. En esta lección, enseñas cómo buscar un error en Internet, afinar esa búsqueda, leer los resultados y determinar cuál es el que más se acerca a tu problema. Aquí puedes enseñar cómo leer la ayuda y las preguntas y respuestas de Stack Overflow.
+
+También, como se mencionó en puntos anteriores, si un/a estudiante tiene un error, puedes pedirle que comparta su pantalla, y toda la clase trabaja en conjunto para resolverlo usando estas estrategias.
+
+Una vez que hayas dado una clase varias veces, es poco probable que cometas algo más que errores básicos de tipeo (que pueden seguir siendo informativos). Puedes intentar recordar errores pasados y cometerlos deliberadamente, pero eso puede parecer forzado. Un método alternativo es el twitch coding: pedir a los alumnos que te digan uno por uno qué tienes que escribir a continuación. Es casi seguro que te meterás en algún lío.
+
+
+#### En persona
+### Aprovecha tus errores
+
+> Los errores de tipeo son la pedagogía.<br/> --- [Emily Jane McTavish]{i="McTavish, Emily Jane"}
+
+La regla más importante de la programación en vivo es [aprovechar tus errores]{i="errores (importancia de aprovecharlos)"}. No importa qué tan bien te prepares, cometerás algunos errores; cuando lo hagas, piensa sobre ellos con tu público. Si bien obtener datos es difícil, los/las programadores/as profesionales dedican del 25% al 60% de su tiempo identificando y resolviendo errores; las personas novatas le dedican mucho más (@sec-pck-debug). A pesar de ello, la mayoría de los libros de texto y tutoriales dedican poco tiempo a diagnosticar y corregir problemas. Si hablas en voz alta mientras intentas identificar qué escribiste mal o dónde tomaste el camino equivocado, y explicas cómo lo corriges, les darás a tus estudiantes un conjunto de herramientas que pueden usar cuando comentan sus propios errores.
+
+> ### Tropiezos deliberados
+>
+> Una vez que hayas enseñado una lección varias veces, es poco probable que cometas nada más que errores básicos de tipeo (que de todas maneras pueden ser informativos). Puedes intentar recordar errores pasados y cometerlos deliberadamente, pero usualmente eso se siente forzado. Un enfoque alternativo es [sacudir la programación]{g="twitch-coding"}: pide a tus estudiantes, en turnos, que te indiquen qué escribir a continuación. Esto prácticamente garantiza que te encuentres en algún tipo de problema.
+
 
 ### Inconvenientes
 
