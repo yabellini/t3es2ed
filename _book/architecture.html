@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.290">
+<meta name="generator" content="quarto-1.3.433">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -76,7 +76,8 @@ div.csl-indent {
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 
@@ -95,7 +96,7 @@ div.csl-indent {
       <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./architecture.html"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Arquitectura Cognitiva</span></a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
-      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
       </button>
     </div>
@@ -109,7 +110,7 @@ div.csl-indent {
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Enseñar Tecnología en Comunidad (2e)</a> 
         <div class="sidebar-tools-main">
-    <a href="https://github.com/yabellini/t3es2ed" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
+    <a href="https://github.com/yabellini/t3es2ed" rel="" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
 </div>
     </div>
       </div>
@@ -353,8 +354,8 @@ Segunda edición
 <h2 data-number="5.1" class="anchored" data-anchor-id="sec-architecture-brain"><span class="header-section-number">5.1</span> ¿Qué es lo que sucede allí?</h2>
 <div id="fig-arch-model" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
-<p><img src="diagrams/cognitive-architecture.svg" class="quarto-discovered-preview-image img-fluid figure-img" alt="esquema que presenta dos recuadros principales, uno llamado 'memoria de largo plazo' y otro 'memoria de corto plazo'. El recuadro 'memoria de largo plazo' contiene un modelo mental de cajas y flechas que se relacionan entre sí. En el recuadro 'memoria de corto plazo', hay una caja representando al canal visual y otra caja representando al canal verbal. Desde ambas cajas salen una flecha hacia un signo más desde el cual sale una relación llamada 'codificar' hacia la memoria de largo plazo. Desde la memoria de largo plazo sale una relación llamada 'recuperar' hacia la memoria de corto plazo. Las imágenes tomadas a partir de los ojos y el habla registrada por medio de los oídos están por fuera de los dos recuadros principales y se relacionan con los canales visuales y verbales de la memoria a corto plazo, respectivamente."></p>
-<p></p><figcaption class="figure-caption">Figure&nbsp;5.1: Arquitectura cognitiva</figcaption><p></p>
+<p><img src="diagrams/cognitive-architecture.svg" class="img-fluid figure-img" alt="esquema que presenta dos recuadros principales, uno llamado 'memoria de largo plazo' y otro 'memoria de corto plazo'. El recuadro 'memoria de largo plazo' contiene un modelo mental de cajas y flechas que se relacionan entre sí. En el recuadro 'memoria de corto plazo', hay una caja representando al canal visual y otra caja representando al canal verbal. Desde ambas cajas salen una flecha hacia un signo más desde el cual sale una relación llamada 'codificar' hacia la memoria de largo plazo. Desde la memoria de largo plazo sale una relación llamada 'recuperar' hacia la memoria de corto plazo. Las imágenes tomadas a partir de los ojos y el habla registrada por medio de los oídos están por fuera de los dos recuadros principales y se relacionan con los canales visuales y verbales de la memoria a corto plazo, respectivamente."></p>
+<figcaption class="figure-caption">Figure&nbsp;5.1: Arquitectura cognitiva</figcaption>
 </figure>
 </div>
 <p>La <a href="#fig-arch-model">Figure&nbsp;<span>5.1</span></a> es un modelo simplificado de la <span data-i="arquitectura cognitiva">arquitectura cognitiva</span> humana. El núcleo de este modelo es la separación entre la memoria a corto y a largo plazo vistas en la <a href="memory.html#sec-memory-seven-plus-or-minus"><span>Section&nbsp;4.2</span></a>. La <span data-i="memoria a largo plazo">memoria a largo plazo</span> es como tu sótano: almacena objetos de forma más o menos permanente pero tu conciencia no puede acceder a ella directamente. En cambio, confías en tu <span data-i="memoria a corto plazo">memoria a corto plazo</span>, que es como el escritorio de tu mente.</p>
@@ -401,7 +402,7 @@ Segunda edición
 <div id="fig-architecture-frisian" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
 <p><img src="diagrams/frisian.png" class="img-fluid figure-img" alt="Construyendo una oración"></p>
-<p></p><figcaption class="figure-caption">Figure&nbsp;5.2: Construyendo una oración</figcaption><p></p>
+<figcaption class="figure-caption">Figure&nbsp;5.2: Construyendo una oración</figcaption>
 </figure>
 </div>
 <p>El equivalente en programación de este ejemplo se llama <span data-g="parsons-problem">problema de Parsons</span><sup>Nombrado así debido a uno de sus creadores.</sup> <span class="citation" data-cites="Pars2006">Parsons and Haden (<a href="#ref-Pars2006" role="doc-biblioref">2006</a>)</span>.</p>
@@ -656,7 +657,7 @@ define generar_acronimo(lista_de_palabras):
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="diagrams/conceptmap-cognitive-load.svg" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">el pensamiento está limitado por la carga cognitiva. Esta carga cognitiva puede ser intrísica (que es deseable), pertinente (que debería ser reducida) y extrínseca (que debería ser eliminada). El pensamiento accede a la memoria de corto plazo, el cual codificado pasa a la memoria de largo plazo desde la cual se puede recuperar a la memoría de corto plazo para ser utilizado. El discurso usa el canal lingüístico, las imágenes usan el canal visual y el texto usa ambos canales. El canal visual puede reforzar o puede conflictuar el canal lingüístico. Estos canales integrados se almacenan en la memoria de corto plazo.</figcaption><p></p>
+<figcaption class="figure-caption">el pensamiento está limitado por la carga cognitiva. Esta carga cognitiva puede ser intrísica (que es deseable), pertinente (que debería ser reducida) y extrínseca (que debería ser eliminada). El pensamiento accede a la memoria de corto plazo, el cual codificado pasa a la memoria de largo plazo desde la cual se puede recuperar a la memoría de corto plazo para ser utilizado. El discurso usa el canal lingüístico, las imágenes usan el canal visual y el texto usa ambos canales. El canal visual puede reforzar o puede conflictuar el canal lingüístico. Estos canales integrados se almacenan en la memoria de corto plazo.</figcaption>
 </figure>
 </div>
 
