@@ -124,7 +124,6 @@ Si la salida de código hace que lo que acabas de escribir desaparezca de la vis
 
 Menciona el número de línea del código al que te refieres.
 
-
 #### En linea 
 
 Los consejos anteriores son validos para clases en persona y en linea. Hay algunas consideraciones extra para los entornos en línea:
@@ -139,16 +138,11 @@ Los consejos anteriores son validos para clases en persona y en linea. Hay algun
 
 ### 3. Duplica el entorno de tus estudiantes. 
 
-#### En persona
+Si tus estudiantes tienen que trabajar en un entorno distinto al tuyo, tienen que hacer un esfuerzo mental que no contribuye al aprendizaje. La ciencia del aprendizaje llama a esto “carga cognitiva externa”. Intenta crear un entorno lo más parecido posible al que tienen tus estudiantes. Si son principiantes, es muy probable que tengan la configuración por defecto de la IDE o software que vayas a utilizar.
 
-Es posible que hayas personalizado tu entorno de trabajo con una terminal de Unix elegante, un esquema de colores personalizado o una gran cantidad de atajos de teclado. Tus estudiantes no tendrán nada de eso, así que intenta crear un entorno de trabajo que refleje lo que *sí* tienen. Algunos/as docentes crean un usuario distinto con configuración básica en sus computadoras o una cuenta específica para enseñar si están usando algún servicio online como Scratch o GitHub. Hacer esto también puede ayudar a evitar que los paquetes que instalaste ayer para trabajar rompan la lección que se supone que enseñes hoy.
+Una solución basada en la nube es la mejor alternativa para asegurarte de que tú y tus estudiantes tienen la misma configuración. Algunas de estas herramientas te permiten incluir todo el software, paquetes y datos que necesitas evitando problemas de instalación y la consiguiente frustración.  Dentro de los problemas que tienen esta soluciones está el costo y el ancho de banda necesario para usarlas durante las clases.
 
-#### En linea 
-Si tus estudiantes tienen que trabajar en un entorno distinto al tuyo, tienen que hacer un esfuerzo mental que no contribuye al aprendizaje. La ciencia del aprendizaje llama a esto “carga cognitiva extraña”. Intenta crear un entorno lo más parecido posible al que tienen tus estudiantes. Si son principiantes, es muy probable que tengan la configuración por defecto de la IDE o software que vayas a utilizar.
-
-Una solución basada en la nube es la mejor alternativa para asegurarte de que tú y tus estudiantes tienen la misma configuración. Algunas de estas herramientas te permiten incluir todo el software, paquetes y datos que necesitas evitando problemas de instalación y la consiguiente frustración.
-
-Cuando enseño SQL, utilizo SQL Lite Online. Cuando enseño R, utilizo Posit Cloud en la primera clase, y luego utilizamos la última parte de esa clase para solucionar problemas de instalación en los ordenadores de mis estudiantes. También tengo un proyecto Posit Cloud como copia de seguridad en caso de que algunos estudiantes no puedan instalar todo en sus computadoras. Dentro de los problemas que tienen esta soluviones está el costo y el ancho de banda necesario para usarlas durante las clases.
+Algunos/as docentes crean un usuario distinto con configuración básica en sus computadoras o una cuenta específica para enseñar si están usando algún servicio online como Scratch o GitHub. Hacer esto también puede ayudar a evitar que los paquetes que instalaste ayer para trabajar rompan la lección que se supone que enseñes hoy.
 
 ### 4. Usa tu(s) pantalla(s) sabiamente. 
 
