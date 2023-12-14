@@ -412,7 +412,7 @@ Toda la clase toma notas compartidas (@sec-classroom-notetaking), y también usa
 
 Asistiendo de forma individual
 
-:   La extensión natural de estar en línea en grupos es estar en línea en forma individual. Al igual que con los grupos en línea, el/la docente hablará la mayoría de las veces y los/las estudiantes participarán principalmente a través del chat de texto. También en este caso, y siempre teniendo en cuenta los aspectos de accesibilidad, un buen audio es más importante que un buen video, y quienes participan deberían usar el chat de texto para indicar que quieren hablar (@sec-meetings).
+:   La extensión natural de estar en línea en grupos es estar en línea en forma individual. Al igual que con los grupos en línea, como docente hablarás la mayoría de las veces y tus estudiantes participarán principalmente a través del chat de texto o el documento compartido. También en este caso, y siempre teniendo en cuenta los aspectos de accesibilidad, un buen audio es más importante que un buen video, y quienes participan deberían usar el chat de texto para indicar que quieren hablar (@sec-meetings).
 
 Tener participantes en línea individualmente hace que sea más difícil dibujar y compartir mapas conceptuales (@sec-memory-exercises) o dar retroalimentación sobre la enseñanza (@sec-performance-exercises). Por lo tanto, quienes enseñen deberán confiar más en el uso de ejercicios con resultados escritos que se puedan poner en las notas compartidas, como por ejemplo, dar una devolución sobre videos de personas enseñando.
 
@@ -423,7 +423,10 @@ Multi-semana
 
 * _Clases de una hora_: la clase se reúne todas las semanas durante una hora a través de videoconferencia. Cada reunión puede realizarse dos veces para acomodar las zonas horarias y los horarios de los/las estudiantes. Los/las participantes toman notas compartidas como se describió anteriormente para las clases grupales en línea, para publicar tareas en línea entre clases y para comentar sobre el trabajo de los demás. En la práctica, los comentarios son relativamente raros: la gente prefiere discutir el material en las reuniones semanales.
 
+::: callout-warning
 Este fue el primer formato que Greg utilizó pero ya no lo recomienda. Mientras que extender la clase les da a las personas tiempo para reflexionar y abordar ejercicios más extensos, también aumenta en gran medida las probabilidades de que tengan que abandonar debido a otras demandas de su tiempo.
+:::
+
 
 * Encuentro de medias jornadas:  el grupo de entre 12 a 26 personas realiza uno o dos encuentros semanales, durante cuatro o dos semanas de forma sincrónica on-line durante cuatro horas. Todo el material del curso está disponible en un sitio web con anterioridad. Si Hay dos clases semanales se deja al menos un día entre cada encuentro.
 
