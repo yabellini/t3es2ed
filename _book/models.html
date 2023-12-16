@@ -350,10 +350,10 @@ Segunda edición
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Estás leyendo la segunda edición en progreso y en castellano de Enseñar Tecnología en Comunidad (Teaching Tech Together). Este capítulo está siendo objeto de una profunda reestructuración y puede resultar confuso o incompleto.</p>
+<p>Estás leyendo la segunda edición en progreso y en castellano de Enseñar Tecnología en Comunidad (Teaching Tech Together). Este capítulo debería ser legible, pero está siendo objeto de un pulido final.</p>
 </div>
 </div>
-<p><em>Convirtiendo personas novatas en expertas y como evaluamos que el proceso ocurre</em></p>
+<p><em>Convirtiendo personas novatas en expertas y como evaluamos que el proceso ocurra.</em></p>
 <p>La primera tarea en la enseñanza es descifrar quiénes son tus estudiantes. Nuestra aproximación está basada en investigaciones como las de <span data-i="Benner, Patricia">Patricia Benner</span>, quien estudió cómo las personas progresan de novatas a expertas en la carrera de enfermería (<span class="citation" data-cites="Benn2000">Benner (<a href="#ref-Benn2000" role="doc-biblioref">2000</a>)</span>). Benner identificó cinco etapas de desarrollo cognitivo que la mayor parte de la gente atraviesa de forma bastante consistente. Para nuestros propósitos, simplificamos esta evolución en tres etapas:</p>
 <dl>
 <dt><span data-g="novice" data-i="persona novata">Personas novatas</span></dt>
@@ -412,7 +412,7 @@ Danger
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Si vamos a utilizar herramientas digitales para realizar las evaluaciones formativas, se debe tener especial atención y cuidado al seleccionarlas teniendo en cuenta aspectos de accesibilidad y de gestión de los datos que esas herramientas realizan. Lamentablemente muchas herramientas se han utilizado para vigilar y no para educar (<span class="citation" data-cites="Beetham2022">(<a href="#ref-Beetham2022" role="doc-biblioref">Beetham et al. 2022</a>)</span>).</p>
+<p>Si vamos a utilizar herramientas digitales para realizar las evaluaciones formativas, se debe tener especial atención y cuidado al seleccionarlas teniendo en cuenta aspectos de accesibilidad y de gestión de los datos que esas herramientas realizan. Lamentablemente muchas herramientas se han utilizado para vigilar y no para educar <span class="citation" data-cites="Beetham2022">(<a href="#ref-Beetham2022" role="doc-biblioref">Beetham et al. 2022</a>)</span>.</p>
 </div>
 </div>
 <p>Para ser útil durante la enseñanza, una <span data-i="evaluación formativa!requisitos">evaluación formativa</span> debe ser rápida de administrar (de manera que no rompa el flujo de la lección) y debe tener una respuesta correcta no ambigua (de manera que pueda ser usada en grupos). Probablemente, el tipo de evaluación formativa que más ampliamente se usa es la <span data-i="pregunta de opción múltiple">pregunta de opción múltiple</span>. Muchos/as docentes tienen una mala opinión sobre ellas, pero cuando las preguntas de opción múltiple están bien diseñadas pueden revelar mucho más que solo si alguien sabe o no algunos hechos específicos. Por ejemplo, si estás enseñando en primaria cómo hacer sumas de números con múltiples dígitos (<span class="citation" data-cites="Ojos2015">Ojose (<a href="#ref-Ojos2015" role="doc-biblioref">2015</a>)</span>) y les das esta pregunta de opción múltiple:</p>
@@ -445,11 +445,37 @@ Danger
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-La trivia de ggplot
+Trivias
 </div>
 </div>
 <div class="callout-body-container callout-body">
-
+<p>Durante los cursos de Visualización y Gestión de Datos que Yanina enseñó con Paola Corrales, utilizaban una trivia como evaluación formativa.</p>
+<p>La trivia contenía una serie de preguntas de opción múltiple con respuestas que incluían conceptos erróneos comunes que las docentes identificaron en las diferentes ediciones de esos cursos.</p>
+<p>Por ejemplo con SQL:</p>
+<blockquote class="blockquote">
+<p>¿Cuándo tengo que hacer JOINS en SQL?</p>
+<p>A) Cuando los datos que necesito están en filas de diferentes tablas.</p>
+<p>B) Cuando los datos que necesito están en columnas de diferentes tablas.</p>
+<p>C) ni idea!</p>
+</blockquote>
+<p>Por ejemplo, con ggplot:</p>
+<blockquote class="blockquote">
+<p>El siguiente código, ¿Corre o da error?</p>
+<p><code>ggplot(paises, aes(x = paises$pib_per_capita, y = paises$esperanza_de_vida)) + geom_point()</code></p>
+<p><strong>A)</strong> No corre, las variables en x e y no son llamadas correctamente</p>
+<p><strong>B)</strong> Corre, no tiene ningún problema!</p>
+<p><strong>C)</strong> Si corre pero las variables en x e y no son llamadas correctamente</p>
+</blockquote>
+<p>La dinámica del ejercicio es el siguiente:</p>
+<ul>
+<li><p>Se comparte un formulario donde los estudiantes deben seleccionar la respuesta que creen correcta.</p></li>
+<li><p>Una de las docentes comparte la pregunta con las opciones de respuesta en una slides y da un tiempo prudencial (30-90 seundos) para contestarlas utilizando el formulario.</p></li>
+<li><p>Se repite este paso con cada pregunta (entre 4 y 8) y luego se comparten las respuestas generales de cada pregunta con la clase.</p></li>
+<li><p>Las preguntas son de opción múltiple con 3 opciones (A, B, C). Cada pregunta tiene un gráfico y/o código asociado que aparece en la slide junto a las posibles opciones de respuesta.</p></li>
+<li><p>Se le explica a la clase antes de empezar que las respuestas no son tramposas y nos dan un montón de información para charlar.</p></li>
+<li><p>Se discute con la clase completa cual es la respuesta correcta y porqué las otras no son válidas. Esta discusión incluye codificación participatoria en vivo, donde se escribe el código de la pregunta, se ejecuta y se analiza como cambia de acuerdo a la respuesta seleccionada. La clase propone alternativas, las docentes las aplican en el momento, se questiona y explica las razones del resultado del código. También se explica porqué ocurre ese concepto erróneo.</p></li>
+</ul>
+<p>Este ejercicio es muy útil para chequear conocimiento antes de iniciar una clase, para explicar conceptos erróneos y para ayudar a la participación de la clase, en caso que los estudiantes sean tímidos.</p>
 </div>
 </div>
 <blockquote class="blockquote">
@@ -466,19 +492,19 @@ La trivia de ggplot
 </section>
 <section id="sec-models-notional" class="level2" data-number="3.2">
 <h2 data-number="3.2" class="anchored" data-anchor-id="sec-models-notional"><span class="header-section-number">3.2</span> Máquina nocional</h2>
-<p>Una <span data-g="notional-machine">máquina nocional</span> es un dispositivo pedagógico para ayudar a la comprensión de algún aspecto de los programas o la programación (<span class="citation" data-cites="Fincher2020">(<a href="#ref-Fincher2020" role="doc-biblioref">Fincher et al. 2020</a>)</span>). Se utilizan para representar un entorno de aprendizaje simplificado y abstracto. No se refiere a una máquina real física, sino a una representación simplificada de un modelo conceptual que se utiliza con fines educativos.</p>
-<p>El grupo de trabajo ” ITiCSE 2020 - Capturing and Characterising Notional Machines” realizó un extenso trabajo de revisión bibliográfica, entrevistas, registro y colección curada de maquinas nocionales. En este trabajo determinaron que una máquina nocional tiene <em>una finalidad pedagógica</em>, su función genérica es <em>llamar la atención</em> sobre algún <em>aspecto oculto</em> de los programas o de la informática, <em>o ponerlo en relieve</em>. La máquina también tendrá un <em>enfoque específico</em> dentro de los programas o la informática, y adoptará una <em>representación particular</em> que destaque un aspecto específico del enfoque (<span class="citation" data-cites="Fincher2020">(<a href="#ref-Fincher2020" role="doc-biblioref">Fincher et al. 2020</a>)</span>).<br>
+<p>Una <span data-g="notional-machine">máquina nocional</span> es un dispositivo pedagógico para ayudar a la comprensión de algún aspecto de los programas o la programación <span class="citation" data-cites="Fincher2020">(<a href="#ref-Fincher2020" role="doc-biblioref">Fincher et al. 2020</a>)</span>. Se utilizan para representar un entorno de aprendizaje simplificado y abstracto. No se refiere a una máquina real física, sino a una representación simplificada de un modelo conceptual que se utiliza con fines educativos.</p>
+<p>El grupo de trabajo ” ITiCSE 2020 - Capturing and Characterising Notional Machines” realizó un extenso trabajo de revisión bibliográfica, entrevistas, registro y colección curada de maquinas nocionales. En este trabajo determinaron que una máquina nocional tiene <em>una finalidad pedagógica</em>, su función genérica es <em>llamar la atención</em> sobre algún <em>aspecto oculto</em> de los programas o de la informática, <em>o ponerlo en relieve</em>. La máquina también tendrá un <em>enfoque específico</em> dentro de los programas o la informática, y adoptará una <em>representación particular</em> que destaque un aspecto específico del enfoque <span class="citation" data-cites="Fincher2020">(<a href="#ref-Fincher2020" role="doc-biblioref">Fincher et al. 2020</a>)</span>.<br>
 </p>
-<p>En ese mismo trabajo, se encontró que la mayoría de la bibliografía presenta estudios de uso de las maquinas nocionales en los niveles universitario de grado, para estudiantes principiantes (CS1/2) y clasificaron las maquinas nocionales en dos tipos: basadas en analogías y basadas en representaciones. También determinaron que las maquina se pueden usar como part del contenido de la lección o como herramienta de diagnóstico.</p>
+<p>En ese mismo trabajo, se encontró que la mayoría de la bibliografía presenta estudios de uso de las maquinas nocionales en los niveles universitario de grado, para estudiantes principiantes (CS1/2) y clasificaron las maquinas nocionales en dos tipos: basadas en analogías y basadas en representaciones. También determinaron que las maquina se pueden usar como parte del contenido de la lección o como herramienta de diagnóstico.</p>
 <section id="máquinas-nocionales-basadas-en-analogías" class="level3" data-number="3.2.1">
 <h3 data-number="3.2.1" class="anchored" data-anchor-id="máquinas-nocionales-basadas-en-analogías"><span class="header-section-number">3.2.1</span> Máquinas nocionales basadas en analogías</h3>
-<p>Este tipo de máquinas utilizan un contexto con el que tus estudiantes están potencialmente familiarizados para explicar el contexto de programación. Esto permite que tus estudiantes razonen de manera familiar en el espacio análogo y transfieran ese razonamiento al espacio de programación (<span class="citation" data-cites="Fincher2020">(<a href="#ref-Fincher2020" role="doc-biblioref">Fincher et al. 2020</a>)</span>).</p>
+<p>Este tipo de máquinas utilizan un contexto con el que tus estudiantes están potencialmente familiarizados para explicar el contexto de programación. Esto permite que tus estudiantes razonen de manera familiar en el espacio análogo y transfieran ese razonamiento al espacio de programación <span class="citation" data-cites="Fincher2020">(<a href="#ref-Fincher2020" role="doc-biblioref">Fincher et al. 2020</a>)</span>.</p>
 <p>Este tipo de máquina nocional suelen ser sencillas y cortas. Muchas veces un ejemplo o un explicación. Como las analogía sobre cocinar y comer que usamos en este mismo capítulo para explicar la diferencia entre evaluación formativa y evaluación sumativa.</p>
 <p>También pueden ser muy concretas, por ejemplo, docente y estudiantes pueden representar alguna parte de la máquina sobre la que se quiere llamar la atención o bien se pueden utilizar otros objetos concretos en el aula. Por ejemplo, Yanina, explica que son las variables y como se accede a su contenido utilizando un cajón como analogía. Luego expande sobre esa misma analogía para explicar que es un vector, utilizando una cajonera como ejemplo.</p>
 </section>
 <section id="máquinas-nocionales-basadas-en-representación" class="level3" data-number="3.2.2">
 <h3 data-number="3.2.2" class="anchored" data-anchor-id="máquinas-nocionales-basadas-en-representación"><span class="header-section-number">3.2.2</span> Máquinas nocionales basadas en representación</h3>
-<p>En este caso las maquinas nocionales representan de una manera diferente el contexto de programación que se quiere enseñar. Existen diferentes formas de representación, como diagramas y juegos de rol y verbalizaciones (<span class="citation" data-cites="Fincher2020">(<a href="#ref-Fincher2020" role="doc-biblioref">Fincher et al. 2020</a>)</span>). Muchas veces se hacen a mano, por ejemplo un diagrama que dibujamos en una pizarra (ver mapa conceptuales en el capítulo <strong>TODO</strong> <strong>agregar capítulo</strong>) , mientras que otras pueden ser generadas por otras herramientas, por ejemplo una visualización automática de la ejecución de un programa.</p>
+<p>En este caso las maquinas nocionales representan de una manera diferente el contexto de programación que se quiere enseñar. Existen diferentes formas de representación, como diagramas y juegos de rol y verbalizaciones <span class="citation" data-cites="Fincher2020">(<a href="#ref-Fincher2020" role="doc-biblioref">Fincher et al. 2020</a>)</span>. Muchas veces se hacen a mano, por ejemplo un diagrama que dibujamos en una pizarra (ver mapa conceptuales en el capítulo <strong>TODO</strong> <strong>agregar capítulo</strong>) , mientras que otras pueden ser generadas por otras herramientas, por ejemplo una visualización automática de la ejecución de un programa.</p>
 <p>Las maquinas nocionales que se hacen a mano tienen diversos impactos en la enseñanza ya que requieren que el/la docente haga el trabajo de la maquina para explicar como funciona (enseñanza activa) y también relentiza la instrucción, permitiendo que le puedan seguir mejor.</p>
 </section>
 <section id="uso-de-maquinas-nocionales" class="level3" data-number="3.2.3">
