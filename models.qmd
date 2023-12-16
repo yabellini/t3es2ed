@@ -32,9 +32,11 @@ Tu objetivo cuando enseñes a personas novatas debe ser, por lo tanto, ayudarlas
 
 Las diferencias cognitivas entre personas novatas y practicantes competentes apuntalan las diferencias entre dos tipos de materiales educativos. Un [tutorial]{g="tutorial"} ayuda a construir un modelo mental a quienes recién llegan a un determinado campo; un [manual]{g="manual"}, por otro lado, ayuda a practicantes competentes a llenar los baches de su conocimiento. Los tutoriales frustran a quienes son practicantes competentes porque avanzan demasiado lento y dicen cosas que son obvias (aunque no son *para nada* obvias para personas novatas). De la misma manera, los manuales frustran a las personas novatas porque usan jergas y *no* explican las cosas. Este fenómeno se llama el [efecto inverso de la experiencia]{g="expertise-reversal-effect"} (@Kaly2003), y es una de las razones por las que tienes que decidir tempranamente para quiénes son tus lecciones.
 
-> ### Un puñado de excepciones
->
-> Una de las razones por las que Unix y C se hicieron populares es que @Kern1978,@Kern1983,@Kern1988 de alguna manera consiguieron tener buenos tutoriales *y* buenos manuales al mismo tiempo. @Fehi2008 y @Ray2014 están entre los otros pocos libros de computación que consiguieron esto; incluso luego de releerlos varias veces, Greg no sabe cómo lo lograron.
+::: callout-note
+## Un puñado de excepciones
+
+Una de las razones por las que Unix y C se hicieron populares es que @Kern1978,@Kern1983,@Kern1988 de alguna manera consiguieron tener buenos tutoriales *y* buenos manuales al mismo tiempo. @Fehi2008 y @Ray2014 están entre los otros pocos libros de computación que consiguieron esto; incluso luego de releerlos varias veces, Greg no sabe cómo lo lograron.
+:::
 
 ## ¿Están aprendiendo tus estudiantes? {#sec-models-formative-assessment}
 
@@ -61,7 +63,9 @@ El contrapunto de la evaluación formativa es la [evaluación sumativa]{g="summa
 Desafortunadamente, la escuela ha entrenado a la mayoría de la gente para creer que toda evaluación es sumativa, es decir, que si algo parece un examen, resolverlo mal pobremente te perjudicará. Hacer que las evaluaciones formativas parezcan informales y explicar qué son y su verdadero propósito, reduce esta ansiedad, sobre todo si las usas de forma recurrente en tus clases y tus estudiantes comprueban que no son perjudiciales.
 
 ::: callout-caution
-Si vamos a utilizar herramientas digitales para realizar las evaluaciones formativas, se debe tener especial atención y cuidado al seleccionarlas teniendo en cuenta aspectos de accesibilidad y de gestión de los datos que esas herramientas realizan. Lamentablemente muchas herramientas se han utilizado para vigilar y no para educar [@Beetham2022].
+## Herramientas digitales
+
+Si vamos a utilizar herramientas digitales para realizar las evaluaciones formativas, se debe tener especial atención y cuidado al seleccionarlas teniendo en cuenta aspectos de accesibilidad y de gestión de los datos que esas herramientas realizan. Lamentablemente muchas herramientas se han utilizado para vigilar y no para educar [@Beetham2022]. Este tema cobra aún más relevancia cuando el entorno de enseñanza-aprendizaje ocurre de forma online.
 :::
 
 Para ser útil durante la enseñanza, una [evaluación formativa]{i="evaluación formativa!requisitos"} debe ser rápida de administrar (de manera que no rompa el flujo de la lección) y debe tener una respuesta correcta no ambigua (de manera que pueda ser usada en grupos). Probablemente, el tipo de evaluación formativa que más ampliamente se usa es la [pregunta de opción múltiple]{i="pregunta de opción múltiple"}. Muchos/as docentes tienen una mala opinión sobre ellas, pero cuando las preguntas de opción múltiple están bien diseñadas pueden revelar mucho más que solo si alguien sabe o no algunos hechos específicos. Por ejemplo, si estás enseñando en primaria cómo hacer sumas de números con múltiples dígitos (@Ojos2015) y les das esta pregunta de opción múltiple:
@@ -90,9 +94,11 @@ La variedad de respuestas a una evaluación formativa te guía cómo continuar. 
 
 ¿Qué pasa si la mayoría de la clase vota por la respuesta correcta pero un grupo pequeño vota por las incorrectas? En ese caso, tienes que decidir si deberías destinar tiempo a que la minoría entienda o si es más importante mantener a la mayoría cautivada. No importa cuán duro trabajes o qué prácticas de enseñanza uses, no siempre vas a conseguir darle a todo tu curso lo que necesita; es tu responsabilidad como docente tomar la decisión.
 
-> ### ¿De dónde vienen las respuestas incorrectas?
->
-> Para diseñar distractores plausibles, piensa en las preguntas que tus estudiantes hicieron o en los problemas que tuvieron la última vez que enseñaste esa temática. Si no la has enseñado antes, piensa en tus propios conceptos erróneos, pregúntale a colegas sobre sus experiencias o busca la historia de tu campo temático: si las demás personas han tenido los mismos malentendidos sobre la temática cincuenta años atrás, hay chances de que la mayoría de tus estudiantes aún malentiendan la temática de la misma forma al día de hoy. También puedes hacer preguntas abiertas en clase para recoger los conceptos erróneos sobre los temas que vas a abarcar en una clase posterior, o consultar sitios de preguntas y respuestas como \[Quora\]\[quora\] o \[Stack Overflow\]\[stack-overflow\] para ver con qué se confunden quienes aprenden la temática en cualquier otro lugar.
+::: callout-important
+## ¿De dónde vienen las respuestas incorrectas?
+
+Para diseñar distractores plausibles, piensa en las preguntas que tus estudiantes hicieron o en los problemas que tuvieron la última vez que enseñaste esa temática. Si no la has enseñado antes, piensa en tus propios conceptos erróneos, pregúntale a colegas sobre sus experiencias o busca la historia de tu campo temático: si las demás personas han tenido los mismos malentendidos sobre la temática cincuenta años atrás, hay chances de que la mayoría de tus estudiantes aún malentiendan la temática de la misma forma al día de hoy. También puedes hacer preguntas abiertas en clase para recoger los conceptos erróneos sobre los temas que vas a abarcar en una clase posterior, o consultar sitios de preguntas y respuestas como \[Quora\]\[quora\] o \[Stack Overflow\]\[stack-overflow\] para ver con qué se confunden quienes aprenden la temática en cualquier otro lugar.
+:::
 
 Desarrollar evaluaciones formativas mejora tus lecciones porque te fuerza a pensar en los modelos mentales de tus estudiantes. En nuestra experiencia, al pensar evaluaciones formativas automáticamente escribimos la lección de forma de abarcar los baches y errores más probables. Las evaluaciones formativas, por lo tanto, también son útiles fuera del aula, durante el diseño de la lección.
 
@@ -146,15 +152,19 @@ La dinámica del ejercicio es el siguiente:
 Este ejercicio es muy útil para chequear conocimiento antes de iniciar una clase, para explicar conceptos erróneos y para ayudar a la participación de la clase, en caso que los estudiantes sean tímidos.
 :::
 
-> ### Inventario de conceptos
->
-> Con una cantidad de datos suficiente, las preguntas de opción múltiple pueden ser sorprendentemente precisas. El ejemplo más conocido es el [inventario del concepto de fuerza]{g="concept-inventory" i="inventario de conceptos"} (@Hest1992), que evalúa la comprensión sobre los mecanismos básicos newtonianos. Al entrevistar a un gran número de participantes, correlacionando sus conceptos erróneos con los patrones de respuestas correctas e incorrectas, así como mejorando las preguntas, los creadores de este inventario construyeron una herramienta de diagnóstico que permite identificar conceptos erróneos específicas. Las personas que investigan pueden utilizar dicha herramienta para medir el efecto de los cambios en los métodos de enseñanza (@Hake1998). Tew y colaboradores desarrollaron y validaron una evaluación independiente del lenguaje para programación introductoria (@Tew2011); @Park2016 la replicaron y @Hamo2017 está desarrollando un inventario de conceptos sobre la recursividad. Sin embargo, es muy costoso construir herramientas de este tipo y su validez está cada vez más amenazada por la habilidad para buscar respuestas en línea o utilizando grandes modelos de lenguaje.
+::: callout-note
+## Inventario de conceptos
+
+Con una cantidad de datos suficiente, las preguntas de opción múltiple pueden ser sorprendentemente precisas. El ejemplo más conocido es el inventario del concepto de fuerza (\@Hest1992), que evalúa la comprensión sobre los mecanismos básicos newtonianos. Al entrevistar a un gran número de participantes, correlacionando sus conceptos erróneos con los patrones de respuestas correctas e incorrectas, así como mejorando las preguntas, los creadores de este inventario construyeron una herramienta de diagnóstico que permite identificar conceptos erróneos específicas. Las personas que investigan pueden utilizar dicha herramienta para medir el efecto de los cambios en los métodos de enseñanza (\@Hake1998). Tew y colaboradores desarrollaron y validaron una evaluación independiente del lenguaje para programación introductoria (\@Tew2011); \@Park2016 la replicaron y \@Hamo2017 está desarrollando un inventario de conceptos sobre la recursividad. Sin embargo, es muy costoso construir herramientas de este tipo y su validez está cada vez más amenazada por la habilidad para buscar respuestas en línea o utilizando grandes modelos de lenguaje.
+:::
 
 Desarrollar evaluaciones formativas en una clase requiere un poco de preparación y práctica. Puedes darles a tus estudiantes tarjetas coloreadas o numeradas para que respondan una pregunta de opción múltiple simultáneamente (en lugar de que tengan que levantar sus manos en turnos), incluyendo como una de las opciones "No tengo idea" y alentando que hablen un par de segundos con sus pares más cercanos antes de responder. Todas estas prácticas te ayudarán a garantizar que el flujo de enseñanza no sea interrumpido. La @sec-classroom-peer describe un método de enseñanza poderoso y basado en evidencias, construido a partir de estas simples ideas.
 
-> ### Humor
->
-> A veces se incluyen respuestas supuestamente tontas en las preguntas de opción múltiple, como "¡mi nariz!", particularmente en los cuestionarios destinados a estudiantes jóvenes. Sin embargo, estas respuestas no proveen ninguna idea sobre conceptos erróneos y la mayoría de la gente no las encuentran graciosas. Como regla, deberías solo incluir un chiste en una lección si lo encuentras gracioso la tercera vez que lo relees.
+::: callout-tip
+## Humor
+
+A veces se incluyen respuestas supuestamente tontas en las preguntas de opción múltiple, como "¡mi nariz!", particularmente en los cuestionarios destinados a estudiantes jóvenes. Sin embargo, estas respuestas no proveen ninguna idea sobre conceptos erróneos y la mayoría de la gente no las encuentran graciosas. Como regla, deberías solo incluir un chiste en una lección si lo encuentras gracioso la tercera vez que lo relees.
+:::
 
 Las evaluaciones formativas de una lección deberían preparar a los/las estudiantes para una evaluación sumativa: nadie debería encontrar nunca una pregunta en un examen para la cual la enseñanza no lo/la ha preparado. Esto no significa que no debes incluir nuevos tipos de problemas en un examen, pero, si lo haces, deberías haber ejercitado de antemano a tus estudiantes para abordar problemas nuevos. El @sec-process explora este punto en profundidad.
 
@@ -162,7 +172,7 @@ Las evaluaciones formativas de una lección deberían preparar a los/las estudia
 
 Una [máquina nocional]{g="notional-machine"} es un dispositivo pedagógico para ayudar a la comprensión de algún aspecto de los programas o la programación [@Fincher2020]. Se utilizan para representar un entorno de aprendizaje simplificado y abstracto. No se refiere a una máquina real física, sino a una representación simplificada de un modelo conceptual que se utiliza con fines educativos.
 
-El grupo de trabajo " ITiCSE 2020 - Capturing and Characterising Notional Machines" realizó un extenso trabajo de revisión bibliográfica, entrevistas, registro y colección curada de maquinas nocionales. En este trabajo determinaron que una máquina nocional tiene *una finalidad pedagógica*, su función genérica es *llamar la atención* sobre algún *aspecto oculto* de los programas o de la informática, *o ponerlo en relieve*. La máquina también tendrá un *enfoque específico* dentro de los programas o la informática, y adoptará una *representación particular* que destaque un aspecto específico del enfoque [@Fincher2020]. \
+El grupo de trabajo " ITiCSE 2020 - Capturing and Characterising Notional Machines" realizó un extenso trabajo de revisión bibliográfica, entrevistas, registro y colección curada de maquinas nocionales. En este trabajo determinaron que una máquina nocional tiene *una finalidad pedagógica*, su función genérica es *llamar la atención* sobre algún *aspecto oculto* de los programas o de la informática, *o ponerlo en relieve*. La máquina también tendrá un *enfoque específico* dentro de los programas o la informática, y adoptará una *representación particular* que destaque un aspecto específico del enfoque [@Fincher2020].\
 
 En ese mismo trabajo, se encontró que la mayoría de la bibliografía presenta estudios de uso de las maquinas nocionales en los niveles universitario de grado, para estudiantes principiantes (CS1/2) y clasificaron las maquinas nocionales en dos tipos: basadas en analogías y basadas en representaciones. También determinaron que las maquina se pueden usar como parte del contenido de la lección o como herramienta de diagnóstico.
 
@@ -182,7 +192,7 @@ Las maquinas nocionales que se hacen a mano tienen diversos impactos en la ense�
 
 ### Uso de maquinas nocionales
 
-Durante una lección se pueden utilizar como dispositivos explicativos para acomodar el contenido al nivel de conocimiento actual de tus estudiantes y evitar una carga cognitiva innecesaria. En general una lección o un curso suele tener un repertorio de varias maquinas nocionales que sirven a objetivos de aprendizaje específicos de forma individual o para ir construyendo una maquina nocional basada en otra. \
+Durante una lección se pueden utilizar como dispositivos explicativos para acomodar el contenido al nivel de conocimiento actual de tus estudiantes y evitar una carga cognitiva innecesaria. En general una lección o un curso suele tener un repertorio de varias maquinas nocionales que sirven a objetivos de aprendizaje específicos de forma individual o para ir construyendo una maquina nocional basada en otra.\
 
 También se utilizan para diagnosticar conceptos erróneos en tus estudiantes al exponer su modelo mental. Por ejemplo, Greg utiliza un test muy sencillo para determinar si sus estudiantes tienen un modelo mental de ejecución secuencial (tienen una formación en programación) o evaluación constante (tienen una formación en planillas de cálculo).
 

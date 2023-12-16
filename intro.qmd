@@ -6,7 +6,6 @@
 Estás leyendo la segunda edición **en progreso y en castellano** de Enseñar Tecnología en Comunidad (Teaching Tech Together). Este capítulo debería ser legible, pero está siendo objeto de un pulido final.
 :::
 
-
 > "el enfoque adoptado por el/la docente en un contexto determinado depende tanto del/la docente como del contexto" -- Trigwell et al. (1994)
 
 Enseñar y aprender ocurren en muchos ámbitos, no solo en las aulas de las instituciones educativas formales, como la escuela o las universidades. Probablemente ya estás enseñando, no sólo como docente en alguna de estas instituciones o en una comunidad de práctica, también respondiendo preguntas, mentoreando una persona que recién inicia, creando contenido como libros, artículos en la web y videos, o dando charlas. Y probablemente también has usado estos recursos para aprender. Incluso podemos aprender sin necesidad que haya alguien enseñándonos.
@@ -73,11 +72,13 @@ René
 
 :   leerá el libro por su cuenta en su oficina o mientras viaja en el transporte público, deseando entretanto que las universidades hagan más para apoyar la enseñanza de alta calidad.
 
-> ### Re-uso
->
-> Algunas secciones de este libro fueron originalmente creadas para \[el programa de entrenamiento de instructores/as de Software Carpentry\]\[carpentries-instructor\]. Cualquier parte del libro puede ser libremente distribuida y re-utilizada bajo la licencia Creative Commons Atribución-NoComercial 4.0 (@sec-license). Puedes usar la versión online disponible en <http://teachtogether.tech/es/> en cualquier clase (gratuita o paga), y puedes citar pequeños extractos bajo el criterio de \[uso justo\]\[uso-justo\], pero no puedes re-publicar largos fragmentos en trabajos comerciales sin permiso previo.
->
-> Las contribuciones, correcciones y sugerencias son bienvenidas, y cada vez que una nueva versión del libro sea publicada se les agradecerá a quienes contribuyan. Por favor consulta la sección de @sec-joining para conocer los detalles sobre como contribuir y el @sec-conduct para conocer nuestro código de conducta.
+::: callout-important
+## Re-uso
+
+Algunas secciones de este libro fueron originalmente creadas para \[el programa de entrenamiento de instructores/as de Software Carpentry\]\[carpentries-instructor\]. Cualquier parte del libro puede ser libremente distribuida y re-utilizada bajo la licencia Creative Commons Atribución-NoComercial 4.0 (@sec-license). Puedes usar la versión online disponible en <http://teachtogether.tech/es/> en cualquier clase (gratuita o paga), y puedes citar pequeños extractos bajo el criterio de \[uso justo\]\[uso-justo\], pero no puedes re-publicar largos fragmentos en trabajos comerciales sin permiso previo.
+
+Las contribuciones, correcciones y sugerencias son bienvenidas, y cada vez que una nueva versión del libro sea publicada se les agradecerá a quienes contribuyan. Por favor consulta la sección de @sec-joining para conocer los detalles sobre como contribuir y el @sec-conduct para conocer nuestro código de conducta.
+:::
 
 ## Agradecimientos {#sec-intro-acknowledgments}
 

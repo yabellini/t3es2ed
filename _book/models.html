@@ -376,10 +376,19 @@ Segunda edición
 </blockquote>
 <p>Tu objetivo cuando enseñes a personas novatas debe ser, por lo tanto, ayudarlas a construir un modelo mental para que tengan algún lugar en el que ordenar los hechos. Por ejemplo, [la lección sobre la consola Unix][carpentries-shell-es] de <em>Software Carpentry</em> (carpinteros/as de software, en español) introduce quince comandos en tres horas. Eso sería un comando cada doce minutos, lo que parece muy lento hasta que te das cuenta de que el propósito real de la lección no es enseñar esos quince comandos: es enseñar las rutas de acceso, la historia de comandos, el autocompletado con el tabulador, los comodines, los <em>pipes</em> los argumentos de la línea de comando y las redirecciones. Los comandos específicos no tienen sentido hasta que las personas novatas entienden estos conceptos; una vez que lo hacen, pueden empezar a leer manuales, pueden buscar las palabras claves correctas en la web, y pueden decidir si los resultados de sus búsquedas son útiles o no.</p>
 <p>Las diferencias cognitivas entre personas novatas y practicantes competentes apuntalan las diferencias entre dos tipos de materiales educativos. Un <span data-g="tutorial">tutorial</span> ayuda a construir un modelo mental a quienes recién llegan a un determinado campo; un <span data-g="manual">manual</span>, por otro lado, ayuda a practicantes competentes a llenar los baches de su conocimiento. Los tutoriales frustran a quienes son practicantes competentes porque avanzan demasiado lento y dicen cosas que son obvias (aunque no son <em>para nada</em> obvias para personas novatas). De la misma manera, los manuales frustran a las personas novatas porque usan jergas y <em>no</em> explican las cosas. Este fenómeno se llama el <span data-g="expertise-reversal-effect">efecto inverso de la experiencia</span> (<span class="citation" data-cites="Kaly2003">Kalyuga et al. (<a href="#ref-Kaly2003" role="doc-biblioref">2003</a>)</span>), y es una de las razones por las que tienes que decidir tempranamente para quiénes son tus lecciones.</p>
-<blockquote class="blockquote">
-<h3 id="un-puñado-de-excepciones" data-number="3.0.1" class="anchored"><span class="header-section-number">3.0.1</span> Un puñado de excepciones</h3>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Un puñado de excepciones
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <p>Una de las razones por las que Unix y C se hicieron populares es que <span class="citation" data-cites="Kern1978">Kernighan and Plauger (<a href="#ref-Kern1978" role="doc-biblioref">1978</a>)</span>,<span class="citation" data-cites="Kern1983">Kernighan and Pike (<a href="#ref-Kern1983" role="doc-biblioref">1983</a>)</span>,<span class="citation" data-cites="Kern1988">Kernighan and Ritchie (<a href="#ref-Kern1988" role="doc-biblioref">1988</a>)</span> de alguna manera consiguieron tener buenos tutoriales <em>y</em> buenos manuales al mismo tiempo. <span class="citation" data-cites="Fehi2008">Fehily (<a href="#ref-Fehi2008" role="doc-biblioref">2008</a>)</span> y <span class="citation" data-cites="Ray2014">Ray and Ray (<a href="#ref-Ray2014" role="doc-biblioref">2014</a>)</span> están entre los otros pocos libros de computación que consiguieron esto; incluso luego de releerlos varias veces, Greg no sabe cómo lo lograron.</p>
-</blockquote>
+</div>
+</div>
 <section id="sec-models-formative-assessment" class="level2" data-number="3.1">
 <h2 data-number="3.1" class="anchored" data-anchor-id="sec-models-formative-assessment"><span class="header-section-number">3.1</span> ¿Están aprendiendo tus estudiantes?</h2>
 <p><span data-i="Twain, Mark">Mark Twain</span> escribió: “No es lo que no sabes lo que te mete en problemas. Es lo que tienes seguridad de saber y simplemente no es así.” Uno de los ejercicios al construir un modelo mental es, por lo tanto, despejar las cosas que <em>no</em> pertenecen al modelo. En sentido amplio, los conceptos erróneos de las personas novatas caen en tres categorías:</p>
@@ -408,11 +417,11 @@ Segunda edición
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Danger
+Herramientas digitales
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Si vamos a utilizar herramientas digitales para realizar las evaluaciones formativas, se debe tener especial atención y cuidado al seleccionarlas teniendo en cuenta aspectos de accesibilidad y de gestión de los datos que esas herramientas realizan. Lamentablemente muchas herramientas se han utilizado para vigilar y no para educar <span class="citation" data-cites="Beetham2022">(<a href="#ref-Beetham2022" role="doc-biblioref">Beetham et al. 2022</a>)</span>.</p>
+<p>Si vamos a utilizar herramientas digitales para realizar las evaluaciones formativas, se debe tener especial atención y cuidado al seleccionarlas teniendo en cuenta aspectos de accesibilidad y de gestión de los datos que esas herramientas realizan. Lamentablemente muchas herramientas se han utilizado para vigilar y no para educar <span class="citation" data-cites="Beetham2022">(<a href="#ref-Beetham2022" role="doc-biblioref">Beetham et al. 2022</a>)</span>. Este tema cobra aún más relevancia cuando el entorno de enseñanza-aprendizaje ocurre de forma online.</p>
 </div>
 </div>
 <p>Para ser útil durante la enseñanza, una <span data-i="evaluación formativa!requisitos">evaluación formativa</span> debe ser rápida de administrar (de manera que no rompa el flujo de la lección) y debe tener una respuesta correcta no ambigua (de manera que pueda ser usada en grupos). Probablemente, el tipo de evaluación formativa que más ampliamente se usa es la <span data-i="pregunta de opción múltiple">pregunta de opción múltiple</span>. Muchos/as docentes tienen una mala opinión sobre ellas, pero cuando las preguntas de opción múltiple están bien diseñadas pueden revelar mucho más que solo si alguien sabe o no algunos hechos específicos. Por ejemplo, si estás enseñando en primaria cómo hacer sumas de números con múltiples dígitos (<span class="citation" data-cites="Ojos2015">Ojose (<a href="#ref-Ojos2015" role="doc-biblioref">2015</a>)</span>) y les das esta pregunta de opción múltiple:</p>
@@ -432,10 +441,19 @@ Danger
 <p>Cada una de estas respuestas incorrectas es un <span data-g="plausible-distractor">distractor plausible</span> con <span data-g="diagnostic-power">poder diagnóstico</span>. Un distractor es una respuesta incorrecta o una respuesta peor que la mejor respuesta; “plausible” significa que parece que podría ser correcta, mientras que “poder diagnóstico” significa que cada uno de los distractores ayuda al/a la docente a darse cuenta qué debe explicar a continuación a estudiantes puntuales.</p>
 <p>La variedad de respuestas a una evaluación formativa te guía cómo continuar. Si una cantidad suficiente de la clase tiene la respuesta correcta, avanzas. Si la mayoría de la clase elige la misma respuesta incorrecta, deberías retroceder y trabajar en corregir el concepto erróneo que ese distractor señala. Si las respuestas de la clase se dividen equitativamente entre varias opciones, probablemente están arriesgando, entonces deberías retroceder y re-explicar la idea de una manera distinta. (Repetir exactamente la misma explicación probablemente no será útil, lo cual es uno de los motivos por los que tantos cursos por video son pedagógicamente ineficientes.)</p>
 <p>¿Qué pasa si la mayoría de la clase vota por la respuesta correcta pero un grupo pequeño vota por las incorrectas? En ese caso, tienes que decidir si deberías destinar tiempo a que la minoría entienda o si es más importante mantener a la mayoría cautivada. No importa cuán duro trabajes o qué prácticas de enseñanza uses, no siempre vas a conseguir darle a todo tu curso lo que necesita; es tu responsabilidad como docente tomar la decisión.</p>
-<blockquote class="blockquote">
-<h3 id="de-dónde-vienen-las-respuestas-incorrectas" data-number="3.1.2" class="anchored"><span class="header-section-number">3.1.2</span> ¿De dónde vienen las respuestas incorrectas?</h3>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+¿De dónde vienen las respuestas incorrectas?
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <p>Para diseñar distractores plausibles, piensa en las preguntas que tus estudiantes hicieron o en los problemas que tuvieron la última vez que enseñaste esa temática. Si no la has enseñado antes, piensa en tus propios conceptos erróneos, pregúntale a colegas sobre sus experiencias o busca la historia de tu campo temático: si las demás personas han tenido los mismos malentendidos sobre la temática cincuenta años atrás, hay chances de que la mayoría de tus estudiantes aún malentiendan la temática de la misma forma al día de hoy. También puedes hacer preguntas abiertas en clase para recoger los conceptos erróneos sobre los temas que vas a abarcar en una clase posterior, o consultar sitios de preguntas y respuestas como [Quora][quora] o [Stack Overflow][stack-overflow] para ver con qué se confunden quienes aprenden la temática en cualquier otro lugar.</p>
-</blockquote>
+</div>
+</div>
 <p>Desarrollar evaluaciones formativas mejora tus lecciones porque te fuerza a pensar en los modelos mentales de tus estudiantes. En nuestra experiencia, al pensar evaluaciones formativas automáticamente escribimos la lección de forma de abarcar los baches y errores más probables. Las evaluaciones formativas, por lo tanto, también son útiles fuera del aula, durante el diseño de la lección.</p>
 <p>Las preguntas de opción múltiple no son el único tipo de evaluación formativa: el <a href="exercises.html"><span>Chapter&nbsp;13</span></a> describe otros tipos de ejercicios que son rápidos y no son ambiguos. Cualquiera sea la evaluación que escojas, deberías hacer alguna que tome un minuto o dos cada 10–15 minutos de manera de asegurarte de que tus estudiantes están realmente aprendiendo. Este ritmo no está basado en un límite de atención intrínseco: <span class="citation" data-cites="Wils2007">Wilson and Korn (<a href="#ref-Wils2007" role="doc-biblioref">2007</a>)</span> encontró poca evidencia a favor de la afirmación usualmente repetida de que los/las estudiantes solo pueden prestar atención durante 10–15 minutos. En cambio, la guía asegura que, si un número significativo de personas se ha quedado atrás, solo tienes que repetir una pequeña porción de la lección. Las evaluaciones formativas frecuentes también mantienen a tus estudiantes involucrados en la clase, particularmente si se involucran en una discusión en un grupo pequeño (<a href="classroom.html#sec-classroom-peer"><span>Section&nbsp;10.2</span></a>).</p>
 <p>Las evaluaciones formativas también pueden ser usadas <em>antes</em> de las lecciones. Si comienzas una clase con una pregunta de opción múltiple y toda la clase la contesta correctamente, puedes evitar explicar algo que tus estudiantes ya saben. Este tipo de <span data-g="active-teaching">enseñanza activa</span> te da más tiempo para enfocarte en las cosas que tus estudiantes no saben. También le muestra a tus estudiantes que respetas su tiempo lo suficiente como para no desperdiciarlo, lo que ayuda a la motivación (<a href="motivation.html"><span>Chapter&nbsp;11</span></a>).</p>
@@ -478,15 +496,33 @@ Trivias
 <p>Este ejercicio es muy útil para chequear conocimiento antes de iniciar una clase, para explicar conceptos erróneos y para ayudar a la participación de la clase, en caso que los estudiantes sean tímidos.</p>
 </div>
 </div>
-<blockquote class="blockquote">
-<h3 id="inventario-de-conceptos" data-number="3.1.3" class="anchored"><span class="header-section-number">3.1.3</span> Inventario de conceptos</h3>
-<p>Con una cantidad de datos suficiente, las preguntas de opción múltiple pueden ser sorprendentemente precisas. El ejemplo más conocido es el <span data-g="concept-inventory" data-i="inventario de conceptos">inventario del concepto de fuerza</span> (<span class="citation" data-cites="Hest1992">Hestenes, Wells, and Swackhamer (<a href="#ref-Hest1992" role="doc-biblioref">1992</a>)</span>), que evalúa la comprensión sobre los mecanismos básicos newtonianos. Al entrevistar a un gran número de participantes, correlacionando sus conceptos erróneos con los patrones de respuestas correctas e incorrectas, así como mejorando las preguntas, los creadores de este inventario construyeron una herramienta de diagnóstico que permite identificar conceptos erróneos específicas. Las personas que investigan pueden utilizar dicha herramienta para medir el efecto de los cambios en los métodos de enseñanza (<span class="citation" data-cites="Hake1998">Hake (<a href="#ref-Hake1998" role="doc-biblioref">1998</a>)</span>). Tew y colaboradores desarrollaron y validaron una evaluación independiente del lenguaje para programación introductoria (<span class="citation" data-cites="Tew2011">Tew and Guzdial (<a href="#ref-Tew2011" role="doc-biblioref">2011</a>)</span>); <span class="citation" data-cites="Park2016">Parker, Guzdial, and Engleman (<a href="#ref-Park2016" role="doc-biblioref">2016</a>)</span> la replicaron y <span class="citation" data-cites="Hamo2017">Hamouda et al. (<a href="#ref-Hamo2017" role="doc-biblioref">2017</a>)</span> está desarrollando un inventario de conceptos sobre la recursividad. Sin embargo, es muy costoso construir herramientas de este tipo y su validez está cada vez más amenazada por la habilidad para buscar respuestas en línea o utilizando grandes modelos de lenguaje.</p>
-</blockquote>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Inventario de conceptos
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Con una cantidad de datos suficiente, las preguntas de opción múltiple pueden ser sorprendentemente precisas. El ejemplo más conocido es el inventario del concepto de fuerza (@Hest1992), que evalúa la comprensión sobre los mecanismos básicos newtonianos. Al entrevistar a un gran número de participantes, correlacionando sus conceptos erróneos con los patrones de respuestas correctas e incorrectas, así como mejorando las preguntas, los creadores de este inventario construyeron una herramienta de diagnóstico que permite identificar conceptos erróneos específicas. Las personas que investigan pueden utilizar dicha herramienta para medir el efecto de los cambios en los métodos de enseñanza (@Hake1998). Tew y colaboradores desarrollaron y validaron una evaluación independiente del lenguaje para programación introductoria (@Tew2011); @Park2016 la replicaron y @Hamo2017 está desarrollando un inventario de conceptos sobre la recursividad. Sin embargo, es muy costoso construir herramientas de este tipo y su validez está cada vez más amenazada por la habilidad para buscar respuestas en línea o utilizando grandes modelos de lenguaje.</p>
+</div>
+</div>
 <p>Desarrollar evaluaciones formativas en una clase requiere un poco de preparación y práctica. Puedes darles a tus estudiantes tarjetas coloreadas o numeradas para que respondan una pregunta de opción múltiple simultáneamente (en lugar de que tengan que levantar sus manos en turnos), incluyendo como una de las opciones “No tengo idea” y alentando que hablen un par de segundos con sus pares más cercanos antes de responder. Todas estas prácticas te ayudarán a garantizar que el flujo de enseñanza no sea interrumpido. La <a href="classroom.html#sec-classroom-peer"><span>Section&nbsp;10.2</span></a> describe un método de enseñanza poderoso y basado en evidencias, construido a partir de estas simples ideas.</p>
-<blockquote class="blockquote">
-<h3 id="humor" data-number="3.1.4" class="anchored"><span class="header-section-number">3.1.4</span> Humor</h3>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Humor
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <p>A veces se incluyen respuestas supuestamente tontas en las preguntas de opción múltiple, como “¡mi nariz!”, particularmente en los cuestionarios destinados a estudiantes jóvenes. Sin embargo, estas respuestas no proveen ninguna idea sobre conceptos erróneos y la mayoría de la gente no las encuentran graciosas. Como regla, deberías solo incluir un chiste en una lección si lo encuentras gracioso la tercera vez que lo relees.</p>
-</blockquote>
+</div>
+</div>
 <p>Las evaluaciones formativas de una lección deberían preparar a los/las estudiantes para una evaluación sumativa: nadie debería encontrar nunca una pregunta en un examen para la cual la enseñanza no lo/la ha preparado. Esto no significa que no debes incluir nuevos tipos de problemas en un examen, pero, si lo haces, deberías haber ejercitado de antemano a tus estudiantes para abordar problemas nuevos. El <a href="process.html"><span>Chapter&nbsp;7</span></a> explora este punto en profundidad.</p>
 </section>
 </section>
@@ -697,15 +733,6 @@ Fincher, Sally, Johan Jeuring, Craig S. Miller, Peter Donaldson, Benedict du Bou
 <div id="ref-Guzd2015b" class="csl-entry" role="listitem">
 Guzdial, Mark. 2015. <span>“Top 10 Myths about Teaching Computer Science.”</span> <a href="https://cacm.acm.org/blogs/blog-cacm/189498-top-10-myths-about-teaching-computer-science/fulltext" class="uri">https://cacm.acm.org/blogs/blog-cacm/189498-top-10-myths-about-teaching-computer-science/fulltext</a>.
 </div>
-<div id="ref-Hake1998" class="csl-entry" role="listitem">
-Hake, Richard R. 1998. <span>“Interactive Engagement Versus Traditional Methods: A Six-Thousand-Student Survey of Mechanics Test Data for Introductory Physics Courses.”</span> <em>American Journal of Physics</em> 66 (1): 64–74. <a href="https://doi.org/10.1119/1.18809">https://doi.org/10.1119/1.18809</a>.
-</div>
-<div id="ref-Hamo2017" class="csl-entry" role="listitem">
-Hamouda, Sally, Stephen H. Edwards, Hicham G. Elmongui, Jeremy V. Ernst, and Clifford A. Shaffer. 2017. <span>“A Basic Recursion Concept Inventory.”</span> <em>Computer Science Education</em> 27 (2): 121–48. <a href="https://doi.org/10.1080/08993408.2017.1414728">https://doi.org/10.1080/08993408.2017.1414728</a>.
-</div>
-<div id="ref-Hest1992" class="csl-entry" role="listitem">
-Hestenes, David, Malcolm Wells, and Gregg Swackhamer. 1992. <span>“Force Concept Inventory.”</span> <em>The Physics Teacher</em> 30 (3): 141–58. <a href="https://doi.org/10.1119/1.2343497">https://doi.org/10.1119/1.2343497</a>.
-</div>
 <div id="ref-Kaly2003" class="csl-entry" role="listitem">
 Kalyuga, Slava, Paul Ayres, Paul Chandler, and John Sweller. 2003. <span>“The Expertise Reversal Effect.”</span> <em>Educational Psychologist</em> 38 (1): 23–31. <a href="https://doi.org/10.1207/s15326985ep3801_4">https://doi.org/10.1207/s15326985ep3801_4</a>.
 </div>
@@ -724,9 +751,6 @@ Muller, Derek A., James Bewes, Manjula D. Sharma, and Peter Reimann. 2007. <span
 <div id="ref-Ojos2015" class="csl-entry" role="listitem">
 Ojose, Bobby. 2015. <em>Common Misconceptions in Mathematics: Strategies to Correct Them</em>. UPA.
 </div>
-<div id="ref-Park2016" class="csl-entry" role="listitem">
-Parker, Miranda C., Mark Guzdial, and Shelly Engleman. 2016. <span>“Replication, Validation, and Use of a Language Independent <span>CS1</span> Knowledge Assessment.”</span> In <em>2016 International Computing Education Research Conference (<span>ICER’16</span>)</em>. Association for Computing Machinery (<span>ACM</span>). <a href="https://doi.org/10.1145/2960310.2960316">https://doi.org/10.1145/2960310.2960316</a>.
-</div>
 <div id="ref-Pati2016" class="csl-entry" role="listitem">
 Patitsas, Elizabeth, Jesse Berlin, Michelle Craig, and Steve Easterbrook. 2016. <span>“Evidence That Computer Science Grades Are Not Bimodal.”</span> In <em>2016 International Computing Education Research Conference (<span>ICER’16</span>)</em>. Association for Computing Machinery (<span>ACM</span>). <a href="https://doi.org/10.1145/2960310.2960312">https://doi.org/10.1145/2960310.2960312</a>.
 </div>
@@ -738,9 +762,6 @@ Stark, Philip, and Richard Freishtat. 2014. <span>“An Evaluation of Course Eva
 </div>
 <div id="ref-Tedr2008" class="csl-entry" role="listitem">
 Tedre, Matti, and Erkki Sutinen. 2008. <span>“Three Traditions of Computing: What Educators Should Know.”</span> <em>Computer Science Education</em> 18 (3): 153–70. <a href="https://doi.org/10.1080/08993400802332332">https://doi.org/10.1080/08993400802332332</a>.
-</div>
-<div id="ref-Tew2011" class="csl-entry" role="listitem">
-Tew, Allison Elliott, and Mark Guzdial. 2011. <span>“The <span>FCS1</span>: A Language Independent Assessment of <span>CS1</span> Knowledge.”</span> In <em>2011 Technical Symposium on Computer Science Education (<span>SIGCSE’11</span>)</em>. Association for Computing Machinery (<span>ACM</span>). <a href="https://doi.org/10.1145/1953163.1953200">https://doi.org/10.1145/1953163.1953200</a>.
 </div>
 <div id="ref-Uttl2017" class="csl-entry" role="listitem">
 Uttl, Bob, Carmela A. White, and Daniela Wong Gonzalez. 2017. <span>“Meta-Analysis of Faculty’s Teaching Effectiveness: Student Evaluation of Teaching Ratings and Student Learning Are Not Related.”</span> <em>Studies in Educational Evaluation</em> 54 (September): 22–42. <a href="https://doi.org/10.1016/j.stueduc.2016.08.007">https://doi.org/10.1016/j.stueduc.2016.08.007</a>.
