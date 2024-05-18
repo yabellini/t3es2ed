@@ -6,7 +6,7 @@
 Estás leyendo la segunda edición **en progreso y en castellano** de Enseñar Tecnología en Comunidad (Teaching Tech Together). Este capítulo debería ser legible, pero está siendo objeto de un pulido final.
 :::
 
-> "el enfoque adoptado por el/la docente en un contexto determinado depende tanto del/la docente como del contexto" -- Trigwell et al. (1994)
+> "El enfoque adoptado por quien enseña en un contexto determinado depende tanto del/la docente como del contexto" -- Trigwell et al. (1994)
 
 Enseñar y aprender ocurren en muchos ámbitos, no solo en las aulas de las instituciones educativas formales, como la escuela o las universidades. Probablemente ya estás enseñando, no sólo como docente en alguna de estas instituciones o en una comunidad de práctica, también respondiendo preguntas, mentoreando una persona que recién inicia, creando contenido como libros, artículos en la web y videos, o dando charlas. Y probablemente también has usado estos recursos para aprender. Incluso podemos aprender sin necesidad que haya alguien enseñándonos.
 
