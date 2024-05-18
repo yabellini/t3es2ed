@@ -58,28 +58,15 @@ format:
   pdf:
     documentclass: scrreprt
 
-editor: visual
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+babelquarto:
+  languagecodes:
+  - name: en
+    text: "Version in en"
+  - name: es
+    text: "Version in es"
+  mainlanguage: 'es'
+  languages: ['en']
+title-en: title in en
+description-en: description in en
+author-en: author in en
+lang: es
