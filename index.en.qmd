@@ -1,7 +1,7 @@
 # Preface {.unnumbered}
 
-Este es el sitio web de la segunda edición **en progreso** y **en castellano** de Enseñar Tecnología en Comunidad.
+This is the website of the second edition **in progress** of Teaching Tech Together.
 
-En cada capítulo vas a encontrar una nota al inicio que te indica en que estado está: completo, en perfeccionamiento, en re-estructuración o en borrador. Esto te ayudará a decidir leer el contenido y hacer tus aportes (siempre estamos muy agradecidas y agradecidos por el feedback que nos puedan dar).
+In each chapter, you will find a note at the beginning that tells you its state: complete, in progress, being restructured, or in draft. This will help you decide whether to read the content and contribute (we are always very grateful for your feedback.
 
-En este libro usamos un [Código de conducta para contribuir](https://contributor-covenant.org/version/2/0/CODE_OF_CONDUCT.html). Si contribuyes a este libro estás aceptado acatar sus condiciones.
+We use a [Code of Conduct for Contributors](https://contributor-covenant.org/version/2/0/CODE_OF_CONDUCT.html) in this book. If you contribute to it, you agree to abide by its terms.
