@@ -3,10 +3,10 @@
 ::: callout-note
 ## Segunda edición
 
-Estás leyendo la segunda edición en progreso y en castellano de Enseñar Tecnología en Comunidad (Teaching Tech Together). Este capítulo está siendo objeto de una profunda reestructuración y puede resultar confuso o incompleto.
+You are reading the second edition in progress of Teaching Tech Together. This chapter is undergoing major restructuring and may be confusing or incomplete. Please visit <https://teachtogether.tech> to see the current version.
 :::
 
-En *Darwin entre las máquinas*, [George Dyson]{i="Dyson, George"} escribió, "En el juego de la vida y la evolución hay tres jugadores en la mesa: las personas, la naturaleza y las máquinas. Estoy firmemente del lado de la naturaleza. Pero la naturaleza, sospecho, está del lado de las máquinas..." De manera similar, ahora hay cuatro jugadores en el juego de la educación: los libros de texto y otros materiales de lectura, las clases en vivo, las clases en línea automatizadas y los *large language models* o LLMs (grandes modelos de lenguaje). Podrías darle a tus estudiantes clases escritas y alguna combinación de videos grabados y ejercicios para que realicen a su propio ritmo, pero si vas a enseñar de forma sincrónica, ya sea en persona o en linea, tienes que ofrecer algo diferente (y preferentemente mejor que) cualquiera de las opciones anteriores. Por lo tanto, este capítulo se enfoca en cómo enseñar a programar programando y como enseñar otras herramientas tecnológicas usándolas.
+In *Darwin Among the Machines*, [George Dyson]{i="Dyson, George"} wrote, “In the game of life and evolution there are three players at the table: human beings, nature, and machines. I am firmly on the side of nature. But nature, I suspect, is on the side of the machines…” There are similarly now four players in the game of education: textbooks and other read-only materials, live lectures, and automated online lessons and *Generative AI* or GenAI. You may give your learners both written lessons and some combination of recorded video and self-paced exercises, but if you are going to teach in a synchronous way you must offer something different from (and hopefully better than) any of the previews options. This chapter therefore focuses on how to teach programming by actually doing it and other tecnologocal tool by using them.
 
 Los métodos que vamos a presentar se conocen como *programacion participativa en vivo* y *demostracion participativa en vivo*.
 
