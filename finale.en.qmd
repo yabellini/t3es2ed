@@ -1,0 +1,80 @@
+# ¿Por qué enseñamos? {#sec-finale}
+
+::: callout-warninig
+## Segunda edición
+
+Estás leyendo la segunda edición en progreso y en castellano de Enseñar Tecnología en Comunidad (Teaching Tech Together). Este capítulo está siendo objeto de una profunda reestructuración y puede resultar confuso o incompleto
+:::
+
+## Greg {#sec-finale-Greg}
+
+When I started volunteering at the University of Toronto, some of my students asked me why I would teach for free. This was my answer:
+
+> When I was your age, I thought universities existed to teach people how to learn. Later, in grad school, I thought universities were about doing research and creating new knowledge. Now that I’m in my forties, though, I’ve realized that what we’re really teaching you is how to take over the world, because you’re going to have to whether you want to or not.
+>
+> My parents are in their seventies. They don’t run the world any more; it’s people my age who pass laws and make life-and-death decisions in hospitals. As scary as it is, we are the grownups.
+>
+> Twenty years from now, we’ll be heading for retirement and you will be in charge. That may sound like a long time when you’re nineteen, but take three breaths and it’s gone. That’s why we give you problems whose answers can’t be cribbed from last year’s notes. That’s why we put you in situations where you have to figure out what needs to be done right now, what can be left for later, and what you can simply ignore. It’s because if you don’t learn how to do these things now, you won’t be ready to do them when you have to.
+
+It was all true, but it wasn’t the whole story. I don’t want people to make the world a better place so that I can retire in comfort. I want them to do it because it’s the greatest adventure of our time. A hundred and fifty years ago, most societies practiced slavery. A hundred years ago, [my grandmother wasn’t legally a person in Canada](https://en.wikipedia.org/wiki/The_Famous_Five_(Canada)). In the year I was born, most of the world’s people suffered under totalitarian rule, and judges were still ordering electroshock therapy to “cure” homosexuals. There’s still a lot wrong with the world, but look at how many more choices we have than our grandparents did. Look at how many more things we can know, and be, and enjoy because we’re finally taking the Golden Rule seriously.
+
+I am less optimistic today than I was then. Climate change, mass extinction, surveillance capitalism, inequality on a scale we haven’t seen in a century, the re-emergence of racist nationalism: my generation has watched it all happen and shrugged. The bill for our cowardice, lethargy, and greed won’t come due until my daughter is grown, but it will come, and by the time it does there will be no easy solutions to these problems (and possibly no solutions at all).
+
+So this is why I teach today: I’m angry. I’m angry because your sex and your color and your parents’ wealth and connections shouldn’t count for more than how smart or honest or hard-working you are. I’m angry because we turned the internet into a cesspool. I’m angry because Nazis are on the march once again and billionaires are playing with rocket ships while the planet is melting. I’m angry, so I teach, because the world only gets better when we teach people how to make it better.
+
+In his 1947 essay “Why I Write”, George Orwell wrote:
+
+> In a peaceful age I might have written ornate or merely descriptive books, and might have remained almost unaware of my political loyalties. As it is I have been forced into becoming a sort of pamphleteer… Every line of serious work that I have written since 1936 has been written, directly or indirectly, against totalitarianism… It seems to me nonsense, in a period like our own, to think that one can avoid writing of such subjects. Everyone writes of them in one guise or another. It is simply a question of which side one takes.
+
+Replace “writing” with “teaching” and you’ll have the reason I do what I do.
+
+Thank you for reading—I hope we can teach together some day. Until then:
+
+::: {.centered markdown="1"}
+Start where you are.<br/> Use what you have.<br/> Help who you can.
+:::
+
+## Yani {#sec-finale-Yani}
+
+Why I teach it is intimately linked to my personal history…
+
+I was born in Juan José Paso, a small town in rural Argentina. When I was six, my elementary school bought the only computer in the entire town. The principal gave a lesson about computers, and the moment I saw it, it was love at first sight. The school held an exam, and the student with the highest score would have one computer class and two craft classes (sewing and knitting for girls) instead of the usual three. I was one of those students.
+
+A few years later, we moved to another town after a flood devastated our home. This new place was close to a city where I could study programming. From ages 9 to 14, my parents drove 80 kilometers every Saturday to take me to class. We didn’t have a car, and there was no public transport in the rural area, but since my dad is a mechanic, his clients would lend him their cars for the trip.
+
+At 15, I started my first job teaching informatics. Since then, I have never stopped teaching and learning about coding. I taught children, teenagers, and adults. I have trained teachers in computing skills and to use the computer to teach since 1997. My high school science fair project, “The Computer at the School,” proposed exercises for different subjects using computers and encouraged collaboration between informatics courses and other subject teachers.
+
+When I finished high school, everyone told my parents what they already knew: that I had to continue studying. However, we didn’t have enough money to send me to university, so my parents moved the entire family to a city with a public and free university. I worked teaching for one of the science fair jurors, and I put my science fair project into practice, teaching computing jointly with other courses. At that time, I met a mentor and boss at the National Institute of Agricultural Technology (INTA), where I worked as a research software engineer for 24 years. At INTA, I won two scholarships to complete my degree in computer science and my master’s degree in data mining, becoming a scientist.
+
+Today, I teach in formal institutions like universities from different countries and communities of practice, such as R-Ladies. I also co-founded spaces like LatinR and designed and ran projects like the rOpenSci Champions Program, where people can share their knowledge and help each other improve in the open-source, software, science, and education- movements.  
+
+*I teach because education can change lives—it changed mine.*
+
+*I teach to give back.*
+
+*I teach to share my power.*
+
+**I invite you to do the same with yours.** Perhaps a child in a small town will find one of our lessons, and a door to new knowledge will open—a knowledge that empower them, that changes their life positively... and perhaps ours too.
+
+_Thank you very much for reading._
+
+
+## Qué otras cosas leer {#sec-finale-instead}
+
+Si tienes prisa o quieres tener una idea de lo que cubrirá este libro, @Brow2018 presenta diez sugerencias basadas en evidencias para enseñar computación<sup>En inglés</sup>. También puedes disfrutar<sup>Todos en inglés</sup>:
+
+-   \[El entrenamiento para instructoras/es de The Carpentries (Las/los carpinteras/os)\]\[carpentries-instructor\], en el cual está basado este libro.
+
+-   @Lang2016 y @Hust2012, que son textos cortos y accesibles, que conectan las cosas que puedes aplicar inmediatamente con la investigación que hay detrás de ellas y las fundamenta.
+
+-   @Berg2012,@Lemo2014,@Majo2015,@Broo2016,@Rice2018,@Wein2018b están repletos de sugerencias prácticas sobre cosas que puedes hacer en tu clase, pero pueden cobrar más sentido una vez que tengas un marco conceptual para entender por qué sus ideas funcionan.
+
+-   @DeBr2015, quien plantea qué cosas son ciertas sobre la educación al explicar qué cosas no lo son y @Dida2016, que fundamenta la teoría del aprendizaje en psicología cognitiva.
+
+-   @Pape1993, que continúa siendo una visión inspiradora sobre cómo las computadoras pueden cambiar la educación. \[La excelente descripción de Amy Ko\]\[ko-mindstorms\] es una síntesis de las ideas de Papert, mejor que la que podría hacer yo, y @Craw2010 es una compañía provocadora y estimulante a ambos textos.
+
+-   @Gree2014,@McMi2017,@Watt2014 explican por qué tantos intentos de reformas educativas han fallado a lo largo de los últimos cuarenta años, cómo colegas que trabajan solo por dinero han explotado y exacerbado la desigualdad en nuestra sociedad, y cómo la tecnología repetidamente ha fracasado en revolucionar la educación.
+
+-   @Brow2007 y @Mann2015, porque no puedes enseñar bien sin cambiar el sistema en el que enseñamos y no puedes lograr este cambio trabajando de forma solitaria.
+
+Quienes deseen material más académico pueden encontrar gratificante leer a @Guzd2015a,@Hazz2014,@Sent2018,@Finc2019,@Hpl2018, mientras que \[el blog de Mark Guzdial\]\[guzdial-blog\] ha sido consistentemente informativo, sugerente y motivador.
