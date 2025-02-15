@@ -6,7 +6,8 @@
 Estás leyendo la segunda edición en progreso y en castellano de Enseñar Tecnología en Comunidad (Teaching Tech Together). Este capítulo está siendo objeto de una profunda reestructuración y puede resultar confuso o incompleto.
 :::
 
-No tienes que arreglar todos los males de la sociedad para enseñar programación, pero *sí debes* involucrarte en lo que sucede fuera de tu clase si quieres que las personas aprendan. Esto se aplica tanto a las personas que enseñan como a las que aprenden: gran parte de las/los docentes *free-range* deben balancear sus clases con muchos otros compromisos porque su trabajo es voluntario o de medio tiempo. Lo que sucede fuera del aula es tan importante para su éxito como lo es para el de sus estudiantes, así que la mejor manera de ayudar a ambas partes es fomentar una comunidad de enseñanza.
+En capítulos anteriores ya hablamos de la importancia de enseñar con otras personas y de cómo aprendemos mejor si lo hacemos también en grupo. Construir una comunidad de práctica en torno a la enseñanza y aprendizaje de la tecnología implica no solo compartir conocimientos técnicos sino tambien crear un espacio donde las personas que forman parte de la comunidad puedan aprender juntas, intercambiar experiencias y apoyarse mutuamente en su crecimiento. En un mundo donde la tecnología evoluciona rápidamente y donde gran parte de las personas que enseñan deben balancear sus clases con muchos otros compromisos, estas comunidades de práctica ofrecen un entorno colaborativo para explorar nuevas herramientas, desarrollar lecciones de forma colabprativa, recibir feedback, mejorar estrategias pedagógicas y enfrentar desafíos comunes, tanto dentro como fuera del aula. Este capítulo explora cómo fomentar una comunidad de enseñanza sólida y sostenible.
+
 
 > ### ¿Porqué no Finlandia?
 >
