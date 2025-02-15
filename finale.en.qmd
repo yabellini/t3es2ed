@@ -1,9 +1,9 @@
 # ¿Por qué enseñamos? {#sec-finale}
 
 ::: callout-warninig
-## Segunda edición
+## Second Edition
 
-Estás leyendo la segunda edición en progreso y en castellano de Enseñar Tecnología en Comunidad (Teaching Tech Together). Este capítulo está siendo objeto de una profunda reestructuración y puede resultar confuso o incompleto
+You are reading the second edition **in progress and in English** of Teaching Tech Together. This chapter should be readable, but is undergoing final polishing.
 :::
 
 ## Greg {#sec-finale-Greg}
@@ -59,22 +59,22 @@ Today, I teach in formal institutions like universities from different countries
 _Thank you very much for reading._
 
 
-## Qué otras cosas leer {#sec-finale-instead}
+## What to Read Instead {#sec-finale-instead}
 
-Si tienes prisa o quieres tener una idea de lo que cubrirá este libro, @Brow2018 presenta diez sugerencias basadas en evidencias para enseñar computación<sup>En inglés</sup>. También puedes disfrutar<sup>Todos en inglés</sup>:
+If you are in a hurry or want a taste of what this book will cover, @Brow2018 presents ten evidence-based tips for teaching computing. You may also enjoy:
 
--   \[El entrenamiento para instructoras/es de The Carpentries (Las/los carpinteras/os)\]\[carpentries-instructor\], en el cual está basado este libro.
+-  [The Carpentries instructor training](http://carpentries.github.io/instructor-training/). A early version of this training derived the first edition of this book.
 
--   @Lang2016 y @Hust2012, que son textos cortos y accesibles, que conectan las cosas que puedes aplicar inmediatamente con la investigación que hay detrás de ellas y las fundamenta.
+-   @Lang2016 y @Hust2012, which are short and approachable, and which connect things you can do right now to the research that backs them.
 
--   @Berg2012,@Lemo2014,@Majo2015,@Broo2016,@Rice2018,@Wein2018b están repletos de sugerencias prácticas sobre cosas que puedes hacer en tu clase, pero pueden cobrar más sentido una vez que tengas un marco conceptual para entender por qué sus ideas funcionan.
+-   @Berg2012,@Lemo2014,@Majo2015,@Broo2016,@Rice2018,@Wein2018b are all full of practical suggestions for things you can do in your classroom, but may make more sense once you have a framework for understanding why their ideas work.
 
--   @DeBr2015, quien plantea qué cosas son ciertas sobre la educación al explicar qué cosas no lo son y @Dida2016, que fundamenta la teoría del aprendizaje en psicología cognitiva.
+-   @DeBr2015, which explains what’s true about education by explaining what isn’t, and @Dida2016,  which grounds learning theory in cognitive psychology.
 
--   @Pape1993, que continúa siendo una visión inspiradora sobre cómo las computadoras pueden cambiar la educación. \[La excelente descripción de Amy Ko\]\[ko-mindstorms\] es una síntesis de las ideas de Papert, mejor que la que podría hacer yo, y @Craw2010 es una compañía provocadora y estimulante a ambos textos.
+-   @Pape1993, which remains an inspiring vision of how computers could change education. [Amy Ko’s excellent description](https://medium.com/bits-and-behavior/mindstorms-what-did-papert-argue-and-what-does-it-mean-for-learning-and-education-c8324b58aca4) does a better job of summarizing Papert’s ideas than I possibly could, and @Craw2010 is a thought-provoking companion to both.
 
--   @Gree2014,@McMi2017,@Watt2014 explican por qué tantos intentos de reformas educativas han fallado a lo largo de los últimos cuarenta años, cómo colegas que trabajan solo por dinero han explotado y exacerbado la desigualdad en nuestra sociedad, y cómo la tecnología repetidamente ha fracasado en revolucionar la educación.
+-   @Gree2014,@McMi2017,@Watt2014 explain why so many attempts at educational reform have failed over the past forty years, how for-profit colleges are exploiting and exacerbating the growing inequality in our society, and how technology has repeatedly failed to revolutionize education.
 
--   @Brow2007 y @Mann2015, porque no puedes enseñar bien sin cambiar el sistema en el que enseñamos y no puedes lograr este cambio trabajando de forma solitaria.
+-   @Brow2007 y @Mann2015, because you can’t teach well without changing the system in which we teach, and you can’t do that on your own.
 
-Quienes deseen material más académico pueden encontrar gratificante leer a @Guzd2015a,@Hazz2014,@Sent2018,@Finc2019,@Hpl2018, mientras que \[el blog de Mark Guzdial\]\[guzdial-blog\] ha sido consistentemente informativo, sugerente y motivador.
+Those who want more academic material may also find @Guzd2015a,@Hazz2014,@Sent2018,@Finc2019,@Hpl2018, rewarding, while [Mark Guzdial’s blog](http://computinged.wordpress.com/) has consistently been informative and thought-provoking.
