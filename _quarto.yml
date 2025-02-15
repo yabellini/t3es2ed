@@ -66,7 +66,7 @@ babelquarto:
     text: "Version in es"
   mainlanguage: 'es'
   languages: ['en']
-title-en: title in en
-description-en: description in en
-author-en: author in en
+title-en: "Teaching Tech Together"
+description-en: "How to create lessons that work and build a teaching community around them."
+author-en: Greg Wilson and Yanina Bellini Saibene
 lang: es
